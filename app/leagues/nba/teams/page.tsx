@@ -1,9 +1,25 @@
-import Link from "next/link";
-import { getNbaTeams } from "@/lib/api";
+import { getNbaSeasons, getNbaStandings } from "@/lib/api";
 import TeamsClient from "./teamClient";
 
-export default async function NbaTeamsPage() {
-  const teams = await getNbaTeams();
+type NbaTeamsPageProps = {
+  searchParams?: Promise<{
+    season?: string;
+  }>;
+};
 
-  return <TeamsClient teams={teams} />;
+export default async function NbaTeamsPage({ searchParams }: NbaTeamsPageProps) {
+  const params = await searchParams;
+
+  const seasons = await getNbaSeasons();
+  const selectedSeason = params?.season || seasons[0];
+
+  const teams = await getNbaStandings(selectedSeason);
+
+  return (
+    <TeamsClient
+      teams={teams}
+      seasons={seasons}
+      selectedSeason={selectedSeason}
+    />
+  );
 }

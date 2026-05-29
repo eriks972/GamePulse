@@ -6,6 +6,8 @@ import type { Team } from "@/lib/api";
 
 type TeamsClientProps = {
   teams: Team[];
+  seasons: string[];
+  selectedSeason: string;
 };
 
 const filters = [
@@ -20,7 +22,11 @@ const filters = [
   { label: "Southwest", value: "Southwest" },
 ];
 
-export default function TeamsClient({ teams }: TeamsClientProps) {
+export default function TeamsClient({  
+  teams,
+  seasons,
+  selectedSeason,
+ }: TeamsClientProps) {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedFilter, setSelectedFilter] = useState("all");
 
@@ -75,6 +81,30 @@ export default function TeamsClient({ teams }: TeamsClientProps) {
             </Link>
           </div>
         </div>
+        <br></br>
+        <div>
+  <label
+    htmlFor="season"
+    className="mb-2 block text-sm font-semibold text-slate-300"
+  >
+    Season
+  </label>
+
+  <select
+    id="season"
+    value={selectedSeason}
+    onChange={(event) => {
+      window.location.href = `/leagues/nba/teams?season=${event.target.value}`;
+    }}
+    className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-5 py-3 text-white outline-none transition focus:border-blue-500"
+  >
+    {seasons.map((season) => (
+      <option key={season} value={season}>
+        {season}
+      </option>
+    ))}
+  </select>
+</div>
 
         <div className="mt-8 rounded-3xl border border-slate-800 bg-slate-900 p-5 shadow-xl">
           <div className="grid gap-4 lg:grid-cols-[1fr_auto] lg:items-center">
@@ -139,6 +169,8 @@ export default function TeamsClient({ teams }: TeamsClientProps) {
             )}
           </div>
         </div>
+
+        
 
         {filteredTeams.length > 0 ? (
           <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">

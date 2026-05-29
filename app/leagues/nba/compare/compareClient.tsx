@@ -6,6 +6,8 @@ import type { Team } from "@/lib/api";
 
 type CompareTeamsClientProps = {
   teams: Team[];
+  seasons: string[];
+  selectedSeason: string;
 };
 
 function getWinPercentage(team: Team) {
@@ -21,7 +23,7 @@ function getGamesPlayed(team: Team) {
   return team.wins + team.losses;
 }
 
-export default function CompareTeamsClient({ teams }: CompareTeamsClientProps) {
+export default function CompareTeamsClient({ teams, seasons, selectedSeason }: CompareTeamsClientProps) {
   const sortedTeams = useMemo(() => {
     return [...teams].sort((a, b) => {
       return getWinPercentage(b) - getWinPercentage(a);
@@ -214,6 +216,31 @@ export default function CompareTeamsClient({ teams }: CompareTeamsClientProps) {
             </Link>
           </div>
         </div>
+
+         <br></br>
+        <div>
+  <label
+    htmlFor="season"
+    className="mb-2 block text-sm font-semibold text-slate-300"
+  >
+    Season
+  </label>
+
+  <select
+    id="season"
+    value={selectedSeason}
+    onChange={(event) => {
+      window.location.href = `/leagues/nba/compare?season=${event.target.value}`;
+    }}
+    className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-5 py-3 text-white outline-none transition focus:border-blue-500"
+  >
+    {seasons.map((season) => (
+      <option key={season} value={season}>
+        {season}
+      </option>
+    ))}
+  </select>
+</div>
 
         <div className="mt-10 rounded-3xl border border-slate-800 bg-slate-900 p-6 shadow-xl">
           <div className="grid gap-4 md:grid-cols-2">

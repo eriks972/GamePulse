@@ -1,9 +1,21 @@
-import Link from "next/link";
-import { getNbaTeams } from "@/lib/api";
+import { getNbaSeasons, getNbaStandings } from "@/lib/api";
 import CompareTeamsClient from "./compareClient";
 
-export default async function NbaComparePage() {
-  const teams = await getNbaTeams();
+type NbaComparePageProps = {
+  searchParams?: Promise<{
+    season?: string;
+  }>;
+};
 
-  return <CompareTeamsClient teams={teams} />;
+export default async function NbaComparePage({
+  searchParams,
+}: NbaComparePageProps) {
+  const params = await searchParams;
+
+  const seasons = await getNbaSeasons();
+  const selectedSeason = params?.season || seasons[0];
+
+  const teams = await getNbaStandings(selectedSeason);
+
+  return <CompareTeamsClient teams={teams} seasons={seasons} selectedSeason={selectedSeason} />;
 }
