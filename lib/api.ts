@@ -22,6 +22,7 @@ export type Game = {
   leagueSlug: string;
   season: string;
   gameDate: string;
+  seasonType?: string;
 
   homeExternalTeamId: number;
   awayExternalTeamId: number;
@@ -85,8 +86,8 @@ export async function getNbaTeamById(id: string): Promise<Team> {
 
 export async function getNbaGames(season?: string): Promise<Game[]> {
   const url = season
-    ? `${API_BASE_URL}/api/leagues/nba/games?season=${season}`
-    : `${API_BASE_URL}/api/leagues/nba/games`;
+    ? `${API_BASE_URL}/api/leagues/nba/games?season=${season}&seasonType=Regular%20Season`
+    : `${API_BASE_URL}/api/leagues/nba/games?seasonType=Regular%20Season`;
 
   const response = await fetch(url, {
     cache: "no-store",

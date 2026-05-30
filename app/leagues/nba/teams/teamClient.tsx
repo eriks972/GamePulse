@@ -176,7 +176,7 @@ export default function TeamsClient({
           <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {filteredTeams.map((team) => (
               <Link
-                href={`/leagues/nba/teams/${team.id}`}
+                href={`/leagues/nba/teams/${team.id}/?season=${selectedSeason}`}
                 key={team.id}
                 className="rounded-2xl border border-slate-800 bg-slate-900 p-5 shadow-lg transition hover:-translate-y-1 hover:border-blue-500"
               >
