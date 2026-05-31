@@ -1,4 +1,4 @@
-import { getNbaSeasons, getNbaStandings } from "@/lib/api";
+import { getNbaSeasons, getNbaStandings, getNbaTeamStats } from "@/lib/api";
 import CompareTeamsClient from "./compareClient";
 
 type NbaComparePageProps = {
@@ -16,6 +16,7 @@ export default async function NbaComparePage({
   const selectedSeason = params?.season || seasons[0];
 
   const teams = await getNbaStandings(selectedSeason);
+  const teamStats = await getNbaTeamStats(selectedSeason);
 
-  return <CompareTeamsClient teams={teams} seasons={seasons} selectedSeason={selectedSeason} />;
+  return <CompareTeamsClient teams={teams} seasons={seasons} selectedSeason={selectedSeason} teamStats={teamStats} />;
 }

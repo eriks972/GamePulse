@@ -1,14 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import type { Game, Team } from "@/lib/api";
-import { getGameId, getTeamId } from "@/lib/api";
+import type { Game, Team, TeamStats } from "@/lib/api";
+import { getGameId, getTeamId, getNbaTeamStatsByTeamId } from "@/lib/api";
 
 type TeamClientProps = {
   team: Team;
   seasons: string[];
   selectedSeason: string;
   games: Game[];
+  teamStats: TeamStats | null;
 };
 
 function formatGameDate(date: string) {
@@ -25,6 +26,7 @@ export default function TeamClient({
   seasons,
   selectedSeason,
   games,
+  teamStats
 }: TeamClientProps) {
   const teamId = getTeamId(team);
   const totalGames = team.wins + team.losses;
@@ -165,6 +167,60 @@ export default function TeamClient({
             </div>
           </div>
         </div>
+
+        <div className="mt-8 rounded-3xl border border-slate-800 bg-slate-900 p-8 shadow-xl">
+          <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-[0.3em] text-blue-400">
+                Team Stats · {selectedSeason}-{Number(selectedSeason)+1} Season
+              </p>
+
+              {/* <h2 className="mt-3 text-3xl font-bold">{team.name}</h2>
+
+              <p className="mt-3 text-slate-300">
+                {team.city} · {team.conference} · {team.division}
+              </p> */}
+            </div>
+
+            {/* <div className="rounded-2xl bg-blue-500/10 px-6 py-4 text-center">
+              <p className="text-sm text-blue-300">Abbreviation</p>
+              <p className="text-3xl font-black text-blue-200">
+                {team.abbreviation}
+              </p>
+            </div> */}
+          </div>
+
+          <div className="mt-10 grid gap-5 md:grid-cols-4">
+            <div className="rounded-2xl bg-slate-800 p-5">
+              <p className="text-sm text-slate-400">Points Per Game</p>
+              <p className="mt-2 text-3xl font-bold">
+                {teamStats ? teamStats.pointsPerGame.toFixed(1) : "N/A"}
+              </p>
+            </div>
+
+            <div className="rounded-2xl bg-slate-800 p-5">
+              <p className="text-sm text-slate-400">Opponent Points Per Game</p>
+              <p className="mt-2 text-3xl font-bold">
+                {teamStats ? teamStats.opponentPointsPerGame.toFixed(1) : "N/A"}
+              </p>
+            </div>
+
+            <div className="rounded-2xl bg-slate-800 p-5">
+              <p className="text-sm text-slate-400">Rebounds Per Game</p>
+              <p className="mt-2 text-3xl font-bold">
+                {teamStats ? teamStats.reboundsPerGame.toFixed(1) : "N/A"}
+              </p>
+            </div>
+
+            <div className="rounded-2xl bg-slate-800 p-5">
+              <p className="text-sm text-slate-400">Assists Per Game</p>
+              <p className="mt-2 text-3xl font-bold">
+                {teamStats ? teamStats.assistsPerGame.toFixed(1) : "N/A"}
+              </p>
+            </div>
+          </div>
+        </div>
+
 
         <section className="mt-8 rounded-3xl border border-slate-800 bg-slate-900 p-6 shadow-xl">
           <div className="flex flex-col gap-2 md:flex-row md:items-end md:justify-between">

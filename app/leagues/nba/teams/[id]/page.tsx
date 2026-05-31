@@ -3,6 +3,7 @@ import {
   getNbaSeasons,
   getNbaStandings,
   getTeamId,
+  getNbaTeamStatsByTeamId
 } from "@/lib/api";
 import TeamClient from "./teamClient";
 
@@ -27,6 +28,7 @@ export default async function TeamDetailPage({
 
   const teams = await getNbaStandings(selectedSeason);
   const games = await getNbaGames(selectedSeason);
+  const teamStats = await getNbaTeamStatsByTeamId(id, selectedSeason);
 
   const team = teams.find((team) => String(getTeamId(team)) === id);
 
@@ -55,6 +57,7 @@ export default async function TeamDetailPage({
       seasons={seasons}
       selectedSeason={selectedSeason}
       games={teamGames}
+      teamStats={teamStats}
     />
   );
 }

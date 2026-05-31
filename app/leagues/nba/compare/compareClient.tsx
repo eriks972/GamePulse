@@ -2,12 +2,13 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import type { Team } from "@/lib/api";
+import type { Team, TeamStats } from "@/lib/api";
 
 type CompareTeamsClientProps = {
   teams: Team[];
   seasons: string[];
   selectedSeason: string;
+  teamStats: TeamStats[] | null;
 };
 
 function getWinPercentage(team: Team) {
@@ -23,7 +24,7 @@ function getGamesPlayed(team: Team) {
   return team.wins + team.losses;
 }
 
-export default function CompareTeamsClient({ teams, seasons, selectedSeason }: CompareTeamsClientProps) {
+export default function CompareTeamsClient({ teams, seasons, selectedSeason, teamStats }: CompareTeamsClientProps) {
   const sortedTeams = useMemo(() => {
     return [...teams].sort((a, b) => {
       return getWinPercentage(b) - getWinPercentage(a);
@@ -40,6 +41,9 @@ export default function CompareTeamsClient({ teams, seasons, selectedSeason }: C
     teams.find((team) => String(team.id) === teamBId) ||
     sortedTeams.find((team) => team.id !== teamA.id) ||
     sortedTeams[0];
+
+  const teamAStats = teamStats ? teamStats.find((stats) => stats.id === teamA.id) : null;
+  const teamBStats = teamStats ? teamStats.find((stats) => stats.id === teamB.id) : null;
 
   const teamALeagueRank =
     sortedTeams.findIndex((team) => team.id === teamA.id) + 1;
@@ -165,6 +169,30 @@ export default function CompareTeamsClient({ teams, seasons, selectedSeason }: C
       teamBValue: teamB.division,
       winner: null,
     },
+    {
+      label: "Points Per Game",
+      teamAValue: teamAStats ? teamAStats.pointsPerGame.toFixed(1) : "N/A",
+      teamBValue: teamBStats ? teamBStats.pointsPerGame.toFixed(1) : "N/A",
+      winner: teamAStats && teamBStats ? (teamAStats.pointsPerGame > teamBStats.pointsPerGame ? teamA.id : teamB.id) : null
+    },
+    {
+      label: "Opponent Points Per Game",
+      teamAValue: teamAStats ? teamAStats.opponentPointsPerGame.toFixed(1) : "N/A",
+      teamBValue: teamBStats ? teamBStats.opponentPointsPerGame.toFixed(1) : "N/A",
+      winner: teamAStats && teamBStats ? (teamAStats.opponentPointsPerGame < teamBStats.opponentPointsPerGame ? teamA.id : teamB.id) : null
+    },
+    {
+      label: "Rebounds Per Game",
+      teamAValue: teamAStats ? teamAStats.reboundsPerGame.toFixed(1) : "N/A",
+      teamBValue: teamBStats ? teamBStats.reboundsPerGame.toFixed(1) : "N/A",
+      winner: teamAStats && teamBStats ? (teamAStats.reboundsPerGame > teamBStats.reboundsPerGame ? teamA.id : teamB.id) : null
+    },
+    {
+      label: "Assists Per Game",
+      teamAValue: teamAStats ? teamAStats.assistsPerGame.toFixed(1) : "N/A",
+      teamBValue: teamBStats ? teamBStats.assistsPerGame.toFixed(1) : "N/A",
+      winner: teamAStats && teamBStats ? (teamAStats.assistsPerGame > teamBStats.assistsPerGame ? teamA.id : teamB.id) : null
+    }
   ];
 
   const recordGap = Math.abs(teamA.wins - teamB.wins);

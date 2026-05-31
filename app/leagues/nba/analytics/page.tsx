@@ -4,7 +4,9 @@ import {
   getNbaGames,
   getNbaSeasons,
   getNbaStandings,
+  getNbaTeamStats
 } from "@/lib/api";
+import type { TeamStats } from "@/lib/api";
 import SeasonSelector from "../SeasonSelector";
 
 type NbaAnalyticsPageProps = {
@@ -23,6 +25,107 @@ export default async function NbaAnalyticsPage({
 
   const teams = await getNbaStandings(selectedSeason);
   const games = await getNbaGames(selectedSeason);
+  const teamStats = await getNbaTeamStats(selectedSeason);
+
+  
+
+  type LeaderboardMetric = {
+    key: keyof TeamStats;
+    title: string;
+    description: string;
+    label: string;
+    higherIsBetter: boolean;
+    format: (value: number) => string;
+  };
+
+  const leaderboardMetrics: LeaderboardMetric[] = [
+    {
+      key: "pointsPerGame",
+      title: "Scoring Leaders",
+      description: "Teams ranked by points scored per game.",
+      label: "PPG",
+      higherIsBetter: true,
+      format: (value) => value.toFixed(1),
+    },
+    {
+      key: "opponentPointsPerGame",
+      title: "Best Defensive Teams",
+      description: "Teams allowing the fewest opponent points per game.",
+      label: "OPP PPG",
+      higherIsBetter: false,
+      format: (value) => value.toFixed(1),
+    },
+    {
+      key: "scoringMargin",
+      title: "Best Scoring Margin",
+      description: "Teams with the strongest average point differential.",
+      label: "Margin",
+      higherIsBetter: true,
+      format: (value) => `${value > 0 ? "+" : ""}${value.toFixed(1)}`,
+    },
+    {
+      key: "reboundsPerGame",
+      title: "Rebounding Leaders",
+      description: "Teams ranked by total rebounds per game.",
+      label: "RPG",
+      higherIsBetter: true,
+      format: (value) => value.toFixed(1),
+    },
+    {
+      key: "assistsPerGame",
+      title: "Assist Leaders",
+      description: "Teams ranked by assists per game.",
+      label: "APG",
+      higherIsBetter: true,
+      format: (value) => value.toFixed(1),
+    },
+    {
+      key: "turnoversPerGame",
+      title: "Best Ball Control",
+      description: "Teams with the fewest turnovers per game.",
+      label: "TOV",
+      higherIsBetter: false,
+      format: (value) => value.toFixed(1),
+    },
+    {
+      key: "fieldGoalPercentage",
+      title: "Best FG%",
+      description: "Teams ranked by field goal percentage.",
+      label: "FG%",
+      higherIsBetter: true,
+      format: (value) => `${(value * 100).toFixed(1)}%`,
+    },
+    {
+      key: "threePointPercentage",
+      title: "Best 3PT%",
+      description: "Teams ranked by three-point percentage.",
+      label: "3PT%",
+      higherIsBetter: true,
+      format: (value) => `${(value * 100).toFixed(1)}%`,
+    },
+    {
+      key: "freeThrowPercentage",
+      title: "Best FT%",
+      description: "Teams ranked by free throw percentage.",
+      label: "FT%",
+      higherIsBetter: true,
+      format: (value) => `${(value * 100).toFixed(1)}%`,
+    },
+  ];
+
+  const leaderboards = leaderboardMetrics.map((metric) => {
+    const sortedTeams = [...teamStats].sort((a, b) => {
+      const aValue = Number(a[metric.key]) || 0;
+      const bValue = Number(b[metric.key]) || 0;
+
+      return metric.higherIsBetter ? bValue - aValue : aValue - bValue;
+    });
+
+    return {
+      ...metric,
+      teams: sortedTeams.slice(0, 5),
+    };
+  });
 
   const enrichedTeams = teams
     .map((team) => {
@@ -222,7 +325,11 @@ export default async function NbaAnalyticsPage({
                 );
               })}
             </div>
+
+            
           </section>
+
+          
 
           <section className="space-y-6">
             <div className="rounded-3xl border border-slate-800 bg-slate-900 p-6 shadow-xl">
@@ -263,6 +370,68 @@ export default async function NbaAnalyticsPage({
               </p>
             </div>
           </section>
+
+          <section className="mt-10">
+            <div>
+                <h2 className="text-3xl font-bold">Team Stat Leaderboards</h2>
+                <p className="mt-2 max-w-3xl text-slate-400">
+                  Explore the top teams across scoring, defense, rebounding, passing,
+                  shooting efficiency, and ball control for the selected season.
+                </p>
+              </div>
+
+              <div className="mt-6 grid gap-6 xl:grid-cols-2 2xl:grid-cols-3">
+                {leaderboards.map((leaderboard) => (
+                  <div
+                    key={leaderboard.key}
+                    className="rounded-3xl border border-slate-800 bg-slate-900 p-6 shadow-xl"
+                  >
+                    <div>
+                      <h3 className="text-xl font-bold">{leaderboard.title}</h3>
+                      <p className="mt-2 min-h-10 text-sm leading-6 text-slate-400">
+                        {leaderboard.description}
+                      </p>
+                    </div>
+
+                    <div className="mt-5 space-y-3">
+                      {leaderboard.teams.map((team, index) => {
+                        const value = Number(team[leaderboard.key]) || 0;
+
+                        return (
+                          <Link
+                            href={`/leagues/nba/teams/${team.externalTeamId}?season=${selectedSeason}`}
+                            key={`${leaderboard.key}-${team.externalTeamId}`}
+                            className="flex items-center justify-between gap-4 rounded-2xl border border-slate-800 bg-slate-950 p-4 transition hover:border-blue-500"
+                          >
+                            <div className="flex items-center gap-3">
+                              <div className="flex h-9 w-9 items-center justify-center rounded-full bg-blue-500/10 text-sm font-black text-blue-300">
+                                {index + 1}
+                              </div>
+
+                              <div>
+                                <p className="font-bold">{team.name}</p>
+                                <p className="text-sm text-slate-500">
+                                  {team.abbreviation} · {team.conference}
+                                </p>
+                              </div>
+                            </div>
+
+                            <div className="text-right">
+                              <p className="text-xl font-black text-blue-300">
+                                {leaderboard.format(value)}
+                              </p>
+                              <p className="text-xs font-semibold uppercase tracking-wider text-slate-500">
+                                {leaderboard.label}
+                              </p>
+                            </div>
+                          </Link>
+                        );
+                      })}
+                    </div>
+                  </div>
+                ))}
+            </div>
+          </section>`
         </div>
       </section>
     </main>

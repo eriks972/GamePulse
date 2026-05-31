@@ -16,6 +16,50 @@ export type Team = {
   season?: string;
 };
 
+export type TeamStats = {
+  id: number;
+  externalTeamId?: number;
+  leagueSlug: string;
+  season: string;
+  name: string;
+  abbreviation: string;
+  city: string;
+  conference: string;
+  division: string;
+  games: number;
+  points: number;
+  opponentPoints: number;
+  scoringMarginTotal: number;
+  offensiveRebounds: number;
+  defensiveRebounds: number;
+  rebounds: number;
+  assists: number;
+  steals: number;
+  blocks: number;
+  turnovers: number;
+  personalFouls: number;
+  fieldGoalsMade: number;
+  fieldGoalsAttempted: number;
+  threePointersMade: number;
+  threePointersAttempted: number;
+  freeThrowsMade: number;
+  freeThrowsAttempted: number;
+  pointsPerGame: number;
+  opponentPointsPerGame: number;
+  scoringMargin: number;
+  offensiveReboundsPerGame: number;
+  defensiveReboundsPerGame: number;
+  reboundsPerGame: number;
+  assistsPerGame: number;
+  stealsPerGame: number;
+  blocksPerGame: number;
+  turnoversPerGame: number;
+  personalFoulsPerGame: number;
+  fieldGoalPercentage: number;
+  threePointPercentage: number;
+  freeThrowPercentage: number;
+};
+
 export type Game = {
   id?: string;
   externalGameId?: string;
@@ -56,6 +100,13 @@ function normalizeTeam(team: Team): Team {
   };
 }
 
+function normalizeTeamStats(teamStats: TeamStats): TeamStats {
+  return {
+    ...teamStats,
+    id: teamStats.id ?? teamStats.externalTeamId,
+  };
+}
+
 export async function getNbaTeams(): Promise<Team[]> {
   const response = await fetch(`${API_BASE_URL}/api/leagues/nba/teams`, {
     cache: "no-store",
@@ -68,6 +119,49 @@ export async function getNbaTeams(): Promise<Team[]> {
   const teams = await response.json();
 
   return teams.map(normalizeTeam);
+}
+
+export async function getNbaTeamStats(season?: string): Promise<TeamStats[]> {
+  const url = season
+    ? `${API_BASE_URL}/api/leagues/nba/team-stats?season=${season}`
+    : `${API_BASE_URL}/api/leagues/nba/team-stats`;
+
+  const response = await fetch(url, {
+    cache: "no-store",
+  });
+
+  if (!response.ok) {
+    throw new Error("Failed to fetch NBA team stats");
+  }
+
+  const teamStats = await response.json();
+
+  return teamStats.map(normalizeTeamStats);
+}
+
+export async function getNbaTeamStatsByTeamId(
+  teamId: string,
+  season?: string,
+): Promise<TeamStats | null> {
+  const url = season
+    ? `${API_BASE_URL}/api/leagues/nba/team-stats/${teamId}?season=${season}`
+    : `${API_BASE_URL}/api/leagues/nba/team-stats/${teamId}`;
+
+  const response = await fetch(url, {
+    cache: "no-store",
+  });
+
+  if (response.status === 404) {
+    return null;
+  }
+
+  if (!response.ok) {
+    throw new Error("Failed to fetch NBA team stats");
+  }
+
+  const teamStats = await response.json();
+
+  return normalizeTeamStats(teamStats);
 }
 
 export async function getNbaTeamById(id: string): Promise<Team> {
