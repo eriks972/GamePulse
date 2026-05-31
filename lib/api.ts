@@ -135,3 +135,52 @@ export async function getNbaStandings(season?: string): Promise<Team[]> {
 export function getTeamId(team: Team): number {
   return team.id ?? team.externalTeamId ?? 0;
 }
+
+export type LineScoreBreakdown = {
+  q1: number;
+  q2: number;
+  q3: number;
+  q4: number;
+  ot: number[];
+};
+
+export type LineScore = {
+  externalGameId: string;
+  home: LineScoreBreakdown;
+  away: LineScoreBreakdown;
+};
+
+export async function getNbaGameById(id: string): Promise<Game> {
+  const response = await fetch(`${API_BASE_URL}/api/leagues/nba/games/${id}`, {
+    cache: "no-store",
+  });
+
+  if (!response.ok) {
+    throw new Error("Failed to fetch NBA game");
+  }
+
+  const game = await response.json();
+
+  return normalizeGame(game);
+}
+
+export async function getNbaLineScoreByGameId(
+  gameId: string,
+): Promise<LineScore | null> {
+  const response = await fetch(
+    `${API_BASE_URL}/api/leagues/nba/line-scores/${gameId}`,
+    {
+      cache: "no-store",
+    },
+  );
+
+  if (response.status === 404) {
+    return null;
+  }
+
+  if (!response.ok) {
+    throw new Error("Failed to fetch NBA line score");
+  }
+
+  return response.json();
+}
