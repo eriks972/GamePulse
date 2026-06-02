@@ -5,6 +5,12 @@ import { useMemo, useState } from "react";
 import type { Game, Team, TeamStats } from "@/lib/api";
 import SeasonSelector from "../SeasonSelector";
 
+import ScoringMarginChart from "./components/ScoringMarginChart";
+import PointsAssistsScatter from "./components/PointsAssistsScatter";
+import AssistsTurnover from "./components/AssistsTurnover";
+import OppPPGBar from "./components/OppPPGBar";
+import ShootingEfficiencyChart from "./components/ShootingEfficiencyChart";
+
 type AnalyticsClientProps = {
   seasons: string[];
   selectedSeason: string;
@@ -219,6 +225,8 @@ export default function AnalyticsClient({
     activeTab === "leaderboards" ? "leaderboards" : activeTab,
   );
 
+
+
   return (
     <main className="min-h-screen bg-slate-950 px-6 py-10 text-white">
       <section className="mx-auto max-w-6xl">
@@ -260,7 +268,29 @@ export default function AnalyticsClient({
           </div>
         </div>
 
-        <SeasonSelector seasons={seasons} selectedSeason={selectedSeason} />
+        <div>
+  <label
+    htmlFor="season"
+    className="mb-2 block text-sm font-semibold text-slate-300"
+  >
+    Season
+  </label>
+
+  <select
+    id="season"
+    value={selectedSeason}
+    onChange={(event) => {
+      window.location.href = `/leagues/nba/analytics?season=${event.target.value}`;
+    }}
+    className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-5 py-3 text-white outline-none transition focus:border-blue-500"
+  >
+    {seasons.map((season) => (
+      <option key={season} value={season}>
+        {season}
+      </option>
+    ))}
+  </select>
+</div>
 
         <div className="mt-8 flex flex-wrap gap-3 rounded-3xl border border-slate-800 bg-slate-900 p-4">
           {tabs.map((tab) => {
@@ -346,6 +376,8 @@ export default function AnalyticsClient({
                 </h2>
               </div>
             </div>
+
+            <ScoringMarginChart teamStats={teamStats} />
           </>
         )}
 
@@ -360,6 +392,22 @@ export default function AnalyticsClient({
                 : `${tabs.find((tab) => tab.id === activeTab)?.label} Leaderboards`
           }
         />
+        {activeTab === "offense" && (
+          <PointsAssistsScatter teamStats={teamStats} />
+         )}
+
+          {activeTab === "ball-control" && (
+            <AssistsTurnover teamStats={teamStats} />
+           )}
+
+          {activeTab === "defense" && (
+            <OppPPGBar teamStats={teamStats} />
+          )}
+
+          {activeTab === "shooting" && (
+            <ShootingEfficiencyChart teamStats={teamStats} />
+          )}
+
       </section>
     </main>
   );
