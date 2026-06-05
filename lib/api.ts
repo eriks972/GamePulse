@@ -60,6 +60,44 @@ export type TeamStats = {
   freeThrowPercentage: number;
 };
 
+export type Player = {
+  id: number;
+  externalPlayerId?: number;
+  leagueSlug: string;
+  firstName: string;
+  lastName: string;
+  fullName: string;
+  displayLastCommaFirst: string;
+  displayFiLast: string;
+  slug: string;
+  birthdate: string;
+  school: string;
+  country: string;
+  lastAffiliation: string;
+  height: string;
+  weight: number;
+  seasonExperience: number;
+  jersey: string;
+  position: string;
+  rosterStatus: string;
+  gamesPlayedCurrentSeason: boolean;
+  externalTeamId: number;
+  teamName: string;
+  teamAbbreviation: string;
+  teamCode: string;
+  teamCity: string;
+  playerCode: string;
+  fromYear: number;
+  toYear: number;
+  dLeague: boolean;
+  nba: boolean;
+  gamesPlayed: boolean;
+  draftYear: string;
+  draftRound: string;
+  draftNumber: string;
+  greatest75: boolean;
+};
+
 export type Game = {
   id?: string;
   externalGameId?: string;
@@ -107,6 +145,13 @@ function normalizeTeamStats(teamStats: TeamStats): TeamStats {
   };
 }
 
+function normalizePlayer(player: Player): Player {
+  return {
+    ...player,
+    id: player.id ?? player.externalPlayerId,
+  };
+}
+
 export async function getNbaTeams(): Promise<Team[]> {
   const response = await fetch(`${API_BASE_URL}/api/leagues/nba/teams`, {
     cache: "no-store",
@@ -119,6 +164,42 @@ export async function getNbaTeams(): Promise<Team[]> {
   const teams = await response.json();
 
   return teams.map(normalizeTeam);
+}
+
+export async function getNbaPlayers(teamId?: string): Promise<Player[]> {
+  const url = teamId
+    ? `${API_BASE_URL}/api/leagues/nba/players?teamId=${teamId}`
+    : `${API_BASE_URL}/api/leagues/nba/players`;
+
+  const response = await fetch(url, {
+    cache: "no-store",
+  });
+
+  if (!response.ok) {
+    throw new Error("Failed to fetch NBA players");
+  }
+
+  const players = await response.json();
+
+  return players.map(normalizePlayer);
+}
+
+export async function getNbaPlayerById(id: string): Promise<Player | null> {
+  const response = await fetch(`${API_BASE_URL}/api/leagues/nba/players/${id}`, {
+    cache: "no-store",
+  });
+
+  if (response.status === 404) {
+    return null;
+  }
+
+  if (!response.ok) {
+    throw new Error("Failed to fetch NBA player");
+  }
+
+  const player = await response.json();
+
+  return normalizePlayer(player);
 }
 
 export async function getNbaTeamStats(season?: string): Promise<TeamStats[]> {

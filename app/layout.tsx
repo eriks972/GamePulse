@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 const navLinks = [
   { label: "NBA", href: "/leagues/nba" },
   { label: "Teams", href: "/leagues/nba/teams" },
+  { label: "Players", href: "/leagues/nba/players" },
   { label: "Schedule", href: "/leagues/nba/schedule" },
   { label: "Standings", href: "/leagues/nba/standings" },
   { label: "Compare", href: "/leagues/nba/compare" },
