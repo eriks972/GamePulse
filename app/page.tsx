@@ -39,10 +39,10 @@ export default function HomePage() {
 
         <div className="mt-10 grid gap-5 md:grid-cols-3">
           <div className="rounded-3xl border border-slate-800 bg-slate-900 p-6">
-            <h2 className="text-2xl font-bold">NBA First</h2>
+            <h2 className="text-2xl font-bold">What is GamePulse?</h2>
             <p className="mt-3 text-slate-400">
-              The first league section includes NBA teams, schedules,
-              standings, comparisons, and analytics.
+              GamePulse is a sports analytics platform starting with NBA data.
+              It combines historical schedules, team records, player profiles, game breakdowns, comparisons, and interactive analytics dashboards.
             </p>
           </div>
 

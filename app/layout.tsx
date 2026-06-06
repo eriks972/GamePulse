@@ -8,7 +8,8 @@ export const metadata: Metadata = {
 };
 
 const navLinks = [
-  { label: "NBA", href: "/leagues/nba" },
+  { label: "Home", href: "/" },
+  { label: "Leagues", href: "/leagues/" },
   { label: "Teams", href: "/leagues/nba/teams" },
   { label: "Players", href: "/leagues/nba/players" },
   { label: "Schedule", href: "/leagues/nba/schedule" },
