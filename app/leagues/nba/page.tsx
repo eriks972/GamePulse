@@ -4,6 +4,7 @@ import {
   getNbaGames,
   getNbaSeasons,
   getNbaStandings,
+  type Game,
 } from "@/lib/api";
 import SeasonSelector from "./SeasonSelector";
 
@@ -31,7 +32,14 @@ export default async function NbaLandingPage({
   const selectedSeason = params?.season || seasons[0];
 
   const teams = await getNbaStandings(selectedSeason);
-  const games = await getNbaGames(selectedSeason);
+
+  let games: Game[] = [];
+
+  try {
+    games = await getNbaGames(selectedSeason);
+  } catch (error) {
+    console.error("NBA landing games failed", error);
+  }
 
   const sortedTeams = [...teams].sort((a, b) => {
     const winPctA = a.wins / Math.max(a.wins + a.losses, 1);
@@ -178,7 +186,7 @@ export default async function NbaLandingPage({
           ))}
         </section>
 
-        <section className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+        <section className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4"> 
           <div className="rounded-3xl border border-slate-800 bg-slate-900 p-6 shadow-xl">
             <p className="text-sm text-slate-400">Season</p>
             <h2 className="mt-3 text-4xl font-black text-blue-300">

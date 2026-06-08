@@ -261,22 +261,30 @@ export async function getNbaTeamById(id: string): Promise<Team> {
 
 export async function getNbaGames(season?: string): Promise<Game[]> {
   const url = season
-    ? `${API_BASE_URL}/api/leagues/nba/games?season=${season}&seasonType=Regular%20Season`
-    : `${API_BASE_URL}/api/leagues/nba/games?seasonType=Regular%20Season`;
+    ? `${API_BASE_URL}/api/leagues/nba/games?season=${season}`
+    : `${API_BASE_URL}/api/leagues/nba/games`;
 
   const response = await fetch(url, {
     cache: "no-store",
   });
 
   if (!response.ok) {
-    throw new Error("Failed to fetch NBA games");
+    const errorText = await response.text();
+
+    console.error("Failed to fetch NBA games", {
+      url,
+      status: response.status,
+      statusText: response.statusText,
+      errorText,
+    });
+
+    throw new Error(
+      `Failed to fetch NBA games: ${response.status} ${response.statusText}`,
+    );
   }
 
-  const games = await response.json();
-
-  return games.map(normalizeGame);
+  return response.json();
 }
-
 export async function getNbaSeasons(): Promise<string[]> {
   const response = await fetch(`${API_BASE_URL}/api/leagues/nba/seasons`, {
     cache: "no-store",
