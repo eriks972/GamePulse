@@ -166,6 +166,35 @@ export async function getNbaTeams(): Promise<Team[]> {
   return teams.map(normalizeTeam);
 }
 
+async function fetchWithRetry(
+  url: string,
+  options: RequestInit = {},
+  retries = 2,
+  delayMs = 1200,
+): Promise<Response> {
+  let lastResponse: Response | null = null;
+
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      const response = await fetch(url, options);
+
+      if (response.ok || response.status < 500) {
+        return response;
+      }
+
+      lastResponse = response;
+    } catch (error) {
+      if (attempt === retries) {
+        throw error;
+      }
+    }
+
+    await new Promise((resolve) => setTimeout(resolve, delayMs));
+  }
+
+  return lastResponse as Response;
+}
+
 export async function getNbaPlayers(teamId?: string): Promise<Player[]> {
   const url = teamId
     ? `${API_BASE_URL}/api/leagues/nba/players?teamId=${teamId}`
@@ -264,7 +293,7 @@ export async function getNbaGames(season = "2022"): Promise<Game[]> {
 
   const url = `${API_BASE_URL}/api/leagues/nba/games?season=${selectedSeason}`;
 
-  const response = await fetch(url, {
+  const response = await fetchWithRetry(url, {
     cache: "no-store",
   });
 
@@ -279,7 +308,7 @@ export async function getNbaGames(season = "2022"): Promise<Game[]> {
     });
 
     throw new Error(
-      `Failed to fetch NBA games: ${response.status} ${response.statusText}`,
+      `Failed to fetch NBA games: ${response.status} ${response.statusText} ${errorText}`,
     );
   }
 

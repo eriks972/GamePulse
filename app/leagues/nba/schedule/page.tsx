@@ -1,6 +1,8 @@
 import { getNbaGames, getNbaSeasons } from "@/lib/api";
 import ScheduleClient from "./scheduleClient";
 
+export const dynamic = "force-dynamic";
+
 type NbaSchedulePageProps = {
   searchParams?: Promise<{
     season?: string;
@@ -12,16 +14,10 @@ export default async function NbaSchedulePage({
 }: NbaSchedulePageProps) {
   const params = await searchParams;
 
-  let seasons: string[] = [];
-
-  try {
-    seasons = await getNbaSeasons();
-  } catch (error) {
-    console.error("Schedule seasons failed", error);
-    seasons = ["2022"];
-  }
-
+  const seasons = await getNbaSeasons();
   const selectedSeason = params?.season || seasons[0] || "2022";
+
+  console.log("Schedule selected season:", selectedSeason);
 
   const games = await getNbaGames(selectedSeason);
 
