@@ -27,11 +27,34 @@ export default async function NbaLandingPage({
 }: NbaLandingPageProps) {
   const params = await searchParams;
 
-  const seasons = await getNbaSeasons();
-  const selectedSeason = params?.season || seasons[0];
+  let seasons: string[] = [];
 
-  const teams = await getNbaStandings(selectedSeason);
-  const games = await getNbaGames(selectedSeason);
+  try {
+    seasons = await getNbaSeasons();
+  } catch (error) {
+    console.error("NBA dashboard seasons failed", error);
+    seasons = ["2022"];
+  }
+
+  const selectedSeason = params?.season || seasons[0] || "2022";
+
+  let teams: Awaited<ReturnType<typeof getNbaStandings>> = [];
+
+  try {
+    teams = await getNbaStandings(selectedSeason);
+  } catch (error) {
+    console.error("NBA dashboard standings failed", error);
+    teams = [];
+  }
+
+  let games: Awaited<ReturnType<typeof getNbaGames>> = [];
+
+  try {
+    games = await getNbaGames(selectedSeason);
+  } catch (error) {
+    console.error("NBA dashboard games failed", error);
+    games = [];
+  }
 
   const sortedTeams = [...teams].sort((a, b) => {
     const winPctA = a.wins / Math.max(a.wins + a.losses, 1);
@@ -224,6 +247,16 @@ export default async function NbaLandingPage({
           </div>
 
           <div className="mt-6 grid gap-4 lg:grid-cols-2">
+            {recentFinals.length === 0 && (
+              <div className="rounded-2xl border border-slate-800 bg-slate-950 p-5 lg:col-span-2">
+                <p className="font-bold text-white">Recent results unavailable</p>
+                <p className="mt-2 text-sm leading-6 text-slate-400">
+                  Game results could not be loaded right now. The rest of the NBA
+                  dashboard is still available.
+                </p>
+              </div>
+            )}
+            
             {recentFinals.map((game) => {
               const gameId = getGameId(game);
               const homeWon = game.homeScore > game.awayScore;
