@@ -259,10 +259,10 @@ export async function getNbaTeamById(id: string): Promise<Team> {
   return normalizeTeam(team);
 }
 
-export async function getNbaGames(season?: string): Promise<Game[]> {
-  const url = season
-    ? `${API_BASE_URL}/api/leagues/nba/games?season=${season}`
-    : `${API_BASE_URL}/api/leagues/nba/games`;
+export async function getNbaGames(season = "2022"): Promise<Game[]> {
+  const selectedSeason = season || "2022";
+
+  const url = `${API_BASE_URL}/api/leagues/nba/games?season=${selectedSeason}`;
 
   const response = await fetch(url, {
     cache: "no-store",
@@ -285,6 +285,7 @@ export async function getNbaGames(season?: string): Promise<Game[]> {
 
   return response.json();
 }
+
 export async function getNbaSeasons(): Promise<string[]> {
   const response = await fetch(`${API_BASE_URL}/api/leagues/nba/seasons`, {
     cache: "no-store",

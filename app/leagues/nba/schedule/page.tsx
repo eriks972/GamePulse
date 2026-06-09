@@ -12,8 +12,16 @@ export default async function NbaSchedulePage({
 }: NbaSchedulePageProps) {
   const params = await searchParams;
 
-  const seasons = await getNbaSeasons();
-  const selectedSeason = params?.season || seasons[0];
+  let seasons: string[] = [];
+
+  try {
+    seasons = await getNbaSeasons();
+  } catch (error) {
+    console.error("Schedule seasons failed", error);
+    seasons = ["2022"];
+  }
+
+  const selectedSeason = params?.season || seasons[0] || "2022";
 
   const games = await getNbaGames(selectedSeason);
 
