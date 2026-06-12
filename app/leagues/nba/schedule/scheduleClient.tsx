@@ -229,7 +229,7 @@ export default function ScheduleClient({
                       </div>
                     </div>
                     <br></br>
-                    <a href={`/leagues/nba/game/${game.id}`} className="text-sm font-semibold text-blue-300">
+                    <a href={`/leagues/nba/game/${game.externalGameId}`} className="text-sm font-semibold text-blue-300">
                       View Details
                     </a>
                   </article>
