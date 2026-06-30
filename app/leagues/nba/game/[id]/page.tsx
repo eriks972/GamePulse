@@ -20,27 +20,76 @@ export default async function GameDetailPage({ params }: GameDetailPageProps) {
   const { id } = await params;
 
   const game = await getNbaGameById(id);
+  const lineScores = await getNbaLineScoreByGameId(id);
+
+  const homeLineScore = lineScores.find((score) => score.isHome);
+  const awayLineScore = lineScores.find((score) => !score.isHome);
   const gameId = getGameId(game);
-  const lineScore = await getNbaLineScoreByGameId(gameId);
+  // const lineScore = await getNbaLineScoreByGameId(gameId);
 
   const homeWon = game.homeScore > game.awayScore;
   const awayWon = game.awayScore > game.homeScore;
 
+  const awayTableName =
+  awayLineScore?.teamAbbreviation ||
+  awayLineScore?.teamName ||
+  game.awayTeamAbbreviation ||
+  game.awayTeamName ||
+  "Away";
+
+const homeTableName =
+  homeLineScore?.teamAbbreviation ||
+  homeLineScore?.teamName ||
+  game.homeTeamAbbreviation ||
+  game.homeTeamName ||
+  "Home";
+
   const quarters = [
-    { label: "Q1", home: lineScore?.home.q1 ?? 0, away: lineScore?.away.q1 ?? 0 },
-    { label: "Q2", home: lineScore?.home.q2 ?? 0, away: lineScore?.away.q2 ?? 0 },
-    { label: "Q3", home: lineScore?.home.q3 ?? 0, away: lineScore?.away.q3 ?? 0 },
-    { label: "Q4", home: lineScore?.home.q4 ?? 0, away: lineScore?.away.q4 ?? 0 },
-  ];
+  {
+    label: "Q1",
+    away: awayLineScore?.q1 ?? 0,
+    home: homeLineScore?.q1 ?? 0,
+  },
+  {
+    label: "Q2",
+    away: awayLineScore?.q2 ?? 0,
+    home: homeLineScore?.q2 ?? 0,
+  },
+  {
+    label: "Q3",
+    away: awayLineScore?.q3 ?? 0,
+    home: homeLineScore?.q3 ?? 0,
+  },
+  {
+    label: "Q4",
+    away: awayLineScore?.q4 ?? 0,
+    home: homeLineScore?.q4 ?? 0,
+  },
+];
 
-  const overtimeRows =
-    lineScore?.home.ot.map((homeScore, index) => ({
-      label: `OT${index + 1}`,
-      home: homeScore,
-      away: lineScore.away.ot[index] ?? 0,
-    })) ?? [];
+const hasOvertime =
+  (awayLineScore?.ot1 ?? 0) > 0 ||
+  (homeLineScore?.ot1 ?? 0) > 0 ||
+  (awayLineScore?.ot2 ?? 0) > 0 ||
+  (homeLineScore?.ot2 ?? 0) > 0 ||
+  (awayLineScore?.otAll ?? 0) > 0 ||
+  (homeLineScore?.otAll ?? 0) > 0;
 
-  const allRows = [...quarters, ...overtimeRows];
+if (hasOvertime) {
+  quarters.push({
+    label: "OT",
+    away:
+      (awayLineScore?.ot1 ?? 0) +
+      (awayLineScore?.ot2 ?? 0) +
+      (awayLineScore?.otAll ?? 0),
+    home:
+      (homeLineScore?.ot1 ?? 0) +
+      (homeLineScore?.ot2 ?? 0) +
+      (homeLineScore?.otAll ?? 0),
+  });
+}
+
+  const allRows = [...quarters, ...hasOvertime ? [] : []];
 
   return (
     <main className="min-h-screen bg-slate-950 px-6 py-10 text-white">
@@ -131,8 +180,8 @@ export default async function GameDetailPage({ params }: GameDetailPageProps) {
           <div className="mt-6 overflow-hidden rounded-2xl border border-slate-800">
             <div className="grid grid-cols-3 bg-slate-950 px-5 py-4 text-sm font-semibold uppercase tracking-wider text-slate-400">
               <div>Period</div>
-              <div>{game.awayTeamAbbreviation}</div>
-              <div>{game.homeTeamAbbreviation}</div>
+              <div>{awayTableName}</div>
+              <div>{homeTableName}</div>
             </div>
 
             {allRows.map((row) => (
@@ -153,7 +202,7 @@ export default async function GameDetailPage({ params }: GameDetailPageProps) {
             </div>
           </div>
 
-          {!lineScore && (
+          {!lineScores && (
             <p className="mt-4 text-sm text-yellow-300">
               No line score was found for this game.
             </p>

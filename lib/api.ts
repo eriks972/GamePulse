@@ -358,18 +358,47 @@ export type LineScoreBreakdown = {
 };
 
 export type LineScore = {
+  gameId: string;
   externalGameId: string;
-  home: LineScoreBreakdown;
-  away: LineScoreBreakdown;
+  leagueSlug: string;
+  season: string;
+  teamExternalId: number;
+  teamId: number;
+  teamName: string;
+  teamAbbreviation: string;
+  isHome: boolean;
+  q1: number;
+  q2: number;
+  q3: number;
+  q4: number;
+  ot1: number;
+  ot2: number;
+  otAll: number;
+  total: number;
 };
 
 export async function getNbaGameById(id: string): Promise<Game> {
-  const response = await fetch(`${API_BASE_URL}/api/leagues/nba/games/${id}`, {
+  const url = `${API_BASE_URL}/api/leagues/nba/games/${id}`;
+
+  console.log("Fetching NBA game:", url);
+
+  const response = await fetch(url, {
     cache: "no-store",
   });
 
   if (!response.ok) {
-    throw new Error("Failed to fetch NBA game");
+    const errorText = await response.text();
+
+    console.error("Failed to fetch NBA game", {
+      url,
+      status: response.status,
+      statusText: response.statusText,
+      errorText,
+    });
+
+    throw new Error(
+      `Failed to fetch NBA game: ${response.status} ${response.statusText} ${errorText}`
+    );
   }
 
   const game = await response.json();
@@ -377,22 +406,24 @@ export async function getNbaGameById(id: string): Promise<Game> {
   return normalizeGame(game);
 }
 
-export async function getNbaLineScoreByGameId(
-  gameId: string,
-): Promise<LineScore | null> {
-  const response = await fetch(
-    `${API_BASE_URL}/api/leagues/nba/line-scores/${gameId}`,
-    {
-      cache: "no-store",
-    },
-  );
+export async function getNbaLineScoreByGameId(id: string): Promise<LineScore[]> {
+  const url = `${API_BASE_URL}/api/leagues/nba/line-scores/${id}`;
 
-  if (response.status === 404) {
-    return null;
-  }
+  const response = await fetch(url, {
+    cache: "no-store",
+  });
 
   if (!response.ok) {
-    throw new Error("Failed to fetch NBA line score");
+    const errorText = await response.text();
+
+    console.error("Failed to fetch NBA line score", {
+      url,
+      status: response.status,
+      statusText: response.statusText,
+      errorText,
+    });
+
+    return [];
   }
 
   return response.json();

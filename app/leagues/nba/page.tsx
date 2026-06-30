@@ -36,7 +36,7 @@ export default async function NbaLandingPage({
     seasons = ["2022"];
   }
 
-  const selectedSeason = params?.season || seasons[0] || "2022";
+  const selectedSeason = params?.season || seasons[0] || "2025";
 
   let teams: Awaited<ReturnType<typeof getNbaStandings>> = [];
 
