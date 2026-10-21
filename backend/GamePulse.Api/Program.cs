@@ -14,7 +14,7 @@ builder.Services.AddCors(options =>
         policy
             .WithOrigins(
                 "http://localhost:3000",
-                "https://game-pulse-steel.vercel.app/"
+                "https://game-pulse-steel.vercel.app"
             )
             .AllowAnyHeader()
             .AllowAnyMethod();
