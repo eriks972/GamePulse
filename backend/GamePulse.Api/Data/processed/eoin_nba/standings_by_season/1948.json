@@ -1,0 +1,80 @@
+[
+  {
+    "externalTeamId": 1610612758,
+    "leagueSlug": "nba",
+    "name": "Sacramento Kings",
+    "abbreviation": "SAC",
+    "nickname": "Kings",
+    "city": "Sacramento",
+    "conference": "Western",
+    "division": "Pacific",
+    "wins": 21,
+    "losses": 6,
+    "season": "1948"
+  },
+  {
+    "externalTeamId": 1610612747,
+    "leagueSlug": "nba",
+    "name": "Los Angeles Lakers",
+    "abbreviation": "LAL",
+    "nickname": "Lakers",
+    "city": "Los Angeles",
+    "conference": "Western",
+    "division": "Pacific",
+    "wins": 19,
+    "losses": 8,
+    "season": "1948"
+  },
+  {
+    "externalTeamId": 1610612738,
+    "leagueSlug": "nba",
+    "name": "Boston Celtics",
+    "abbreviation": "BOS",
+    "nickname": "Celtics",
+    "city": "Boston",
+    "conference": "Eastern",
+    "division": "Atlantic",
+    "wins": 13,
+    "losses": 14,
+    "season": "1948"
+  },
+  {
+    "externalTeamId": 1610612752,
+    "leagueSlug": "nba",
+    "name": "New York Knicks",
+    "abbreviation": "NYK",
+    "nickname": "Knicks",
+    "city": "New York",
+    "conference": "Eastern",
+    "division": "Atlantic",
+    "wins": 11,
+    "losses": 16,
+    "season": "1948"
+  },
+  {
+    "externalTeamId": 1610612765,
+    "leagueSlug": "nba",
+    "name": "Detroit Pistons",
+    "abbreviation": "DET",
+    "nickname": "Pistons",
+    "city": "Detroit",
+    "conference": "Eastern",
+    "division": "Central",
+    "wins": 9,
+    "losses": 18,
+    "season": "1948"
+  },
+  {
+    "externalTeamId": 1610612744,
+    "leagueSlug": "nba",
+    "name": "Golden State Warriors",
+    "abbreviation": "GSW",
+    "nickname": "Warriors",
+    "city": "Golden State",
+    "conference": "Western",
+    "division": "Pacific",
+    "wins": 8,
+    "losses": 19,
+    "season": "1948"
+  }
+]

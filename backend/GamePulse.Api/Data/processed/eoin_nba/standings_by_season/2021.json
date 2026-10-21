@@ -1,0 +1,28 @@
+[
+  {
+    "externalTeamId": 1610612746,
+    "leagueSlug": "nba",
+    "name": "LA Clippers",
+    "abbreviation": "LAC",
+    "nickname": "Clippers",
+    "city": "LA",
+    "conference": "Western",
+    "division": "Pacific",
+    "wins": 1,
+    "losses": 0,
+    "season": "2021"
+  },
+  {
+    "externalTeamId": 1610612747,
+    "leagueSlug": "nba",
+    "name": "Los Angeles Lakers",
+    "abbreviation": "LAL",
+    "nickname": "Lakers",
+    "city": "Los Angeles",
+    "conference": "Western",
+    "division": "Pacific",
+    "wins": 0,
+    "losses": 1,
+    "season": "2021"
+  }
+]

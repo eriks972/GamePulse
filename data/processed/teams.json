@@ -1,0 +1,302 @@
+[
+  {
+    "externalTeamId": 1610612737,
+    "name": "Atlanta Hawks",
+    "abbreviation": "ATL",
+    "nickname": "Hawks",
+    "city": "Atlanta",
+    "leagueSlug": "nba",
+    "conference": "Eastern",
+    "division": "Southeast"
+  },
+  {
+    "externalTeamId": 1610612738,
+    "name": "Boston Celtics",
+    "abbreviation": "BOS",
+    "nickname": "Celtics",
+    "city": "Boston",
+    "leagueSlug": "nba",
+    "conference": "Eastern",
+    "division": "Atlantic"
+  },
+  {
+    "externalTeamId": 1610612739,
+    "name": "Cleveland Cavaliers",
+    "abbreviation": "CLE",
+    "nickname": "Cavaliers",
+    "city": "Cleveland",
+    "leagueSlug": "nba",
+    "conference": "Eastern",
+    "division": "Central"
+  },
+  {
+    "externalTeamId": 1610612740,
+    "name": "New Orleans Pelicans",
+    "abbreviation": "NOP",
+    "nickname": "Pelicans",
+    "city": "New Orleans",
+    "leagueSlug": "nba",
+    "conference": "Western",
+    "division": "Southwest"
+  },
+  {
+    "externalTeamId": 1610612741,
+    "name": "Chicago Bulls",
+    "abbreviation": "CHI",
+    "nickname": "Bulls",
+    "city": "Chicago",
+    "leagueSlug": "nba",
+    "conference": "Eastern",
+    "division": "Central"
+  },
+  {
+    "externalTeamId": 1610612742,
+    "name": "Dallas Mavericks",
+    "abbreviation": "DAL",
+    "nickname": "Mavericks",
+    "city": "Dallas",
+    "leagueSlug": "nba",
+    "conference": "Western",
+    "division": "Southwest"
+  },
+  {
+    "externalTeamId": 1610612743,
+    "name": "Denver Nuggets",
+    "abbreviation": "DEN",
+    "nickname": "Nuggets",
+    "city": "Denver",
+    "leagueSlug": "nba",
+    "conference": "Western",
+    "division": "Northwest"
+  },
+  {
+    "externalTeamId": 1610612744,
+    "name": "Golden State Warriors",
+    "abbreviation": "GSW",
+    "nickname": "Warriors",
+    "city": "Golden State",
+    "leagueSlug": "nba",
+    "conference": "Western",
+    "division": "Pacific"
+  },
+  {
+    "externalTeamId": 1610612745,
+    "name": "Houston Rockets",
+    "abbreviation": "HOU",
+    "nickname": "Rockets",
+    "city": "Houston",
+    "leagueSlug": "nba",
+    "conference": "Western",
+    "division": "Southwest"
+  },
+  {
+    "externalTeamId": 1610612746,
+    "name": "Los Angeles Clippers",
+    "abbreviation": "LAC",
+    "nickname": "Clippers",
+    "city": "Los Angeles",
+    "leagueSlug": "nba",
+    "conference": "Western",
+    "division": "Pacific"
+  },
+  {
+    "externalTeamId": 1610612747,
+    "name": "Los Angeles Lakers",
+    "abbreviation": "LAL",
+    "nickname": "Lakers",
+    "city": "Los Angeles",
+    "leagueSlug": "nba",
+    "conference": "Western",
+    "division": "Pacific"
+  },
+  {
+    "externalTeamId": 1610612748,
+    "name": "Miami Heat",
+    "abbreviation": "MIA",
+    "nickname": "Heat",
+    "city": "Miami",
+    "leagueSlug": "nba",
+    "conference": "Eastern",
+    "division": "Southeast"
+  },
+  {
+    "externalTeamId": 1610612749,
+    "name": "Milwaukee Bucks",
+    "abbreviation": "MIL",
+    "nickname": "Bucks",
+    "city": "Milwaukee",
+    "leagueSlug": "nba",
+    "conference": "Eastern",
+    "division": "Central"
+  },
+  {
+    "externalTeamId": 1610612750,
+    "name": "Minnesota Timberwolves",
+    "abbreviation": "MIN",
+    "nickname": "Timberwolves",
+    "city": "Minnesota",
+    "leagueSlug": "nba",
+    "conference": "Western",
+    "division": "Northwest"
+  },
+  {
+    "externalTeamId": 1610612751,
+    "name": "Brooklyn Nets",
+    "abbreviation": "BKN",
+    "nickname": "Nets",
+    "city": "Brooklyn",
+    "leagueSlug": "nba",
+    "conference": "Eastern",
+    "division": "Atlantic"
+  },
+  {
+    "externalTeamId": 1610612752,
+    "name": "New York Knicks",
+    "abbreviation": "NYK",
+    "nickname": "Knicks",
+    "city": "New York",
+    "leagueSlug": "nba",
+    "conference": "Eastern",
+    "division": "Atlantic"
+  },
+  {
+    "externalTeamId": 1610612753,
+    "name": "Orlando Magic",
+    "abbreviation": "ORL",
+    "nickname": "Magic",
+    "city": "Orlando",
+    "leagueSlug": "nba",
+    "conference": "Eastern",
+    "division": "Southeast"
+  },
+  {
+    "externalTeamId": 1610612754,
+    "name": "Indiana Pacers",
+    "abbreviation": "IND",
+    "nickname": "Pacers",
+    "city": "Indiana",
+    "leagueSlug": "nba",
+    "conference": "Eastern",
+    "division": "Central"
+  },
+  {
+    "externalTeamId": 1610612755,
+    "name": "Philadelphia 76ers",
+    "abbreviation": "PHI",
+    "nickname": "76ers",
+    "city": "Philadelphia",
+    "leagueSlug": "nba",
+    "conference": "Eastern",
+    "division": "Atlantic"
+  },
+  {
+    "externalTeamId": 1610612756,
+    "name": "Phoenix Suns",
+    "abbreviation": "PHX",
+    "nickname": "Suns",
+    "city": "Phoenix",
+    "leagueSlug": "nba",
+    "conference": "Western",
+    "division": "Pacific"
+  },
+  {
+    "externalTeamId": 1610612757,
+    "name": "Portland Trail Blazers",
+    "abbreviation": "POR",
+    "nickname": "Trail Blazers",
+    "city": "Portland",
+    "leagueSlug": "nba",
+    "conference": "Western",
+    "division": "Northwest"
+  },
+  {
+    "externalTeamId": 1610612758,
+    "name": "Sacramento Kings",
+    "abbreviation": "SAC",
+    "nickname": "Kings",
+    "city": "Sacramento",
+    "leagueSlug": "nba",
+    "conference": "Western",
+    "division": "Pacific"
+  },
+  {
+    "externalTeamId": 1610612759,
+    "name": "San Antonio Spurs",
+    "abbreviation": "SAS",
+    "nickname": "Spurs",
+    "city": "San Antonio",
+    "leagueSlug": "nba",
+    "conference": "Western",
+    "division": "Southwest"
+  },
+  {
+    "externalTeamId": 1610612760,
+    "name": "Oklahoma City Thunder",
+    "abbreviation": "OKC",
+    "nickname": "Thunder",
+    "city": "Oklahoma City",
+    "leagueSlug": "nba",
+    "conference": "Western",
+    "division": "Northwest"
+  },
+  {
+    "externalTeamId": 1610612761,
+    "name": "Toronto Raptors",
+    "abbreviation": "TOR",
+    "nickname": "Raptors",
+    "city": "Toronto",
+    "leagueSlug": "nba",
+    "conference": "Eastern",
+    "division": "Atlantic"
+  },
+  {
+    "externalTeamId": 1610612762,
+    "name": "Utah Jazz",
+    "abbreviation": "UTA",
+    "nickname": "Jazz",
+    "city": "Utah",
+    "leagueSlug": "nba",
+    "conference": "Western",
+    "division": "Northwest"
+  },
+  {
+    "externalTeamId": 1610612763,
+    "name": "Memphis Grizzlies",
+    "abbreviation": "MEM",
+    "nickname": "Grizzlies",
+    "city": "Memphis",
+    "leagueSlug": "nba",
+    "conference": "Western",
+    "division": "Southwest"
+  },
+  {
+    "externalTeamId": 1610612764,
+    "name": "Washington Wizards",
+    "abbreviation": "WAS",
+    "nickname": "Wizards",
+    "city": "Washington",
+    "leagueSlug": "nba",
+    "conference": "Eastern",
+    "division": "Southeast"
+  },
+  {
+    "externalTeamId": 1610612765,
+    "name": "Detroit Pistons",
+    "abbreviation": "DET",
+    "nickname": "Pistons",
+    "city": "Detroit",
+    "leagueSlug": "nba",
+    "conference": "Eastern",
+    "division": "Central"
+  },
+  {
+    "externalTeamId": 1610612766,
+    "name": "Charlotte Hornets",
+    "abbreviation": "CHA",
+    "nickname": "Hornets",
+    "city": "Charlotte",
+    "leagueSlug": "nba",
+    "conference": "Eastern",
+    "division": "Southeast"
+  }
+]

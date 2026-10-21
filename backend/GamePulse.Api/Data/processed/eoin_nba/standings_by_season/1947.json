@@ -1,0 +1,41 @@
+[
+  {
+    "externalTeamId": 1610612752,
+    "leagueSlug": "nba",
+    "name": "New York Knicks",
+    "abbreviation": "NYK",
+    "nickname": "Knicks",
+    "city": "New York",
+    "conference": "Eastern",
+    "division": "Atlantic",
+    "wins": 11,
+    "losses": 5,
+    "season": "1947"
+  },
+  {
+    "externalTeamId": 1610612744,
+    "leagueSlug": "nba",
+    "name": "Golden State Warriors",
+    "abbreviation": "GSW",
+    "nickname": "Warriors",
+    "city": "Golden State",
+    "conference": "Western",
+    "division": "Pacific",
+    "wins": 8,
+    "losses": 8,
+    "season": "1947"
+  },
+  {
+    "externalTeamId": 1610612738,
+    "leagueSlug": "nba",
+    "name": "Boston Celtics",
+    "abbreviation": "BOS",
+    "nickname": "Celtics",
+    "city": "Boston",
+    "conference": "Eastern",
+    "division": "Atlantic",
+    "wins": 5,
+    "losses": 11,
+    "season": "1947"
+  }
+]
