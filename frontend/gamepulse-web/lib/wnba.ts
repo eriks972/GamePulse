@@ -26,6 +26,30 @@ export type WnbaCoverage = {
   status: string; generatedAt?: string;
 };
 export type PlayerGame = { game: WnbaGame; statistics: WnbaStat[] };
+export type WnbaStanding = {
+  teamId: string; name: string | null; abbreviation: string | null; rank: number | null;
+  scheduledGames: number; completedGames: number; games: number; excludedCompletedGames: number;
+  wins: number; losses: number; winPercentage: number | null;
+  homeWins: number; homeLosses: number; awayWins: number; awayLosses: number;
+  pointsFor: number; pointsAgainst: number; pointDifferential: number;
+  pointsPerGame: number | null; opponentPointsPerGame: number | null; scoringMargin: number | null;
+};
+export type WnbaStandings = {
+  season: number; seasonType: string; scheduledGames: number; completedGames: number;
+  countedGames: number; excludedCompletedGames: number; rankingMethod: string; teams: WnbaStanding[];
+};
+export type SeasonMetric = { total: number | null; perGame: number | null; games: number };
+export type ShootingMetric = { made: number | null; attempted: number | null; percentage: number | null; games: number };
+export type WnbaTeamSeasonStatistics = {
+  season: number; seasonType: string; teamId: string; name: string | null; abbreviation: string | null;
+  scheduledGames: number; completedGames: number; teamStatsGames: number; opponentStatsGames: number;
+  scoreDiscrepancyGames: number;
+  statistics: Record<string, SeasonMetric>; opponentStatistics: Record<string, SeasonMetric>;
+  shooting: Record<string, ShootingMetric>; opponentShooting: Record<string, ShootingMetric>;
+};
+export type WnbaSeasonStatistics = {
+  season: number; seasonType: string; scheduledGames: number; completedGames: number; teams: WnbaTeamSeasonStatistics[];
+};
 export class WnbaApiError extends Error {
   constructor(public status: number) { super(`WNBA request failed (${status})`); }
 }

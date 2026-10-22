@@ -29,6 +29,23 @@ public sealed class WnbaController(WnbaJsonDataService service) : ControllerBase
     public async Task<IActionResult> Coverage([FromQuery] int? season, CancellationToken ct)
         => Ok((await service.GetSeasonAsync(season, ct)).Coverage);
 
+    [HttpGet("standings")]
+    public async Task<IActionResult> Standings([FromQuery] int? season, CancellationToken ct)
+        => Ok(WnbaSeasonCalculator.Standings(await service.GetSeasonAsync(season, ct)));
+
+    [HttpGet("team-stats")]
+    public async Task<IActionResult> TeamStatistics([FromQuery] int? season, [FromQuery] string? seasonType, CancellationToken ct)
+        => Ok(WnbaSeasonCalculator.TeamStatistics(await service.GetSeasonAsync(season, ct), seasonType));
+
+    [HttpGet("team-stats/{id}")]
+    public async Task<IActionResult> TeamStatisticsById(string id, [FromQuery] int? season,
+        [FromQuery] string? seasonType, CancellationToken ct)
+    {
+        var data = await service.GetSeasonAsync(season, ct);
+        var team = FindTeam(data, id);
+        return Ok(WnbaSeasonCalculator.TeamStatistics(data, seasonType).Teams.Single(t => t.TeamId == team.Id));
+    }
+
     [HttpGet("teams")]
     public async Task<IActionResult> Teams([FromQuery] int? season, CancellationToken ct)
         => Ok((await service.GetSeasonAsync(season, ct)).Teams.OrderBy(t => t.Name));
