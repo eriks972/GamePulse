@@ -1,0 +1,2790 @@
+[
+  {
+    "id": "wnba:stats:player:100076",
+    "externalPlayerId": "100076",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Tina Thompson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100342",
+    "externalPlayerId": "100342",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Becky Hammon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100396",
+    "externalPlayerId": "100396",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "DeLisha Milton-Jones",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319",
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100404",
+    "externalPlayerId": "100404",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Katie Smith",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100556",
+    "externalPlayerId": "100556",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Nakia Sanford",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100634",
+    "externalPlayerId": "100634",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Penny Taylor",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100646",
+    "externalPlayerId": "100646",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Tamika Catchings",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100656",
+    "externalPlayerId": "100656",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Ruth Riley",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100666",
+    "externalPlayerId": "100666",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Katie Douglas",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100720",
+    "externalPlayerId": "100720",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Sue Bird",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100721",
+    "externalPlayerId": "100721",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Swin Cash",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100729",
+    "externalPlayerId": "100729",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Michelle Snow",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100796",
+    "externalPlayerId": "100796",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Iziane Castro Marques",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100812",
+    "externalPlayerId": "100812",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Erika de Souza",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100835",
+    "externalPlayerId": "100835",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Erin Thorn",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100874",
+    "externalPlayerId": "100874",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Kara Lawson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100888",
+    "externalPlayerId": "100888",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Plenette Pierson",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100915",
+    "externalPlayerId": "100915",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Lindsay Whalen",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100919",
+    "externalPlayerId": "100919",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Nicole Powell",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100928",
+    "externalPlayerId": "100928",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Ebony Hoffman",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100937",
+    "externalPlayerId": "100937",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Shameka Christon",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100940",
+    "externalPlayerId": "100940",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Diana Taurasi",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100942",
+    "externalPlayerId": "100942",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Ashley Robinson",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100944",
+    "externalPlayerId": "100944",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Rebekkah Brunson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100949",
+    "externalPlayerId": "100949",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Alana Beard",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100952",
+    "externalPlayerId": "100952",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Jia Perkins",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100973",
+    "externalPlayerId": "100973",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Le'coe Willingham",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101019",
+    "externalPlayerId": "101019",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Janel McCarville",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101020",
+    "externalPlayerId": "101020",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Tan White",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101023",
+    "externalPlayerId": "101023",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Sancho Lyttle",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101024",
+    "externalPlayerId": "101024",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Temeka Johnson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101025",
+    "externalPlayerId": "101025",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Kara Braxton",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101030",
+    "externalPlayerId": "101030",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Tanisha Wright",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101033",
+    "externalPlayerId": "101033",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Roneeka Hodges",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101039",
+    "externalPlayerId": "101039",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Erin Phillips",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101042",
+    "externalPlayerId": "101042",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Jessica Moore",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101049",
+    "externalPlayerId": "101049",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Cathrine Kraayeveld",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101080",
+    "externalPlayerId": "101080",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Jennifer Lacy",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200665",
+    "externalPlayerId": "200665",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Cappie Pondexter",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200671",
+    "externalPlayerId": "200671",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Seimone Augustus",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200673",
+    "externalPlayerId": "200673",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Monique Currie",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200674",
+    "externalPlayerId": "200674",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Sophia Young-Malcolm",
+    "position": "F",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200676",
+    "externalPlayerId": "200676",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Candice Dupree",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200691",
+    "externalPlayerId": "200691",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Mistie Bass",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201046",
+    "externalPlayerId": "201046",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Lindsey Harding",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201047",
+    "externalPlayerId": "201047",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Jessica Davenport",
+    "position": "C",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201048",
+    "externalPlayerId": "201048",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Armintie Herrington",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201049",
+    "externalPlayerId": "201049",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Noelle Quinn",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201050",
+    "externalPlayerId": "201050",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Tiffany Jackson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201056",
+    "externalPlayerId": "201056",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Ivory Latta",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201062",
+    "externalPlayerId": "201062",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Shay Murphy",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201067",
+    "externalPlayerId": "201067",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Camille Smith",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201477",
+    "externalPlayerId": "201477",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Tamera Young",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201480",
+    "externalPlayerId": "201480",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Sylvia Fowles",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201487",
+    "externalPlayerId": "201487",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Alexis Hornbuckle",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201490",
+    "externalPlayerId": "201490",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Natasha Lacy",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201492",
+    "externalPlayerId": "201492",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Matee Ajavon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201496",
+    "externalPlayerId": "201496",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Candace Parker",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201498",
+    "externalPlayerId": "201498",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Sharnee Zoll-Norman",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201499",
+    "externalPlayerId": "201499",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Candice Wiggins",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201501",
+    "externalPlayerId": "201501",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Charde Houston",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201502",
+    "externalPlayerId": "201502",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Essence Carson",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201503",
+    "externalPlayerId": "201503",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Erlana Larkins",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201507",
+    "externalPlayerId": "201507",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Leilani Mitchell",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201516",
+    "externalPlayerId": "201516",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Allie Quigley",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201518",
+    "externalPlayerId": "201518",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Crystal Langhorne",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201881",
+    "externalPlayerId": "201881",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Angel McCoughtry",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201884",
+    "externalPlayerId": "201884",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Chante Black",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201886",
+    "externalPlayerId": "201886",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "DeWanna Bonner",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201889",
+    "externalPlayerId": "201889",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Marissa Coleman",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201895",
+    "externalPlayerId": "201895",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Quanitra Hollingsworth",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201896",
+    "externalPlayerId": "201896",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Briann January",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201904",
+    "externalPlayerId": "201904",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Renee Montgomery",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201907",
+    "externalPlayerId": "201907",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Courtney Paris",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201911",
+    "externalPlayerId": "201911",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Kristi Toliver",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201913",
+    "externalPlayerId": "201913",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Kia Vaughn",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201914",
+    "externalPlayerId": "201914",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Ashley Walker",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201919",
+    "externalPlayerId": "201919",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Shavonte Zellous",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202250",
+    "externalPlayerId": "202250",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Tina Charles",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202251",
+    "externalPlayerId": "202251",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Jayne Appel Marinelli",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202252",
+    "externalPlayerId": "202252",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Alysha Clark",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202253",
+    "externalPlayerId": "202253",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Kalana Greene",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202254",
+    "externalPlayerId": "202254",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Kelsey Griffin",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202255",
+    "externalPlayerId": "202255",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Allison Hightower",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202257",
+    "externalPlayerId": "202257",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Monica Wright",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202259",
+    "externalPlayerId": "202259",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Epiphanny Prince",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202314",
+    "externalPlayerId": "202314",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Michelle Campbell",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202623",
+    "externalPlayerId": "202623",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Aneika Morello",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202626",
+    "externalPlayerId": "202626",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Jenna O'Hea",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202632",
+    "externalPlayerId": "202632",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Maya Moore",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202633",
+    "externalPlayerId": "202633",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Liz Cambage",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202634",
+    "externalPlayerId": "202634",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Danielle Adams",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202638",
+    "externalPlayerId": "202638",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Jessica Breland",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202640",
+    "externalPlayerId": "202640",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Karima Christmas-Kelly",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202644",
+    "externalPlayerId": "202644",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Amber Harris",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202647",
+    "externalPlayerId": "202647",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Rachel Jarry",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202650",
+    "externalPlayerId": "202650",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Jantel Lavender",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202652",
+    "externalPlayerId": "202652",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Alex Montgomery",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202653",
+    "externalPlayerId": "202653",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Kayla Pedersen",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321",
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202656",
+    "externalPlayerId": "202656",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Jeanette Pohlen-Mavunga",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202658",
+    "externalPlayerId": "202658",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Danielle Robinson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202662",
+    "externalPlayerId": "202662",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Jasmine Thomas",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202663",
+    "externalPlayerId": "202663",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Krystal Thomas",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202664",
+    "externalPlayerId": "202664",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Courtney Vandersloot",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202670",
+    "externalPlayerId": "202670",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Carolyn Swords",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203014",
+    "externalPlayerId": "203014",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Nneka Ogwumike",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203015",
+    "externalPlayerId": "203015",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Shekinna Stricklen",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203016",
+    "externalPlayerId": "203016",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Devereaux Peters",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203017",
+    "externalPlayerId": "203017",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Glory Johnson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203018",
+    "externalPlayerId": "203018",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Shenise Johnson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203019",
+    "externalPlayerId": "203019",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Samantha Prahalis",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317",
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203025",
+    "externalPlayerId": "203025",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Farhiya Abdi",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203026",
+    "externalPlayerId": "203026",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Tiffany Hayes",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203029",
+    "externalPlayerId": "203029",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Riquna Williams",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203030",
+    "externalPlayerId": "203030",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Julie Wojta",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203039",
+    "externalPlayerId": "203039",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Sydney Carter",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203041",
+    "externalPlayerId": "203041",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Lynetta Kizer",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203046",
+    "externalPlayerId": "203046",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Briana Butler",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203067",
+    "externalPlayerId": "203067",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Sasha Goodlett",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203069",
+    "externalPlayerId": "203069",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Avery Warley-Talbert",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661329",
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203070",
+    "externalPlayerId": "203070",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Cierra Bravard",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203398",
+    "externalPlayerId": "203398",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Brittney Griner",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203399",
+    "externalPlayerId": "203399",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Elena Delle Donne",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203400",
+    "externalPlayerId": "203400",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Skylar Diggins",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203401",
+    "externalPlayerId": "203401",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Tayler Hill",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203402",
+    "externalPlayerId": "203402",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Kelsey Bone",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203403",
+    "externalPlayerId": "203403",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Tianna Hawkins",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203404",
+    "externalPlayerId": "203404",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Toni Young",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203405",
+    "externalPlayerId": "203405",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Kayla Alexander",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203406",
+    "externalPlayerId": "203406",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Layshia Clarendon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203407",
+    "externalPlayerId": "203407",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "A'dia Mathies",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203408",
+    "externalPlayerId": "203408",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Kelly Faris",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203409",
+    "externalPlayerId": "203409",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Lindsey Moore",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203410",
+    "externalPlayerId": "203410",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Alex Bentley",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203411",
+    "externalPlayerId": "203411",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Sugar Rodgers",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203412",
+    "externalPlayerId": "203412",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Kamiko Williams",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203413",
+    "externalPlayerId": "203413",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Davellyn Whyte",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203414",
+    "externalPlayerId": "203414",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Nadirah McKenith",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203415",
+    "externalPlayerId": "203415",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Chelsea Poppens",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203416",
+    "externalPlayerId": "203416",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Emma Meesseman",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203418",
+    "externalPlayerId": "203418",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Jasmine Hassell",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325",
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203421",
+    "externalPlayerId": "203421",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Chucky Jeffery",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203426",
+    "externalPlayerId": "203426",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Angel Goodrich",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203427",
+    "externalPlayerId": "203427",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Jasmine James",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203428",
+    "externalPlayerId": "203428",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Anne Marie Armstrong",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203437",
+    "externalPlayerId": "203437",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Tierra Ruffin-Pratt",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203451",
+    "externalPlayerId": "203451",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Courtney Clements",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203555",
+    "externalPlayerId": "203555",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Joslyn Tinkle",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203563",
+    "externalPlayerId": "203563",
+    "league": "wnba",
+    "season": 2013,
+    "fullName": "Chelsea Hopkins",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  }
+]

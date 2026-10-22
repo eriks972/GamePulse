@@ -1,0 +1,82 @@
+[
+  {
+    "id": "wnba:stats:team:1611661313",
+    "externalTeamId": "1611661313",
+    "league": "wnba",
+    "season": 1998,
+    "name": "New York Liberty",
+    "abbreviation": "NYL"
+  },
+  {
+    "id": "wnba:stats:team:1611661314",
+    "externalTeamId": "1611661314",
+    "league": "wnba",
+    "season": 1998,
+    "name": "Charlotte Sting",
+    "abbreviation": "CHA"
+  },
+  {
+    "id": "wnba:stats:team:1611661315",
+    "externalTeamId": "1611661315",
+    "league": "wnba",
+    "season": 1998,
+    "name": "Cleveland Rockers",
+    "abbreviation": "CLE"
+  },
+  {
+    "id": "wnba:stats:team:1611661316",
+    "externalTeamId": "1611661316",
+    "league": "wnba",
+    "season": 1998,
+    "name": "Houston Comets",
+    "abbreviation": "HOU"
+  },
+  {
+    "id": "wnba:stats:team:1611661317",
+    "externalTeamId": "1611661317",
+    "league": "wnba",
+    "season": 1998,
+    "name": "Phoenix Mercury",
+    "abbreviation": "PHO"
+  },
+  {
+    "id": "wnba:stats:team:1611661318",
+    "externalTeamId": "1611661318",
+    "league": "wnba",
+    "season": 1998,
+    "name": "Sacramento Monarchs",
+    "abbreviation": "SAC"
+  },
+  {
+    "id": "wnba:stats:team:1611661319",
+    "externalTeamId": "1611661319",
+    "league": "wnba",
+    "season": 1998,
+    "name": "Utah Starzz",
+    "abbreviation": "UTA"
+  },
+  {
+    "id": "wnba:stats:team:1611661320",
+    "externalTeamId": "1611661320",
+    "league": "wnba",
+    "season": 1998,
+    "name": "Los Angeles Sparks",
+    "abbreviation": "LAS"
+  },
+  {
+    "id": "wnba:stats:team:1611661321",
+    "externalTeamId": "1611661321",
+    "league": "wnba",
+    "season": 1998,
+    "name": "Detroit Shock",
+    "abbreviation": "DET"
+  },
+  {
+    "id": "wnba:stats:team:1611661322",
+    "externalTeamId": "1611661322",
+    "league": "wnba",
+    "season": 1998,
+    "name": "Washington Mystics",
+    "abbreviation": "WAS"
+  }
+]

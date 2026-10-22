@@ -1,0 +1,129 @@
+{
+  "season": 2010,
+  "league": "wnba",
+  "generatedAt": "2026-10-21T22:26:12.527295+00:00",
+  "scheduleGames": 220,
+  "completedGames": 220,
+  "teamStatRows": 440,
+  "playerStatRows": 4213,
+  "completedTeamSides": 440,
+  "completedTeamSidesWithTeamStats": 440,
+  "completedTeamSidesWithReconciledPlayerPoints": 440,
+  "logClassification": {
+    "players": 4213,
+    "teamTotals": 440,
+    "unclassified": 0
+  },
+  "crosswalks": {
+    "team_crosswalk": {
+      "accepted": 12,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "checked"
+    },
+    "player_crosswalk": {
+      "accepted": 138,
+      "rejected": 7,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {
+        "missing_id": 4,
+        "unsupported_match_method": 3
+      },
+      "status": "checked"
+    },
+    "schedule_crosswalk": {
+      "accepted": 220,
+      "rejected": 1,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {
+        "missing_id": 1
+      },
+      "status": "checked"
+    },
+    "gameContextVerified": 220
+  },
+  "skippedRows": {},
+  "inputs": {
+    "stats/schedule/2010": {
+      "status": "verified",
+      "sha256": "16d301104326bd284e8947994857da6afc48ef8bced2795ee3a804b0e3add3af",
+      "path": "raw/stats/schedule/wnba_schedule_2010.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_schedules/wnba_schedule_2010.parquet",
+      "rows": 220
+    },
+    "stats/rosters/2010": {
+      "status": "verified",
+      "sha256": "aa930a60e78ea1eb8c41874a392e32785d124f067dc6094ff43eaf6fab3e6297",
+      "path": "raw/stats/rosters/rosters_2010.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_rosters/rosters_2010.parquet",
+      "rows": 136
+    },
+    "stats/player_game_logs/2010": {
+      "status": "verified",
+      "sha256": "eddfd5fe7e37dafeeb8cfd8a38bb5e706f7d28d9b6de5a180ed40fd4cfac4896",
+      "path": "raw/stats/player_game_logs/player_game_logs_2010.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_player_game_logs/player_game_logs_2010.parquet",
+      "rows": 4653
+    },
+    "stats/team_box/2010": {
+      "status": "unavailable_in_catalog"
+    },
+    "stats/player_box/2010": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/team_crosswalk/2010": {
+      "status": "verified",
+      "sha256": "011c919e8a7d1db6971b1613e2cad7ad9e5cd0979d57818dbfa13567411af94f",
+      "path": "raw/espn/team_crosswalk/wnba_team_crosswalk_2010.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_team_crosswalk_2010.parquet",
+      "rows": 12
+    },
+    "espn/player_crosswalk/2010": {
+      "status": "verified",
+      "sha256": "0b33265873f32b815e30914a436ab9586c3888409d05728d61e2641e7e8c35b0",
+      "path": "raw/espn/player_crosswalk/wnba_player_crosswalk_2010.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_player_crosswalk_2010.parquet",
+      "rows": 154
+    },
+    "espn/schedule_crosswalk/2010": {
+      "status": "verified",
+      "sha256": "1f2d83e79808c0dedbd25b77c6a555d6868d727eddc6882c5e627a24ebe1120f",
+      "path": "raw/espn/schedule_crosswalk/wnba_schedule_crosswalk_2010.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_schedule_crosswalk_2010.parquet",
+      "rows": 221
+    },
+    "espn/schedule/2010": {
+      "status": "verified",
+      "sha256": "9903cd234c9ad2ff12674b3863ed179f9b718baedaee9b32887b9943dec56ab4",
+      "path": "raw/espn/schedule/wnba_schedule_2010.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_schedules/wnba_schedule_2010.parquet",
+      "rows": 221
+    },
+    "espn/team_box/2010": {
+      "status": "verified",
+      "sha256": "a7aaf7c84b7d042127239e3810a22b2aec13503d5b12dd66f5a0ec4294e64bd3",
+      "path": "raw/espn/team_box/team_box_2010.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_team_boxscores/team_box_2010.parquet",
+      "rows": 442
+    },
+    "espn/player_box/2010": {
+      "status": "verified",
+      "sha256": "40376e04093c77a6619c50cf2657aed6aeb3468f2533c598ece7f9c78fcce358",
+      "path": "raw/espn/player_box/player_box_2010.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_player_boxscores/player_box_2010.parquet",
+      "rows": 4831
+    }
+  },
+  "issueCounts": {
+    "espn_schedule_not_merged": 1,
+    "espn_record_without_verified_mapping": 239,
+    "supplement_conflicts_with_preferred_stats": 324,
+    "record_without_points": 625
+  },
+  "status": "prepared_with_review_items",
+  "note": "Coverage is relative to the verified Stats schedule snapshot, not an independent league audit. Roster snapshots do not define all historical participants."
+}

@@ -1,0 +1,101 @@
+{
+  "season": 1999,
+  "league": "wnba",
+  "generatedAt": "2026-10-21T22:24:53.801287+00:00",
+  "scheduleGames": 203,
+  "completedGames": 203,
+  "teamStatRows": 406,
+  "playerStatRows": 3910,
+  "completedTeamSides": 406,
+  "completedTeamSidesWithTeamStats": 406,
+  "completedTeamSidesWithReconciledPlayerPoints": 406,
+  "logClassification": {
+    "players": 3910,
+    "teamTotals": 406,
+    "unclassified": 0
+  },
+  "crosswalks": {
+    "team_crosswalk": {
+      "accepted": 0,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "unavailable"
+    },
+    "player_crosswalk": {
+      "accepted": 0,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "unavailable"
+    },
+    "schedule_crosswalk": {
+      "accepted": 0,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "unavailable"
+    },
+    "gameContextVerified": 0
+  },
+  "skippedRows": {},
+  "inputs": {
+    "stats/schedule/1999": {
+      "status": "verified",
+      "sha256": "307d0461c0d8f48647b8022465914a9feed0af0527535f6b5e8aae3b00451121",
+      "path": "raw/stats/schedule/wnba_schedule_1999.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_schedules/wnba_schedule_1999.parquet",
+      "rows": 203
+    },
+    "stats/rosters/1999": {
+      "status": "verified",
+      "sha256": "e967ff3cb788bee6e37e8fd9f96504b23ce61452263321ff03e60b18cead9c65",
+      "path": "raw/stats/rosters/rosters_1999.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_rosters/rosters_1999.parquet",
+      "rows": 138
+    },
+    "stats/player_game_logs/1999": {
+      "status": "verified",
+      "sha256": "41346668092a34ea22bb7eeaf5ac64f6bda9c9a46e4ab4440c7807e9e64e4cdc",
+      "path": "raw/stats/player_game_logs/player_game_logs_1999.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_player_game_logs/player_game_logs_1999.parquet",
+      "rows": 4316
+    },
+    "stats/team_box/1999": {
+      "status": "unavailable_in_catalog"
+    },
+    "stats/player_box/1999": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/team_crosswalk/1999": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/player_crosswalk/1999": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/schedule_crosswalk/1999": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/schedule/1999": {
+      "status": "verified",
+      "sha256": "0c53514389261cfc51c1a37d941cd6b05314b95ca12fea50beb16e3c784df99c",
+      "path": "raw/espn/schedule/wnba_schedule_1999.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_schedules/wnba_schedule_1999.parquet",
+      "rows": 203
+    },
+    "espn/team_box/1999": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/player_box/1999": {
+      "status": "unavailable_in_catalog"
+    }
+  },
+  "issueCounts": {
+    "espn_schedule_not_merged": 203
+  },
+  "status": "prepared_with_review_items",
+  "note": "Coverage is relative to the verified Stats schedule snapshot, not an independent league audit. Roster snapshots do not define all historical participants."
+}

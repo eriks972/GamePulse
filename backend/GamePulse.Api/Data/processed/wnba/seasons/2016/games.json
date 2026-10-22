@@ -1,0 +1,7042 @@
+[
+  {
+    "id": "wnba:stats:game:1021600001",
+    "externalGameId": "1021600001",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-14",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 79,
+    "awayScore": 90,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600001",
+      "espn": "400864357"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600002",
+    "externalGameId": "1021600002",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-14",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 76,
+    "awayScore": 87,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600002",
+      "espn": "400864359"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600003",
+    "externalGameId": "1021600003",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-14",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 95,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600003",
+      "espn": "400864361"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600004",
+    "externalGameId": "1021600004",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-14",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 93,
+    "awayScore": 70,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600004",
+      "espn": "400864370"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600005",
+    "externalGameId": "1021600005",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-14",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 63,
+    "awayScore": 73,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600005",
+      "espn": "400864373"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600006",
+    "externalGameId": "1021600006",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-15",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 96,
+    "awayScore": 66,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600006",
+      "espn": "400864378"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600007",
+    "externalGameId": "1021600007",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-15",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 79,
+    "awayScore": 71,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600007",
+      "espn": "400864381"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600008",
+    "externalGameId": "1021600008",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-18",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 80,
+    "awayScore": 97,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600008",
+      "espn": "400864384"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600009",
+    "externalGameId": "1021600009",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-18",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 77,
+    "awayScore": 87,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600009",
+      "espn": "400864387"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600010",
+    "externalGameId": "1021600010",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-18",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 97,
+    "awayScore": 93,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600010",
+      "espn": "400864389"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600011",
+    "externalGameId": "1021600011",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-19",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 68,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600011",
+      "espn": "400864393"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600012",
+    "externalGameId": "1021600012",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-20",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 67,
+    "awayScore": 97,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600012",
+      "espn": "400864397"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600013",
+    "externalGameId": "1021600013",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-20",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 94,
+    "awayScore": 85,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600013",
+      "espn": "400864400"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600014",
+    "externalGameId": "1021600014",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-20",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 80,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600014",
+      "espn": "400864403"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600015",
+    "externalGameId": "1021600015",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-21",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 72,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600015",
+      "espn": "400864405"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600016",
+    "externalGameId": "1021600016",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-21",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 76,
+    "awayScore": 84,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600016",
+      "espn": "400864429"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600017",
+    "externalGameId": "1021600017",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-21",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 82,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600017",
+      "espn": "400864432"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600018",
+    "externalGameId": "1021600018",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-22",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 87,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600018",
+      "espn": "400864437"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600019",
+    "externalGameId": "1021600019",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-22",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 71,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600019",
+      "espn": "400864439"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600020",
+    "externalGameId": "1021600020",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-24",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 79,
+    "awayScore": 85,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600020",
+      "espn": "400864442"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600021",
+    "externalGameId": "1021600021",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-24",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 80,
+    "awayScore": 93,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600021",
+      "espn": "400864444"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600022",
+    "externalGameId": "1021600022",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-25",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 78,
+    "awayScore": 85,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600022",
+      "espn": "400864447"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600023",
+    "externalGameId": "1021600023",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-26",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 72,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600023",
+      "espn": "400864450"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600024",
+    "externalGameId": "1021600024",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-26",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 82,
+    "awayScore": 84,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600024",
+      "espn": "400864452"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600025",
+    "externalGameId": "1021600025",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-27",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 74,
+    "awayScore": 71,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600025",
+      "espn": "400864455"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600026",
+    "externalGameId": "1021600026",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-27",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 79,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600026",
+      "espn": "400864458"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600027",
+    "externalGameId": "1021600027",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-27",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 93,
+    "awayScore": 102,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600027",
+      "espn": "400864459"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600028",
+    "externalGameId": "1021600028",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-28",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 93,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600028",
+      "espn": "400864463"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600029",
+    "externalGameId": "1021600029",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-29",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 85,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600029",
+      "espn": "400864465"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600030",
+    "externalGameId": "1021600030",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-29",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 87,
+    "awayScore": 92,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600030",
+      "espn": "400864466"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600031",
+    "externalGameId": "1021600031",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-29",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 93,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600031",
+      "espn": "400864469"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600032",
+    "externalGameId": "1021600032",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-31",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 69,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600032",
+      "espn": "400864472"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600033",
+    "externalGameId": "1021600033",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-05-31",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 99,
+    "awayScore": 90,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600033",
+      "espn": "400864474"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600034",
+    "externalGameId": "1021600034",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-01",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 78,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600034",
+      "espn": "400864362"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600035",
+    "externalGameId": "1021600035",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-01",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 85,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600035",
+      "espn": "400864374"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600036",
+    "externalGameId": "1021600036",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-02",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 68,
+    "awayScore": 61,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600036",
+      "espn": "400864382"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600037",
+    "externalGameId": "1021600037",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-03",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 77,
+    "awayScore": 83,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600037",
+      "espn": "400864388"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600038",
+    "externalGameId": "1021600038",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-03",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 91,
+    "awayScore": 59,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600038",
+      "espn": "400864390"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600039",
+    "externalGameId": "1021600039",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-03",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 98,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600039",
+      "espn": "400864396"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600040",
+    "externalGameId": "1021600040",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-03",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 95,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600040",
+      "espn": "400864401"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600041",
+    "externalGameId": "1021600041",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-04",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 80,
+    "awayScore": 63,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600041",
+      "espn": "400864406"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600042",
+    "externalGameId": "1021600042",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-04",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 61,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600042",
+      "espn": "400864430"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600043",
+    "externalGameId": "1021600043",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-05",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 77,
+    "awayScore": 88,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600043",
+      "espn": "400864441"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600044",
+    "externalGameId": "1021600044",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-05",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 79,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600044",
+      "espn": "400864445"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600045",
+    "externalGameId": "1021600045",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-05",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 78,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600045",
+      "espn": "400864448"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600046",
+    "externalGameId": "1021600046",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-07",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 89,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600046",
+      "espn": "400864453"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600047",
+    "externalGameId": "1021600047",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-07",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 100,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600047",
+      "espn": "400864461"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600048",
+    "externalGameId": "1021600048",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-08",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 79,
+    "awayScore": 87,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600048",
+      "espn": "400864464"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600049",
+    "externalGameId": "1021600049",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-09",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 90,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600049",
+      "espn": "400864467"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600050",
+    "externalGameId": "1021600050",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-10",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 77,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600050",
+      "espn": "400864471"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600051",
+    "externalGameId": "1021600051",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-10",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 64,
+    "awayScore": 73,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600051",
+      "espn": "400864475"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600052",
+    "externalGameId": "1021600052",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-10",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 78,
+    "awayScore": 110,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600052",
+      "espn": "400864477"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600053",
+    "externalGameId": "1021600053",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-11",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 76,
+    "awayScore": 83,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600053",
+      "espn": "400864479"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600054",
+    "externalGameId": "1021600054",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-11",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 75,
+    "awayScore": 90,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600054",
+      "espn": "400864482"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600055",
+    "externalGameId": "1021600055",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-11",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 73,
+    "awayScore": 97,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600055",
+      "espn": "400864484"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600056",
+    "externalGameId": "1021600056",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-12",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 93,
+    "awayScore": 87,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600056",
+      "espn": "400864487"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600057",
+    "externalGameId": "1021600057",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-12",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 86,
+    "awayScore": 80,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600057",
+      "espn": "400864489"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600058",
+    "externalGameId": "1021600058",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-12",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 88,
+    "awayScore": 90,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600058",
+      "espn": "400864494"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600059",
+    "externalGameId": "1021600059",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-14",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 106,
+    "awayScore": 109,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600059",
+      "espn": "400864496"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600060",
+    "externalGameId": "1021600060",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-14",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 91,
+    "awayScore": 88,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600060",
+      "espn": "400864497"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600061",
+    "externalGameId": "1021600061",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-14",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 87,
+    "awayScore": 63,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600061",
+      "espn": "400864498"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600062",
+    "externalGameId": "1021600062",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-14",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 77,
+    "awayScore": 70,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600062",
+      "espn": "400864499"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600063",
+    "externalGameId": "1021600063",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-14",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 98,
+    "awayScore": 85,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600063",
+      "espn": "400864500"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600064",
+    "externalGameId": "1021600064",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-16",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 72,
+    "awayScore": 80,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600064",
+      "espn": "400864501"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600065",
+    "externalGameId": "1021600065",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-16",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 88,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600065",
+      "espn": "400864502"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600066",
+    "externalGameId": "1021600066",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-17",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 101,
+    "awayScore": 97,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600066",
+      "espn": "400864503"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600067",
+    "externalGameId": "1021600067",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-17",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 75,
+    "awayScore": 84,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600067",
+      "espn": "400864504"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600068",
+    "externalGameId": "1021600068",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-17",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 77,
+    "awayScore": 71,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600068",
+      "espn": "400864505"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600069",
+    "externalGameId": "1021600069",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-18",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 95,
+    "awayScore": 65,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600069",
+      "espn": "400864506"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600070",
+    "externalGameId": "1021600070",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-18",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 111,
+    "awayScore": 117,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600070",
+      "espn": "400864507"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600071",
+    "externalGameId": "1021600071",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-19",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 93,
+    "awayScore": 90,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600071",
+      "espn": "400864528"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600072",
+    "externalGameId": "1021600072",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-19",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 75,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600072",
+      "espn": "400864529"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600073",
+    "externalGameId": "1021600073",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-19",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 84,
+    "awayScore": 96,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600073",
+      "espn": "400864530"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600074",
+    "externalGameId": "1021600074",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-21",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 69,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600074",
+      "espn": "400864531"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600075",
+    "externalGameId": "1021600075",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-21",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 81,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600075",
+      "espn": "400864532"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600076",
+    "externalGameId": "1021600076",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-21",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 100,
+    "awayScore": 90,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600076",
+      "espn": "400864533"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600077",
+    "externalGameId": "1021600077",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-22",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 79,
+    "awayScore": 90,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600077",
+      "espn": "400864534"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600078",
+    "externalGameId": "1021600078",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-22",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 76,
+    "awayScore": 62,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600078",
+      "espn": "400864536"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600079",
+    "externalGameId": "1021600079",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-23",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 97,
+    "awayScore": 90,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600079",
+      "espn": "400864537"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600080",
+    "externalGameId": "1021600080",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-24",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 79,
+    "awayScore": 91,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600080",
+      "espn": "400864538"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600081",
+    "externalGameId": "1021600081",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-24",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 80,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600081",
+      "espn": "400864539"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600082",
+    "externalGameId": "1021600082",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-24",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 76,
+    "awayScore": 94,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600082",
+      "espn": "400864540"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600083",
+    "externalGameId": "1021600083",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-24",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 98,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600083",
+      "espn": "400864541"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600084",
+    "externalGameId": "1021600084",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-25",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 73,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600084",
+      "espn": "400864542"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600085",
+    "externalGameId": "1021600085",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-25",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 87,
+    "awayScore": 92,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600085",
+      "espn": "400864543"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600086",
+    "externalGameId": "1021600086",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-26",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 97,
+    "awayScore": 104,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600086",
+      "espn": "400864544"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600087",
+    "externalGameId": "1021600087",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-26",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 87,
+    "awayScore": 63,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600087",
+      "espn": "400864545"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600088",
+    "externalGameId": "1021600088",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-26",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 80,
+    "awayScore": 73,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600088",
+      "espn": "400864546"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600089",
+    "externalGameId": "1021600089",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-28",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 84,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600089",
+      "espn": "400864547"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600090",
+    "externalGameId": "1021600090",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-28",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 89,
+    "awayScore": 84,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600090",
+      "espn": "400864548"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600091",
+    "externalGameId": "1021600091",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-29",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 84,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600091",
+      "espn": "400864549"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600092",
+    "externalGameId": "1021600092",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-29",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 83,
+    "awayScore": 95,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600092",
+      "espn": "400864550"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600093",
+    "externalGameId": "1021600093",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-29",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 92,
+    "awayScore": 95,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600093",
+      "espn": "400864551"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600094",
+    "externalGameId": "1021600094",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-29",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 86,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600094",
+      "espn": "400864552"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600095",
+    "externalGameId": "1021600095",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-30",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 84,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600095",
+      "espn": "400864553"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600096",
+    "externalGameId": "1021600096",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-06-30",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 78,
+    "awayScore": 83,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600096",
+      "espn": "400864554"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600097",
+    "externalGameId": "1021600097",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-01",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 85,
+    "awayScore": 87,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600097",
+      "espn": "400864355"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600098",
+    "externalGameId": "1021600098",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-01",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 86,
+    "awayScore": 84,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600098",
+      "espn": "400864356"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600099",
+    "externalGameId": "1021600099",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-01",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 88,
+    "awayScore": 99,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600099",
+      "espn": "400864358"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600100",
+    "externalGameId": "1021600100",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-02",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 91,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600100",
+      "espn": "400864360"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600101",
+    "externalGameId": "1021600101",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-02",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 83,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600101",
+      "espn": "400864363"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600102",
+    "externalGameId": "1021600102",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-03",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 77,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600102",
+      "espn": "400864365"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600103",
+    "externalGameId": "1021600103",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-03",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 87,
+    "awayScore": 95,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600103",
+      "espn": "400864366"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600104",
+    "externalGameId": "1021600104",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-05",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 77,
+    "awayScore": 64,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600104",
+      "espn": "400864368"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600105",
+    "externalGameId": "1021600105",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-05",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 87,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600105",
+      "espn": "400864371"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600106",
+    "externalGameId": "1021600106",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-05",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 77,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600106",
+      "espn": "400864375"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600107",
+    "externalGameId": "1021600107",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-06",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 78,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600107",
+      "espn": "400864377"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600108",
+    "externalGameId": "1021600108",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-06",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 77,
+    "awayScore": 70,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600108",
+      "espn": "400864380"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600109",
+    "externalGameId": "1021600109",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-06",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 94,
+    "awayScore": 88,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600109",
+      "espn": "400864383"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600110",
+    "externalGameId": "1021600110",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-07",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 93,
+    "awayScore": 89,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600110",
+      "espn": "400864385"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600111",
+    "externalGameId": "1021600111",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-08",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 95,
+    "awayScore": 90,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600111",
+      "espn": "400864392"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600112",
+    "externalGameId": "1021600112",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-08",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 68,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600112",
+      "espn": "400864395"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600113",
+    "externalGameId": "1021600113",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-08",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 85,
+    "awayScore": 88,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600113",
+      "espn": "400864398"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600114",
+    "externalGameId": "1021600114",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-08",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 60,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600114",
+      "espn": "400864399"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600115",
+    "externalGameId": "1021600115",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-09",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 93,
+    "awayScore": 56,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600115",
+      "espn": "400864402"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600116",
+    "externalGameId": "1021600116",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-10",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 63,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600116",
+      "espn": "400864404"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600117",
+    "externalGameId": "1021600117",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-10",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 75,
+    "awayScore": 65,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600117",
+      "espn": "400864407"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600118",
+    "externalGameId": "1021600118",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-10",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 100,
+    "awayScore": 95,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600118",
+      "espn": "400864431"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600119",
+    "externalGameId": "1021600119",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-10",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 93,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600119",
+      "espn": "400864434"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600120",
+    "externalGameId": "1021600120",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-10",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 82,
+    "awayScore": 93,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600120",
+      "espn": "400864435"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600121",
+    "externalGameId": "1021600121",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-12",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 57,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600121",
+      "espn": "400864438"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600122",
+    "externalGameId": "1021600122",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-13",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 86,
+    "awayScore": 62,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600122",
+      "espn": "400864443"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600123",
+    "externalGameId": "1021600123",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-13",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 64,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600123",
+      "espn": "400864446"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600124",
+    "externalGameId": "1021600124",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-13",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 67,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600124",
+      "espn": "400864449"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600125",
+    "externalGameId": "1021600125",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-13",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 78,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600125",
+      "espn": "400864451"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600126",
+    "externalGameId": "1021600126",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-15",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 92,
+    "awayScore": 98,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600126",
+      "espn": "400864454"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600127",
+    "externalGameId": "1021600127",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-15",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 78,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600127",
+      "espn": "400864456"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600128",
+    "externalGameId": "1021600128",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-15",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 88,
+    "awayScore": 70,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600128",
+      "espn": "400864457"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600129",
+    "externalGameId": "1021600129",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-15",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 84,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600129",
+      "espn": "400864460"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600130",
+    "externalGameId": "1021600130",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-15",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 80,
+    "awayScore": 51,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600130",
+      "espn": "400864462"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600131",
+    "externalGameId": "1021600131",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-16",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 83,
+    "awayScore": 64,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600131",
+      "espn": "400864468"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600132",
+    "externalGameId": "1021600132",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-17",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 83,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600132",
+      "espn": "400864470"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600133",
+    "externalGameId": "1021600133",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-17",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 91,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600133",
+      "espn": "400864473"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600134",
+    "externalGameId": "1021600134",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-17",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 97,
+    "awayScore": 98,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600134",
+      "espn": "400864476"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600135",
+    "externalGameId": "1021600135",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-17",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 88,
+    "awayScore": 91,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600135",
+      "espn": "400864478"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600136",
+    "externalGameId": "1021600136",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-19",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 92,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600136",
+      "espn": "400864480"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600137",
+    "externalGameId": "1021600137",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-19",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 77,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600137",
+      "espn": "400864481"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600138",
+    "externalGameId": "1021600138",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-20",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 81,
+    "awayScore": 88,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600138",
+      "espn": "400864483"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600139",
+    "externalGameId": "1021600139",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-20",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 78,
+    "awayScore": 89,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600139",
+      "espn": "400864485"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600140",
+    "externalGameId": "1021600140",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-20",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 83,
+    "awayScore": 65,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600140",
+      "espn": "400864486"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600141",
+    "externalGameId": "1021600141",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-20",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 83,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600141",
+      "espn": "400864488"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600142",
+    "externalGameId": "1021600142",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-21",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 70,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600142",
+      "espn": "400864490"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600143",
+    "externalGameId": "1021600143",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-22",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 75,
+    "awayScore": 95,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600143",
+      "espn": "400864491"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600144",
+    "externalGameId": "1021600144",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-22",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 93,
+    "awayScore": 88,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600144",
+      "espn": "400864492"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600145",
+    "externalGameId": "1021600145",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-22",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 79,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600145",
+      "espn": "400864493"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600146",
+    "externalGameId": "1021600146",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-07-22",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 89,
+    "awayScore": 94,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600146",
+      "espn": "400864495"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600147",
+    "externalGameId": "1021600147",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-08-26",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 84,
+    "awayScore": 80,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600147",
+      "espn": "400864364"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600148",
+    "externalGameId": "1021600148",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-08-26",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 77,
+    "awayScore": 84,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600148",
+      "espn": "400864367"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600149",
+    "externalGameId": "1021600149",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-08-26",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 90,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600149",
+      "espn": "400864369"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600150",
+    "externalGameId": "1021600150",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-08-26",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 98,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600150",
+      "espn": "400864372"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600151",
+    "externalGameId": "1021600151",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-08-26",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 79,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600151",
+      "espn": "400864376"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600152",
+    "externalGameId": "1021600152",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-08-27",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 69,
+    "awayScore": 92,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600152",
+      "espn": "400864379"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600153",
+    "externalGameId": "1021600153",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-08-28",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 87,
+    "awayScore": 73,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600153",
+      "espn": "400864386"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600154",
+    "externalGameId": "1021600154",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-08-28",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 85,
+    "awayScore": 92,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600154",
+      "espn": "400864391"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600155",
+    "externalGameId": "1021600155",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-08-28",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 92,
+    "awayScore": 80,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600155",
+      "espn": "400864394"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600156",
+    "externalGameId": "1021600156",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-08-28",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 74,
+    "awayScore": 85,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600156",
+      "espn": "400864535"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600157",
+    "externalGameId": "1021600157",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-08-28",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 70,
+    "awayScore": 66,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600157",
+      "espn": "400864428"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600158",
+    "externalGameId": "1021600158",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-08-30",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 89,
+    "awayScore": 62,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600158",
+      "espn": "400864433"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600159",
+    "externalGameId": "1021600159",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-08-30",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 65,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600159",
+      "espn": "400864436"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600160",
+    "externalGameId": "1021600160",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-08-31",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 78,
+    "awayScore": 66,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600160",
+      "espn": "400864440"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600161",
+    "externalGameId": "1021600161",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-01",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 98,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600161",
+      "espn": "400864342"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600162",
+    "externalGameId": "1021600162",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-01",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 61,
+    "awayScore": 70,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600162",
+      "espn": "400864343"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600163",
+    "externalGameId": "1021600163",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-02",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 87,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600163",
+      "espn": "400864344"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600164",
+    "externalGameId": "1021600164",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-02",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 75,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600164",
+      "espn": "400864345"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600165",
+    "externalGameId": "1021600165",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-02",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 92,
+    "awayScore": 88,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600165",
+      "espn": "400864346"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600166",
+    "externalGameId": "1021600166",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-02",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 79,
+    "awayScore": 87,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600166",
+      "espn": "400864347"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600167",
+    "externalGameId": "1021600167",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-03",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 92,
+    "awayScore": 70,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600167",
+      "espn": "400864408"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600168",
+    "externalGameId": "1021600168",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-04",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 83,
+    "awayScore": 88,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600168",
+      "espn": "400864409"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600169",
+    "externalGameId": "1021600169",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-04",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 97,
+    "awayScore": 73,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600169",
+      "espn": "400864410"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600170",
+    "externalGameId": "1021600170",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-04",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 82,
+    "awayScore": 91,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600170",
+      "espn": "400864411"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600171",
+    "externalGameId": "1021600171",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-04",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 88,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600171",
+      "espn": "400864412"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600172",
+    "externalGameId": "1021600172",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-04",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 93,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600172",
+      "espn": "400864413"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600173",
+    "externalGameId": "1021600173",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-06",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 91,
+    "awayScore": 87,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600173",
+      "espn": "400864414"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600174",
+    "externalGameId": "1021600174",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-06",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 69,
+    "awayScore": 71,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600174",
+      "espn": "400864415"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600175",
+    "externalGameId": "1021600175",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-06",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 74,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600175",
+      "espn": "400864416"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600176",
+    "externalGameId": "1021600176",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-07",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 78,
+    "awayScore": 102,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600176",
+      "espn": "400864417"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600177",
+    "externalGameId": "1021600177",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-07",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 118,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600177",
+      "espn": "400864418"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600178",
+    "externalGameId": "1021600178",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-08",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 81,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600178",
+      "espn": "400864419"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600179",
+    "externalGameId": "1021600179",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-09",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 76,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600179",
+      "espn": "400864420"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600180",
+    "externalGameId": "1021600180",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-09",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 95,
+    "awayScore": 88,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600180",
+      "espn": "400864421"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600181",
+    "externalGameId": "1021600181",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-09",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 89,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600181",
+      "espn": "400864422"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600182",
+    "externalGameId": "1021600182",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-09",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 84,
+    "awayScore": 92,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600182",
+      "espn": "400864423"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600183",
+    "externalGameId": "1021600183",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-11",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 86,
+    "awayScore": 96,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600183",
+      "espn": "400864424"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600184",
+    "externalGameId": "1021600184",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-11",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 73,
+    "awayScore": 80,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600184",
+      "espn": "400864425"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600185",
+    "externalGameId": "1021600185",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-11",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 84,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600185",
+      "espn": "400864426"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600186",
+    "externalGameId": "1021600186",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-11",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 76,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600186",
+      "espn": "400864427"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600187",
+    "externalGameId": "1021600187",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-11",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 86,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600187",
+      "espn": "400864508"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600188",
+    "externalGameId": "1021600188",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-11",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 78,
+    "awayScore": 60,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600188",
+      "espn": "400864509"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600189",
+    "externalGameId": "1021600189",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-13",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 89,
+    "awayScore": 87,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600189",
+      "espn": "400864510"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600190",
+    "externalGameId": "1021600190",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-13",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 62,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600190",
+      "espn": "400864511"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600191",
+    "externalGameId": "1021600191",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-13",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 67,
+    "awayScore": 71,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600191",
+      "espn": "400864512"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600192",
+    "externalGameId": "1021600192",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-13",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 98,
+    "awayScore": 97,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600192",
+      "espn": "400864513"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600193",
+    "externalGameId": "1021600193",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-13",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 90,
+    "awayScore": 85,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600193",
+      "espn": "400864514"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600194",
+    "externalGameId": "1021600194",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-15",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 94,
+    "awayScore": 91,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600194",
+      "espn": "400864515"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600195",
+    "externalGameId": "1021600195",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-15",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 86,
+    "awayScore": 62,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600195",
+      "espn": "400864516"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600196",
+    "externalGameId": "1021600196",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-16",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 107,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600196",
+      "espn": "400864517"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600197",
+    "externalGameId": "1021600197",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-16",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 75,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600197",
+      "espn": "400864518"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600198",
+    "externalGameId": "1021600198",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-16",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 92,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600198",
+      "espn": "400864519"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600199",
+    "externalGameId": "1021600199",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-16",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 71,
+    "awayScore": 65,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600199",
+      "espn": "400864520"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600200",
+    "externalGameId": "1021600200",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-17",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 95,
+    "awayScore": 87,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600200",
+      "espn": "400864521"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600201",
+    "externalGameId": "1021600201",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-18",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 78,
+    "awayScore": 87,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600201",
+      "espn": "400864522"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600202",
+    "externalGameId": "1021600202",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-18",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 83,
+    "awayScore": 60,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600202",
+      "espn": "400864523"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600203",
+    "externalGameId": "1021600203",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-18",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 65,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600203",
+      "espn": "400864524"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021600204",
+    "externalGameId": "1021600204",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Regular Season",
+    "gameDate": "2016-09-18",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 88,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021600204",
+      "espn": "400864525"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041600101",
+    "externalGameId": "1041600101",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Playoffs",
+    "gameDate": "2016-09-21",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 78,
+    "awayScore": 89,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041600101",
+      "espn": "400910430"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041600111",
+    "externalGameId": "1041600111",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Playoffs",
+    "gameDate": "2016-09-21",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 94,
+    "awayScore": 85,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041600111",
+      "espn": "400910431"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041600201",
+    "externalGameId": "1041600201",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Playoffs",
+    "gameDate": "2016-09-24",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 94,
+    "awayScore": 101,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041600201",
+      "espn": "400910450"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041600211",
+    "externalGameId": "1041600211",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Playoffs",
+    "gameDate": "2016-09-25",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 108,
+    "awayScore": 98,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041600211",
+      "espn": "400910451"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041600301",
+    "externalGameId": "1041600301",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Playoffs",
+    "gameDate": "2016-09-28",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 113,
+    "awayScore": 95,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041600301",
+      "espn": "400910452"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041600302",
+    "externalGameId": "1041600302",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Playoffs",
+    "gameDate": "2016-09-30",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 96,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041600302",
+      "espn": "400910453"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041600303",
+    "externalGameId": "1041600303",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Playoffs",
+    "gameDate": "2016-10-02",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 67,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041600303",
+      "espn": "400910454"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041600311",
+    "externalGameId": "1041600311",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Playoffs",
+    "gameDate": "2016-09-28",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 95,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041600311",
+      "espn": "400910457"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041600312",
+    "externalGameId": "1041600312",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Playoffs",
+    "gameDate": "2016-09-30",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 99,
+    "awayScore": 84,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041600312",
+      "espn": "400910458"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041600313",
+    "externalGameId": "1041600313",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Playoffs",
+    "gameDate": "2016-10-02",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 70,
+    "awayScore": 66,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041600313",
+      "espn": "400910459"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041600314",
+    "externalGameId": "1041600314",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Playoffs",
+    "gameDate": "2016-10-04",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 75,
+    "awayScore": 95,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041600314",
+      "espn": "400910460"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041600401",
+    "externalGameId": "1041600401",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Playoffs",
+    "gameDate": "2016-10-09",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 76,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041600401",
+      "espn": "400920400"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041600402",
+    "externalGameId": "1041600402",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Playoffs",
+    "gameDate": "2016-10-11",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 79,
+    "awayScore": 60,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041600402",
+      "espn": "400920461"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041600403",
+    "externalGameId": "1041600403",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Playoffs",
+    "gameDate": "2016-10-14",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 92,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041600403",
+      "espn": "400920462"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041600404",
+    "externalGameId": "1041600404",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Playoffs",
+    "gameDate": "2016-10-16",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 79,
+    "awayScore": 85,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041600404",
+      "espn": "400920463"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041600405",
+    "externalGameId": "1041600405",
+    "league": "wnba",
+    "season": 2016,
+    "seasonType": "Playoffs",
+    "gameDate": "2016-10-20",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 76,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041600405",
+      "espn": "400920464"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  }
+]

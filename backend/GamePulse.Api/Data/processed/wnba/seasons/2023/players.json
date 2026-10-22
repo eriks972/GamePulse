@@ -1,0 +1,3008 @@
+[
+  {
+    "id": "wnba:stats:player:100940",
+    "externalPlayerId": "100940",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Diana Taurasi",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1627643",
+    "externalPlayerId": "1627643",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Cyesha Goree",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1627668",
+    "externalPlayerId": "1627668",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Breanna Stewart",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1627669",
+    "externalPlayerId": "1627669",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Moriah Jefferson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1627671",
+    "externalPlayerId": "1627671",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Rachel Banham",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1627672",
+    "externalPlayerId": "1627672",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Aerial Powers",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1627673",
+    "externalPlayerId": "1627673",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Jonquel Jones",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1627674",
+    "externalPlayerId": "1627674",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Kahleah Copper",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1627675",
+    "externalPlayerId": "1627675",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Courtney Williams",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1627676",
+    "externalPlayerId": "1627676",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Tiffany Mitchell",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628242",
+    "externalPlayerId": "1628242",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Emma Cannon",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628244",
+    "externalPlayerId": "1628244",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Sami Whitcomb",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628263",
+    "externalPlayerId": "1628263",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Lindsay Allen",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628268",
+    "externalPlayerId": "1628268",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Alaina Coates",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319",
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628269",
+    "externalPlayerId": "1628269",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Nia Coffey",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628276",
+    "externalPlayerId": "1628276",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Kelsey Plum",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628277",
+    "externalPlayerId": "1628277",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Allisha Gray",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628278",
+    "externalPlayerId": "1628278",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Shatori Walker-Kimbrough",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628279",
+    "externalPlayerId": "1628279",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Brittney Sykes",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628280",
+    "externalPlayerId": "1628280",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Brionna Jones",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628287",
+    "externalPlayerId": "1628287",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Jennie Simms",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628317",
+    "externalPlayerId": "1628317",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Karlie Samuelson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628878",
+    "externalPlayerId": "1628878",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Ariel Atkins",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628881",
+    "externalPlayerId": "1628881",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Monique Billings",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628882",
+    "externalPlayerId": "1628882",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Lexie Brown",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628886",
+    "externalPlayerId": "1628886",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Jordin Canada",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628890",
+    "externalPlayerId": "1628890",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Diamond DeShields",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628897",
+    "externalPlayerId": "1628897",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Linnae Harper",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628899",
+    "externalPlayerId": "1628899",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Myisha Hines-Allen",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628909",
+    "externalPlayerId": "1628909",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Kelsey Mitchell",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628915",
+    "externalPlayerId": "1628915",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Kia Nurse",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628920",
+    "externalPlayerId": "1628920",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Mercedes Russell",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628922",
+    "externalPlayerId": "1628922",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Azura Stevens",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628927",
+    "externalPlayerId": "1628927",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Victoria Vivians",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628929",
+    "externalPlayerId": "1628929",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Kristy Wallace",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628931",
+    "externalPlayerId": "1628931",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Gabby Williams",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628932",
+    "externalPlayerId": "1628932",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "A'ja Wilson",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628949",
+    "externalPlayerId": "1628949",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Khaalia Hillsman",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629476",
+    "externalPlayerId": "1629476",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Asia (AD) Durr",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629477",
+    "externalPlayerId": "1629477",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Sabrina Ionescu",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629478",
+    "externalPlayerId": "1629478",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Katie Lou Samuelson",
+    "position": "F",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629479",
+    "externalPlayerId": "1629479",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Teaira McCowan",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629480",
+    "externalPlayerId": "1629480",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Kalani Brown",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629481",
+    "externalPlayerId": "1629481",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Arike Ogunbowale",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629482",
+    "externalPlayerId": "1629482",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Sophie Cunningham",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629483",
+    "externalPlayerId": "1629483",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Napheesa Collier",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629484",
+    "externalPlayerId": "1629484",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Megan DiLeo",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629485",
+    "externalPlayerId": "1629485",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Kristine Anigwe",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329",
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629488",
+    "externalPlayerId": "1629488",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Brianna Turner",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629491",
+    "externalPlayerId": "1629491",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Jessica Shepard",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629496",
+    "externalPlayerId": "1629496",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Ezi Magbegor",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629497",
+    "externalPlayerId": "1629497",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Marina Mabrey",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629498",
+    "externalPlayerId": "1629498",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Jackie Young",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629501",
+    "externalPlayerId": "1629501",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Alanna Smith",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629524",
+    "externalPlayerId": "1629524",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Bridget Carleton",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629546",
+    "externalPlayerId": "1629546",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Marine Johannes",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629566",
+    "externalPlayerId": "1629566",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Han Xu",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629567",
+    "externalPlayerId": "1629567",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Natisha Hiedeman",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629571",
+    "externalPlayerId": "1629571",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Morgan Bertsch",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630043",
+    "externalPlayerId": "1630043",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Bernadett Hatar",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630096",
+    "externalPlayerId": "1630096",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "DiJonai Carrington",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630097",
+    "externalPlayerId": "1630097",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Kaila Charles",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630100",
+    "externalPlayerId": "1630100",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Lauren Cox",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630101",
+    "externalPlayerId": "1630101",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Crystal Dangerfield",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630112",
+    "externalPlayerId": "1630112",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Tyasha Harris",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630113",
+    "externalPlayerId": "1630113",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Ruthy Hebard",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630115",
+    "externalPlayerId": "1630115",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Joyner Holmes",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320",
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630134",
+    "externalPlayerId": "1630134",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Sug Sutton",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630139",
+    "externalPlayerId": "1630139",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Jocelyn Willoughby",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630149",
+    "externalPlayerId": "1630149",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Satou Sabally",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630386",
+    "externalPlayerId": "1630386",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Awak Kuier",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630387",
+    "externalPlayerId": "1630387",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Iliana Rupert",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630389",
+    "externalPlayerId": "1630389",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Dana Evans",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630441",
+    "externalPlayerId": "1630441",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Arella Guirantes",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630446",
+    "externalPlayerId": "1630446",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Michaela Onyenwere",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630462",
+    "externalPlayerId": "1630462",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Aari McDonald",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630471",
+    "externalPlayerId": "1630471",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Maya Caldwell",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630996",
+    "externalPlayerId": "1630996",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Rae Burrell",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631002",
+    "externalPlayerId": "1631002",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Nia Clouden",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631006",
+    "externalPlayerId": "1631006",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Kierstan Bell",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631007",
+    "externalPlayerId": "1631007",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Veronica Burton",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631009",
+    "externalPlayerId": "1631009",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Rhyne Howard",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631019",
+    "externalPlayerId": "1631019",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "NaLyssa Smith",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631021",
+    "externalPlayerId": "1631021",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Sika Kone",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631022",
+    "externalPlayerId": "1631022",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Shakira Austin",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631029",
+    "externalPlayerId": "1631029",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Jasmine Dickey",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631031",
+    "externalPlayerId": "1631031",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Queen Egbo",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661322",
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631032",
+    "externalPlayerId": "1631032",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Lorela Cubaj",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631044",
+    "externalPlayerId": "1631044",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Naz Hillmon",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631055",
+    "externalPlayerId": "1631055",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Nyara Sabally",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631068",
+    "externalPlayerId": "1631068",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Sam Thomas",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631083",
+    "externalPlayerId": "1631083",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Emily Engstler",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631086",
+    "externalPlayerId": "1631086",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Lexie Hull",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631089",
+    "externalPlayerId": "1631089",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Destanni Henderson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320",
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631090",
+    "externalPlayerId": "1631090",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Christyn Williams",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631091",
+    "externalPlayerId": "1631091",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Evina Westbrook",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317",
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631135",
+    "externalPlayerId": "1631135",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Olivia Nelson-Ododa",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631141",
+    "externalPlayerId": "1631141",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Jade Melbourne",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631263",
+    "externalPlayerId": "1631263",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Nikolina Milic",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641602",
+    "externalPlayerId": "1641602",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Ivana Dojkić",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641641",
+    "externalPlayerId": "1641641",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Robyn Parks",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641642",
+    "externalPlayerId": "1641642",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Li Meng",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641648",
+    "externalPlayerId": "1641648",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Aliyah Boston",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641649",
+    "externalPlayerId": "1641649",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Diamond Miller",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641650",
+    "externalPlayerId": "1641650",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Haley Jones",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641651",
+    "externalPlayerId": "1641651",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Jordan Horston",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641652",
+    "externalPlayerId": "1641652",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Maddy Siegrist",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641653",
+    "externalPlayerId": "1641653",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Ashley Joens",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321",
+      "wnba:stats:team:1611661319",
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641656",
+    "externalPlayerId": "1641656",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Laeticia Amihere",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641657",
+    "externalPlayerId": "1641657",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Dorka Juhasz",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641658",
+    "externalPlayerId": "1641658",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Grace Berger",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641659",
+    "externalPlayerId": "1641659",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Taylor Mikesell",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641660",
+    "externalPlayerId": "1641660",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Zia Cooke",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641661",
+    "externalPlayerId": "1641661",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Lou Lopez Senechal",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641665",
+    "externalPlayerId": "1641665",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Leigha Brown",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641667",
+    "externalPlayerId": "1641667",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Taylor Soule",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641670",
+    "externalPlayerId": "1641670",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Madi Williams",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641671",
+    "externalPlayerId": "1641671",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Abby Meyers",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641672",
+    "externalPlayerId": "1641672",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Kayana Traylor",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641675",
+    "externalPlayerId": "1641675",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Dulcy Fankam Mendjiadeu",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641687",
+    "externalPlayerId": "1641687",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Victaria Saxton",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641690",
+    "externalPlayerId": "1641690",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Kadi Sissoko",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641700",
+    "externalPlayerId": "1641700",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Liz Dixon",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317",
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201496",
+    "externalPlayerId": "201496",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Candace Parker",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201886",
+    "externalPlayerId": "201886",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "DeWanna Bonner",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201911",
+    "externalPlayerId": "201911",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Kristi Toliver",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202252",
+    "externalPlayerId": "202252",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Alysha Clark",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202259",
+    "externalPlayerId": "202259",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Epiphanny Prince",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202641",
+    "externalPlayerId": "202641",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Sydney Colson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202658",
+    "externalPlayerId": "202658",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Danielle Robinson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202662",
+    "externalPlayerId": "202662",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Jasmine Thomas",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202664",
+    "externalPlayerId": "202664",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Courtney Vandersloot",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203014",
+    "externalPlayerId": "203014",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Nneka Ogwumike",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203026",
+    "externalPlayerId": "203026",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Tiffany Hayes",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203029",
+    "externalPlayerId": "203029",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Riquna Williams",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203035",
+    "externalPlayerId": "203035",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Shey Peddy",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203389",
+    "externalPlayerId": "203389",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Yvonne Turner",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203398",
+    "externalPlayerId": "203398",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Brittney Griner",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203399",
+    "externalPlayerId": "203399",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Elena Delle Donne",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203400",
+    "externalPlayerId": "203400",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Skylar Diggins",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203403",
+    "externalPlayerId": "203403",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Tianna Hawkins",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203406",
+    "externalPlayerId": "203406",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Layshia Clarendon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203822",
+    "externalPlayerId": "203822",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Rebekah Gardner",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203823",
+    "externalPlayerId": "203823",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Chiney Ogwumike",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203824",
+    "externalPlayerId": "203824",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Odyssey Sims",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203825",
+    "externalPlayerId": "203825",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Kayla McBride",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203826",
+    "externalPlayerId": "203826",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Alyssa Thomas",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203827",
+    "externalPlayerId": "203827",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Natasha Howard",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203828",
+    "externalPlayerId": "203828",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Stefanie Dolson",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203831",
+    "externalPlayerId": "203831",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Natalie Achonwa",
+    "position": "F",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203833",
+    "externalPlayerId": "203833",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Chelsea Gray",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203866",
+    "externalPlayerId": "203866",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Kayla Thornton",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204296",
+    "externalPlayerId": "204296",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Rebecca Allen",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204297",
+    "externalPlayerId": "204297",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Cayla George",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204319",
+    "externalPlayerId": "204319",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Jewell Loyd",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204320",
+    "externalPlayerId": "204320",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Amanda Zahui B",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661322",
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204322",
+    "externalPlayerId": "204322",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Elizabeth Williams",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204323",
+    "externalPlayerId": "204323",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Cheyenne Parker-Tyus",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204324",
+    "externalPlayerId": "204324",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Dearica Hamby",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204329",
+    "externalPlayerId": "204329",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Kiah Stokes",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204330",
+    "externalPlayerId": "204330",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Isabelle Harrison",
+    "position": "F",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204333",
+    "externalPlayerId": "204333",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Natasha Cloud",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204335",
+    "externalPlayerId": "204335",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Betnijah Laney-Hamilton",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204365",
+    "externalPlayerId": "204365",
+    "league": "wnba",
+    "season": 2023,
+    "fullName": "Erica Wheeler",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  }
+]

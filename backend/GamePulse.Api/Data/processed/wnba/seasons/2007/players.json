@@ -1,0 +1,3272 @@
+[
+  {
+    "id": "wnba:stats:player:100003",
+    "externalPlayerId": "100003",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Lisa Leslie",
+    "position": "C",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100008",
+    "externalPlayerId": "100008",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Tamecka Dixon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100012",
+    "externalPlayerId": "100012",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Mwadi Mabika",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100027",
+    "externalPlayerId": "100027",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Latasha Byears",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100046",
+    "externalPlayerId": "100046",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Wendy Palmer",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100072",
+    "externalPlayerId": "100072",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Sheryl Swoopes",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100076",
+    "externalPlayerId": "100076",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Tina Thompson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100103",
+    "externalPlayerId": "100103",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Vickie Johnson",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100199",
+    "externalPlayerId": "100199",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Murriel Page",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100234",
+    "externalPlayerId": "100234",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Ticha Penicheiro",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100236",
+    "externalPlayerId": "100236",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Tangela Smith",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100239",
+    "externalPlayerId": "100239",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Margo Dydek",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100243",
+    "externalPlayerId": "100243",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Olympia Scott",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100284",
+    "externalPlayerId": "100284",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Tully Bevilaqua",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100342",
+    "externalPlayerId": "100342",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Becky Hammon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100345",
+    "externalPlayerId": "100345",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Crystal Robinson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100347",
+    "externalPlayerId": "100347",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Tamika Whitmore",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100356",
+    "externalPlayerId": "100356",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Chamique Holdsclaw",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100384",
+    "externalPlayerId": "100384",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Dominique Canty",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100387",
+    "externalPlayerId": "100387",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Astou Ndiaye-Diatta",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100396",
+    "externalPlayerId": "100396",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "DeLisha Milton-Jones",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100404",
+    "externalPlayerId": "100404",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Katie Smith",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100410",
+    "externalPlayerId": "100410",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Shannon Johnson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100412",
+    "externalPlayerId": "100412",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Taj McWilliams-Franklin",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100413",
+    "externalPlayerId": "100413",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Tari Phillips",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100414",
+    "externalPlayerId": "100414",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Elaine Powell",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100415",
+    "externalPlayerId": "100415",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Nykesha Sales",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100416",
+    "externalPlayerId": "100416",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Sheri Sam",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100419",
+    "externalPlayerId": "100419",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Yolanda Griffith",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100433",
+    "externalPlayerId": "100433",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Chasity Melvin",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661322",
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100457",
+    "externalPlayerId": "100457",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Helen Darling",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100470",
+    "externalPlayerId": "100470",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Stacey Lovelace",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100484",
+    "externalPlayerId": "100484",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Betty Lennox",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100493",
+    "externalPlayerId": "100493",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Anna DeForge",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100494",
+    "externalPlayerId": "100494",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Barbara Farris",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100526",
+    "externalPlayerId": "100526",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Adrian Williams-Strong",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100533",
+    "externalPlayerId": "100533",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "DeMya Walker",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100552",
+    "externalPlayerId": "100552",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Kristen Rasmussen",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100555",
+    "externalPlayerId": "100555",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Tausha Mills",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100556",
+    "externalPlayerId": "100556",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Nakia Sanford",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100627",
+    "externalPlayerId": "100627",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Kelly Miller",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100628",
+    "externalPlayerId": "100628",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Tammy Sutton-Brown",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100634",
+    "externalPlayerId": "100634",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Penny Taylor",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100639",
+    "externalPlayerId": "100639",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Deanna Nolan",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100646",
+    "externalPlayerId": "100646",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Tamika Catchings",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100648",
+    "externalPlayerId": "100648",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Kelly Schumacher",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100651",
+    "externalPlayerId": "100651",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Kiesha Brown",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324",
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100656",
+    "externalPlayerId": "100656",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Ruth Riley",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100658",
+    "externalPlayerId": "100658",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Svetlana Abrosimova",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100659",
+    "externalPlayerId": "100659",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Erin Perperoglou",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100660",
+    "externalPlayerId": "100660",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Janell Burse",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100666",
+    "externalPlayerId": "100666",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Katie Douglas",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100667",
+    "externalPlayerId": "100667",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Brooke Wyckoff",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100682",
+    "externalPlayerId": "100682",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Lauren Jackson",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100685",
+    "externalPlayerId": "100685",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Marie Ferdinand-Harris",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100690",
+    "externalPlayerId": "100690",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Coco Miller",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100696",
+    "externalPlayerId": "100696",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Belinda Snell",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100718",
+    "externalPlayerId": "100718",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Adriana Moises Pinto",
+    "position": "NA",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100720",
+    "externalPlayerId": "100720",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Sue Bird",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100721",
+    "externalPlayerId": "100721",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Swin Cash",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100722",
+    "externalPlayerId": "100722",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Stacey Dales",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100723",
+    "externalPlayerId": "100723",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Asjha Jones",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100724",
+    "externalPlayerId": "100724",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Nikki Teasley",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100725",
+    "externalPlayerId": "100725",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Tamika Raymond",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100729",
+    "externalPlayerId": "100729",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Michelle Snow",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100731",
+    "externalPlayerId": "100731",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Hamchetou Maiga-Ba",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100734",
+    "externalPlayerId": "100734",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Tamara Moore",
+    "position": "NA",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100740",
+    "externalPlayerId": "100740",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Ayana Walker",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100746",
+    "externalPlayerId": "100746",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Linda Frohlich",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100759",
+    "externalPlayerId": "100759",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Kayte Christensen",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100796",
+    "externalPlayerId": "100796",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Iziane Castro Marques",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100812",
+    "externalPlayerId": "100812",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Erika de Souza",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100834",
+    "externalPlayerId": "100834",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "K.B. Sharp",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100835",
+    "externalPlayerId": "100835",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Erin Thorn",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100843",
+    "externalPlayerId": "100843",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Cheryl Ford",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100851",
+    "externalPlayerId": "100851",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Teana Miller",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100873",
+    "externalPlayerId": "100873",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Chantelle Anderson",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100874",
+    "externalPlayerId": "100874",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Kara Lawson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100883",
+    "externalPlayerId": "100883",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "LaToya Thomas",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100888",
+    "externalPlayerId": "100888",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Plenette Pierson",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100915",
+    "externalPlayerId": "100915",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Lindsay Whalen",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100919",
+    "externalPlayerId": "100919",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Nicole Powell",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100920",
+    "externalPlayerId": "100920",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Kelly Mazzante",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100922",
+    "externalPlayerId": "100922",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Iciss Tillis",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661320",
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100928",
+    "externalPlayerId": "100928",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Ebony Hoffman",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100930",
+    "externalPlayerId": "100930",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Christi Thomas",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100931",
+    "externalPlayerId": "100931",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Doneeka Lewis",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100932",
+    "externalPlayerId": "100932",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Nicole Ohlde",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100933",
+    "externalPlayerId": "100933",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Vanessa Hayden",
+    "position": "C",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100935",
+    "externalPlayerId": "100935",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Amber Jacobs",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100937",
+    "externalPlayerId": "100937",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Shameka Christon",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100939",
+    "externalPlayerId": "100939",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Cathy Joens",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100940",
+    "externalPlayerId": "100940",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Diana Taurasi",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100942",
+    "externalPlayerId": "100942",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Ashley Robinson",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100944",
+    "externalPlayerId": "100944",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Rebekkah Brunson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100949",
+    "externalPlayerId": "100949",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Alana Beard",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100952",
+    "externalPlayerId": "100952",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Jia Perkins",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100973",
+    "externalPlayerId": "100973",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Le'coe Willingham",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100975",
+    "externalPlayerId": "100975",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Jennifer Derevjanik",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101019",
+    "externalPlayerId": "101019",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Janel McCarville",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101020",
+    "externalPlayerId": "101020",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Tan White",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101021",
+    "externalPlayerId": "101021",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Sandora Irvin",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101022",
+    "externalPlayerId": "101022",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Kendra Wecker",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101023",
+    "externalPlayerId": "101023",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Sancho Lyttle",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101024",
+    "externalPlayerId": "101024",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Temeka Johnson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101025",
+    "externalPlayerId": "101025",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Kara Braxton",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101026",
+    "externalPlayerId": "101026",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Katie Mattera",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101027",
+    "externalPlayerId": "101027",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Kristin Haynie",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101028",
+    "externalPlayerId": "101028",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Loree Moore",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101029",
+    "externalPlayerId": "101029",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Kristen Mann",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101030",
+    "externalPlayerId": "101030",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Tanisha Wright",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101032",
+    "externalPlayerId": "101032",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Shyra Ely-Gash",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101033",
+    "externalPlayerId": "101033",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Roneeka Hodges",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101040",
+    "externalPlayerId": "101040",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Chelsea Newton",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101042",
+    "externalPlayerId": "101042",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Jessica Moore",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101047",
+    "externalPlayerId": "101047",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Ashley Battle",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101049",
+    "externalPlayerId": "101049",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Cathrine Kraayeveld",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101053",
+    "externalPlayerId": "101053",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Jamie Carey",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101056",
+    "externalPlayerId": "101056",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Megan Mahoney",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101080",
+    "externalPlayerId": "101080",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Jennifer Lacy",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101084",
+    "externalPlayerId": "101084",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Laurie Koehn",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200665",
+    "externalPlayerId": "200665",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Cappie Pondexter",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200671",
+    "externalPlayerId": "200671",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Seimone Augustus",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200673",
+    "externalPlayerId": "200673",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Monique Currie",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661329",
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200674",
+    "externalPlayerId": "200674",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Sophia Young-Malcolm",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200675",
+    "externalPlayerId": "200675",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Lisa Willis",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313",
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200676",
+    "externalPlayerId": "200676",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Candice Dupree",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200677",
+    "externalPlayerId": "200677",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Shona Thorburn",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200678",
+    "externalPlayerId": "200678",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Tamara James",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200679",
+    "externalPlayerId": "200679",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "La'Tangela Atkinson",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200680",
+    "externalPlayerId": "200680",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Tye'sha Fluker",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661328",
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200681",
+    "externalPlayerId": "200681",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Barbara Turner",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200682",
+    "externalPlayerId": "200682",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Sherill Baker",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313",
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200683",
+    "externalPlayerId": "200683",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Kim Smith",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200684",
+    "externalPlayerId": "200684",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Scholanda Dorrell",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200685",
+    "externalPlayerId": "200685",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Ann Strother",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200686",
+    "externalPlayerId": "200686",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Shanna Zolman",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200688",
+    "externalPlayerId": "200688",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Liz Moeggenberg",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200689",
+    "externalPlayerId": "200689",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Nikki Blue",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200691",
+    "externalPlayerId": "200691",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Mistie Bass",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200696",
+    "externalPlayerId": "200696",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Kasha Terry",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200699",
+    "externalPlayerId": "200699",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Tiffany Stansbury",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200701",
+    "externalPlayerId": "200701",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Megan Duffy",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200702",
+    "externalPlayerId": "200702",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Crystal Smith",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200709",
+    "externalPlayerId": "200709",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Erin Grant",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200714",
+    "externalPlayerId": "200714",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Lindsay Bowen",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200715",
+    "externalPlayerId": "200715",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Yelena Leuchanka",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201037",
+    "externalPlayerId": "201037",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Marta Fernandez",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201046",
+    "externalPlayerId": "201046",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Lindsey Harding",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201047",
+    "externalPlayerId": "201047",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Jessica Davenport",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201048",
+    "externalPlayerId": "201048",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Armintie Herrington",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201049",
+    "externalPlayerId": "201049",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Noelle Quinn",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201050",
+    "externalPlayerId": "201050",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Tiffany Jackson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201051",
+    "externalPlayerId": "201051",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Bernice Mosby",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201052",
+    "externalPlayerId": "201052",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Katie Gearlds",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201053",
+    "externalPlayerId": "201053",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Ashley Shields",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201054",
+    "externalPlayerId": "201054",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Alison Bales",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201055",
+    "externalPlayerId": "201055",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Carla Thomas",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201056",
+    "externalPlayerId": "201056",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Ivory Latta",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201057",
+    "externalPlayerId": "201057",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Kamesha Hairston",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201061",
+    "externalPlayerId": "201061",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Dee Davis",
+    "position": "NA",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201062",
+    "externalPlayerId": "201062",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Shay Murphy",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201063",
+    "externalPlayerId": "201063",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Shay Doron",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201067",
+    "externalPlayerId": "201067",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Camille Smith",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201068",
+    "externalPlayerId": "201068",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Tyresa Smith",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201070",
+    "externalPlayerId": "201070",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Stephanie Raymond",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201077",
+    "externalPlayerId": "201077",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Navonda Moore",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201085",
+    "externalPlayerId": "201085",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Kathrin Ress",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201086",
+    "externalPlayerId": "201086",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Sidney Spencer",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201087",
+    "externalPlayerId": "201087",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Cori Chambers",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201095",
+    "externalPlayerId": "201095",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Claire Coggins",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201104",
+    "externalPlayerId": "201104",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Martina Weber",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201107",
+    "externalPlayerId": "201107",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Gillian Goring",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201115",
+    "externalPlayerId": "201115",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Amy Sanders",
+    "position": "NA",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201140",
+    "externalPlayerId": "201140",
+    "league": "wnba",
+    "season": 2007,
+    "fullName": "Evanthia Maltsi",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  }
+]

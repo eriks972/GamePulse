@@ -1,0 +1,132 @@
+{
+  "season": 2015,
+  "league": "wnba",
+  "generatedAt": "2026-10-21T22:26:52.668507+00:00",
+  "scheduleGames": 225,
+  "completedGames": 225,
+  "teamStatRows": 450,
+  "playerStatRows": 4459,
+  "completedTeamSides": 450,
+  "completedTeamSidesWithTeamStats": 450,
+  "completedTeamSidesWithReconciledPlayerPoints": 450,
+  "logClassification": {
+    "players": 4459,
+    "teamTotals": 450,
+    "unclassified": 0
+  },
+  "crosswalks": {
+    "team_crosswalk": {
+      "accepted": 12,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "checked"
+    },
+    "player_crosswalk": {
+      "accepted": 155,
+      "rejected": 8,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {
+        "unsupported_match_method": 3,
+        "target_not_in_verified_stats_data": 2,
+        "missing_id": 3
+      },
+      "status": "checked"
+    },
+    "schedule_crosswalk": {
+      "accepted": 225,
+      "rejected": 1,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {
+        "missing_id": 1
+      },
+      "status": "checked"
+    },
+    "gameContextVerified": 225
+  },
+  "skippedRows": {
+    "espn/player_box:did_not_play": 895
+  },
+  "inputs": {
+    "stats/schedule/2015": {
+      "status": "verified",
+      "sha256": "a3fdf191912d94abe7515273c51d300cb21980cd17e3ffc5b42a2470f5b19457",
+      "path": "raw/stats/schedule/wnba_schedule_2015.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_schedules/wnba_schedule_2015.parquet",
+      "rows": 225
+    },
+    "stats/rosters/2015": {
+      "status": "verified",
+      "sha256": "ea27243d4d82197a2b7ce409b22d3b6c37267f9bdd1dd31cefcba9812036f34e",
+      "path": "raw/stats/rosters/rosters_2015.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_rosters/rosters_2015.parquet",
+      "rows": 146
+    },
+    "stats/player_game_logs/2015": {
+      "status": "verified",
+      "sha256": "b6b17a5d4a3f2155a673680db85f69a2e7762b3cb261ea697baa13b6b62db739",
+      "path": "raw/stats/player_game_logs/player_game_logs_2015.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_player_game_logs/player_game_logs_2015.parquet",
+      "rows": 4909
+    },
+    "stats/team_box/2015": {
+      "status": "unavailable_in_catalog"
+    },
+    "stats/player_box/2015": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/team_crosswalk/2015": {
+      "status": "verified",
+      "sha256": "1e621b672516f01fca5945706402496eb95cfec4a6399a6fd7710feaffab7660",
+      "path": "raw/espn/team_crosswalk/wnba_team_crosswalk_2015.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_team_crosswalk_2015.parquet",
+      "rows": 12
+    },
+    "espn/player_crosswalk/2015": {
+      "status": "verified",
+      "sha256": "89d722e20de5f612c8ccbf01fae50fe150a2963f5cefc15d076cb3137cc3147d",
+      "path": "raw/espn/player_crosswalk/wnba_player_crosswalk_2015.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_player_crosswalk_2015.parquet",
+      "rows": 173
+    },
+    "espn/schedule_crosswalk/2015": {
+      "status": "verified",
+      "sha256": "e9b27e9a06941db583fe5ff95aa8e84f2d742b615a4eea8e1bb545a2353b8bc7",
+      "path": "raw/espn/schedule_crosswalk/wnba_schedule_crosswalk_2015.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_schedule_crosswalk_2015.parquet",
+      "rows": 226
+    },
+    "espn/schedule/2015": {
+      "status": "verified",
+      "sha256": "7e73b4b2fa22d48178a24eb5d16281ec422f5c8fe7527ccfd7bb85cbd7b994da",
+      "path": "raw/espn/schedule/wnba_schedule_2015.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_schedules/wnba_schedule_2015.parquet",
+      "rows": 226
+    },
+    "espn/team_box/2015": {
+      "status": "verified",
+      "sha256": "a96bce2da7f948985d1c74d7f16ffdc73868eb0edaae3dfb729708b5c148e951",
+      "path": "raw/espn/team_box/team_box_2015.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_team_boxscores/team_box_2015.parquet",
+      "rows": 452
+    },
+    "espn/player_box/2015": {
+      "status": "verified",
+      "sha256": "681e51b119d9055dcf47c5fd8116ce02c0f4c0c3f92de085287048da1798d1c8",
+      "path": "raw/espn/player_box/player_box_2015.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_player_boxscores/player_box_2015.parquet",
+      "rows": 5379
+    }
+  },
+  "issueCounts": {
+    "espn_schedule_not_merged": 1,
+    "espn_record_without_verified_mapping": 204,
+    "supplement_conflicts_with_preferred_stats": 312,
+    "record_without_points": 3
+  },
+  "status": "prepared_with_review_items",
+  "note": "Coverage is relative to the verified Stats schedule snapshot, not an independent league audit. Roster snapshots do not define all historical participants."
+}

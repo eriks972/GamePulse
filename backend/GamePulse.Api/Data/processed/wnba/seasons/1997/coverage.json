@@ -1,0 +1,104 @@
+{
+  "season": 1997,
+  "league": "wnba",
+  "generatedAt": "2026-10-21T22:24:49.097298+00:00",
+  "scheduleGames": 115,
+  "completedGames": 115,
+  "teamStatRows": 225,
+  "playerStatRows": 2144,
+  "completedTeamSides": 230,
+  "completedTeamSidesWithTeamStats": 225,
+  "completedTeamSidesWithReconciledPlayerPoints": 225,
+  "logClassification": {
+    "players": 2144,
+    "teamTotals": 225,
+    "unclassified": 5
+  },
+  "crosswalks": {
+    "team_crosswalk": {
+      "accepted": 0,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "unavailable"
+    },
+    "player_crosswalk": {
+      "accepted": 0,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "unavailable"
+    },
+    "schedule_crosswalk": {
+      "accepted": 0,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "unavailable"
+    },
+    "gameContextVerified": 0
+  },
+  "skippedRows": {},
+  "inputs": {
+    "stats/schedule/1997": {
+      "status": "verified",
+      "sha256": "a8fbe2ddbeae702725fb3acae0df3a4b80fd4701577976f3c7b758d109f3971b",
+      "path": "raw/stats/schedule/wnba_schedule_1997.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_schedules/wnba_schedule_1997.parquet",
+      "rows": 115
+    },
+    "stats/rosters/1997": {
+      "status": "verified",
+      "sha256": "b88a655e33456b215ecf0a3cfc41faa2fa0487a61db28f71dd31d65d5dc14fa3",
+      "path": "raw/stats/rosters/rosters_1997.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_rosters/rosters_1997.parquet",
+      "rows": 86
+    },
+    "stats/player_game_logs/1997": {
+      "status": "verified",
+      "sha256": "d047cb4658786190aebdedc22de3164194d2779de43c1517ecd638e9845bb775",
+      "path": "raw/stats/player_game_logs/player_game_logs_1997.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_player_game_logs/player_game_logs_1997.parquet",
+      "rows": 2374
+    },
+    "stats/team_box/1997": {
+      "status": "unavailable_in_catalog"
+    },
+    "stats/player_box/1997": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/team_crosswalk/1997": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/player_crosswalk/1997": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/schedule_crosswalk/1997": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/schedule/1997": {
+      "status": "verified",
+      "sha256": "4231ffc010bfc0eeadf08f9678f86c63b6c3d93d5bb229ba75d9ceb031e1398c",
+      "path": "raw/espn/schedule/wnba_schedule_1997.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_schedules/wnba_schedule_1997.parquet",
+      "rows": 112
+    },
+    "espn/team_box/1997": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/player_box/1997": {
+      "status": "unavailable_in_catalog"
+    }
+  },
+  "issueCounts": {
+    "unclassified_game_log_row": 5,
+    "espn_schedule_not_merged": 112,
+    "completed_team_without_team_stats": 5,
+    "completed_team_player_points_not_reconciled": 5
+  },
+  "status": "prepared_with_review_items",
+  "note": "Coverage is relative to the verified Stats schedule snapshot, not an independent league audit. Roster snapshots do not define all historical participants."
+}

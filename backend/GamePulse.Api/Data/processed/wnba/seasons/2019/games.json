@@ -1,0 +1,7041 @@
+[
+  {
+    "id": "wnba:stats:game:1021900001",
+    "externalGameId": "1021900001",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-05-24",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 76,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900001",
+      "espn": "401104913"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900002",
+    "externalGameId": "1021900002",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-05-24",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 80,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900002",
+      "espn": "401104914"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900003",
+    "externalGameId": "1021900003",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-05-25",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 77,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900003",
+      "espn": "401104915"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900004",
+    "externalGameId": "1021900004",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-05-25",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 84,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900004",
+      "espn": "401104916"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900005",
+    "externalGameId": "1021900005",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-05-25",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 89,
+    "awayScore": 71,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900005",
+      "espn": "401104917"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900006",
+    "externalGameId": "1021900006",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-05-26",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 83,
+    "awayScore": 70,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900006",
+      "espn": "401104918"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900007",
+    "externalGameId": "1021900007",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-05-28",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 88,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900007",
+      "espn": "401104919"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900008",
+    "externalGameId": "1021900008",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-05-29",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 72,
+    "awayScore": 61,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900008",
+      "espn": "401104920"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900009",
+    "externalGameId": "1021900009",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-05-31",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 66,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900009",
+      "espn": "401104921"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900010",
+    "externalGameId": "1021900010",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-05-31",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 86,
+    "awayScore": 84,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900010",
+      "espn": "401104922"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900011",
+    "externalGameId": "1021900011",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-05-31",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 77,
+    "awayScore": 70,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900011",
+      "espn": "401104923"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900012",
+    "externalGameId": "1021900012",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-01",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 92,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900012",
+      "espn": "401104924"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900013",
+    "externalGameId": "1021900013",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-01",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 96,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900013",
+      "espn": "401104925"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900014",
+    "externalGameId": "1021900014",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-01",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 83,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900014",
+      "espn": "401104926"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900015",
+    "externalGameId": "1021900015",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-01",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 67,
+    "awayScore": 70,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900015",
+      "espn": "401104927"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900016",
+    "externalGameId": "1021900016",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-02",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 74,
+    "awayScore": 80,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900016",
+      "espn": "401104928"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900017",
+    "externalGameId": "1021900017",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-04",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 73,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900017",
+      "espn": "401104929"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900018",
+    "externalGameId": "1021900018",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-04",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 84,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900018",
+      "espn": "401104930"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900019",
+    "externalGameId": "1021900019",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-05",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 103,
+    "awayScore": 85,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900019",
+      "espn": "401104931"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900020",
+    "externalGameId": "1021900020",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-06",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 69,
+    "awayScore": 92,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900020",
+      "espn": "401104932"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900021",
+    "externalGameId": "1021900021",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-06",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 89,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900021",
+      "espn": "401104933"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900022",
+    "externalGameId": "1021900022",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-06",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 58,
+    "awayScore": 56,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900022",
+      "espn": "401104934"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900023",
+    "externalGameId": "1021900023",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-07",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 79,
+    "awayScore": 64,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900023",
+      "espn": "401104935"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900024",
+    "externalGameId": "1021900024",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-07",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 85,
+    "awayScore": 94,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900024",
+      "espn": "401104936"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900025",
+    "externalGameId": "1021900025",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-08",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 85,
+    "awayScore": 89,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900025",
+      "espn": "401104937"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900026",
+    "externalGameId": "1021900026",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-09",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 59,
+    "awayScore": 65,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900026",
+      "espn": "401104938"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900027",
+    "externalGameId": "1021900027",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-09",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 88,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900027",
+      "espn": "401104939"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900028",
+    "externalGameId": "1021900028",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-09",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 86,
+    "awayScore": 62,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900028",
+      "espn": "401104940"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900029",
+    "externalGameId": "1021900029",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-09",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 87,
+    "awayScore": 94,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900029",
+      "espn": "401104941"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900030",
+    "externalGameId": "1021900030",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-09",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 78,
+    "awayScore": 71,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900030",
+      "espn": "401104942"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900031",
+    "externalGameId": "1021900031",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-11",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 83,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900031",
+      "espn": "401104943"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900032",
+    "externalGameId": "1021900032",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-11",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 82,
+    "awayScore": 84,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900032",
+      "espn": "401104944"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900033",
+    "externalGameId": "1021900033",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-11",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 82,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900033",
+      "espn": "401104945"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900034",
+    "externalGameId": "1021900034",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-12",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 75,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900034",
+      "espn": "401104946"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900035",
+    "externalGameId": "1021900035",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-13",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 72,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900035",
+      "espn": "401104947"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900036",
+    "externalGameId": "1021900036",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-14",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 71,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900036",
+      "espn": "401104948"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900037",
+    "externalGameId": "1021900037",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-14",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 81,
+    "awayScore": 85,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900037",
+      "espn": "401104949"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900038",
+    "externalGameId": "1021900038",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-14",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 68,
+    "awayScore": 85,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900038",
+      "espn": "401104950"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900039",
+    "externalGameId": "1021900039",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-14",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 100,
+    "awayScore": 65,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900039",
+      "espn": "401104951"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900040",
+    "externalGameId": "1021900040",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-15",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 64,
+    "awayScore": 70,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900040",
+      "espn": "401104952"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900041",
+    "externalGameId": "1021900041",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-15",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 71,
+    "awayScore": 61,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900041",
+      "espn": "401104953"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900042",
+    "externalGameId": "1021900042",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-15",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 92,
+    "awayScore": 98,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900042",
+      "espn": "401104954"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900043",
+    "externalGameId": "1021900043",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-16",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 81,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900043",
+      "espn": "401104955"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900044",
+    "externalGameId": "1021900044",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-16",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 75,
+    "awayScore": 80,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900044",
+      "espn": "401104956"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900045",
+    "externalGameId": "1021900045",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-18",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 52,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900045",
+      "espn": "401104957"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900046",
+    "externalGameId": "1021900046",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-19",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 88,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900046",
+      "espn": "401104958"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900047",
+    "externalGameId": "1021900047",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-19",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 83,
+    "awayScore": 91,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900047",
+      "espn": "401104959"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900048",
+    "externalGameId": "1021900048",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-20",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 69,
+    "awayScore": 54,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900048",
+      "espn": "401104960"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900049",
+    "externalGameId": "1021900049",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-20",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 72,
+    "awayScore": 95,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900049",
+      "espn": "401104961"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900050",
+    "externalGameId": "1021900050",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-21",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 86,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900050",
+      "espn": "401104962"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900051",
+    "externalGameId": "1021900051",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-21",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 69,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900051",
+      "espn": "401104963"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900052",
+    "externalGameId": "1021900052",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-21",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 84,
+    "awayScore": 62,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900052",
+      "espn": "401104964"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900053",
+    "externalGameId": "1021900053",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-22",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 92,
+    "awayScore": 83,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900053",
+      "espn": "401104965"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900054",
+    "externalGameId": "1021900054",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-22",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 86,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900054",
+      "espn": "401104966"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900055",
+    "externalGameId": "1021900055",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-23",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 73,
+    "awayScore": 89,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900055",
+      "espn": "401104967"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900056",
+    "externalGameId": "1021900056",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-23",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 93,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900056",
+      "espn": "401104968"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900057",
+    "externalGameId": "1021900057",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-23",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 82,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900057",
+      "espn": "401104969"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900058",
+    "externalGameId": "1021900058",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-23",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 65,
+    "awayScore": 61,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900058",
+      "espn": "401104970"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900059",
+    "externalGameId": "1021900059",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-25",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 74,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900059",
+      "espn": "401104971"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900060",
+    "externalGameId": "1021900060",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-25",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 60,
+    "awayScore": 56,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900060",
+      "espn": "401104972"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900061",
+    "externalGameId": "1021900061",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-26",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 74,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900061",
+      "espn": "401104973"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900062",
+    "externalGameId": "1021900062",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-26",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 74,
+    "awayScore": 73,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900062",
+      "espn": "401104974"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900063",
+    "externalGameId": "1021900063",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-27",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 86,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900063",
+      "espn": "401104975"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900064",
+    "externalGameId": "1021900064",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-28",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 69,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900064",
+      "espn": "401104976"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900065",
+    "externalGameId": "1021900065",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-28",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 91,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900065",
+      "espn": "401104977"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900066",
+    "externalGameId": "1021900066",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-28",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 79,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900066",
+      "espn": "401104978"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900067",
+    "externalGameId": "1021900067",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-29",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 102,
+    "awayScore": 59,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900067",
+      "espn": "401104979"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900068",
+    "externalGameId": "1021900068",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-29",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 102,
+    "awayScore": 97,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900068",
+      "espn": "401104980"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900069",
+    "externalGameId": "1021900069",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-30",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 58,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900069",
+      "espn": "401104981"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900070",
+    "externalGameId": "1021900070",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-30",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 89,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900070",
+      "espn": "401104982"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900071",
+    "externalGameId": "1021900071",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-30",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 94,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900071",
+      "espn": "401104983"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900072",
+    "externalGameId": "1021900072",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-06-30",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 67,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900072",
+      "espn": "401104984"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900073",
+    "externalGameId": "1021900073",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-02",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 90,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900073",
+      "espn": "401104985"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900074",
+    "externalGameId": "1021900074",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-02",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 85,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900074",
+      "espn": "401104986"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900075",
+    "externalGameId": "1021900075",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-03",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 83,
+    "awayScore": 84,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900075",
+      "espn": "401104987"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900076",
+    "externalGameId": "1021900076",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-05",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 56,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900076",
+      "espn": "401104988"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900077",
+    "externalGameId": "1021900077",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-05",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 76,
+    "awayScore": 80,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900077",
+      "espn": "401104989"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900078",
+    "externalGameId": "1021900078",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-05",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 66,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900078",
+      "espn": "401104990"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900079",
+    "externalGameId": "1021900079",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-05",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 70,
+    "awayScore": 99,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900079"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900080",
+    "externalGameId": "1021900080",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-06",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 71,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900080",
+      "espn": "401104992"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900081",
+    "externalGameId": "1021900081",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-07",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 58,
+    "awayScore": 90,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900081",
+      "espn": "401104993"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900082",
+    "externalGameId": "1021900082",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-07",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 98,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900082",
+      "espn": "401104994"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900083",
+    "externalGameId": "1021900083",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-07",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 78,
+    "awayScore": 66,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900083",
+      "espn": "401104995"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900084",
+    "externalGameId": "1021900084",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-07",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 65,
+    "awayScore": 63,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900084",
+      "espn": "401104996"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900085",
+    "externalGameId": "1021900085",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-09",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 74,
+    "awayScore": 62,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900085",
+      "espn": "401104997"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900086",
+    "externalGameId": "1021900086",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-10",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 78,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900086",
+      "espn": "401104998"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900087",
+    "externalGameId": "1021900087",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-10",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 68,
+    "awayScore": 91,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900087",
+      "espn": "401104999"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900088",
+    "externalGameId": "1021900088",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-10",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 71,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900088",
+      "espn": "401105000"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900089",
+    "externalGameId": "1021900089",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-10",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 72,
+    "awayScore": 73,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900089",
+      "espn": "401105001"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900090",
+    "externalGameId": "1021900090",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-12",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 84,
+    "awayScore": 90,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900090",
+      "espn": "401105002"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900091",
+    "externalGameId": "1021900091",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-12",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 60,
+    "awayScore": 53,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900091",
+      "espn": "401105003"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900092",
+    "externalGameId": "1021900092",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-12",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 79,
+    "awayScore": 64,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900092",
+      "espn": "401105004"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900093",
+    "externalGameId": "1021900093",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-12",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 99,
+    "awayScore": 83,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900093",
+      "espn": "401105005"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900094",
+    "externalGameId": "1021900094",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-12",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 95,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900094",
+      "espn": "401105006"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900095",
+    "externalGameId": "1021900095",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-13",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 81,
+    "awayScore": 85,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900095",
+      "espn": "401105007"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900096",
+    "externalGameId": "1021900096",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-14",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 71,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900096",
+      "espn": "401105008"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900097",
+    "externalGameId": "1021900097",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-14",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 63,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900097",
+      "espn": "401105009"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900098",
+    "externalGameId": "1021900098",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-14",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 79,
+    "awayScore": 89,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900098",
+      "espn": "401105010"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900099",
+    "externalGameId": "1021900099",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-14",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 75,
+    "awayScore": 62,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900099",
+      "espn": "401105011"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900100",
+    "externalGameId": "1021900100",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-14",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 78,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900100",
+      "espn": "401105012"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900101",
+    "externalGameId": "1021900101",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-17",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 77,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900101",
+      "espn": "401105013"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900102",
+    "externalGameId": "1021900102",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-17",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 69,
+    "awayScore": 64,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900102",
+      "espn": "401105014"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900103",
+    "externalGameId": "1021900103",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-17",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 79,
+    "awayScore": 90,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900103",
+      "espn": "401105015"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900104",
+    "externalGameId": "1021900104",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-18",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 69,
+    "awayScore": 64,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900104",
+      "espn": "401105016"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900105",
+    "externalGameId": "1021900105",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-19",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 88,
+    "awayScore": 95,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900105",
+      "espn": "401105017"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900106",
+    "externalGameId": "1021900106",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-19",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 98,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900106",
+      "espn": "401105018"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900107",
+    "externalGameId": "1021900107",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-19",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 69,
+    "awayScore": 66,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900107",
+      "espn": "401105019"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900108",
+    "externalGameId": "1021900108",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-20",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 83,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900108",
+      "espn": "401105020"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900109",
+    "externalGameId": "1021900109",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-20",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 66,
+    "awayScore": 70,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900109",
+      "espn": "401105021"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900110",
+    "externalGameId": "1021900110",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-21",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 93,
+    "awayScore": 65,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900110",
+      "espn": "401105022"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900111",
+    "externalGameId": "1021900111",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-21",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 78,
+    "awayScore": 70,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900111",
+      "espn": "401105023"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900112",
+    "externalGameId": "1021900112",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-21",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 79,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900112",
+      "espn": "401105024"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900113",
+    "externalGameId": "1021900113",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-23",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 66,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900113",
+      "espn": "401105025"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900114",
+    "externalGameId": "1021900114",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-23",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 79,
+    "awayScore": 62,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900114",
+      "espn": "401105026"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900115",
+    "externalGameId": "1021900115",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-23",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 95,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900115",
+      "espn": "401105027"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900116",
+    "externalGameId": "1021900116",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-24",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 70,
+    "awayScore": 63,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900116",
+      "espn": "401105028"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900117",
+    "externalGameId": "1021900117",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-24",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 71,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900117",
+      "espn": "401105029"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900118",
+    "externalGameId": "1021900118",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-30",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 100,
+    "awayScore": 94,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900118",
+      "espn": "401105030"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900119",
+    "externalGameId": "1021900119",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-30",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 99,
+    "awayScore": 93,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900119",
+      "espn": "401105031"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900120",
+    "externalGameId": "1021900120",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-30",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 86,
+    "awayScore": 54,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900120",
+      "espn": "401105032"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900121",
+    "externalGameId": "1021900121",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-07-31",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 61,
+    "awayScore": 59,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900121",
+      "espn": "401105033"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900122",
+    "externalGameId": "1021900122",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-01",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 68,
+    "awayScore": 62,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900122",
+      "espn": "401105034"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900123",
+    "externalGameId": "1021900123",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-01",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 87,
+    "awayScore": 64,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900123",
+      "espn": "401105035"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900124",
+    "externalGameId": "1021900124",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-01",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 76,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900124",
+      "espn": "401105036"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900125",
+    "externalGameId": "1021900125",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-02",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 79,
+    "awayScore": 99,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900125",
+      "espn": "401105037"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900126",
+    "externalGameId": "1021900126",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-03",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 75,
+    "awayScore": 87,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900126",
+      "espn": "401105038"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900127",
+    "externalGameId": "1021900127",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-03",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 86,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900127",
+      "espn": "401105039"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900128",
+    "externalGameId": "1021900128",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-03",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 70,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900128",
+      "espn": "401105040"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900129",
+    "externalGameId": "1021900129",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-04",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 79,
+    "awayScore": 94,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900129",
+      "espn": "401105041"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900130",
+    "externalGameId": "1021900130",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-04",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 83,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900130",
+      "espn": "401105042"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900131",
+    "externalGameId": "1021900131",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-04",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 103,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900131",
+      "espn": "401105043"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900132",
+    "externalGameId": "1021900132",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-06",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 69,
+    "awayScore": 85,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900132",
+      "espn": "401105044"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900133",
+    "externalGameId": "1021900133",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-07",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 101,
+    "awayScore": 92,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900133",
+      "espn": "401105045"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900134",
+    "externalGameId": "1021900134",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-08",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 91,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900134",
+      "espn": "401105046"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900135",
+    "externalGameId": "1021900135",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-08",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 84,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900135",
+      "espn": "401105047"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900136",
+    "externalGameId": "1021900136",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-08",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 69,
+    "awayScore": 57,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900136",
+      "espn": "401105048"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900137",
+    "externalGameId": "1021900137",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-09",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 89,
+    "awayScore": 57,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900137",
+      "espn": "401105049"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900138",
+    "externalGameId": "1021900138",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-09",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 84,
+    "awayScore": 87,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900138",
+      "espn": "401105050"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900139",
+    "externalGameId": "1021900139",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-10",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 87,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900139",
+      "espn": "401105051"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900140",
+    "externalGameId": "1021900140",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-10",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 77,
+    "awayScore": 80,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900140",
+      "espn": "401105052"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900141",
+    "externalGameId": "1021900141",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-11",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 69,
+    "awayScore": 84,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900141",
+      "espn": "401105053"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900142",
+    "externalGameId": "1021900142",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-11",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 101,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900142",
+      "espn": "401105054"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900143",
+    "externalGameId": "1021900143",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-11",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 84,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900143",
+      "espn": "401105055"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900144",
+    "externalGameId": "1021900144",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-11",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 89,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900144",
+      "espn": "401105056"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900145",
+    "externalGameId": "1021900145",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-13",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 73,
+    "awayScore": 89,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900145",
+      "espn": "401105057"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900146",
+    "externalGameId": "1021900146",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-13",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 94,
+    "awayScore": 90,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900146",
+      "espn": "401105058"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900147",
+    "externalGameId": "1021900147",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-14",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 88,
+    "awayScore": 59,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900147",
+      "espn": "401105059"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900148",
+    "externalGameId": "1021900148",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-14",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 84,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900148",
+      "espn": "401105060"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900149",
+    "externalGameId": "1021900149",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-14",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 71,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900149",
+      "espn": "401105061"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900150",
+    "externalGameId": "1021900150",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-16",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 79,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900150",
+      "espn": "401105062"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900151",
+    "externalGameId": "1021900151",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-16",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 91,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900151",
+      "espn": "401105063"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900152",
+    "externalGameId": "1021900152",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-16",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 83,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900152",
+      "espn": "401105064"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900153",
+    "externalGameId": "1021900153",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-16",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 79,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900153",
+      "espn": "401105065"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900154",
+    "externalGameId": "1021900154",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-16",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 77,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900154",
+      "espn": "401105066"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900155",
+    "externalGameId": "1021900155",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-18",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 78,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900155",
+      "espn": "401105067"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900156",
+    "externalGameId": "1021900156",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-18",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 107,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900156",
+      "espn": "401105068"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900157",
+    "externalGameId": "1021900157",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-18",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 85,
+    "awayScore": 100,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900157",
+      "espn": "401105069"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900158",
+    "externalGameId": "1021900158",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-18",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 78,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900158",
+      "espn": "401105070"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900159",
+    "externalGameId": "1021900159",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-18",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 82,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900159",
+      "espn": "401105071"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900160",
+    "externalGameId": "1021900160",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-20",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 83,
+    "awayScore": 87,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900160",
+      "espn": "401105072"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900161",
+    "externalGameId": "1021900161",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-20",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 76,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900161",
+      "espn": "401105073"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900162",
+    "externalGameId": "1021900162",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-20",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 84,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900162",
+      "espn": "401105074"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900163",
+    "externalGameId": "1021900163",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-20",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 81,
+    "awayScore": 71,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900163",
+      "espn": "401105075"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900164",
+    "externalGameId": "1021900164",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-22",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 86,
+    "awayScore": 70,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900164",
+      "espn": "401105076"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900165",
+    "externalGameId": "1021900165",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-22",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 98,
+    "awayScore": 65,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900165",
+      "espn": "401105077"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900166",
+    "externalGameId": "1021900166",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-23",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 89,
+    "awayScore": 85,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900166",
+      "espn": "401105078"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900167",
+    "externalGameId": "1021900167",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-23",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 87,
+    "awayScore": 90,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900167",
+      "espn": "401105079"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900168",
+    "externalGameId": "1021900168",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-23",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 85,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900168",
+      "espn": "401105080"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900169",
+    "externalGameId": "1021900169",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-25",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 101,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900169",
+      "espn": "401105081"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900170",
+    "externalGameId": "1021900170",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-25",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 73,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900170",
+      "espn": "401105082"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900171",
+    "externalGameId": "1021900171",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-25",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 84,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900171",
+      "espn": "401105083"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900172",
+    "externalGameId": "1021900172",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-25",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 86,
+    "awayScore": 94,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900172",
+      "espn": "401105084"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900173",
+    "externalGameId": "1021900173",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-25",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 98,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900173",
+      "espn": "401105085"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900174",
+    "externalGameId": "1021900174",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-25",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 54,
+    "awayScore": 63,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900174",
+      "espn": "401105086"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900175",
+    "externalGameId": "1021900175",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-27",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 86,
+    "awayScore": 71,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900175",
+      "espn": "401105087"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900176",
+    "externalGameId": "1021900176",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-27",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 82,
+    "awayScore": 95,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900176",
+      "espn": "401105088"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900177",
+    "externalGameId": "1021900177",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-27",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 95,
+    "awayScore": 66,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900177",
+      "espn": "401105089"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900178",
+    "externalGameId": "1021900178",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-27",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 93,
+    "awayScore": 85,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900178",
+      "espn": "401105090"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900179",
+    "externalGameId": "1021900179",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-27",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 70,
+    "awayScore": 89,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900179",
+      "espn": "401105091"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900180",
+    "externalGameId": "1021900180",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-29",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 83,
+    "awayScore": 87,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900180",
+      "espn": "401105092"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900181",
+    "externalGameId": "1021900181",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-29",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 83,
+    "awayScore": 88,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900181",
+      "espn": "401105093"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900182",
+    "externalGameId": "1021900182",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-29",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 58,
+    "awayScore": 65,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900182",
+      "espn": "401105094"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900183",
+    "externalGameId": "1021900183",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-30",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 84,
+    "awayScore": 94,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900183",
+      "espn": "401105095"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900184",
+    "externalGameId": "1021900184",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-31",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 85,
+    "awayScore": 91,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900184",
+      "espn": "401105096"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900185",
+    "externalGameId": "1021900185",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-08-31",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 92,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900185",
+      "espn": "401105097"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900186",
+    "externalGameId": "1021900186",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-09-01",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 105,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900186",
+      "espn": "401105098"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900187",
+    "externalGameId": "1021900187",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-09-01",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 81,
+    "awayScore": 73,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900187",
+      "espn": "401105099"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900188",
+    "externalGameId": "1021900188",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-09-01",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 92,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900188",
+      "espn": "401105100"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900189",
+    "externalGameId": "1021900189",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-09-03",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 77,
+    "awayScore": 93,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900189",
+      "espn": "401105101"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900190",
+    "externalGameId": "1021900190",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-09-03",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 70,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900190",
+      "espn": "401105102"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900191",
+    "externalGameId": "1021900191",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-09-03",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 70,
+    "awayScore": 60,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900191",
+      "espn": "401105103"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900192",
+    "externalGameId": "1021900192",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-09-04",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 102,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900192",
+      "espn": "401105104"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900193",
+    "externalGameId": "1021900193",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-09-05",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 78,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900193",
+      "espn": "401105105"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900194",
+    "externalGameId": "1021900194",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-09-05",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 102,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900194",
+      "espn": "401105106"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900195",
+    "externalGameId": "1021900195",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-09-06",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 86,
+    "awayScore": 73,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900195",
+      "espn": "401105107"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900196",
+    "externalGameId": "1021900196",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-09-06",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 104,
+    "awayScore": 109,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900196",
+      "espn": "401105108"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900197",
+    "externalGameId": "1021900197",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-09-06",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 81,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900197",
+      "espn": "401105109"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900198",
+    "externalGameId": "1021900198",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-09-06",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 69,
+    "awayScore": 83,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900198",
+      "espn": "401105110"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900199",
+    "externalGameId": "1021900199",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-09-08",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 63,
+    "awayScore": 71,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900199",
+      "espn": "401105111"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900200",
+    "externalGameId": "1021900200",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-09-08",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 104,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900200",
+      "espn": "401105112"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900201",
+    "externalGameId": "1021900201",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-09-08",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 100,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900201",
+      "espn": "401105113"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900202",
+    "externalGameId": "1021900202",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-09-08",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 64,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900202",
+      "espn": "401105114"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900203",
+    "externalGameId": "1021900203",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-09-08",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 89,
+    "awayScore": 98,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900203",
+      "espn": "401105115"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021900204",
+    "externalGameId": "1021900204",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Regular Season",
+    "gameDate": "2019-09-08",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 77,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021900204",
+      "espn": "401105116"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041900101",
+    "externalGameId": "1041900101",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Playoffs",
+    "gameDate": "2019-09-11",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 105,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041900101",
+      "espn": "401165793"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041900111",
+    "externalGameId": "1041900111",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Playoffs",
+    "gameDate": "2019-09-11",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 84,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041900111",
+      "espn": "401165794"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041900201",
+    "externalGameId": "1041900201",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Playoffs",
+    "gameDate": "2019-09-15",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 92,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041900201",
+      "espn": "401165795"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041900211",
+    "externalGameId": "1041900211",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Playoffs",
+    "gameDate": "2019-09-15",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 93,
+    "awayScore": 92,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041900211",
+      "espn": "401165796"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041900301",
+    "externalGameId": "1041900301",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Playoffs",
+    "gameDate": "2019-09-17",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 97,
+    "awayScore": 95,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041900301",
+      "espn": "401165797"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041900302",
+    "externalGameId": "1041900302",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Playoffs",
+    "gameDate": "2019-09-19",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 103,
+    "awayScore": 91,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041900302",
+      "espn": "401165798"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041900303",
+    "externalGameId": "1041900303",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Playoffs",
+    "gameDate": "2019-09-22",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 92,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041900303",
+      "espn": "401165887"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041900304",
+    "externalGameId": "1041900304",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Playoffs",
+    "gameDate": "2019-09-24",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 90,
+    "awayScore": 94,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041900304",
+      "espn": "401165888"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041900311",
+    "externalGameId": "1041900311",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Playoffs",
+    "gameDate": "2019-09-17",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 84,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041900311",
+      "espn": "401165802"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041900312",
+    "externalGameId": "1041900312",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Playoffs",
+    "gameDate": "2019-09-19",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 94,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041900312",
+      "espn": "401165803"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041900313",
+    "externalGameId": "1041900313",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Playoffs",
+    "gameDate": "2019-09-22",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 56,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041900313",
+      "espn": "401165892"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 12,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041900401",
+    "externalGameId": "1041900401",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Playoffs",
+    "gameDate": "2019-09-29",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 95,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041900401",
+      "espn": "401165807"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041900402",
+    "externalGameId": "1041900402",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Playoffs",
+    "gameDate": "2019-10-01",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 87,
+    "awayScore": 99,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041900402",
+      "espn": "401165808"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041900403",
+    "externalGameId": "1041900403",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Playoffs",
+    "gameDate": "2019-10-06",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 81,
+    "awayScore": 94,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041900403",
+      "espn": "401165809"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041900404",
+    "externalGameId": "1041900404",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Playoffs",
+    "gameDate": "2019-10-08",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 90,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041900404",
+      "espn": "401165810"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041900405",
+    "externalGameId": "1041900405",
+    "league": "wnba",
+    "season": 2019,
+    "seasonType": "Playoffs",
+    "gameDate": "2019-10-10",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 89,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041900405",
+      "espn": "401165811"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  }
+]

@@ -1,0 +1,127 @@
+{
+  "season": 2008,
+  "league": "wnba",
+  "generatedAt": "2026-10-21T22:25:56.673736+00:00",
+  "scheduleGames": 259,
+  "completedGames": 259,
+  "teamStatRows": 518,
+  "playerStatRows": 5293,
+  "completedTeamSides": 518,
+  "completedTeamSidesWithTeamStats": 518,
+  "completedTeamSidesWithReconciledPlayerPoints": 518,
+  "logClassification": {
+    "players": 5293,
+    "teamTotals": 518,
+    "unclassified": 0
+  },
+  "crosswalks": {
+    "team_crosswalk": {
+      "accepted": 14,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "checked"
+    },
+    "player_crosswalk": {
+      "accepted": 181,
+      "rejected": 19,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {
+        "missing_id": 13,
+        "unsupported_match_method": 3,
+        "target_not_in_verified_stats_data": 3
+      },
+      "status": "checked"
+    },
+    "schedule_crosswalk": {
+      "accepted": 259,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "checked"
+    },
+    "gameContextVerified": 259
+  },
+  "skippedRows": {},
+  "inputs": {
+    "stats/schedule/2008": {
+      "status": "verified",
+      "sha256": "e8f7ed903397bc63cb176a03329d5d68ada15aafec90e8ef0b874ffcb6c1cf66",
+      "path": "raw/stats/schedule/wnba_schedule_2008.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_schedules/wnba_schedule_2008.parquet",
+      "rows": 259
+    },
+    "stats/rosters/2008": {
+      "status": "verified",
+      "sha256": "5d1c0752174c843c1ac3ce2b42fa2cf0a13ff8e0c68b66a96f8e8da46c888f03",
+      "path": "raw/stats/rosters/rosters_2008.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_rosters/rosters_2008.parquet",
+      "rows": 184
+    },
+    "stats/player_game_logs/2008": {
+      "status": "verified",
+      "sha256": "a643e63f31050e73d282d818f89d52e997b0c3dd502e14ef18b85c787a5a24f6",
+      "path": "raw/stats/player_game_logs/player_game_logs_2008.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_player_game_logs/player_game_logs_2008.parquet",
+      "rows": 5811
+    },
+    "stats/team_box/2008": {
+      "status": "unavailable_in_catalog"
+    },
+    "stats/player_box/2008": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/team_crosswalk/2008": {
+      "status": "verified",
+      "sha256": "fd9345dc4e7ffc555bb0e598f04fbdafe93ffa24778d378f2ca67d239b5085b1",
+      "path": "raw/espn/team_crosswalk/wnba_team_crosswalk_2008.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_team_crosswalk_2008.parquet",
+      "rows": 14
+    },
+    "espn/player_crosswalk/2008": {
+      "status": "verified",
+      "sha256": "d32d84739c4fc52218f72b28b5f8f7ebf426209d47aa3aefea2fdccfe7c6caa1",
+      "path": "raw/espn/player_crosswalk/wnba_player_crosswalk_2008.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_player_crosswalk_2008.parquet",
+      "rows": 212
+    },
+    "espn/schedule_crosswalk/2008": {
+      "status": "verified",
+      "sha256": "eff19e2281f70d7e8b297c707c4bb0c4f84078fc881d71e60030ef45a251296a",
+      "path": "raw/espn/schedule_crosswalk/wnba_schedule_crosswalk_2008.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_schedule_crosswalk_2008.parquet",
+      "rows": 259
+    },
+    "espn/schedule/2008": {
+      "status": "verified",
+      "sha256": "714c3bd72f7cdacb828bdf08b91be49325ef3f5a71235203ad66454230f1d2b0",
+      "path": "raw/espn/schedule/wnba_schedule_2008.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_schedules/wnba_schedule_2008.parquet",
+      "rows": 259
+    },
+    "espn/team_box/2008": {
+      "status": "verified",
+      "sha256": "1272c4949821dbd15276bfff491f43fb51b82bef59021d43b04abbd0d2c7c9aa",
+      "path": "raw/espn/team_box/team_box_2008.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_team_boxscores/team_box_2008.parquet",
+      "rows": 514
+    },
+    "espn/player_box/2008": {
+      "status": "verified",
+      "sha256": "25538e521b2b5832e6742495f4bfdaf2669d3df0d7eaebdb7bd6344d4c821988",
+      "path": "raw/espn/player_box/player_box_2008.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_player_boxscores/player_box_2008.parquet",
+      "rows": 6245
+    }
+  },
+  "issueCounts": {
+    "supplement_conflicts_with_preferred_stats": 4966,
+    "espn_record_without_verified_mapping": 366,
+    "record_without_points": 1133
+  },
+  "status": "prepared_with_review_items",
+  "note": "Coverage is relative to the verified Stats schedule snapshot, not an independent league audit. Roster snapshots do not define all historical participants."
+}

@@ -1,0 +1,129 @@
+{
+  "season": 2012,
+  "league": "wnba",
+  "generatedAt": "2026-10-21T22:26:28.873952+00:00",
+  "scheduleGames": 223,
+  "completedGames": 223,
+  "teamStatRows": 446,
+  "playerStatRows": 4271,
+  "completedTeamSides": 446,
+  "completedTeamSidesWithTeamStats": 446,
+  "completedTeamSidesWithReconciledPlayerPoints": 446,
+  "logClassification": {
+    "players": 4271,
+    "teamTotals": 446,
+    "unclassified": 0
+  },
+  "crosswalks": {
+    "team_crosswalk": {
+      "accepted": 12,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "checked"
+    },
+    "player_crosswalk": {
+      "accepted": 141,
+      "rejected": 11,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {
+        "missing_id": 8,
+        "target_not_in_verified_stats_data": 1,
+        "unsupported_match_method": 2
+      },
+      "status": "checked"
+    },
+    "schedule_crosswalk": {
+      "accepted": 223,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "checked"
+    },
+    "gameContextVerified": 223
+  },
+  "skippedRows": {
+    "espn/player_box:did_not_play": 180
+  },
+  "inputs": {
+    "stats/schedule/2012": {
+      "status": "verified",
+      "sha256": "ff14360aec4008a9088e43ae2257a7a0532b9148d154c4318b8fe7f562c3d59a",
+      "path": "raw/stats/schedule/wnba_schedule_2012.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_schedules/wnba_schedule_2012.parquet",
+      "rows": 223
+    },
+    "stats/rosters/2012": {
+      "status": "verified",
+      "sha256": "93230677460770c1f7cd87e16e5c7532e7dda1311a69b765e19f7d6b9076945d",
+      "path": "raw/stats/rosters/rosters_2012.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_rosters/rosters_2012.parquet",
+      "rows": 141
+    },
+    "stats/player_game_logs/2012": {
+      "status": "verified",
+      "sha256": "ca1fbe4cf38147b610bb6eacceaf52773bb38add8d4cfa2eac06189c80f12505",
+      "path": "raw/stats/player_game_logs/player_game_logs_2012.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_player_game_logs/player_game_logs_2012.parquet",
+      "rows": 4717
+    },
+    "stats/team_box/2012": {
+      "status": "unavailable_in_catalog"
+    },
+    "stats/player_box/2012": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/team_crosswalk/2012": {
+      "status": "verified",
+      "sha256": "cdc77ac5a820c4b519b681b0458de084eacf3041182f5553308be0755fcc67e8",
+      "path": "raw/espn/team_crosswalk/wnba_team_crosswalk_2012.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_team_crosswalk_2012.parquet",
+      "rows": 12
+    },
+    "espn/player_crosswalk/2012": {
+      "status": "verified",
+      "sha256": "68d9bb4bcc7ddb77f164f0025fc797eddb4088e79f6b6ed37682e8f78077740e",
+      "path": "raw/espn/player_crosswalk/wnba_player_crosswalk_2012.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_player_crosswalk_2012.parquet",
+      "rows": 158
+    },
+    "espn/schedule_crosswalk/2012": {
+      "status": "verified",
+      "sha256": "8ff00ffe5554a37277ac77192d9b343853c5fed7c13c16978f697c4c799d1cbe",
+      "path": "raw/espn/schedule_crosswalk/wnba_schedule_crosswalk_2012.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_schedule_crosswalk_2012.parquet",
+      "rows": 223
+    },
+    "espn/schedule/2012": {
+      "status": "verified",
+      "sha256": "c0b93c9acbd2579942dbf3510db90aedb610638a7783df5621f1d193bf8c1a55",
+      "path": "raw/espn/schedule/wnba_schedule_2012.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_schedules/wnba_schedule_2012.parquet",
+      "rows": 223
+    },
+    "espn/team_box/2012": {
+      "status": "verified",
+      "sha256": "7fea5eadcbe1a4c7b38d4e3202a4ed72a5bdbe43808dc123c1b049b59e41d48a",
+      "path": "raw/espn/team_box/team_box_2012.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_team_boxscores/team_box_2012.parquet",
+      "rows": 444
+    },
+    "espn/player_box/2012": {
+      "status": "verified",
+      "sha256": "0f42d7d4bf0c212331d6837f2ac5b8c2bb0be5e6cf08a68447e3cd280af2f7d4",
+      "path": "raw/espn/player_box/player_box_2012.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_player_boxscores/player_box_2012.parquet",
+      "rows": 4889
+    }
+  },
+  "issueCounts": {
+    "supplement_conflicts_with_preferred_stats": 394,
+    "espn_record_without_verified_mapping": 170,
+    "record_without_points": 468
+  },
+  "status": "prepared_with_review_items",
+  "note": "Coverage is relative to the verified Stats schedule snapshot, not an independent league audit. Roster snapshots do not define all historical participants."
+}

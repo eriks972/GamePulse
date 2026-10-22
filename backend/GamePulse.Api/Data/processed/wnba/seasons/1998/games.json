@@ -1,0 +1,4900 @@
+[
+  {
+    "id": "wnba:stats:game:1029800001",
+    "externalGameId": "1029800001",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-11",
+    "homeTeamId": "wnba:stats:team:1611661314",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 83,
+    "awayScore": 57,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800001"
+    },
+    "homeSourceId": "1611661314",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800002",
+    "externalGameId": "1029800002",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-11",
+    "homeTeamId": "wnba:stats:team:1611661315",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 78,
+    "awayScore": 71,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800002"
+    },
+    "homeSourceId": "1611661315",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800003",
+    "externalGameId": "1029800003",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-11",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 83,
+    "awayScore": 89,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800003"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800004",
+    "externalGameId": "1029800004",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-11",
+    "homeTeamId": "wnba:stats:team:1611661318",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 70,
+    "awayScore": 73,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800004"
+    },
+    "homeSourceId": "1611661318",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800005",
+    "externalGameId": "1029800005",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-13",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661314",
+    "homeScore": 69,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800005"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661314",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800006",
+    "externalGameId": "1029800006",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-13",
+    "homeTeamId": "wnba:stats:team:1611661316",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 73,
+    "awayScore": 62,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800006"
+    },
+    "homeSourceId": "1611661316",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800007",
+    "externalGameId": "1029800007",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-13",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 78,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800007"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800008",
+    "externalGameId": "1029800008",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-14",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 70,
+    "awayScore": 60,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800008"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800009",
+    "externalGameId": "1029800009",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-15",
+    "homeTeamId": "wnba:stats:team:1611661314",
+    "awayTeamId": "wnba:stats:team:1611661316",
+    "homeScore": 65,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800009"
+    },
+    "homeSourceId": "1611661314",
+    "awaySourceId": "1611661316",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800010",
+    "externalGameId": "1029800010",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-15",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661315",
+    "homeScore": 85,
+    "awayScore": 96,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800010"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661315",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800011",
+    "externalGameId": "1029800011",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-15",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 71,
+    "awayScore": 60,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800011"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800012",
+    "externalGameId": "1029800012",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-15",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 69,
+    "awayScore": 54,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800012"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800013",
+    "externalGameId": "1029800013",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-16",
+    "homeTeamId": "wnba:stats:team:1611661318",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 73,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800013"
+    },
+    "homeSourceId": "1611661318",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800014",
+    "externalGameId": "1029800014",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-18",
+    "homeTeamId": "wnba:stats:team:1611661314",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 71,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800014"
+    },
+    "homeSourceId": "1611661314",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800015",
+    "externalGameId": "1029800015",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-18",
+    "homeTeamId": "wnba:stats:team:1611661316",
+    "awayTeamId": "wnba:stats:team:1611661315",
+    "homeScore": 87,
+    "awayScore": 73,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800015"
+    },
+    "homeSourceId": "1611661316",
+    "awaySourceId": "1611661315",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": false,
+        "playerStatRows": 9,
+        "playerPointsReconciled": false
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800016",
+    "externalGameId": "1029800016",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-18",
+    "homeTeamId": "wnba:stats:team:1611661318",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 48,
+    "awayScore": 64,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800016"
+    },
+    "homeSourceId": "1611661318",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800017",
+    "externalGameId": "1029800017",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-19",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 85,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800017"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": false,
+        "playerStatRows": 8,
+        "playerPointsReconciled": false
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800018",
+    "externalGameId": "1029800018",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-19",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 78,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800018"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800019",
+    "externalGameId": "1029800019",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-20",
+    "homeTeamId": "wnba:stats:team:1611661315",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 68,
+    "awayScore": 66,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800019"
+    },
+    "homeSourceId": "1611661315",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800020",
+    "externalGameId": "1029800020",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-20",
+    "homeTeamId": "wnba:stats:team:1611661318",
+    "awayTeamId": "wnba:stats:team:1611661316",
+    "homeScore": 68,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800020"
+    },
+    "homeSourceId": "1611661318",
+    "awaySourceId": "1611661316",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800021",
+    "externalGameId": "1029800021",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-21",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 68,
+    "awayScore": 64,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800021"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800022",
+    "externalGameId": "1029800022",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-21",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 57,
+    "awayScore": 70,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800022"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800023",
+    "externalGameId": "1029800023",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-21",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661314",
+    "homeScore": 71,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800023"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661314",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800024",
+    "externalGameId": "1029800024",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-21",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661316",
+    "homeScore": 63,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800024"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661316",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800025",
+    "externalGameId": "1029800025",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-22",
+    "homeTeamId": "wnba:stats:team:1611661315",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 88,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800025"
+    },
+    "homeSourceId": "1611661315",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800026",
+    "externalGameId": "1029800026",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-23",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661315",
+    "homeScore": 59,
+    "awayScore": 57,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800026"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661315",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800027",
+    "externalGameId": "1029800027",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-23",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661318",
+    "homeScore": 61,
+    "awayScore": 57,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800027"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661318",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800028",
+    "externalGameId": "1029800028",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-24",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661316",
+    "homeScore": 69,
+    "awayScore": 66,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800028"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661316",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800029",
+    "externalGameId": "1029800029",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-24",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661314",
+    "homeScore": 73,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800029"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661314",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800030",
+    "externalGameId": "1029800030",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-25",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 79,
+    "awayScore": 71,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800030"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800031",
+    "externalGameId": "1029800031",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-25",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661314",
+    "homeScore": 83,
+    "awayScore": 91,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800031"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661314",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800032",
+    "externalGameId": "1029800032",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-26",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661318",
+    "homeScore": 62,
+    "awayScore": 48,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800032"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661318",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800033",
+    "externalGameId": "1029800033",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-26",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 96,
+    "awayScore": 63,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800033"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800034",
+    "externalGameId": "1029800034",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-27",
+    "homeTeamId": "wnba:stats:team:1611661314",
+    "awayTeamId": "wnba:stats:team:1611661318",
+    "homeScore": 58,
+    "awayScore": 50,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800034"
+    },
+    "homeSourceId": "1611661314",
+    "awaySourceId": "1611661318",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800035",
+    "externalGameId": "1029800035",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-27",
+    "homeTeamId": "wnba:stats:team:1611661315",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 73,
+    "awayScore": 84,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800035"
+    },
+    "homeSourceId": "1611661315",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800036",
+    "externalGameId": "1029800036",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-27",
+    "homeTeamId": "wnba:stats:team:1611661316",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 75,
+    "awayScore": 64,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800036"
+    },
+    "homeSourceId": "1611661316",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800037",
+    "externalGameId": "1029800037",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-28",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 69,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800037"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800038",
+    "externalGameId": "1029800038",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-29",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 71,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800038"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800039",
+    "externalGameId": "1029800039",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-29",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661314",
+    "homeScore": 60,
+    "awayScore": 49,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800039"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661314",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800040",
+    "externalGameId": "1029800040",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-29",
+    "homeTeamId": "wnba:stats:team:1611661316",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 73,
+    "awayScore": 48,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800040"
+    },
+    "homeSourceId": "1611661316",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800041",
+    "externalGameId": "1029800041",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-30",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661316",
+    "homeScore": 73,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800041"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661316",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800042",
+    "externalGameId": "1029800042",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-06-30",
+    "homeTeamId": "wnba:stats:team:1611661318",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 58,
+    "awayScore": 56,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800042"
+    },
+    "homeSourceId": "1611661318",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800043",
+    "externalGameId": "1029800043",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-01",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661315",
+    "homeScore": 80,
+    "awayScore": 92,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800043"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661315",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800044",
+    "externalGameId": "1029800044",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-01",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 82,
+    "awayScore": 65,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800044"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800045",
+    "externalGameId": "1029800045",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-02",
+    "homeTeamId": "wnba:stats:team:1611661315",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 61,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800045"
+    },
+    "homeSourceId": "1611661315",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800046",
+    "externalGameId": "1029800046",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-02",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 57,
+    "awayScore": 58,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800046"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800047",
+    "externalGameId": "1029800047",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-03",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 76,
+    "awayScore": 60,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800047"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800048",
+    "externalGameId": "1029800048",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-03",
+    "homeTeamId": "wnba:stats:team:1611661316",
+    "awayTeamId": "wnba:stats:team:1611661318",
+    "homeScore": 84,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800048"
+    },
+    "homeSourceId": "1611661316",
+    "awaySourceId": "1611661318",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800049",
+    "externalGameId": "1029800049",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-04",
+    "homeTeamId": "wnba:stats:team:1611661314",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 68,
+    "awayScore": 66,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800049"
+    },
+    "homeSourceId": "1611661314",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800050",
+    "externalGameId": "1029800050",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-05",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 61,
+    "awayScore": 62,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800050"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800051",
+    "externalGameId": "1029800051",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-05",
+    "homeTeamId": "wnba:stats:team:1611661318",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 70,
+    "awayScore": 66,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800051"
+    },
+    "homeSourceId": "1611661318",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800052",
+    "externalGameId": "1029800052",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-06",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 59,
+    "awayScore": 56,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800052"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800053",
+    "externalGameId": "1029800053",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-06",
+    "homeTeamId": "wnba:stats:team:1611661315",
+    "awayTeamId": "wnba:stats:team:1611661316",
+    "homeScore": 64,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800053"
+    },
+    "homeSourceId": "1611661315",
+    "awaySourceId": "1611661316",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800054",
+    "externalGameId": "1029800054",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-06",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661318",
+    "homeScore": 68,
+    "awayScore": 64,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800054"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661318",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800055",
+    "externalGameId": "1029800055",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-07",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661314",
+    "homeScore": 86,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800055"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661314",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800056",
+    "externalGameId": "1029800056",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-08",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661316",
+    "homeScore": 54,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800056"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661316",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800057",
+    "externalGameId": "1029800057",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-08",
+    "homeTeamId": "wnba:stats:team:1611661315",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 77,
+    "awayScore": 65,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800057"
+    },
+    "homeSourceId": "1611661315",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800058",
+    "externalGameId": "1029800058",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-08",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 76,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800058"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800059",
+    "externalGameId": "1029800059",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-08",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661314",
+    "homeScore": 69,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800059"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661314",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800060",
+    "externalGameId": "1029800060",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-08",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661318",
+    "homeScore": 71,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800060"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661318",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800061",
+    "externalGameId": "1029800061",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-09",
+    "homeTeamId": "wnba:stats:team:1611661316",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 96,
+    "awayScore": 66,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800061"
+    },
+    "homeSourceId": "1611661316",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800062",
+    "externalGameId": "1029800062",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-10",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661315",
+    "homeScore": 76,
+    "awayScore": 60,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800062"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661315",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800063",
+    "externalGameId": "1029800063",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-10",
+    "homeTeamId": "wnba:stats:team:1611661318",
+    "awayTeamId": "wnba:stats:team:1611661314",
+    "homeScore": 55,
+    "awayScore": 63,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800063"
+    },
+    "homeSourceId": "1611661318",
+    "awaySourceId": "1611661314",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800064",
+    "externalGameId": "1029800064",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-11",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 78,
+    "awayScore": 53,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800064"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800065",
+    "externalGameId": "1029800065",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-11",
+    "homeTeamId": "wnba:stats:team:1611661316",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 72,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800065"
+    },
+    "homeSourceId": "1611661316",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800066",
+    "externalGameId": "1029800066",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-12",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661314",
+    "homeScore": 57,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800066"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661314",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800067",
+    "externalGameId": "1029800067",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-12",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661315",
+    "homeScore": 87,
+    "awayScore": 66,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800067"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661315",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800068",
+    "externalGameId": "1029800068",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-13",
+    "homeTeamId": "wnba:stats:team:1611661316",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 81,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800068"
+    },
+    "homeSourceId": "1611661316",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800069",
+    "externalGameId": "1029800069",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-13",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 67,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800069"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800070",
+    "externalGameId": "1029800070",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-13",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 72,
+    "awayScore": 62,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800070"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800071",
+    "externalGameId": "1029800071",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-14",
+    "homeTeamId": "wnba:stats:team:1611661318",
+    "awayTeamId": "wnba:stats:team:1611661315",
+    "homeScore": 58,
+    "awayScore": 61,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800071"
+    },
+    "homeSourceId": "1611661318",
+    "awaySourceId": "1611661315",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800072",
+    "externalGameId": "1029800072",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-15",
+    "homeTeamId": "wnba:stats:team:1611661314",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 72,
+    "awayScore": 65,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800072"
+    },
+    "homeSourceId": "1611661314",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800073",
+    "externalGameId": "1029800073",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-15",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 73,
+    "awayScore": 60,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800073"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800074",
+    "externalGameId": "1029800074",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-15",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661318",
+    "homeScore": 81,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800074"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661318",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800075",
+    "externalGameId": "1029800075",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-16",
+    "homeTeamId": "wnba:stats:team:1611661315",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 60,
+    "awayScore": 51,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800075"
+    },
+    "homeSourceId": "1611661315",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800076",
+    "externalGameId": "1029800076",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-17",
+    "homeTeamId": "wnba:stats:team:1611661314",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 86,
+    "awayScore": 56,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800076"
+    },
+    "homeSourceId": "1611661314",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800077",
+    "externalGameId": "1029800077",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-17",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 79,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800077"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800078",
+    "externalGameId": "1029800078",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-17",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661316",
+    "homeScore": 68,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800078"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661316",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800079",
+    "externalGameId": "1029800079",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-18",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661315",
+    "homeScore": 72,
+    "awayScore": 57,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800079"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661315",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800080",
+    "externalGameId": "1029800080",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-18",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 63,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800080"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800081",
+    "externalGameId": "1029800081",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-18",
+    "homeTeamId": "wnba:stats:team:1611661318",
+    "awayTeamId": "wnba:stats:team:1611661316",
+    "homeScore": 44,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800081"
+    },
+    "homeSourceId": "1611661318",
+    "awaySourceId": "1611661316",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800082",
+    "externalGameId": "1029800082",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-19",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 88,
+    "awayScore": 99,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800082"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800083",
+    "externalGameId": "1029800083",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-19",
+    "homeTeamId": "wnba:stats:team:1611661315",
+    "awayTeamId": "wnba:stats:team:1611661314",
+    "homeScore": 85,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800083"
+    },
+    "homeSourceId": "1611661315",
+    "awaySourceId": "1611661314",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800084",
+    "externalGameId": "1029800084",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-20",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661318",
+    "homeScore": 88,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800084"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661318",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800085",
+    "externalGameId": "1029800085",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-21",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661314",
+    "homeScore": 67,
+    "awayScore": 84,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800085"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661314",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800086",
+    "externalGameId": "1029800086",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-21",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661316",
+    "homeScore": 62,
+    "awayScore": 65,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800086"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661316",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800087",
+    "externalGameId": "1029800087",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-21",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 77,
+    "awayScore": 92,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800087"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800088",
+    "externalGameId": "1029800088",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-22",
+    "homeTeamId": "wnba:stats:team:1611661314",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 58,
+    "awayScore": 61,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800088"
+    },
+    "homeSourceId": "1611661314",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800089",
+    "externalGameId": "1029800089",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-22",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 76,
+    "awayScore": 61,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800089"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800090",
+    "externalGameId": "1029800090",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-23",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 70,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800090"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800091",
+    "externalGameId": "1029800091",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-24",
+    "homeTeamId": "wnba:stats:team:1611661318",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 54,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800091"
+    },
+    "homeSourceId": "1611661318",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800092",
+    "externalGameId": "1029800092",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-25",
+    "homeTeamId": "wnba:stats:team:1611661314",
+    "awayTeamId": "wnba:stats:team:1611661316",
+    "homeScore": 58,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800092"
+    },
+    "homeSourceId": "1611661314",
+    "awaySourceId": "1611661316",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800093",
+    "externalGameId": "1029800093",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-25",
+    "homeTeamId": "wnba:stats:team:1611661315",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 69,
+    "awayScore": 59,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800093"
+    },
+    "homeSourceId": "1611661315",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800094",
+    "externalGameId": "1029800094",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-25",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 69,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800094"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800095",
+    "externalGameId": "1029800095",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-26",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 78,
+    "awayScore": 62,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800095"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800096",
+    "externalGameId": "1029800096",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-26",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661318",
+    "homeScore": 65,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800096"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661318",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800097",
+    "externalGameId": "1029800097",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-27",
+    "homeTeamId": "wnba:stats:team:1611661314",
+    "awayTeamId": "wnba:stats:team:1611661318",
+    "homeScore": 70,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800097"
+    },
+    "homeSourceId": "1611661314",
+    "awaySourceId": "1611661318",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800098",
+    "externalGameId": "1029800098",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-27",
+    "homeTeamId": "wnba:stats:team:1611661315",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 83,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800098"
+    },
+    "homeSourceId": "1611661315",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800099",
+    "externalGameId": "1029800099",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-27",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 90,
+    "awayScore": 80,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800099"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800100",
+    "externalGameId": "1029800100",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-28",
+    "homeTeamId": "wnba:stats:team:1611661316",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 72,
+    "awayScore": 62,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800100"
+    },
+    "homeSourceId": "1611661316",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800101",
+    "externalGameId": "1029800101",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-29",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 68,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800101"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800102",
+    "externalGameId": "1029800102",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-29",
+    "homeTeamId": "wnba:stats:team:1611661315",
+    "awayTeamId": "wnba:stats:team:1611661318",
+    "homeScore": 75,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800102"
+    },
+    "homeSourceId": "1611661315",
+    "awaySourceId": "1611661318",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800103",
+    "externalGameId": "1029800103",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-30",
+    "homeTeamId": "wnba:stats:team:1611661314",
+    "awayTeamId": "wnba:stats:team:1611661315",
+    "homeScore": 79,
+    "awayScore": 64,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800103"
+    },
+    "homeSourceId": "1611661314",
+    "awaySourceId": "1611661315",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800104",
+    "externalGameId": "1029800104",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-30",
+    "homeTeamId": "wnba:stats:team:1611661316",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 88,
+    "awayScore": 65,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800104"
+    },
+    "homeSourceId": "1611661316",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800105",
+    "externalGameId": "1029800105",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-31",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661318",
+    "homeScore": 78,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800105"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661318",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800106",
+    "externalGameId": "1029800106",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-07-31",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 71,
+    "awayScore": 56,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800106"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800107",
+    "externalGameId": "1029800107",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-01",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 53,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800107"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800108",
+    "externalGameId": "1029800108",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-01",
+    "homeTeamId": "wnba:stats:team:1611661316",
+    "awayTeamId": "wnba:stats:team:1611661315",
+    "homeScore": 71,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800108"
+    },
+    "homeSourceId": "1611661316",
+    "awaySourceId": "1611661315",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800109",
+    "externalGameId": "1029800109",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-01",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 65,
+    "awayScore": 73,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800109"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800110",
+    "externalGameId": "1029800110",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-02",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661314",
+    "homeScore": 85,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800110"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661314",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800111",
+    "externalGameId": "1029800111",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-02",
+    "homeTeamId": "wnba:stats:team:1611661316",
+    "awayTeamId": "wnba:stats:team:1611661318",
+    "homeScore": 70,
+    "awayScore": 53,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800111"
+    },
+    "homeSourceId": "1611661316",
+    "awaySourceId": "1611661318",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800112",
+    "externalGameId": "1029800112",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-03",
+    "homeTeamId": "wnba:stats:team:1611661314",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 71,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800112"
+    },
+    "homeSourceId": "1611661314",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800113",
+    "externalGameId": "1029800113",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-03",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 86,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800113"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800114",
+    "externalGameId": "1029800114",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-04",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661316",
+    "homeScore": 57,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800114"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661316",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800115",
+    "externalGameId": "1029800115",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-04",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 88,
+    "awayScore": 59,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800115"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800116",
+    "externalGameId": "1029800116",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-04",
+    "homeTeamId": "wnba:stats:team:1611661318",
+    "awayTeamId": "wnba:stats:team:1611661315",
+    "homeScore": 60,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800116"
+    },
+    "homeSourceId": "1611661318",
+    "awaySourceId": "1611661315",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800117",
+    "externalGameId": "1029800117",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-05",
+    "homeTeamId": "wnba:stats:team:1611661314",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 69,
+    "awayScore": 61,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800117"
+    },
+    "homeSourceId": "1611661314",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800118",
+    "externalGameId": "1029800118",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-05",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 73,
+    "awayScore": 61,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800118"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800119",
+    "externalGameId": "1029800119",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-06",
+    "homeTeamId": "wnba:stats:team:1611661316",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 75,
+    "awayScore": 64,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800119"
+    },
+    "homeSourceId": "1611661316",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800120",
+    "externalGameId": "1029800120",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-06",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661315",
+    "homeScore": 69,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800120"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661315",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800121",
+    "externalGameId": "1029800121",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-07",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661316",
+    "homeScore": 57,
+    "awayScore": 61,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800121"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661316",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800122",
+    "externalGameId": "1029800122",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-07",
+    "homeTeamId": "wnba:stats:team:1611661318",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 76,
+    "awayScore": 55,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800122"
+    },
+    "homeSourceId": "1611661318",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800123",
+    "externalGameId": "1029800123",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-08",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 80,
+    "awayScore": 62,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800123"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800124",
+    "externalGameId": "1029800124",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-08",
+    "homeTeamId": "wnba:stats:team:1611661315",
+    "awayTeamId": "wnba:stats:team:1611661314",
+    "homeScore": 65,
+    "awayScore": 58,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800124"
+    },
+    "homeSourceId": "1611661315",
+    "awaySourceId": "1611661314",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800125",
+    "externalGameId": "1029800125",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-08",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 68,
+    "awayScore": 62,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800125"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800126",
+    "externalGameId": "1029800126",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-09",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 76,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800126"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800127",
+    "externalGameId": "1029800127",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-10",
+    "homeTeamId": "wnba:stats:team:1611661315",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 80,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800127"
+    },
+    "homeSourceId": "1611661315",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800128",
+    "externalGameId": "1029800128",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-10",
+    "homeTeamId": "wnba:stats:team:1611661316",
+    "awayTeamId": "wnba:stats:team:1611661314",
+    "homeScore": 70,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800128"
+    },
+    "homeSourceId": "1611661316",
+    "awaySourceId": "1611661314",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800129",
+    "externalGameId": "1029800129",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-10",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 73,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800129"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800130",
+    "externalGameId": "1029800130",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-11",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 79,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800130"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800131",
+    "externalGameId": "1029800131",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-11",
+    "homeTeamId": "wnba:stats:team:1611661318",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 41,
+    "awayScore": 50,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800131"
+    },
+    "homeSourceId": "1611661318",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800132",
+    "externalGameId": "1029800132",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-12",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661315",
+    "homeScore": 55,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800132"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661315",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800133",
+    "externalGameId": "1029800133",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-12",
+    "homeTeamId": "wnba:stats:team:1611661314",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 52,
+    "awayScore": 65,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800133"
+    },
+    "homeSourceId": "1611661314",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800134",
+    "externalGameId": "1029800134",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-12",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661318",
+    "homeScore": 81,
+    "awayScore": 71,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800134"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661318",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800135",
+    "externalGameId": "1029800135",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-13",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 88,
+    "awayScore": 45,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800135"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800136",
+    "externalGameId": "1029800136",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-14",
+    "homeTeamId": "wnba:stats:team:1611661314",
+    "awayTeamId": "wnba:stats:team:1611661315",
+    "homeScore": 72,
+    "awayScore": 85,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800136"
+    },
+    "homeSourceId": "1611661314",
+    "awaySourceId": "1611661315",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800137",
+    "externalGameId": "1029800137",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-14",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 84,
+    "awayScore": 59,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800137"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800138",
+    "externalGameId": "1029800138",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-14",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 87,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800138"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800139",
+    "externalGameId": "1029800139",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-15",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661316",
+    "homeScore": 70,
+    "awayScore": 54,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800139"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661316",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800140",
+    "externalGameId": "1029800140",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-15",
+    "homeTeamId": "wnba:stats:team:1611661315",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 90,
+    "awayScore": 71,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800140"
+    },
+    "homeSourceId": "1611661315",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800141",
+    "externalGameId": "1029800141",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-15",
+    "homeTeamId": "wnba:stats:team:1611661318",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 82,
+    "awayScore": 55,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800141"
+    },
+    "homeSourceId": "1611661318",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800142",
+    "externalGameId": "1029800142",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-16",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 76,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800142"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800143",
+    "externalGameId": "1029800143",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-16",
+    "homeTeamId": "wnba:stats:team:1611661318",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 69,
+    "awayScore": 85,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800143"
+    },
+    "homeSourceId": "1611661318",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800144",
+    "externalGameId": "1029800144",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-17",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661315",
+    "homeScore": 64,
+    "awayScore": 70,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800144"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661315",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800145",
+    "externalGameId": "1029800145",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-17",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661316",
+    "homeScore": 65,
+    "awayScore": 110,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800145"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661316",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800146",
+    "externalGameId": "1029800146",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-17",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 64,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800146"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800147",
+    "externalGameId": "1029800147",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-19",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661314",
+    "homeScore": 69,
+    "awayScore": 105,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800147"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661314",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800148",
+    "externalGameId": "1029800148",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-19",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 82,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800148"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800149",
+    "externalGameId": "1029800149",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-19",
+    "homeTeamId": "wnba:stats:team:1611661316",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 80,
+    "awayScore": 71,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800149"
+    },
+    "homeSourceId": "1611661316",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1029800150",
+    "externalGameId": "1029800150",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Regular Season",
+    "gameDate": "1998-08-19",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661318",
+    "homeScore": 71,
+    "awayScore": 62,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1029800150"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661318",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1049800001",
+    "externalGameId": "1049800001",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Playoffs",
+    "gameDate": "1998-08-22",
+    "homeTeamId": "wnba:stats:team:1611661314",
+    "awayTeamId": "wnba:stats:team:1611661316",
+    "homeScore": 71,
+    "awayScore": 85,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1049800001"
+    },
+    "homeSourceId": "1611661314",
+    "awaySourceId": "1611661316",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1049800002",
+    "externalGameId": "1049800002",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Playoffs",
+    "gameDate": "1998-08-22",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661315",
+    "homeScore": 78,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1049800002"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661315",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1049800003",
+    "externalGameId": "1049800003",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Playoffs",
+    "gameDate": "1998-08-24",
+    "homeTeamId": "wnba:stats:team:1611661316",
+    "awayTeamId": "wnba:stats:team:1611661314",
+    "homeScore": 77,
+    "awayScore": 61,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1049800003"
+    },
+    "homeSourceId": "1611661316",
+    "awaySourceId": "1611661314",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1049800004",
+    "externalGameId": "1049800004",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Playoffs",
+    "gameDate": "1998-08-24",
+    "homeTeamId": "wnba:stats:team:1611661315",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 67,
+    "awayScore": 66,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1049800004"
+    },
+    "homeSourceId": "1611661315",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1049800006",
+    "externalGameId": "1049800006",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Playoffs",
+    "gameDate": "1998-08-25",
+    "homeTeamId": "wnba:stats:team:1611661315",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 60,
+    "awayScore": 71,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1049800006"
+    },
+    "homeSourceId": "1611661315",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1049800007",
+    "externalGameId": "1049800007",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Playoffs",
+    "gameDate": "1998-08-27",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661316",
+    "homeScore": 54,
+    "awayScore": 51,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1049800007"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661316",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1049800008",
+    "externalGameId": "1049800008",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Playoffs",
+    "gameDate": "1998-08-29",
+    "homeTeamId": "wnba:stats:team:1611661316",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 74,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1049800008"
+    },
+    "homeSourceId": "1611661316",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1049800009",
+    "externalGameId": "1049800009",
+    "league": "wnba",
+    "season": 1998,
+    "seasonType": "Playoffs",
+    "gameDate": "1998-09-01",
+    "homeTeamId": "wnba:stats:team:1611661316",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 80,
+    "awayScore": 71,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1049800009"
+    },
+    "homeSourceId": "1611661316",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  }
+]

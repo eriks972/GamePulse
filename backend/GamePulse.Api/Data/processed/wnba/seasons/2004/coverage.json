@@ -1,0 +1,132 @@
+{
+  "season": 2004,
+  "league": "wnba",
+  "generatedAt": "2026-10-21T22:25:20.762912+00:00",
+  "scheduleGames": 240,
+  "completedGames": 240,
+  "teamStatRows": 434,
+  "playerStatRows": 4645,
+  "completedTeamSides": 480,
+  "completedTeamSidesWithTeamStats": 434,
+  "completedTeamSidesWithReconciledPlayerPoints": 480,
+  "logClassification": {
+    "players": 4644,
+    "teamTotals": 38,
+    "unclassified": 442
+  },
+  "crosswalks": {
+    "team_crosswalk": {
+      "accepted": 13,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "checked"
+    },
+    "player_crosswalk": {
+      "accepted": 158,
+      "rejected": 11,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {
+        "missing_id": 8,
+        "unsupported_match_method": 2,
+        "target_not_in_verified_stats_data": 1
+      },
+      "status": "checked"
+    },
+    "schedule_crosswalk": {
+      "accepted": 237,
+      "rejected": 4,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {
+        "missing_id": 4
+      },
+      "status": "checked"
+    },
+    "gameContextVerified": 237
+  },
+  "skippedRows": {},
+  "inputs": {
+    "stats/schedule/2004": {
+      "status": "verified",
+      "sha256": "cac5eeb89ae08a60b89443cb337d4adf1ba5f7d06819fbfb8f48db0620c83279",
+      "path": "raw/stats/schedule/wnba_schedule_2004.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_schedules/wnba_schedule_2004.parquet",
+      "rows": 240
+    },
+    "stats/rosters/2004": {
+      "status": "verified",
+      "sha256": "b046c1c2b14eeaed07f775f218ebec37e7f087f2b8e8ba2f6d0216be1b89441a",
+      "path": "raw/stats/rosters/rosters_2004.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_rosters/rosters_2004.parquet",
+      "rows": 148
+    },
+    "stats/player_game_logs/2004": {
+      "status": "verified",
+      "sha256": "2713c769f9d93e847e9f32f921fe753461eee8f2dd7d331018d12973126fa140",
+      "path": "raw/stats/player_game_logs/player_game_logs_2004.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_player_game_logs/player_game_logs_2004.parquet",
+      "rows": 5124
+    },
+    "stats/team_box/2004": {
+      "status": "unavailable_in_catalog"
+    },
+    "stats/player_box/2004": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/team_crosswalk/2004": {
+      "status": "verified",
+      "sha256": "546663621e7a63333835d158d0d6ae1505c608a93926b21bb6bc1cbd7f7ffe2f",
+      "path": "raw/espn/team_crosswalk/wnba_team_crosswalk_2004.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_team_crosswalk_2004.parquet",
+      "rows": 13
+    },
+    "espn/player_crosswalk/2004": {
+      "status": "verified",
+      "sha256": "3b1350778df2408b5e6f81dc745a955a2058530cb394ab385e6f645f4f11e227",
+      "path": "raw/espn/player_crosswalk/wnba_player_crosswalk_2004.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_player_crosswalk_2004.parquet",
+      "rows": 173
+    },
+    "espn/schedule_crosswalk/2004": {
+      "status": "verified",
+      "sha256": "ca7a265014fee9c744ae56063d8375bde5302ba8f0b1fb3b9cf74e8427f42886",
+      "path": "raw/espn/schedule_crosswalk/wnba_schedule_crosswalk_2004.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_schedule_crosswalk_2004.parquet",
+      "rows": 241
+    },
+    "espn/schedule/2004": {
+      "status": "verified",
+      "sha256": "be1f46c8ff5210820a3ece68d8a7feb90f02dd17d6d9c3894d58e7bd4a00f45c",
+      "path": "raw/espn/schedule/wnba_schedule_2004.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_schedules/wnba_schedule_2004.parquet",
+      "rows": 238
+    },
+    "espn/team_box/2004": {
+      "status": "verified",
+      "sha256": "3fa6d58250612a95206cec8b77173b63513b6ba42178974e757e9fcefd9c50c4",
+      "path": "raw/espn/team_box/team_box_2004.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_team_boxscores/team_box_2004.parquet",
+      "rows": 428
+    },
+    "espn/player_box/2004": {
+      "status": "verified",
+      "sha256": "0328e141eda3e9201896de121d66c1e28b6ca16590256419d81e3b8d0ef6779f",
+      "path": "raw/espn/player_box/player_box_2004.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_player_boxscores/player_box_2004.parquet",
+      "rows": 4694
+    }
+  },
+  "issueCounts": {
+    "unclassified_game_log_row": 442,
+    "espn_schedule_not_merged": 1,
+    "supplement_conflicts_with_preferred_stats": 2473,
+    "record_without_points": 677,
+    "espn_record_without_verified_mapping": 185,
+    "completed_team_without_team_stats": 46
+  },
+  "status": "prepared_with_review_items",
+  "note": "Coverage is relative to the verified Stats schedule snapshot, not an independent league audit. Roster snapshots do not define all historical participants."
+}

@@ -1,0 +1,3614 @@
+[
+  {
+    "id": "wnba:stats:player:100003",
+    "externalPlayerId": "100003",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Lisa Leslie",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100008",
+    "externalPlayerId": "100008",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Tamecka Dixon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100012",
+    "externalPlayerId": "100012",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Mwadi Mabika",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100027",
+    "externalPlayerId": "100027",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Latasha Byears",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100032",
+    "externalPlayerId": "100032",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Nancy Lieberman",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100072",
+    "externalPlayerId": "100072",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Sheryl Swoopes",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100076",
+    "externalPlayerId": "100076",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Tina Thompson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100103",
+    "externalPlayerId": "100103",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Vickie Johnson",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100170",
+    "externalPlayerId": "100170",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Allison Feaster",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100199",
+    "externalPlayerId": "100199",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Murriel Page",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100234",
+    "externalPlayerId": "100234",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Ticha Penicheiro",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100236",
+    "externalPlayerId": "100236",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Tangela Smith",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100239",
+    "externalPlayerId": "100239",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Margo Dydek",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100243",
+    "externalPlayerId": "100243",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Olympia Scott",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100284",
+    "externalPlayerId": "100284",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Tully Bevilaqua",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100342",
+    "externalPlayerId": "100342",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Becky Hammon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100347",
+    "externalPlayerId": "100347",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Tamika Whitmore",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100384",
+    "externalPlayerId": "100384",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Dominique Canty",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100396",
+    "externalPlayerId": "100396",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "DeLisha Milton-Jones",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100404",
+    "externalPlayerId": "100404",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Katie Smith",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100410",
+    "externalPlayerId": "100410",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Shannon Johnson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100412",
+    "externalPlayerId": "100412",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Taj McWilliams-Franklin",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661321",
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100414",
+    "externalPlayerId": "100414",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Elaine Powell",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100416",
+    "externalPlayerId": "100416",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Sheri Sam",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100419",
+    "externalPlayerId": "100419",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Yolanda Griffith",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100433",
+    "externalPlayerId": "100433",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Chasity Melvin",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100445",
+    "externalPlayerId": "100445",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Ann Wauters",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100457",
+    "externalPlayerId": "100457",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Helen Darling",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100470",
+    "externalPlayerId": "100470",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Stacey Lovelace",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661330",
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100484",
+    "externalPlayerId": "100484",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Betty Lennox",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100493",
+    "externalPlayerId": "100493",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Anna DeForge",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100494",
+    "externalPlayerId": "100494",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Barbara Farris",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100526",
+    "externalPlayerId": "100526",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Adrian Williams-Strong",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100533",
+    "externalPlayerId": "100533",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "DeMya Walker",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100552",
+    "externalPlayerId": "100552",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Kristen Rasmussen",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100556",
+    "externalPlayerId": "100556",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Nakia Sanford",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100627",
+    "externalPlayerId": "100627",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Kelly Miller",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100628",
+    "externalPlayerId": "100628",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Tammy Sutton-Brown",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100639",
+    "externalPlayerId": "100639",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Deanna Nolan",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100640",
+    "externalPlayerId": "100640",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Kelly Santos",
+    "position": "NA",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100646",
+    "externalPlayerId": "100646",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Tamika Catchings",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100648",
+    "externalPlayerId": "100648",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Kelly Schumacher",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100651",
+    "externalPlayerId": "100651",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Kiesha Brown",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100656",
+    "externalPlayerId": "100656",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Ruth Riley",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100658",
+    "externalPlayerId": "100658",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Svetlana Abrosimova",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100659",
+    "externalPlayerId": "100659",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Erin Perperoglou",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100660",
+    "externalPlayerId": "100660",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Janell Burse",
+    "position": "C",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100666",
+    "externalPlayerId": "100666",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Katie Douglas",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100667",
+    "externalPlayerId": "100667",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Brooke Wyckoff",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100682",
+    "externalPlayerId": "100682",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Lauren Jackson",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100685",
+    "externalPlayerId": "100685",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Marie Ferdinand-Harris",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100690",
+    "externalPlayerId": "100690",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Coco Miller",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100696",
+    "externalPlayerId": "100696",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Belinda Snell",
+    "position": "F",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100720",
+    "externalPlayerId": "100720",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Sue Bird",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100721",
+    "externalPlayerId": "100721",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Swin Cash",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100723",
+    "externalPlayerId": "100723",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Asjha Jones",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100724",
+    "externalPlayerId": "100724",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Nikki Teasley",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100725",
+    "externalPlayerId": "100725",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Tamika Raymond",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100729",
+    "externalPlayerId": "100729",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Michelle Snow",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100731",
+    "externalPlayerId": "100731",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Hamchetou Maiga-Ba",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100747",
+    "externalPlayerId": "100747",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Andrea Gardner",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100796",
+    "externalPlayerId": "100796",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Iziane Castro Marques",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100807",
+    "externalPlayerId": "100807",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Bernadette Ngoyisa",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100812",
+    "externalPlayerId": "100812",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Erika de Souza",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100834",
+    "externalPlayerId": "100834",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "K.B. Sharp",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100835",
+    "externalPlayerId": "100835",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Erin Thorn",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100843",
+    "externalPlayerId": "100843",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Cheryl Ford",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100874",
+    "externalPlayerId": "100874",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Kara Lawson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100878",
+    "externalPlayerId": "100878",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Suzy Batkovic-Brown",
+    "position": "C",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100883",
+    "externalPlayerId": "100883",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "LaToya Thomas",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321",
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100888",
+    "externalPlayerId": "100888",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Plenette Pierson",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100915",
+    "externalPlayerId": "100915",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Lindsay Whalen",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100919",
+    "externalPlayerId": "100919",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Nicole Powell",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100920",
+    "externalPlayerId": "100920",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Kelly Mazzante",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100928",
+    "externalPlayerId": "100928",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Ebony Hoffman",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100930",
+    "externalPlayerId": "100930",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Christi Thomas",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100931",
+    "externalPlayerId": "100931",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Doneeka Lewis",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100932",
+    "externalPlayerId": "100932",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Nicole Ohlde",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100933",
+    "externalPlayerId": "100933",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Vanessa Hayden",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100935",
+    "externalPlayerId": "100935",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Amber Jacobs",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322",
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100937",
+    "externalPlayerId": "100937",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Shameka Christon",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100939",
+    "externalPlayerId": "100939",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Cathy Joens",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100940",
+    "externalPlayerId": "100940",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Diana Taurasi",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100942",
+    "externalPlayerId": "100942",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Ashley Robinson",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100944",
+    "externalPlayerId": "100944",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Rebekkah Brunson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100949",
+    "externalPlayerId": "100949",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Alana Beard",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100952",
+    "externalPlayerId": "100952",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Jia Perkins",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100973",
+    "externalPlayerId": "100973",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Le'coe Willingham",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100975",
+    "externalPlayerId": "100975",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Jennifer Derevjanik",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100988",
+    "externalPlayerId": "100988",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Raffaella Masciadri",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101018",
+    "externalPlayerId": "101018",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Edwige Lawson-Wade",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101019",
+    "externalPlayerId": "101019",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Janel McCarville",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101020",
+    "externalPlayerId": "101020",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Tan White",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101021",
+    "externalPlayerId": "101021",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Sandora Irvin",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101022",
+    "externalPlayerId": "101022",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Kendra Wecker",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101023",
+    "externalPlayerId": "101023",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Sancho Lyttle",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101024",
+    "externalPlayerId": "101024",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Temeka Johnson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101025",
+    "externalPlayerId": "101025",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Kara Braxton",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101026",
+    "externalPlayerId": "101026",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Katie Mattera",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101027",
+    "externalPlayerId": "101027",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Kristin Haynie",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101028",
+    "externalPlayerId": "101028",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Loree Moore",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101029",
+    "externalPlayerId": "101029",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Kristen Mann",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325",
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101030",
+    "externalPlayerId": "101030",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Tanisha Wright",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101032",
+    "externalPlayerId": "101032",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Shyra Ely-Gash",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101033",
+    "externalPlayerId": "101033",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Roneeka Hodges",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101039",
+    "externalPlayerId": "101039",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Erin Phillips",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101040",
+    "externalPlayerId": "101040",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Chelsea Newton",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101042",
+    "externalPlayerId": "101042",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Jessica Moore",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101047",
+    "externalPlayerId": "101047",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Ashley Battle",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101049",
+    "externalPlayerId": "101049",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Cathrine Kraayeveld",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101053",
+    "externalPlayerId": "101053",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Jamie Carey",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101080",
+    "externalPlayerId": "101080",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Jennifer Lacy",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101084",
+    "externalPlayerId": "101084",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Laurie Koehn",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200665",
+    "externalPlayerId": "200665",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Cappie Pondexter",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200671",
+    "externalPlayerId": "200671",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Seimone Augustus",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200673",
+    "externalPlayerId": "200673",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Monique Currie",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200674",
+    "externalPlayerId": "200674",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Sophia Young-Malcolm",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200675",
+    "externalPlayerId": "200675",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Lisa Willis",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200676",
+    "externalPlayerId": "200676",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Candice Dupree",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200679",
+    "externalPlayerId": "200679",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "La'Tangela Atkinson",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200680",
+    "externalPlayerId": "200680",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Tye'sha Fluker",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200681",
+    "externalPlayerId": "200681",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Barbara Turner",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200682",
+    "externalPlayerId": "200682",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Sherill Baker",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200683",
+    "externalPlayerId": "200683",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Kim Smith",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200684",
+    "externalPlayerId": "200684",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Scholanda Dorrell",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200685",
+    "externalPlayerId": "200685",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Ann Strother",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200686",
+    "externalPlayerId": "200686",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Shanna Zolman",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200689",
+    "externalPlayerId": "200689",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Nikki Blue",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200691",
+    "externalPlayerId": "200691",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Mistie Bass",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200692",
+    "externalPlayerId": "200692",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Willnett Crockett",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200693",
+    "externalPlayerId": "200693",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Brooke Queenan",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200694",
+    "externalPlayerId": "200694",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Ranae Camino",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200696",
+    "externalPlayerId": "200696",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Kasha Terry",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661325",
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200697",
+    "externalPlayerId": "200697",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "LaToya Bond",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200701",
+    "externalPlayerId": "200701",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Megan Duffy",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200702",
+    "externalPlayerId": "200702",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Crystal Smith",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324",
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200704",
+    "externalPlayerId": "200704",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Kerri Gardin",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:200720",
+    "externalPlayerId": "200720",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Brittany Wilkins",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201037",
+    "externalPlayerId": "201037",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Marta Fernandez",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201046",
+    "externalPlayerId": "201046",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Lindsey Harding",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201047",
+    "externalPlayerId": "201047",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Jessica Davenport",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201048",
+    "externalPlayerId": "201048",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Armintie Herrington",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201049",
+    "externalPlayerId": "201049",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Noelle Quinn",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201050",
+    "externalPlayerId": "201050",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Tiffany Jackson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201051",
+    "externalPlayerId": "201051",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Bernice Mosby",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201052",
+    "externalPlayerId": "201052",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Katie Gearlds",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201053",
+    "externalPlayerId": "201053",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Ashley Shields",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321",
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201054",
+    "externalPlayerId": "201054",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Alison Bales",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661325",
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201056",
+    "externalPlayerId": "201056",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Ivory Latta",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201058",
+    "externalPlayerId": "201058",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Sandrine Gruda",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201062",
+    "externalPlayerId": "201062",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Shay Murphy",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324",
+      "wnba:stats:team:1611661321",
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201067",
+    "externalPlayerId": "201067",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Camille Smith",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661328",
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201077",
+    "externalPlayerId": "201077",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Navonda Moore",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201084",
+    "externalPlayerId": "201084",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Brooke Smith",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201086",
+    "externalPlayerId": "201086",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Sidney Spencer",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201103",
+    "externalPlayerId": "201103",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Leah Rush",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201106",
+    "externalPlayerId": "201106",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Chrissy Givens",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201475",
+    "externalPlayerId": "201475",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Kristen O'Neill",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201477",
+    "externalPlayerId": "201477",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Tamera Young",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201478",
+    "externalPlayerId": "201478",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Morenike Atunrase",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201480",
+    "externalPlayerId": "201480",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Sylvia Fowles",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201481",
+    "externalPlayerId": "201481",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Quianna Chaney",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201483",
+    "externalPlayerId": "201483",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Amber Holt",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201484",
+    "externalPlayerId": "201484",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Ketia Swanier",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201485",
+    "externalPlayerId": "201485",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Jolene Anderson",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201487",
+    "externalPlayerId": "201487",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Alexis Hornbuckle",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201488",
+    "externalPlayerId": "201488",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Tasha Humphrey",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661321",
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201489",
+    "externalPlayerId": "201489",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Olayinka Sanni",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201491",
+    "externalPlayerId": "201491",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Val Berezhynska",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201492",
+    "externalPlayerId": "201492",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Matee Ajavon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201493",
+    "externalPlayerId": "201493",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Erica White",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201494",
+    "externalPlayerId": "201494",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Crystal Kelly",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201495",
+    "externalPlayerId": "201495",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Khadijah Whittington",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201496",
+    "externalPlayerId": "201496",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Candace Parker",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201497",
+    "externalPlayerId": "201497",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Shannon Bobbitt",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201498",
+    "externalPlayerId": "201498",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Sharnee Zoll-Norman",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201499",
+    "externalPlayerId": "201499",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Candice Wiggins",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201500",
+    "externalPlayerId": "201500",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Nicky Anosike",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201501",
+    "externalPlayerId": "201501",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Charde Houston",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201502",
+    "externalPlayerId": "201502",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Essence Carson",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201503",
+    "externalPlayerId": "201503",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Erlana Larkins",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201504",
+    "externalPlayerId": "201504",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Wanisha Smith",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201506",
+    "externalPlayerId": "201506",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "LaToya Sanders",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201507",
+    "externalPlayerId": "201507",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Leilani Mitchell",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201509",
+    "externalPlayerId": "201509",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Laura Harper",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201510",
+    "externalPlayerId": "201510",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "A'Quonesia Franklin",
+    "position": "NA",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201513",
+    "externalPlayerId": "201513",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Charel Allen",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201514",
+    "externalPlayerId": "201514",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Chioma Nnamaka",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201516",
+    "externalPlayerId": "201516",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Allie Quigley",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201517",
+    "externalPlayerId": "201517",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Kimberly Beck",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201518",
+    "externalPlayerId": "201518",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Crystal Langhorne",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201520",
+    "externalPlayerId": "201520",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Krystal Vaughn",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201529",
+    "externalPlayerId": "201529",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Adrianne Ross",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201530",
+    "externalPlayerId": "201530",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Sequoia Holmes",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201531",
+    "externalPlayerId": "201531",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Marcedes Walker",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201535",
+    "externalPlayerId": "201535",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Danielle Page",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201544",
+    "externalPlayerId": "201544",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Yuko Oga",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201551",
+    "externalPlayerId": "201551",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Kamela Gissendanner",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201558",
+    "externalPlayerId": "201558",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Florina Pascalau",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201877",
+    "externalPlayerId": "201877",
+    "league": "wnba",
+    "season": 2008,
+    "fullName": "Melanie Thomas",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  }
+]

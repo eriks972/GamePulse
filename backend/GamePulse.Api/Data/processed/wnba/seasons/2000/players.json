@@ -1,0 +1,3798 @@
+[
+  {
+    "id": "wnba:stats:player:100003",
+    "externalPlayerId": "100003",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Lisa Leslie",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100007",
+    "externalPlayerId": "100007",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Jamila Wideman",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100008",
+    "externalPlayerId": "100008",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Tamecka Dixon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100009",
+    "externalPlayerId": "100009",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Katrina Colleton",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100011",
+    "externalPlayerId": "100011",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Linda Burgess",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100012",
+    "externalPlayerId": "100012",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Mwadi Mabika",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100016",
+    "externalPlayerId": "100016",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Ruthie Bolton",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100022",
+    "externalPlayerId": "100022",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Chantel Tremitiere",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100027",
+    "externalPlayerId": "100027",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Latasha Byears",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100029",
+    "externalPlayerId": "100029",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Michele Timms",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100030",
+    "externalPlayerId": "100030",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Jennifer Gillom",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100031",
+    "externalPlayerId": "100031",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Bridget Pettis",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100035",
+    "externalPlayerId": "100035",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Umeki Webb",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100037",
+    "externalPlayerId": "100037",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Marlies Askamp",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100038",
+    "externalPlayerId": "100038",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Tara Williams",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100044",
+    "externalPlayerId": "100044",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Lady Grooms",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100045",
+    "externalPlayerId": "100045",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Dena Head",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100046",
+    "externalPlayerId": "100046",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Wendy Palmer",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100048",
+    "externalPlayerId": "100048",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Jessie Hicks",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100058",
+    "externalPlayerId": "100058",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Vicky Bullett",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100059",
+    "externalPlayerId": "100059",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Andrea Stinson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100060",
+    "externalPlayerId": "100060",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Rhonda Mapp",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100063",
+    "externalPlayerId": "100063",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Sharon Manning",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100069",
+    "externalPlayerId": "100069",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Penny McCray, Nikki (",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100072",
+    "externalPlayerId": "100072",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Sheryl Swoopes",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100073",
+    "externalPlayerId": "100073",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Cynthia Cooper",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100075",
+    "externalPlayerId": "100075",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Janeth Arcain",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100076",
+    "externalPlayerId": "100076",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Tina Thompson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100077",
+    "externalPlayerId": "100077",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Tammy Jackson",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100088",
+    "externalPlayerId": "100088",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Michelle Edwards",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661315",
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100089",
+    "externalPlayerId": "100089",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Isabelle Fijalkowski",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100091",
+    "externalPlayerId": "100091",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Eva Nemcova",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100092",
+    "externalPlayerId": "100092",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Merlakia Jones",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100096",
+    "externalPlayerId": "100096",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Donna Harrington",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100097",
+    "externalPlayerId": "100097",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Rushia Brown",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100100",
+    "externalPlayerId": "100100",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Adrienne Johnson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100101",
+    "externalPlayerId": "100101",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Teresa Weatherspoon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100103",
+    "externalPlayerId": "100103",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Vickie Johnson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100104",
+    "externalPlayerId": "100104",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Sue Wicks",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100105",
+    "externalPlayerId": "100105",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Sophia Witherspoon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100107",
+    "externalPlayerId": "100107",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Kisha Ford",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100111",
+    "externalPlayerId": "100111",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Simone Edwards",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100170",
+    "externalPlayerId": "100170",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Allison Feaster",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100179",
+    "externalPlayerId": "100179",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Charmin Smith",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100180",
+    "externalPlayerId": "100180",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Pollyanna Johns Kimbrough",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100182",
+    "externalPlayerId": "100182",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Tracy Reid",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100183",
+    "externalPlayerId": "100183",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Cindy Blodgett",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100186",
+    "externalPlayerId": "100186",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Tanja Kostic",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100187",
+    "externalPlayerId": "100187",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Suzie McConnell Serio",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100198",
+    "externalPlayerId": "100198",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Nikki McCray",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100199",
+    "externalPlayerId": "100199",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Murriel Page",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100201",
+    "externalPlayerId": "100201",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Alessandra Santos de Olive",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100204",
+    "externalPlayerId": "100204",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Rita Williams",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100207",
+    "externalPlayerId": "100207",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Monica Lamb",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100210",
+    "externalPlayerId": "100210",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Polina Tzekova",
+    "position": "C",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100211",
+    "externalPlayerId": "100211",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Amaya Valdemoro",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100213",
+    "externalPlayerId": "100213",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Elisabeth Cebrian",
+    "position": "C",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100215",
+    "externalPlayerId": "100215",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Vanessa Nygaard",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100216",
+    "externalPlayerId": "100216",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Alicia Thompson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100217",
+    "externalPlayerId": "100217",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Coquese Washington",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100221",
+    "externalPlayerId": "100221",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Michelle Brogan",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100222",
+    "externalPlayerId": "100222",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Kristi Harrower",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100225",
+    "externalPlayerId": "100225",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Brandy Reed",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100227",
+    "externalPlayerId": "100227",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Maria Stepanova",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100230",
+    "externalPlayerId": "100230",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Quacy Barnes",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100231",
+    "externalPlayerId": "100231",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Adia Barnes",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100233",
+    "externalPlayerId": "100233",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Tiffani Johnson",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100234",
+    "externalPlayerId": "100234",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Ticha Penicheiro",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100236",
+    "externalPlayerId": "100236",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Tangela Smith",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100237",
+    "externalPlayerId": "100237",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Tricia Bader Binford",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100239",
+    "externalPlayerId": "100239",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Margo Dydek",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100242",
+    "externalPlayerId": "100242",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "LaTonya Johnson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100243",
+    "externalPlayerId": "100243",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Olympia Scott",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100247",
+    "externalPlayerId": "100247",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Sandy Brondello",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100250",
+    "externalPlayerId": "100250",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Korie Hlede",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100255",
+    "externalPlayerId": "100255",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Rachael Sporn",
+    "position": "F",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100269",
+    "externalPlayerId": "100269",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Carla Boyd",
+    "position": "F",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100284",
+    "externalPlayerId": "100284",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Tully Bevilaqua",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100294",
+    "externalPlayerId": "100294",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Cass Bauer-Bilodeau",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100336",
+    "externalPlayerId": "100336",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Sonja Henning",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100338",
+    "externalPlayerId": "100338",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Jennifer Rizzotti",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100339",
+    "externalPlayerId": "100339",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "LaCharlotte Smith",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100340",
+    "externalPlayerId": "100340",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Kara Wolters",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100341",
+    "externalPlayerId": "100341",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Natalia Zasoulskaya",
+    "position": "C",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100342",
+    "externalPlayerId": "100342",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Becky Hammon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100345",
+    "externalPlayerId": "100345",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Crystal Robinson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100346",
+    "externalPlayerId": "100346",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Michele Van Gorp",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100347",
+    "externalPlayerId": "100347",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Tamika Whitmore",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100348",
+    "externalPlayerId": "100348",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Markita Aldridge",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100350",
+    "externalPlayerId": "100350",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Shalonda Enis",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100351",
+    "externalPlayerId": "100351",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Joy Holmes",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100353",
+    "externalPlayerId": "100353",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Andrea Nagy",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100354",
+    "externalPlayerId": "100354",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Heather Owen",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100356",
+    "externalPlayerId": "100356",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Chamique Holdsclaw",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100357",
+    "externalPlayerId": "100357",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Monica Maxwell",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100359",
+    "externalPlayerId": "100359",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Debbie Black",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100360",
+    "externalPlayerId": "100360",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Michelle Campbell",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100363",
+    "externalPlayerId": "100363",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Adrienne Goodson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100364",
+    "externalPlayerId": "100364",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Dalma Ivanyi",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100366",
+    "externalPlayerId": "100366",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Natalie Williams",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100368",
+    "externalPlayerId": "100368",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Angie Braziel",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100369",
+    "externalPlayerId": "100369",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Niesa Johnson",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100370",
+    "externalPlayerId": "100370",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Stephanie White",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100371",
+    "externalPlayerId": "100371",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Charlotte Smith",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100372",
+    "externalPlayerId": "100372",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Dawn Staley",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100375",
+    "externalPlayerId": "100375",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Edna Campbell",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100378",
+    "externalPlayerId": "100378",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Lisa Harrison",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100380",
+    "externalPlayerId": "100380",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Amanda Wilson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100382",
+    "externalPlayerId": "100382",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Jennifer Azzi",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100384",
+    "externalPlayerId": "100384",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Dominique Canty",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100386",
+    "externalPlayerId": "100386",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Claudia Neves",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100387",
+    "externalPlayerId": "100387",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Astou Ndiaye-Diatta",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100388",
+    "externalPlayerId": "100388",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Elena Tornikidou",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100389",
+    "externalPlayerId": "100389",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Val Whiting",
+    "position": "F",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100390",
+    "externalPlayerId": "100390",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Oksana Zakaluzhnaya",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100392",
+    "externalPlayerId": "100392",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Ukari Figgs",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100393",
+    "externalPlayerId": "100393",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "La'Keshia Frett",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100394",
+    "externalPlayerId": "100394",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Gordana Grubin",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100395",
+    "externalPlayerId": "100395",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Clarisse Machanguana",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100396",
+    "externalPlayerId": "100396",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "DeLisha Milton-Jones",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100398",
+    "externalPlayerId": "100398",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Tonya Edwards",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100399",
+    "externalPlayerId": "100399",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Trisha Fallon",
+    "position": "G-F",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100400",
+    "externalPlayerId": "100400",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Kristin Folkl",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100401",
+    "externalPlayerId": "100401",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Annie Burgess",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100402",
+    "externalPlayerId": "100402",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Andrea Lloyd-Curry",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100403",
+    "externalPlayerId": "100403",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Angie Potthoff",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100404",
+    "externalPlayerId": "100404",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Katie Smith",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100406",
+    "externalPlayerId": "100406",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Sonja Tate",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100408",
+    "externalPlayerId": "100408",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Kym Hope",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100410",
+    "externalPlayerId": "100410",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Shannon Johnson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100411",
+    "externalPlayerId": "100411",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Carla McGhee",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100412",
+    "externalPlayerId": "100412",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Taj McWilliams-Franklin",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100413",
+    "externalPlayerId": "100413",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Tari Phillips",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100414",
+    "externalPlayerId": "100414",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Elaine Powell",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100415",
+    "externalPlayerId": "100415",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Nykesha Sales",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100416",
+    "externalPlayerId": "100416",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Sheri Sam",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100419",
+    "externalPlayerId": "100419",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Yolanda Griffith",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100421",
+    "externalPlayerId": "100421",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Kedra Holland-Corn",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100422",
+    "externalPlayerId": "100422",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Kate Starbird",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100425",
+    "externalPlayerId": "100425",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Venus Lacy",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100428",
+    "externalPlayerId": "100428",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Mery Andrade",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100429",
+    "externalPlayerId": "100429",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Alisa Burras",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100433",
+    "externalPlayerId": "100433",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Chasity Melvin",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100441",
+    "externalPlayerId": "100441",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Angela Aycock",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328",
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100445",
+    "externalPlayerId": "100445",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Ann Wauters",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100446",
+    "externalPlayerId": "100446",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Summer Erb",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100447",
+    "externalPlayerId": "100447",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Tiffany Travis",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100451",
+    "externalPlayerId": "100451",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Jamie Cassidy",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100452",
+    "externalPlayerId": "100452",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "E.C. Hill",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100454",
+    "externalPlayerId": "100454",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Larecha Jones",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100457",
+    "externalPlayerId": "100457",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Helen Darling",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100458",
+    "externalPlayerId": "100458",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Vicki Hall",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100464",
+    "externalPlayerId": "100464",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Beverly Williams",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100468",
+    "externalPlayerId": "100468",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Usha Gilmore",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100470",
+    "externalPlayerId": "100470",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Stacey Lovelace",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100471",
+    "externalPlayerId": "100471",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Danielle McCulley",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100472",
+    "externalPlayerId": "100472",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Texlin Quinney",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100476",
+    "externalPlayerId": "100476",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Vedrana Grgin Fonseca",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100477",
+    "externalPlayerId": "100477",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Nicole Kubik",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100478",
+    "externalPlayerId": "100478",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Nicky McCrimmon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100479",
+    "externalPlayerId": "100479",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Paige Sauer",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100481",
+    "externalPlayerId": "100481",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Marla Brumfield",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100482",
+    "externalPlayerId": "100482",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Grace Daley",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100483",
+    "externalPlayerId": "100483",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Keitha Dickerson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100484",
+    "externalPlayerId": "100484",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Betty Lennox",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100485",
+    "externalPlayerId": "100485",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Maylana Martin",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100487",
+    "externalPlayerId": "100487",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Kate Paye",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100490",
+    "externalPlayerId": "100490",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Shanele Stires",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100492",
+    "externalPlayerId": "100492",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Edwina Brown",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100493",
+    "externalPlayerId": "100493",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Anna DeForge",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100494",
+    "externalPlayerId": "100494",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Barbara Farris",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100496",
+    "externalPlayerId": "100496",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Tamicha Jackson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100497",
+    "externalPlayerId": "100497",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Madinah Slaise",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100500",
+    "externalPlayerId": "100500",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Elena Shakirova",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100503",
+    "externalPlayerId": "100503",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Andrea Garner",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100504",
+    "externalPlayerId": "100504",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Kelley Gibson",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100506",
+    "externalPlayerId": "100506",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Renee Robinson",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100508",
+    "externalPlayerId": "100508",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Jessica Bibby",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100509",
+    "externalPlayerId": "100509",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Marina Ferragut",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100510",
+    "externalPlayerId": "100510",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Olga Firsova",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100511",
+    "externalPlayerId": "100511",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Desiree Francis",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100512",
+    "externalPlayerId": "100512",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Shea Mahoney",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100514",
+    "externalPlayerId": "100514",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Cintia dos Santos",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100515",
+    "externalPlayerId": "100515",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Cornelia Gayden",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100517",
+    "externalPlayerId": "100517",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Romana Hamzova",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100519",
+    "externalPlayerId": "100519",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Jannon Roland",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100521",
+    "externalPlayerId": "100521",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Tiffany McCain",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100525",
+    "externalPlayerId": "100525",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Rankica Sarenac",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100526",
+    "externalPlayerId": "100526",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Adrian Williams-Strong",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100529",
+    "externalPlayerId": "100529",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Sylvia Crawley",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100530",
+    "externalPlayerId": "100530",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Lynn Pride",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100532",
+    "externalPlayerId": "100532",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Stacey Thomas",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100533",
+    "externalPlayerId": "100533",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "DeMya Walker",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100534",
+    "externalPlayerId": "100534",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Stacy Clinesmith",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100535",
+    "externalPlayerId": "100535",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Rhonda Banchero",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100536",
+    "externalPlayerId": "100536",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Katy Steding",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100538",
+    "externalPlayerId": "100538",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Katrina Hibbert",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100541",
+    "externalPlayerId": "100541",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Jamie Redd",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100542",
+    "externalPlayerId": "100542",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Charisse Sampson",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100543",
+    "externalPlayerId": "100543",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Robin Threatt-Elliott",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100544",
+    "externalPlayerId": "100544",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Kamila Vodichkova",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100547",
+    "externalPlayerId": "100547",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Stacy Frese",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100548",
+    "externalPlayerId": "100548",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Katryna Gaither",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319",
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100549",
+    "externalPlayerId": "100549",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Amy Herrig",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100551",
+    "externalPlayerId": "100551",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Naomi Mulitauaopele",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100552",
+    "externalPlayerId": "100552",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Kristen Rasmussen",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319",
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100553",
+    "externalPlayerId": "100553",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Keisha Anderson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100554",
+    "externalPlayerId": "100554",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Beth Cunningham",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100555",
+    "externalPlayerId": "100555",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Tausha Mills",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100557",
+    "externalPlayerId": "100557",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Tonya Massaline",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100558",
+    "externalPlayerId": "100558",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Jameka Jones",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100559",
+    "externalPlayerId": "100559",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Milena Flores",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100560",
+    "externalPlayerId": "100560",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Shantia Owens",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100570",
+    "externalPlayerId": "100570",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Michelle Marciniak",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100594",
+    "externalPlayerId": "100594",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Michelle Cleary",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100797",
+    "externalPlayerId": "100797",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Claudia Neves",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100908",
+    "externalPlayerId": "100908",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Korie Hlede",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:101006",
+    "externalPlayerId": "101006",
+    "league": "wnba",
+    "season": 2000,
+    "fullName": "Jurgita Streimikyte",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  }
+]

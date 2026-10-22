@@ -1,0 +1,3083 @@
+[
+  {
+    "id": "wnba:stats:player:100003",
+    "externalPlayerId": "100003",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Lisa Leslie",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100008",
+    "externalPlayerId": "100008",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Tamecka Dixon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100012",
+    "externalPlayerId": "100012",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Mwadi Mabika",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100016",
+    "externalPlayerId": "100016",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Ruthie Bolton",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100043",
+    "externalPlayerId": "100043",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Elena Baranova",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100044",
+    "externalPlayerId": "100044",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Lady Grooms",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100046",
+    "externalPlayerId": "100046",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Wendy Palmer",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100048",
+    "externalPlayerId": "100048",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Jessie Hicks",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100059",
+    "externalPlayerId": "100059",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Andrea Stinson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100069",
+    "externalPlayerId": "100069",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Penny McCray, Nikki (",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100072",
+    "externalPlayerId": "100072",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Sheryl Swoopes",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100076",
+    "externalPlayerId": "100076",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Tina Thompson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100092",
+    "externalPlayerId": "100092",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Merlakia Jones",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100101",
+    "externalPlayerId": "100101",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Teresa Weatherspoon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100103",
+    "externalPlayerId": "100103",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Vickie Johnson",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100111",
+    "externalPlayerId": "100111",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Simone Edwards",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100169",
+    "externalPlayerId": "100169",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Octavia Blue",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100170",
+    "externalPlayerId": "100170",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Allison Feaster",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100180",
+    "externalPlayerId": "100180",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Pollyanna Johns Kimbrough",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100198",
+    "externalPlayerId": "100198",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Nikki McCray",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100199",
+    "externalPlayerId": "100199",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Murriel Page",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100216",
+    "externalPlayerId": "100216",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Alicia Thompson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100231",
+    "externalPlayerId": "100231",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Adia Barnes",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100233",
+    "externalPlayerId": "100233",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Tiffani Johnson",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100234",
+    "externalPlayerId": "100234",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Ticha Penicheiro",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100236",
+    "externalPlayerId": "100236",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Tangela Smith",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100239",
+    "externalPlayerId": "100239",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Margo Dydek",
+    "position": "NA",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100242",
+    "externalPlayerId": "100242",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "LaTonya Johnson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100243",
+    "externalPlayerId": "100243",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Olympia Scott",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100257",
+    "externalPlayerId": "100257",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Mfon Udoka",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100284",
+    "externalPlayerId": "100284",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Tully Bevilaqua",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100342",
+    "externalPlayerId": "100342",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Becky Hammon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100345",
+    "externalPlayerId": "100345",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Crystal Robinson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100346",
+    "externalPlayerId": "100346",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Michele Van Gorp",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100347",
+    "externalPlayerId": "100347",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Tamika Whitmore",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100356",
+    "externalPlayerId": "100356",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Chamique Holdsclaw",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100359",
+    "externalPlayerId": "100359",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Debbie Black",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100363",
+    "externalPlayerId": "100363",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Adrienne Goodson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100366",
+    "externalPlayerId": "100366",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Natalie Williams",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100370",
+    "externalPlayerId": "100370",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Stephanie White",
+    "position": "NA",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100371",
+    "externalPlayerId": "100371",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Charlotte Smith",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100372",
+    "externalPlayerId": "100372",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Dawn Staley",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100375",
+    "externalPlayerId": "100375",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Edna Campbell",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100384",
+    "externalPlayerId": "100384",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Dominique Canty",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100387",
+    "externalPlayerId": "100387",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Astou Ndiaye-Diatta",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100393",
+    "externalPlayerId": "100393",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "La'Keshia Frett",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313",
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100394",
+    "externalPlayerId": "100394",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Gordana Grubin",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100396",
+    "externalPlayerId": "100396",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "DeLisha Milton-Jones",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100404",
+    "externalPlayerId": "100404",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Katie Smith",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100410",
+    "externalPlayerId": "100410",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Shannon Johnson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100412",
+    "externalPlayerId": "100412",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Taj McWilliams-Franklin",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100413",
+    "externalPlayerId": "100413",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Tari Phillips",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100414",
+    "externalPlayerId": "100414",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Elaine Powell",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100415",
+    "externalPlayerId": "100415",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Nykesha Sales",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100416",
+    "externalPlayerId": "100416",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Sheri Sam",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100419",
+    "externalPlayerId": "100419",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Yolanda Griffith",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100421",
+    "externalPlayerId": "100421",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Kedra Holland-Corn",
+    "position": "NA",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100422",
+    "externalPlayerId": "100422",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Kate Starbird",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100424",
+    "externalPlayerId": "100424",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Nevriye Yilmaz",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100428",
+    "externalPlayerId": "100428",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Mery Andrade",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100433",
+    "externalPlayerId": "100433",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Chasity Melvin",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100445",
+    "externalPlayerId": "100445",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Ann Wauters",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100457",
+    "externalPlayerId": "100457",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Helen Darling",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100470",
+    "externalPlayerId": "100470",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Stacey Lovelace",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100484",
+    "externalPlayerId": "100484",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Betty Lennox",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100493",
+    "externalPlayerId": "100493",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Anna DeForge",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100494",
+    "externalPlayerId": "100494",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Barbara Farris",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100496",
+    "externalPlayerId": "100496",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Tamicha Jackson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100526",
+    "externalPlayerId": "100526",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Adrian Williams-Strong",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661317",
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100532",
+    "externalPlayerId": "100532",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Stacey Thomas",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100533",
+    "externalPlayerId": "100533",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "DeMya Walker",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100544",
+    "externalPlayerId": "100544",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Kamila Vodichkova",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100552",
+    "externalPlayerId": "100552",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Kristen Rasmussen",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100556",
+    "externalPlayerId": "100556",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Nakia Sanford",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100626",
+    "externalPlayerId": "100626",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Jae Kingi-Cross",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321",
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100627",
+    "externalPlayerId": "100627",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Kelly Miller",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100628",
+    "externalPlayerId": "100628",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Tammy Sutton-Brown",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100634",
+    "externalPlayerId": "100634",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Penny Taylor",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100639",
+    "externalPlayerId": "100639",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Deanna Nolan",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100642",
+    "externalPlayerId": "100642",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Amanda Lassiter",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100643",
+    "externalPlayerId": "100643",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Tynesha Lewis",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100646",
+    "externalPlayerId": "100646",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Tamika Catchings",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100648",
+    "externalPlayerId": "100648",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Kelly Schumacher",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100650",
+    "externalPlayerId": "100650",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Niele Ivey",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100651",
+    "externalPlayerId": "100651",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Kiesha Brown",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100656",
+    "externalPlayerId": "100656",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Ruth Riley",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100658",
+    "externalPlayerId": "100658",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Svetlana Abrosimova",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100660",
+    "externalPlayerId": "100660",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Janell Burse",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100666",
+    "externalPlayerId": "100666",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Katie Douglas",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100682",
+    "externalPlayerId": "100682",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Lauren Jackson",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100683",
+    "externalPlayerId": "100683",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Semeka Randall",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100685",
+    "externalPlayerId": "100685",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Marie Ferdinand-Harris",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100690",
+    "externalPlayerId": "100690",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Coco Miller",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100713",
+    "externalPlayerId": "100713",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Slobodanka Tuvic",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100720",
+    "externalPlayerId": "100720",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Sue Bird",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100721",
+    "externalPlayerId": "100721",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Swin Cash",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100722",
+    "externalPlayerId": "100722",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Stacey Dales",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100723",
+    "externalPlayerId": "100723",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Asjha Jones",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100724",
+    "externalPlayerId": "100724",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Nikki Teasley",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100725",
+    "externalPlayerId": "100725",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Tamika Raymond",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100726",
+    "externalPlayerId": "100726",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Sheila Lambert",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100727",
+    "externalPlayerId": "100727",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Deanna Jackson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100728",
+    "externalPlayerId": "100728",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Shaunzinski Gortman",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100729",
+    "externalPlayerId": "100729",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Michelle Snow",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100731",
+    "externalPlayerId": "100731",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Hamchetou Maiga-Ba",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100734",
+    "externalPlayerId": "100734",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Tamara Moore",
+    "position": "NA",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100739",
+    "externalPlayerId": "100739",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Lucienne Berthieu",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100740",
+    "externalPlayerId": "100740",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Ayana Walker",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100748",
+    "externalPlayerId": "100748",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Felicia Ragland",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100759",
+    "externalPlayerId": "100759",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Kayte Christensen",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100834",
+    "externalPlayerId": "100834",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "K.B. Sharp",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100835",
+    "externalPlayerId": "100835",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Erin Thorn",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100838",
+    "externalPlayerId": "100838",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Teresa Edwards",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100840",
+    "externalPlayerId": "100840",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Gwen Slaughter",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100843",
+    "externalPlayerId": "100843",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Cheryl Ford",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100848",
+    "externalPlayerId": "100848",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Coretta Brown",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100849",
+    "externalPlayerId": "100849",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "DeTrina White",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100851",
+    "externalPlayerId": "100851",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Teana Miller",
+    "position": "NA",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100852",
+    "externalPlayerId": "100852",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Jocelyn Penn",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100860",
+    "externalPlayerId": "100860",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Aiysha Smith",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100862",
+    "externalPlayerId": "100862",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Bethany Donaphin",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100866",
+    "externalPlayerId": "100866",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Tai Dillard",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100867",
+    "externalPlayerId": "100867",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Gwen Jackson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319",
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100873",
+    "externalPlayerId": "100873",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Chantelle Anderson",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100874",
+    "externalPlayerId": "100874",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Kara Lawson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100881",
+    "externalPlayerId": "100881",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Michelle Greco",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100883",
+    "externalPlayerId": "100883",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "LaToya Thomas",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100888",
+    "externalPlayerId": "100888",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Plenette Pierson",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100912",
+    "externalPlayerId": "100912",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Agnieszka Bibrzycka",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100913",
+    "externalPlayerId": "100913",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Isabel Sanchez",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100915",
+    "externalPlayerId": "100915",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Lindsay Whalen",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100916",
+    "externalPlayerId": "100916",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Jessica Brungo",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100918",
+    "externalPlayerId": "100918",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Candace Futrell",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100919",
+    "externalPlayerId": "100919",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Nicole Powell",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100920",
+    "externalPlayerId": "100920",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Kelly Mazzante",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100922",
+    "externalPlayerId": "100922",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Iciss Tillis",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100923",
+    "externalPlayerId": "100923",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Shereka Wright",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100926",
+    "externalPlayerId": "100926",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Lindsay Taylor",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100927",
+    "externalPlayerId": "100927",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Stacy Stephens",
+    "position": "NA",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100928",
+    "externalPlayerId": "100928",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Ebony Hoffman",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100930",
+    "externalPlayerId": "100930",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Christi Thomas",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100931",
+    "externalPlayerId": "100931",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Doneeka Lewis",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100932",
+    "externalPlayerId": "100932",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Nicole Ohlde",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100933",
+    "externalPlayerId": "100933",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Vanessa Hayden",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100934",
+    "externalPlayerId": "100934",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Tasha Butts",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100935",
+    "externalPlayerId": "100935",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Amber Jacobs",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100937",
+    "externalPlayerId": "100937",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Shameka Christon",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100938",
+    "externalPlayerId": "100938",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Amisha Carter",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100940",
+    "externalPlayerId": "100940",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Diana Taurasi",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100941",
+    "externalPlayerId": "100941",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Chandi Jones",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100942",
+    "externalPlayerId": "100942",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Ashley Robinson",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100944",
+    "externalPlayerId": "100944",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Rebekkah Brunson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100945",
+    "externalPlayerId": "100945",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Nuria Martinez",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100947",
+    "externalPlayerId": "100947",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Toccara Williams",
+    "position": "NA",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100948",
+    "externalPlayerId": "100948",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Catrina Frierson",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100949",
+    "externalPlayerId": "100949",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Alana Beard",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100950",
+    "externalPlayerId": "100950",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Kaayla Chones",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100952",
+    "externalPlayerId": "100952",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Jia Perkins",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100958",
+    "externalPlayerId": "100958",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Monique Coker",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100967",
+    "externalPlayerId": "100967",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Mandisa Stevenson",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100973",
+    "externalPlayerId": "100973",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Le'coe Willingham",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100975",
+    "externalPlayerId": "100975",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Jennifer Derevjanik",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100979",
+    "externalPlayerId": "100979",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Tera Bjorklund",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100984",
+    "externalPlayerId": "100984",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Giuliana Mendiola",
+    "position": "NA",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100987",
+    "externalPlayerId": "100987",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Laura Macchi",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100988",
+    "externalPlayerId": "100988",
+    "league": "wnba",
+    "season": 2004,
+    "fullName": "Raffaella Masciadri",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  }
+]

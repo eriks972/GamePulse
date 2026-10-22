@@ -1,0 +1,7074 @@
+[
+  {
+    "id": "wnba:stats:game:1021300001",
+    "externalGameId": "1021300001",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-05-24",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 64,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300001",
+      "espn": "400445705"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300002",
+    "externalGameId": "1021300002",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-05-25",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 98,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300002",
+      "espn": "400445707"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300003",
+    "externalGameId": "1021300003",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-05-25",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 81,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300003",
+      "espn": "400445711"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300004",
+    "externalGameId": "1021300004",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-05-26",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 102,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300004",
+      "espn": "400445715"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300005",
+    "externalGameId": "1021300005",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-05-27",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 90,
+    "awayScore": 95,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300005",
+      "espn": "400445718"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300006",
+    "externalGameId": "1021300006",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-05-27",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 80,
+    "awayScore": 102,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300006",
+      "espn": "400445722"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300007",
+    "externalGameId": "1021300007",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-05-31",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 77,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300007",
+      "espn": "400445726"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300008",
+    "externalGameId": "1021300008",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-05-31",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 78,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300008",
+      "espn": "400445728"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300009",
+    "externalGameId": "1021300009",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-05-31",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 86,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300009",
+      "espn": "400445731"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300010",
+    "externalGameId": "1021300010",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-01",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 90,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300010",
+      "espn": "400445734"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300011",
+    "externalGameId": "1021300011",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-01",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 83,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300011",
+      "espn": "400445756"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300012",
+    "externalGameId": "1021300012",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-02",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 63,
+    "awayScore": 73,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300012",
+      "espn": "400445760"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300013",
+    "externalGameId": "1021300013",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-02",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 92,
+    "awayScore": 71,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300013",
+      "espn": "400445764"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300014",
+    "externalGameId": "1021300014",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-02",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 75,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300014",
+      "espn": "400445766"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300015",
+    "externalGameId": "1021300015",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-05",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 75,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300015",
+      "espn": "400445777"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300016",
+    "externalGameId": "1021300016",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-06",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 99,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300016",
+      "espn": "400445780"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300017",
+    "externalGameId": "1021300017",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-07",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 62,
+    "awayScore": 66,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300017",
+      "espn": "400445783"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300018",
+    "externalGameId": "1021300018",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-07",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 75,
+    "awayScore": 56,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300018",
+      "espn": "400445787"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300019",
+    "externalGameId": "1021300019",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-07",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 81,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300019",
+      "espn": "400445788"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300020",
+    "externalGameId": "1021300020",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-07",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 58,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300020",
+      "espn": "400445790"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300021",
+    "externalGameId": "1021300021",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-08",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 67,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300021",
+      "espn": "400445792"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300022",
+    "externalGameId": "1021300022",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-08",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 85,
+    "awayScore": 80,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300022",
+      "espn": "400445794"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300023",
+    "externalGameId": "1021300023",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-08",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 76,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300023",
+      "espn": "400445797"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300024",
+    "externalGameId": "1021300024",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-09",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 76,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300024",
+      "espn": "400445807"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300025",
+    "externalGameId": "1021300025",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-09",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 72,
+    "awayScore": 70,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300025",
+      "espn": "400445810"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300026",
+    "externalGameId": "1021300026",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-11",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 87,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300026",
+      "espn": "400445815"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300027",
+    "externalGameId": "1021300027",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-12",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 61,
+    "awayScore": 73,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300027",
+      "espn": "400445818"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300028",
+    "externalGameId": "1021300028",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-14",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 68,
+    "awayScore": 59,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300028",
+      "espn": "400445823"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300029",
+    "externalGameId": "1021300029",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-14",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 78,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300029",
+      "espn": "400445826"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300030",
+    "externalGameId": "1021300030",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-14",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 74,
+    "awayScore": 83,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300030",
+      "espn": "400445831"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300031",
+    "externalGameId": "1021300031",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-14",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 97,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300031",
+      "espn": "400445835"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300032",
+    "externalGameId": "1021300032",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-15",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 84,
+    "awayScore": 48,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300032",
+      "espn": "400445841"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300033",
+    "externalGameId": "1021300033",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-16",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 64,
+    "awayScore": 60,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300033",
+      "espn": "400445843"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300034",
+    "externalGameId": "1021300034",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-16",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 88,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300034",
+      "espn": "400445847"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300035",
+    "externalGameId": "1021300035",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-16",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 103,
+    "awayScore": 108,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300035",
+      "espn": "400445852"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300036",
+    "externalGameId": "1021300036",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-16",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 66,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300036",
+      "espn": "400445854"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300037",
+    "externalGameId": "1021300037",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-18",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 96,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300037",
+      "espn": "400445879"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300038",
+    "externalGameId": "1021300038",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-19",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 69,
+    "awayScore": 80,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300038",
+      "espn": "400445882"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300039",
+    "externalGameId": "1021300039",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-20",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 83,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300039",
+      "espn": "400445884"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300040",
+    "externalGameId": "1021300040",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-21",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 86,
+    "awayScore": 91,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300040",
+      "espn": "400445697"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300041",
+    "externalGameId": "1021300041",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-21",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 90,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300041",
+      "espn": "400445698"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300042",
+    "externalGameId": "1021300042",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-21",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 87,
+    "awayScore": 59,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300042",
+      "espn": "400445699"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300043",
+    "externalGameId": "1021300043",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-22",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 61,
+    "awayScore": 71,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300043",
+      "espn": "400445701"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300044",
+    "externalGameId": "1021300044",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-22",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 92,
+    "awayScore": 70,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300044",
+      "espn": "400445703"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300045",
+    "externalGameId": "1021300045",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-23",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 77,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300045",
+      "espn": "400445709"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300046",
+    "externalGameId": "1021300046",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-23",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 77,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300046",
+      "espn": "400445714"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300047",
+    "externalGameId": "1021300047",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-23",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 88,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300047",
+      "espn": "400445717"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300048",
+    "externalGameId": "1021300048",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-23",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 79,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300048",
+      "espn": "400445721"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300049",
+    "externalGameId": "1021300049",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-25",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 76,
+    "awayScore": 60,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300049",
+      "espn": "400445723"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300050",
+    "externalGameId": "1021300050",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-25",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 77,
+    "awayScore": 83,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300050",
+      "espn": "400445729"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300051",
+    "externalGameId": "1021300051",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-26",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 87,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300051",
+      "espn": "400445733"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300052",
+    "externalGameId": "1021300052",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-27",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 97,
+    "awayScore": 101,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300052",
+      "espn": "400445757"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300053",
+    "externalGameId": "1021300053",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-28",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 80,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300053",
+      "espn": "400445759"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300054",
+    "externalGameId": "1021300054",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-28",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 86,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300054",
+      "espn": "400445762"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300055",
+    "externalGameId": "1021300055",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-28",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 88,
+    "awayScore": 64,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300055",
+      "espn": "400445767"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300056",
+    "externalGameId": "1021300056",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-28",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 62,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300056",
+      "espn": "400445769"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300057",
+    "externalGameId": "1021300057",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-29",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 70,
+    "awayScore": 89,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300057",
+      "espn": "400445771"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300058",
+    "externalGameId": "1021300058",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-29",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 94,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300058",
+      "espn": "400445772"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300059",
+    "externalGameId": "1021300059",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-30",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 93,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300059",
+      "espn": "400445776"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300060",
+    "externalGameId": "1021300060",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-30",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 84,
+    "awayScore": 61,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300060",
+      "espn": "400445781"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300061",
+    "externalGameId": "1021300061",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-06-30",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 71,
+    "awayScore": 63,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300061",
+      "espn": "400445784"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300062",
+    "externalGameId": "1021300062",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-02",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 60,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300062",
+      "espn": "400445795"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300063",
+    "externalGameId": "1021300063",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-02",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 88,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300063",
+      "espn": "400445798"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300064",
+    "externalGameId": "1021300064",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-02",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 94,
+    "awayScore": 87,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300064",
+      "espn": "400445801"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300065",
+    "externalGameId": "1021300065",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-02",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 96,
+    "awayScore": 66,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300065",
+      "espn": "400445805"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300066",
+    "externalGameId": "1021300066",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-04",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 97,
+    "awayScore": 89,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300066",
+      "espn": "400445809"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300067",
+    "externalGameId": "1021300067",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-06",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 93,
+    "awayScore": 66,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300067",
+      "espn": "400445813"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300068",
+    "externalGameId": "1021300068",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-06",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 78,
+    "awayScore": 66,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300068",
+      "espn": "400445816"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300069",
+    "externalGameId": "1021300069",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-06",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 62,
+    "awayScore": 59,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300069",
+      "espn": "400445819"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300070",
+    "externalGameId": "1021300070",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-07",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 64,
+    "awayScore": 93,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300070",
+      "espn": "400445824"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300071",
+    "externalGameId": "1021300071",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-07",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 91,
+    "awayScore": 59,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300071",
+      "espn": "400445828"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300072",
+    "externalGameId": "1021300072",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-09",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 66,
+    "awayScore": 57,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300072",
+      "espn": "400445832"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300073",
+    "externalGameId": "1021300073",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-09",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 94,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300073",
+      "espn": "400445836"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300074",
+    "externalGameId": "1021300074",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-10",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 89,
+    "awayScore": 85,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300074",
+      "espn": "400445839"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300075",
+    "externalGameId": "1021300075",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-10",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 80,
+    "awayScore": 88,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300075",
+      "espn": "400445845"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300076",
+    "externalGameId": "1021300076",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-11",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 62,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300076",
+      "espn": "400445849"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300077",
+    "externalGameId": "1021300077",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-11",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 78,
+    "awayScore": 94,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300077",
+      "espn": "400445853"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300078",
+    "externalGameId": "1021300078",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-12",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 70,
+    "awayScore": 83,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300078",
+      "espn": "400445877"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300079",
+    "externalGameId": "1021300079",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-12",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 73,
+    "awayScore": 83,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300079",
+      "espn": "400445881"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300080",
+    "externalGameId": "1021300080",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-13",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 53,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300080",
+      "espn": "400445700"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300081",
+    "externalGameId": "1021300081",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-13",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 75,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300081",
+      "espn": "400445706"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300082",
+    "externalGameId": "1021300082",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-14",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 86,
+    "awayScore": 84,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300082",
+      "espn": "400445710"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300083",
+    "externalGameId": "1021300083",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-14",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 76,
+    "awayScore": 88,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300083",
+      "espn": "400445712"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300084",
+    "externalGameId": "1021300084",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-14",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 73,
+    "awayScore": 65,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300084",
+      "espn": "400445716"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300085",
+    "externalGameId": "1021300085",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-16",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 86,
+    "awayScore": 64,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300085",
+      "espn": "400445720"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300086",
+    "externalGameId": "1021300086",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-17",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 59,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300086",
+      "espn": "400445724"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300087",
+    "externalGameId": "1021300087",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-17",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 77,
+    "awayScore": 73,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300087",
+      "espn": "400445727"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300088",
+    "externalGameId": "1021300088",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-18",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 55,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300088",
+      "espn": "400445732"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300089",
+    "externalGameId": "1021300089",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-18",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 84,
+    "awayScore": 90,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300089",
+      "espn": "400445761"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300090",
+    "externalGameId": "1021300090",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-19",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 77,
+    "awayScore": 70,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300090",
+      "espn": "400445765"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300091",
+    "externalGameId": "1021300091",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-19",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 71,
+    "awayScore": 87,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300091",
+      "espn": "400445773"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300092",
+    "externalGameId": "1021300092",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-19",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 64,
+    "awayScore": 58,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300092",
+      "espn": "400445775"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300093",
+    "externalGameId": "1021300093",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-20",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 80,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300093",
+      "espn": "400445779"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300094",
+    "externalGameId": "1021300094",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-20",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 60,
+    "awayScore": 52,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300094",
+      "espn": "400445782"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300095",
+    "externalGameId": "1021300095",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-20",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 64,
+    "awayScore": 65,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300095",
+      "espn": "400445785"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300096",
+    "externalGameId": "1021300096",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-21",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 52,
+    "awayScore": 65,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300096",
+      "espn": "400445789"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300097",
+    "externalGameId": "1021300097",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-21",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 90,
+    "awayScore": 63,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300097",
+      "espn": "400445791"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300098",
+    "externalGameId": "1021300098",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-21",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 77,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300098",
+      "espn": "400445796"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300099",
+    "externalGameId": "1021300099",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-23",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 72,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300099",
+      "espn": "400445799"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300100",
+    "externalGameId": "1021300100",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-24",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 82,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300100",
+      "espn": "400445802"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300101",
+    "externalGameId": "1021300101",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-24",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 81,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300101",
+      "espn": "400445804"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300102",
+    "externalGameId": "1021300102",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-24",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 74,
+    "awayScore": 65,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300102",
+      "espn": "400445806"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300103",
+    "externalGameId": "1021300103",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-25",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 65,
+    "awayScore": 53,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300103",
+      "espn": "400445811"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300104",
+    "externalGameId": "1021300104",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-25",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 60,
+    "awayScore": 71,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300104",
+      "espn": "400445812"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300105",
+    "externalGameId": "1021300105",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-25",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 66,
+    "awayScore": 73,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300105",
+      "espn": "400445817"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300106",
+    "externalGameId": "1021300106",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-07-31",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 78,
+    "awayScore": 88,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300106",
+      "espn": "400445821"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300107",
+    "externalGameId": "1021300107",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-01",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 70,
+    "awayScore": 64,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300107",
+      "espn": "400445822"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300108",
+    "externalGameId": "1021300108",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-01",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 88,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300108",
+      "espn": "400445825"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300109",
+    "externalGameId": "1021300109",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-02",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 85,
+    "awayScore": 63,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300109",
+      "espn": "400445829"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300110",
+    "externalGameId": "1021300110",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-02",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 96,
+    "awayScore": 89,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300110",
+      "espn": "400445830"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300111",
+    "externalGameId": "1021300111",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-02",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 85,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300111",
+      "espn": "400445834"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300112",
+    "externalGameId": "1021300112",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-03",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 66,
+    "awayScore": 88,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300112",
+      "espn": "400445837"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300113",
+    "externalGameId": "1021300113",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-03",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 79,
+    "awayScore": 58,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300113",
+      "espn": "400445840"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300114",
+    "externalGameId": "1021300114",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-03",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 82,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300114",
+      "espn": "400445842"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300115",
+    "externalGameId": "1021300115",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-04",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 57,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300115",
+      "espn": "400445846"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300116",
+    "externalGameId": "1021300116",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-04",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 69,
+    "awayScore": 65,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300116",
+      "espn": "400445848"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300117",
+    "externalGameId": "1021300117",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-04",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 90,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300117",
+      "espn": "400445851"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300118",
+    "externalGameId": "1021300118",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-06",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 93,
+    "awayScore": 88,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300118",
+      "espn": "400445875"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300119",
+    "externalGameId": "1021300119",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-06",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 72,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300119",
+      "espn": "400445878"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300120",
+    "externalGameId": "1021300120",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-06",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 58,
+    "awayScore": 64,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300120",
+      "espn": "400445735"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300121",
+    "externalGameId": "1021300121",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-06",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 80,
+    "awayScore": 93,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300121",
+      "espn": "400445736"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300122",
+    "externalGameId": "1021300122",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-06",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 65,
+    "awayScore": 80,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300122",
+      "espn": "400445737"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300123",
+    "externalGameId": "1021300123",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-08",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 64,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300123",
+      "espn": "400445738"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300124",
+    "externalGameId": "1021300124",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-08",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 75,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300124",
+      "espn": "400445739"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300125",
+    "externalGameId": "1021300125",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-09",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 61,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300125",
+      "espn": "400445740"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300126",
+    "externalGameId": "1021300126",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-09",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 70,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300126",
+      "espn": "400445741"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300127",
+    "externalGameId": "1021300127",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-09",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 56,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300127",
+      "espn": "400445742"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300128",
+    "externalGameId": "1021300128",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-10",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 67,
+    "awayScore": 85,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300128",
+      "espn": "400445743"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300129",
+    "externalGameId": "1021300129",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-10",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 80,
+    "awayScore": 66,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300129",
+      "espn": "400445744"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300130",
+    "externalGameId": "1021300130",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-11",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 74,
+    "awayScore": 63,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300130",
+      "espn": "400445745"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300131",
+    "externalGameId": "1021300131",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-11",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 77,
+    "awayScore": 56,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300131",
+      "espn": "400445746"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300132",
+    "externalGameId": "1021300132",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-11",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 94,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300132",
+      "espn": "400445747"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300133",
+    "externalGameId": "1021300133",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-11",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 82,
+    "awayScore": 88,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300133",
+      "espn": "400445748"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300134",
+    "externalGameId": "1021300134",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-11",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 69,
+    "awayScore": 63,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300134",
+      "espn": "400445749"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300135",
+    "externalGameId": "1021300135",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-13",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 80,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300135",
+      "espn": "400445750"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300136",
+    "externalGameId": "1021300136",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-14",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 88,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300136",
+      "espn": "400445751"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300137",
+    "externalGameId": "1021300137",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-14",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 75,
+    "awayScore": 58,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300137",
+      "espn": "400445752"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300138",
+    "externalGameId": "1021300138",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-15",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 66,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300138",
+      "espn": "400445753"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300139",
+    "externalGameId": "1021300139",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-16",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 88,
+    "awayScore": 57,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300139",
+      "espn": "400445754"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300140",
+    "externalGameId": "1021300140",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-16",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 57,
+    "awayScore": 66,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300140",
+      "espn": "400445855"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300141",
+    "externalGameId": "1021300141",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-16",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 77,
+    "awayScore": 83,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300141",
+      "espn": "400445856"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300142",
+    "externalGameId": "1021300142",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-16",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 94,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300142",
+      "espn": "400445857"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300143",
+    "externalGameId": "1021300143",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-17",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 88,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300143",
+      "espn": "400445858"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300144",
+    "externalGameId": "1021300144",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-17",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 77,
+    "awayScore": 70,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300144",
+      "espn": "400445859"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300145",
+    "externalGameId": "1021300145",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-18",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 76,
+    "awayScore": 58,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300145",
+      "espn": "400445860"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300146",
+    "externalGameId": "1021300146",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-18",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 89,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300146",
+      "espn": "400445861"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300147",
+    "externalGameId": "1021300147",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-18",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 88,
+    "awayScore": 57,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300147",
+      "espn": "400445862"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300148",
+    "externalGameId": "1021300148",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-20",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 88,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300148",
+      "espn": "400445863"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300149",
+    "externalGameId": "1021300149",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-20",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 73,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300149",
+      "espn": "400445864"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300150",
+    "externalGameId": "1021300150",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-20",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 86,
+    "awayScore": 89,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300150",
+      "espn": "400445865"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300151",
+    "externalGameId": "1021300151",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-20",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 77,
+    "awayScore": 57,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300151",
+      "espn": "400445866"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300152",
+    "externalGameId": "1021300152",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-21",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 80,
+    "awayScore": 63,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300152",
+      "espn": "400445867"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300153",
+    "externalGameId": "1021300153",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-22",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 77,
+    "awayScore": 91,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300153",
+      "espn": "400445868"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300154",
+    "externalGameId": "1021300154",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-23",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 74,
+    "awayScore": 64,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300154",
+      "espn": "400445869"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300155",
+    "externalGameId": "1021300155",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-23",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 73,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300155",
+      "espn": "400445870"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300156",
+    "externalGameId": "1021300156",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-23",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 82,
+    "awayScore": 64,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300156",
+      "espn": "400445871"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300157",
+    "externalGameId": "1021300157",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-23",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 73,
+    "awayScore": 81,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300157",
+      "espn": "400445872"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300158",
+    "externalGameId": "1021300158",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-24",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 84,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300158",
+      "espn": "400445873"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300159",
+    "externalGameId": "1021300159",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-24",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 56,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300159",
+      "espn": "400445874"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300160",
+    "externalGameId": "1021300160",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-25",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 70,
+    "awayScore": 64,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300160",
+      "espn": "400445702"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300161",
+    "externalGameId": "1021300161",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-25",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 66,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300161",
+      "espn": "400445704"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300162",
+    "externalGameId": "1021300162",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-25",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 90,
+    "awayScore": 88,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300162",
+      "espn": "400445708"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300163",
+    "externalGameId": "1021300163",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-27",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 47,
+    "awayScore": 73,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300163",
+      "espn": "400445713"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300164",
+    "externalGameId": "1021300164",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-27",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 71,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300164",
+      "espn": "400445719"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300165",
+    "externalGameId": "1021300165",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-27",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 91,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300165",
+      "espn": "400445725"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300166",
+    "externalGameId": "1021300166",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-28",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 80,
+    "awayScore": 85,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300166",
+      "espn": "400445730"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300167",
+    "externalGameId": "1021300167",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-29",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 78,
+    "awayScore": 65,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300167",
+      "espn": "400445755"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300168",
+    "externalGameId": "1021300168",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-30",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 67,
+    "awayScore": 73,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300168",
+      "espn": "400445758"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300169",
+    "externalGameId": "1021300169",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-30",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 65,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300169",
+      "espn": "400445763"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300170",
+    "externalGameId": "1021300170",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-31",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 85,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300170",
+      "espn": "400445768"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300171",
+    "externalGameId": "1021300171",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-31",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 97,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300171",
+      "espn": "400445770"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300172",
+    "externalGameId": "1021300172",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-31",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 67,
+    "awayScore": 80,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300172",
+      "espn": "400445774"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300173",
+    "externalGameId": "1021300173",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-08-31",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 76,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300173",
+      "espn": "400445778"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300174",
+    "externalGameId": "1021300174",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-01",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 93,
+    "awayScore": 88,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300174",
+      "espn": "400445786"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300175",
+    "externalGameId": "1021300175",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-02",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 92,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300175",
+      "espn": "400445793"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300176",
+    "externalGameId": "1021300176",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-04",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 89,
+    "awayScore": 80,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300176",
+      "espn": "400445800"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300177",
+    "externalGameId": "1021300177",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-04",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 83,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300177",
+      "espn": "400445803"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300178",
+    "externalGameId": "1021300178",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-06",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 77,
+    "awayScore": 70,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300178",
+      "espn": "400445808"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300179",
+    "externalGameId": "1021300179",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-06",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 57,
+    "awayScore": 70,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300179",
+      "espn": "400445814"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300180",
+    "externalGameId": "1021300180",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-06",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 70,
+    "awayScore": 74,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300180",
+      "espn": "400445820"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300181",
+    "externalGameId": "1021300181",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-06",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 77,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300181",
+      "espn": "400445827"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300182",
+    "externalGameId": "1021300182",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-06",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 83,
+    "awayScore": 80,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300182",
+      "espn": "400445833"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300183",
+    "externalGameId": "1021300183",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-07",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 69,
+    "awayScore": 60,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300183",
+      "espn": "400445838"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300184",
+    "externalGameId": "1021300184",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-07",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 60,
+    "awayScore": 75,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300184",
+      "espn": "400445844"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300185",
+    "externalGameId": "1021300185",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-08",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 71,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300185",
+      "espn": "400445850"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300186",
+    "externalGameId": "1021300186",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-08",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 79,
+    "awayScore": 93,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300186",
+      "espn": "400445876"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300187",
+    "externalGameId": "1021300187",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-08",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 65,
+    "awayScore": 98,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300187",
+      "espn": "400445880"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300188",
+    "externalGameId": "1021300188",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-10",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 67,
+    "awayScore": 69,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300188",
+      "espn": "400445883"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300189",
+    "externalGameId": "1021300189",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-10",
+    "homeTeamId": "wnba:stats:team:1611661313",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 76,
+    "awayScore": 80,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300189",
+      "espn": "400445885"
+    },
+    "homeSourceId": "1611661313",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300190",
+    "externalGameId": "1021300190",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-10",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 60,
+    "awayScore": 73,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300190",
+      "espn": "400445886"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300191",
+    "externalGameId": "1021300191",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-11",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 78,
+    "awayScore": 77,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300191",
+      "espn": "400445887"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300192",
+    "externalGameId": "1021300192",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-11",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 70,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300192",
+      "espn": "400445888"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300193",
+    "externalGameId": "1021300193",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-12",
+    "homeTeamId": "wnba:stats:team:1611661321",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 67,
+    "awayScore": 76,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300193",
+      "espn": "400445889"
+    },
+    "homeSourceId": "1611661321",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300194",
+    "externalGameId": "1021300194",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-12",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 85,
+    "awayScore": 84,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300194",
+      "espn": "400445890"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300195",
+    "externalGameId": "1021300195",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-13",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 66,
+    "awayScore": 63,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300195",
+      "espn": "400445891"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300196",
+    "externalGameId": "1021300196",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-13",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661323",
+    "homeScore": 82,
+    "awayScore": 56,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300196",
+      "espn": "400445892"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661323",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300197",
+    "externalGameId": "1021300197",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-13",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 87,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300197",
+      "espn": "400445893"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300198",
+    "externalGameId": "1021300198",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-13",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661319",
+    "homeScore": 82,
+    "awayScore": 61,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300198",
+      "espn": "400445894"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661319",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300199",
+    "externalGameId": "1021300199",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-14",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 79,
+    "awayScore": 66,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300199",
+      "espn": "400445895"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300200",
+    "externalGameId": "1021300200",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-14",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661321",
+    "homeScore": 85,
+    "awayScore": 73,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300200",
+      "espn": "400445896"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661321",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300201",
+    "externalGameId": "1021300201",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-15",
+    "homeTeamId": "wnba:stats:team:1611661323",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 82,
+    "awayScore": 80,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300201",
+      "espn": "400445897"
+    },
+    "homeSourceId": "1611661323",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300202",
+    "externalGameId": "1021300202",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-15",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661313",
+    "homeScore": 70,
+    "awayScore": 52,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300202",
+      "espn": "400445898"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661313",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300203",
+    "externalGameId": "1021300203",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-15",
+    "homeTeamId": "wnba:stats:team:1611661319",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 97,
+    "awayScore": 68,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300203",
+      "espn": "400445899"
+    },
+    "homeSourceId": "1611661319",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1021300204",
+    "externalGameId": "1021300204",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Regular Season",
+    "gameDate": "2013-09-15",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 89,
+    "awayScore": 55,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1021300204",
+      "espn": "400445900"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041300101",
+    "externalGameId": "1041300101",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Playoffs",
+    "gameDate": "2013-09-20",
+    "homeTeamId": "wnba:stats:team:1611661329",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 72,
+    "awayScore": 85,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041300101",
+      "espn": "400496780"
+    },
+    "homeSourceId": "1611661329",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041300102",
+    "externalGameId": "1041300102",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Playoffs",
+    "gameDate": "2013-09-22",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661329",
+    "homeScore": 79,
+    "awayScore": 57,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041300102",
+      "espn": "400496781"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661329",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041300111",
+    "externalGameId": "1041300111",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Playoffs",
+    "gameDate": "2013-09-19",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 56,
+    "awayScore": 71,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041300111",
+      "espn": "400496774"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041300112",
+    "externalGameId": "1041300112",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Playoffs",
+    "gameDate": "2013-09-21",
+    "homeTeamId": "wnba:stats:team:1611661322",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 45,
+    "awayScore": 63,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041300112",
+      "espn": "400496775"
+    },
+    "homeSourceId": "1611661322",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041300113",
+    "externalGameId": "1041300113",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Playoffs",
+    "gameDate": "2013-09-23",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661322",
+    "homeScore": 80,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041300113",
+      "espn": "400496776"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661322",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041300121",
+    "externalGameId": "1041300121",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Playoffs",
+    "gameDate": "2013-09-20",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661328",
+    "homeScore": 80,
+    "awayScore": 64,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041300121",
+      "espn": "400496783"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661328",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041300122",
+    "externalGameId": "1041300122",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Playoffs",
+    "gameDate": "2013-09-22",
+    "homeTeamId": "wnba:stats:team:1611661328",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 55,
+    "awayScore": 58,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041300122",
+      "espn": "400496784"
+    },
+    "homeSourceId": "1611661328",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041300131",
+    "externalGameId": "1041300131",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Playoffs",
+    "gameDate": "2013-09-19",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 75,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041300131",
+      "espn": "400496777"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041300132",
+    "externalGameId": "1041300132",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Playoffs",
+    "gameDate": "2013-09-21",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661320",
+    "homeScore": 73,
+    "awayScore": 82,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041300132",
+      "espn": "400496778"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661320",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041300133",
+    "externalGameId": "1041300133",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Playoffs",
+    "gameDate": "2013-09-23",
+    "homeTeamId": "wnba:stats:team:1611661320",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 77,
+    "awayScore": 78,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041300133",
+      "espn": "400496779"
+    },
+    "homeSourceId": "1611661320",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041300201",
+    "externalGameId": "1041300201",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Playoffs",
+    "gameDate": "2013-09-26",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661325",
+    "homeScore": 84,
+    "awayScore": 79,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041300201",
+      "espn": "400499743"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661325",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 9,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041300202",
+    "externalGameId": "1041300202",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Playoffs",
+    "gameDate": "2013-09-29",
+    "homeTeamId": "wnba:stats:team:1611661325",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 53,
+    "awayScore": 67,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041300202",
+      "espn": "400499744"
+    },
+    "homeSourceId": "1611661325",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041300211",
+    "externalGameId": "1041300211",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Playoffs",
+    "gameDate": "2013-09-26",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661317",
+    "homeScore": 85,
+    "awayScore": 62,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041300211",
+      "espn": "400499746"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661317",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041300212",
+    "externalGameId": "1041300212",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Playoffs",
+    "gameDate": "2013-09-29",
+    "homeTeamId": "wnba:stats:team:1611661317",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 65,
+    "awayScore": 72,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041300212",
+      "espn": "400499747"
+    },
+    "homeSourceId": "1611661317",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 7,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041300301",
+    "externalGameId": "1041300301",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Playoffs",
+    "gameDate": "2013-10-06",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 84,
+    "awayScore": 59,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041300301",
+      "espn": "400505694"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041300302",
+    "externalGameId": "1041300302",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Playoffs",
+    "gameDate": "2013-10-08",
+    "homeTeamId": "wnba:stats:team:1611661324",
+    "awayTeamId": "wnba:stats:team:1611661330",
+    "homeScore": 88,
+    "awayScore": 63,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041300302",
+      "espn": "400505695"
+    },
+    "homeSourceId": "1611661324",
+    "awaySourceId": "1611661330",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 10,
+        "playerPointsReconciled": true
+      }
+    }
+  },
+  {
+    "id": "wnba:stats:game:1041300303",
+    "externalGameId": "1041300303",
+    "league": "wnba",
+    "season": 2013,
+    "seasonType": "Playoffs",
+    "gameDate": "2013-10-10",
+    "homeTeamId": "wnba:stats:team:1611661330",
+    "awayTeamId": "wnba:stats:team:1611661324",
+    "homeScore": 77,
+    "awayScore": 86,
+    "completed": true,
+    "source": "stats/schedule",
+    "sourceIds": {
+      "stats": "1041300303",
+      "espn": "400505696"
+    },
+    "homeSourceId": "1611661330",
+    "awaySourceId": "1611661324",
+    "coverage": {
+      "home": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 8,
+        "playerPointsReconciled": true
+      },
+      "away": {
+        "teamStatsAvailable": true,
+        "playerStatRows": 11,
+        "playerPointsReconciled": true
+      }
+    }
+  }
+]

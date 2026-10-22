@@ -1,0 +1,3708 @@
+[
+  {
+    "id": "wnba:stats:player:100002",
+    "externalPlayerId": "100002",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Rebecca Lobo",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100003",
+    "externalPlayerId": "100003",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Lisa Leslie",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100008",
+    "externalPlayerId": "100008",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Tamecka Dixon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100012",
+    "externalPlayerId": "100012",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Mwadi Mabika",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100016",
+    "externalPlayerId": "100016",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Ruthie Bolton",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100027",
+    "externalPlayerId": "100027",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Latasha Byears",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100030",
+    "externalPlayerId": "100030",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Jennifer Gillom",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100031",
+    "externalPlayerId": "100031",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Bridget Pettis",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100036",
+    "externalPlayerId": "100036",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Monique Ambers",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100037",
+    "externalPlayerId": "100037",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Marlies Askamp",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661320",
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100044",
+    "externalPlayerId": "100044",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Lady Grooms",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100046",
+    "externalPlayerId": "100046",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Wendy Palmer",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321",
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100048",
+    "externalPlayerId": "100048",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Jessie Hicks",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100058",
+    "externalPlayerId": "100058",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Vicky Bullett",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100059",
+    "externalPlayerId": "100059",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Andrea Stinson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100069",
+    "externalPlayerId": "100069",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Penny McCray, Nikki (",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100072",
+    "externalPlayerId": "100072",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Sheryl Swoopes",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100075",
+    "externalPlayerId": "100075",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Janeth Arcain",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100076",
+    "externalPlayerId": "100076",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Tina Thompson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100077",
+    "externalPlayerId": "100077",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Tammy Jackson",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100092",
+    "externalPlayerId": "100092",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Merlakia Jones",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100097",
+    "externalPlayerId": "100097",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Rushia Brown",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100100",
+    "externalPlayerId": "100100",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Adrienne Johnson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100101",
+    "externalPlayerId": "100101",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Teresa Weatherspoon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100103",
+    "externalPlayerId": "100103",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Vickie Johnson",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100104",
+    "externalPlayerId": "100104",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Sue Wicks",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100105",
+    "externalPlayerId": "100105",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Sophia Witherspoon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100111",
+    "externalPlayerId": "100111",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Simone Edwards",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100170",
+    "externalPlayerId": "100170",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Allison Feaster",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100180",
+    "externalPlayerId": "100180",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Pollyanna Johns Kimbrough",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100182",
+    "externalPlayerId": "100182",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Tracy Reid",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100198",
+    "externalPlayerId": "100198",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Nikki McCray",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100199",
+    "externalPlayerId": "100199",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Murriel Page",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100204",
+    "externalPlayerId": "100204",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Rita Williams",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316",
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100215",
+    "externalPlayerId": "100215",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Vanessa Nygaard",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100216",
+    "externalPlayerId": "100216",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Alicia Thompson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100217",
+    "externalPlayerId": "100217",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Coquese Washington",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325",
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100222",
+    "externalPlayerId": "100222",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Kristi Harrower",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100225",
+    "externalPlayerId": "100225",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Brandy Reed",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100227",
+    "externalPlayerId": "100227",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Maria Stepanova",
+    "position": "C",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100230",
+    "externalPlayerId": "100230",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Quacy Barnes",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100231",
+    "externalPlayerId": "100231",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Adia Barnes",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100233",
+    "externalPlayerId": "100233",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Tiffani Johnson",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100234",
+    "externalPlayerId": "100234",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Ticha Penicheiro",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100236",
+    "externalPlayerId": "100236",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Tangela Smith",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100237",
+    "externalPlayerId": "100237",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Tricia Bader Binford",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100239",
+    "externalPlayerId": "100239",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Margo Dydek",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100242",
+    "externalPlayerId": "100242",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "LaTonya Johnson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100243",
+    "externalPlayerId": "100243",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Olympia Scott",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100247",
+    "externalPlayerId": "100247",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Sandy Brondello",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100250",
+    "externalPlayerId": "100250",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Korie Hlede",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100284",
+    "externalPlayerId": "100284",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Tully Bevilaqua",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100294",
+    "externalPlayerId": "100294",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Cass Bauer-Bilodeau",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100336",
+    "externalPlayerId": "100336",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Sonja Henning",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316",
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100338",
+    "externalPlayerId": "100338",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Jennifer Rizzotti",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100340",
+    "externalPlayerId": "100340",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Kara Wolters",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100342",
+    "externalPlayerId": "100342",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Becky Hammon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100344",
+    "externalPlayerId": "100344",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Carolyn Young",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100345",
+    "externalPlayerId": "100345",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Crystal Robinson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100346",
+    "externalPlayerId": "100346",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Michele Van Gorp",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100347",
+    "externalPlayerId": "100347",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Tamika Whitmore",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100350",
+    "externalPlayerId": "100350",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Shalonda Enis",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100353",
+    "externalPlayerId": "100353",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Andrea Nagy",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100356",
+    "externalPlayerId": "100356",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Chamique Holdsclaw",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100357",
+    "externalPlayerId": "100357",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Monica Maxwell",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100359",
+    "externalPlayerId": "100359",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Debbie Black",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100363",
+    "externalPlayerId": "100363",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Adrienne Goodson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100366",
+    "externalPlayerId": "100366",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Natalie Williams",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100371",
+    "externalPlayerId": "100371",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Charlotte Smith",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100372",
+    "externalPlayerId": "100372",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Dawn Staley",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100375",
+    "externalPlayerId": "100375",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Edna Campbell",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100378",
+    "externalPlayerId": "100378",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Lisa Harrison",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100382",
+    "externalPlayerId": "100382",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Jennifer Azzi",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100384",
+    "externalPlayerId": "100384",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Dominique Canty",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100386",
+    "externalPlayerId": "100386",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Claudia Neves",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100387",
+    "externalPlayerId": "100387",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Astou Ndiaye-Diatta",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100389",
+    "externalPlayerId": "100389",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Val Whiting",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100390",
+    "externalPlayerId": "100390",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Oksana Zakaluzhnaya",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661321",
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100392",
+    "externalPlayerId": "100392",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Ukari Figgs",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100393",
+    "externalPlayerId": "100393",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "La'Keshia Frett",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100394",
+    "externalPlayerId": "100394",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Gordana Grubin",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100395",
+    "externalPlayerId": "100395",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Clarisse Machanguana",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100396",
+    "externalPlayerId": "100396",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "DeLisha Milton-Jones",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100398",
+    "externalPlayerId": "100398",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Tonya Edwards",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100400",
+    "externalPlayerId": "100400",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Kristin Folkl",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100401",
+    "externalPlayerId": "100401",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Annie Burgess",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100404",
+    "externalPlayerId": "100404",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Katie Smith",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100410",
+    "externalPlayerId": "100410",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Shannon Johnson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100411",
+    "externalPlayerId": "100411",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Carla McGhee",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100412",
+    "externalPlayerId": "100412",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Taj McWilliams-Franklin",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100413",
+    "externalPlayerId": "100413",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Tari Phillips",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100414",
+    "externalPlayerId": "100414",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Elaine Powell",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323",
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100415",
+    "externalPlayerId": "100415",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Nykesha Sales",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100416",
+    "externalPlayerId": "100416",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Sheri Sam",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100419",
+    "externalPlayerId": "100419",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Yolanda Griffith",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100421",
+    "externalPlayerId": "100421",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Kedra Holland-Corn",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100422",
+    "externalPlayerId": "100422",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Kate Starbird",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661328",
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100427",
+    "externalPlayerId": "100427",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Trisha Stafford-Odom",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100428",
+    "externalPlayerId": "100428",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Mery Andrade",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100429",
+    "externalPlayerId": "100429",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Alisa Burras",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100430",
+    "externalPlayerId": "100430",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Tracy Henderson",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100433",
+    "externalPlayerId": "100433",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Chasity Melvin",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100445",
+    "externalPlayerId": "100445",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Ann Wauters",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100446",
+    "externalPlayerId": "100446",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Summer Erb",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100458",
+    "externalPlayerId": "100458",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Vicki Hall",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100471",
+    "externalPlayerId": "100471",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Danielle McCulley",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100476",
+    "externalPlayerId": "100476",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Vedrana Grgin Fonseca",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100478",
+    "externalPlayerId": "100478",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Nicky McCrimmon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100479",
+    "externalPlayerId": "100479",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Paige Sauer",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100482",
+    "externalPlayerId": "100482",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Grace Daley",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100484",
+    "externalPlayerId": "100484",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Betty Lennox",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324",
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100487",
+    "externalPlayerId": "100487",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Kate Paye",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100490",
+    "externalPlayerId": "100490",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Shanele Stires",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100492",
+    "externalPlayerId": "100492",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Edwina Brown",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100494",
+    "externalPlayerId": "100494",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Barbara Farris",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100496",
+    "externalPlayerId": "100496",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Tamicha Jackson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100500",
+    "externalPlayerId": "100500",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Elena Shakirova",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100504",
+    "externalPlayerId": "100504",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Kelley Gibson",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100512",
+    "externalPlayerId": "100512",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Shea Mahoney",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100514",
+    "externalPlayerId": "100514",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Cintia dos Santos",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100516",
+    "externalPlayerId": "100516",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Amber Hall",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100518",
+    "externalPlayerId": "100518",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Nadine Malcolm",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100521",
+    "externalPlayerId": "100521",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Tiffany McCain",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100526",
+    "externalPlayerId": "100526",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Adrian Williams-Strong",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100529",
+    "externalPlayerId": "100529",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Sylvia Crawley",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100530",
+    "externalPlayerId": "100530",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Lynn Pride",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100532",
+    "externalPlayerId": "100532",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Stacey Thomas",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100533",
+    "externalPlayerId": "100533",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "DeMya Walker",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100534",
+    "externalPlayerId": "100534",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Stacy Clinesmith",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100541",
+    "externalPlayerId": "100541",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Jamie Redd",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100544",
+    "externalPlayerId": "100544",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Kamila Vodichkova",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100548",
+    "externalPlayerId": "100548",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Katryna Gaither",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661320",
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100549",
+    "externalPlayerId": "100549",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Amy Herrig",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100552",
+    "externalPlayerId": "100552",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Kristen Rasmussen",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100553",
+    "externalPlayerId": "100553",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Keisha Anderson",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100555",
+    "externalPlayerId": "100555",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Tausha Mills",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100557",
+    "externalPlayerId": "100557",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Tonya Massaline",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100560",
+    "externalPlayerId": "100560",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Shantia Owens",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100570",
+    "externalPlayerId": "100570",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Michelle Marciniak",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100599",
+    "externalPlayerId": "100599",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Stacey Ford",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100601",
+    "externalPlayerId": "100601",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Elisa Aguilar",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100627",
+    "externalPlayerId": "100627",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Kelly Miller",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100628",
+    "externalPlayerId": "100628",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Tammy Sutton-Brown",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100634",
+    "externalPlayerId": "100634",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Penny Taylor",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100635",
+    "externalPlayerId": "100635",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Jaynetta Saunders",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100639",
+    "externalPlayerId": "100639",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Deanna Nolan",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100640",
+    "externalPlayerId": "100640",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Kelly Santos",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100642",
+    "externalPlayerId": "100642",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Amanda Lassiter",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661328",
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100643",
+    "externalPlayerId": "100643",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Tynesha Lewis",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100646",
+    "externalPlayerId": "100646",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Tamika Catchings",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100648",
+    "externalPlayerId": "100648",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Kelly Schumacher",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100650",
+    "externalPlayerId": "100650",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Niele Ivey",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100651",
+    "externalPlayerId": "100651",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Kiesha Brown",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100652",
+    "externalPlayerId": "100652",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Camille Cooper",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100656",
+    "externalPlayerId": "100656",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Ruth Riley",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100658",
+    "externalPlayerId": "100658",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Svetlana Abrosimova",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100659",
+    "externalPlayerId": "100659",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Erin Perperoglou",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100660",
+    "externalPlayerId": "100660",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Janell Burse",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100666",
+    "externalPlayerId": "100666",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Katie Douglas",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100667",
+    "externalPlayerId": "100667",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Brooke Wyckoff",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100670",
+    "externalPlayerId": "100670",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Kristen Veal",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100674",
+    "externalPlayerId": "100674",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Carolyn Moos",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100676",
+    "externalPlayerId": "100676",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Jackie Stiles",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100677",
+    "externalPlayerId": "100677",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "LaQuanda Quick",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100678",
+    "externalPlayerId": "100678",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Jenny Mowe",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100680",
+    "externalPlayerId": "100680",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Jackie Moore",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100681",
+    "externalPlayerId": "100681",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Maren Walseth",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100682",
+    "externalPlayerId": "100682",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Lauren Jackson",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100683",
+    "externalPlayerId": "100683",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Semeka Randall",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319",
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100685",
+    "externalPlayerId": "100685",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Marie Ferdinand-Harris",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100690",
+    "externalPlayerId": "100690",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Coco Miller",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100694",
+    "externalPlayerId": "100694",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Helen Luz",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100695",
+    "externalPlayerId": "100695",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Audrey Sauret",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100707",
+    "externalPlayerId": "100707",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Georgia Schweitzer",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100713",
+    "externalPlayerId": "100713",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Slobodanka Tuvic",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100718",
+    "externalPlayerId": "100718",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Adriana Moises Pinto",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100720",
+    "externalPlayerId": "100720",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Sue Bird",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100721",
+    "externalPlayerId": "100721",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Swin Cash",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100722",
+    "externalPlayerId": "100722",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Stacey Dales",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100723",
+    "externalPlayerId": "100723",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Asjha Jones",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100724",
+    "externalPlayerId": "100724",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Nikki Teasley",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100725",
+    "externalPlayerId": "100725",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Tamika Raymond",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100726",
+    "externalPlayerId": "100726",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Sheila Lambert",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100727",
+    "externalPlayerId": "100727",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Deanna Jackson",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100728",
+    "externalPlayerId": "100728",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Shaunzinski Gortman",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100729",
+    "externalPlayerId": "100729",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Michelle Snow",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100730",
+    "externalPlayerId": "100730",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Danielle Crockrom",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100731",
+    "externalPlayerId": "100731",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Hamchetou Maiga-Ba",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100733",
+    "externalPlayerId": "100733",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "LaNeishea Caufield",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100734",
+    "externalPlayerId": "100734",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Tamara Moore",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661326",
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100737",
+    "externalPlayerId": "100737",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Zuzana Klimesova",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100738",
+    "externalPlayerId": "100738",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Lenae Williams",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100739",
+    "externalPlayerId": "100739",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Lucienne Berthieu",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100740",
+    "externalPlayerId": "100740",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Ayana Walker",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100741",
+    "externalPlayerId": "100741",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Jill Chapman-Daily",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100743",
+    "externalPlayerId": "100743",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Davalyn Cunningham",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100744",
+    "externalPlayerId": "100744",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Brandi McCain",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100746",
+    "externalPlayerId": "100746",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Linda Frohlich",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100747",
+    "externalPlayerId": "100747",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Andrea Gardner",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100748",
+    "externalPlayerId": "100748",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Felicia Ragland",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100749",
+    "externalPlayerId": "100749",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Lindsey Yamasaki",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100754",
+    "externalPlayerId": "100754",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "TaKeisha Lewis",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100759",
+    "externalPlayerId": "100759",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Kayte Christensen",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100796",
+    "externalPlayerId": "100796",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Iziane Castro Marques",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100797",
+    "externalPlayerId": "100797",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Claudia Neves",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661326"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100799",
+    "externalPlayerId": "100799",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Susanna Bonfiglio",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100803",
+    "externalPlayerId": "100803",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Begona Garcia",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100807",
+    "externalPlayerId": "100807",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Bernadette Ngoyisa",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100812",
+    "externalPlayerId": "100812",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Erika de Souza",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100908",
+    "externalPlayerId": "100908",
+    "league": "wnba",
+    "season": 2002,
+    "fullName": "Korie Hlede",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  }
+]

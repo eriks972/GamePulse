@@ -1,0 +1,127 @@
+{
+  "season": 2002,
+  "league": "wnba",
+  "generatedAt": "2026-10-21T22:25:04.827586+00:00",
+  "scheduleGames": 273,
+  "completedGames": 273,
+  "teamStatRows": 546,
+  "playerStatRows": 5261,
+  "completedTeamSides": 546,
+  "completedTeamSidesWithTeamStats": 546,
+  "completedTeamSidesWithReconciledPlayerPoints": 546,
+  "logClassification": {
+    "players": 5261,
+    "teamTotals": 546,
+    "unclassified": 0
+  },
+  "crosswalks": {
+    "team_crosswalk": {
+      "accepted": 16,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "checked"
+    },
+    "player_crosswalk": {
+      "accepted": 192,
+      "rejected": 21,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {
+        "missing_id": 14,
+        "unsupported_match_method": 5,
+        "confidence_not_one": 1,
+        "target_not_in_verified_stats_data": 1
+      },
+      "status": "checked"
+    },
+    "schedule_crosswalk": {
+      "accepted": 271,
+      "rejected": 3,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {
+        "missing_id": 3
+      },
+      "status": "checked"
+    },
+    "gameContextVerified": 270
+  },
+  "skippedRows": {},
+  "inputs": {
+    "stats/schedule/2002": {
+      "status": "verified",
+      "sha256": "dc4ff2a47c59cc05d849ac28d75e1d7af868c1ab2a021d3766dc2aa7e97b5f93",
+      "path": "raw/stats/schedule/wnba_schedule_2002.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_schedules/wnba_schedule_2002.parquet",
+      "rows": 273
+    },
+    "stats/rosters/2002": {
+      "status": "verified",
+      "sha256": "0e51d698ae46b7c5e81dc3fb2a98291b2bef5883c0184f18133d22d3a511eea7",
+      "path": "raw/stats/rosters/rosters_2002.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_rosters/rosters_2002.parquet",
+      "rows": 184
+    },
+    "stats/player_game_logs/2002": {
+      "status": "verified",
+      "sha256": "1fa46adb7b75e6dce9ab50465a1612e7f838bdc871430782a327a1fb64b2c8e5",
+      "path": "raw/stats/player_game_logs/player_game_logs_2002.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_player_game_logs/player_game_logs_2002.parquet",
+      "rows": 5807
+    },
+    "stats/team_box/2002": {
+      "status": "unavailable_in_catalog"
+    },
+    "stats/player_box/2002": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/team_crosswalk/2002": {
+      "status": "verified",
+      "sha256": "2493f24bd012e1056d5a8eabbea95314f90b549b0a3aa7779455da0b9315e389",
+      "path": "raw/espn/team_crosswalk/wnba_team_crosswalk_2002.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_team_crosswalk_2002.parquet",
+      "rows": 16
+    },
+    "espn/player_crosswalk/2002": {
+      "status": "verified",
+      "sha256": "34e571353db06bfda2a3f3a9f781d5798d2987274509543e988d99ce912d60a5",
+      "path": "raw/espn/player_crosswalk/wnba_player_crosswalk_2002.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_player_crosswalk_2002.parquet",
+      "rows": 226
+    },
+    "espn/schedule_crosswalk/2002": {
+      "status": "verified",
+      "sha256": "2cfab8969152725abb87b49c5958d71e3f4fbb6d9bdc039718a18a8dde5988d8",
+      "path": "raw/espn/schedule_crosswalk/wnba_schedule_crosswalk_2002.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_schedule_crosswalk_2002.parquet",
+      "rows": 274
+    },
+    "espn/schedule/2002": {
+      "status": "verified",
+      "sha256": "fa4e11a2e719c03da49d06149930a476a9a9f43b417460b1e42d14cf8d8516a6",
+      "path": "raw/espn/schedule/wnba_schedule_2002.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_schedules/wnba_schedule_2002.parquet",
+      "rows": 272
+    },
+    "espn/team_box/2002": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/player_box/2002": {
+      "status": "verified",
+      "sha256": "ffc05f5710f958cd038e0fde8dc0d0bfa0785241112da2c6684f074ef34207d4",
+      "path": "raw/espn/player_box/player_box_2002.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_player_boxscores/player_box_2002.parquet",
+      "rows": 344
+    }
+  },
+  "issueCounts": {
+    "crosswalk_game_score_mismatch": 1,
+    "espn_schedule_not_merged": 2,
+    "record_without_points": 319,
+    "espn_record_without_verified_mapping": 25
+  },
+  "status": "prepared_with_review_items",
+  "note": "Coverage is relative to the verified Stats schedule snapshot, not an independent league audit. Roster snapshots do not define all historical participants."
+}

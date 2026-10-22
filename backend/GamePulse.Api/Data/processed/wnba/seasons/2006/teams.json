@@ -1,0 +1,114 @@
+[
+  {
+    "id": "wnba:stats:team:1611661313",
+    "externalTeamId": "1611661313",
+    "league": "wnba",
+    "season": 2006,
+    "name": "New York Liberty",
+    "abbreviation": "NYL"
+  },
+  {
+    "id": "wnba:stats:team:1611661314",
+    "externalTeamId": "1611661314",
+    "league": "wnba",
+    "season": 2006,
+    "name": "Charlotte Sting",
+    "abbreviation": "CHA"
+  },
+  {
+    "id": "wnba:stats:team:1611661316",
+    "externalTeamId": "1611661316",
+    "league": "wnba",
+    "season": 2006,
+    "name": "Houston Comets",
+    "abbreviation": "HOU"
+  },
+  {
+    "id": "wnba:stats:team:1611661317",
+    "externalTeamId": "1611661317",
+    "league": "wnba",
+    "season": 2006,
+    "name": "Phoenix Mercury",
+    "abbreviation": "PHO"
+  },
+  {
+    "id": "wnba:stats:team:1611661318",
+    "externalTeamId": "1611661318",
+    "league": "wnba",
+    "season": 2006,
+    "name": "Sacramento Monarchs",
+    "abbreviation": "SAC"
+  },
+  {
+    "id": "wnba:stats:team:1611661319",
+    "externalTeamId": "1611661319",
+    "league": "wnba",
+    "season": 2006,
+    "name": "San Antonio Silver Stars",
+    "abbreviation": "SAN"
+  },
+  {
+    "id": "wnba:stats:team:1611661320",
+    "externalTeamId": "1611661320",
+    "league": "wnba",
+    "season": 2006,
+    "name": "Los Angeles Sparks",
+    "abbreviation": "LAS"
+  },
+  {
+    "id": "wnba:stats:team:1611661321",
+    "externalTeamId": "1611661321",
+    "league": "wnba",
+    "season": 2006,
+    "name": "Detroit Shock",
+    "abbreviation": "DET"
+  },
+  {
+    "id": "wnba:stats:team:1611661322",
+    "externalTeamId": "1611661322",
+    "league": "wnba",
+    "season": 2006,
+    "name": "Washington Mystics",
+    "abbreviation": "WAS"
+  },
+  {
+    "id": "wnba:stats:team:1611661323",
+    "externalTeamId": "1611661323",
+    "league": "wnba",
+    "season": 2006,
+    "name": "Connecticut Sun",
+    "abbreviation": "CON"
+  },
+  {
+    "id": "wnba:stats:team:1611661324",
+    "externalTeamId": "1611661324",
+    "league": "wnba",
+    "season": 2006,
+    "name": "Minnesota Lynx",
+    "abbreviation": "MIN"
+  },
+  {
+    "id": "wnba:stats:team:1611661325",
+    "externalTeamId": "1611661325",
+    "league": "wnba",
+    "season": 2006,
+    "name": "Indiana Fever",
+    "abbreviation": "IND"
+  },
+  {
+    "id": "wnba:stats:team:1611661328",
+    "externalTeamId": "1611661328",
+    "league": "wnba",
+    "season": 2006,
+    "name": "Seattle Storm",
+    "abbreviation": "SEA"
+  },
+  {
+    "id": "wnba:stats:team:1611661329",
+    "externalTeamId": "1611661329",
+    "league": "wnba",
+    "season": 2006,
+    "name": "Chicago Sky",
+    "abbreviation": "CHI"
+  }
+]

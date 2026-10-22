@@ -1,0 +1,132 @@
+{
+  "season": 2013,
+  "league": "wnba",
+  "generatedAt": "2026-10-21T22:26:36.524951+00:00",
+  "scheduleGames": 221,
+  "completedGames": 221,
+  "teamStatRows": 442,
+  "playerStatRows": 4192,
+  "completedTeamSides": 442,
+  "completedTeamSidesWithTeamStats": 442,
+  "completedTeamSidesWithReconciledPlayerPoints": 442,
+  "logClassification": {
+    "players": 4192,
+    "teamTotals": 442,
+    "unclassified": 0
+  },
+  "crosswalks": {
+    "team_crosswalk": {
+      "accepted": 12,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "checked"
+    },
+    "player_crosswalk": {
+      "accepted": 143,
+      "rejected": 8,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {
+        "unsupported_match_method": 2,
+        "missing_id": 5,
+        "target_not_in_verified_stats_data": 1
+      },
+      "status": "checked"
+    },
+    "schedule_crosswalk": {
+      "accepted": 221,
+      "rejected": 1,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {
+        "missing_id": 1
+      },
+      "status": "checked"
+    },
+    "gameContextVerified": 221
+  },
+  "skippedRows": {
+    "espn/player_box:did_not_play": 733
+  },
+  "inputs": {
+    "stats/schedule/2013": {
+      "status": "verified",
+      "sha256": "e0bedbe116f77afffbfb6ce496311365244246fe284170ed860d5e2a753bf0ad",
+      "path": "raw/stats/schedule/wnba_schedule_2013.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_schedules/wnba_schedule_2013.parquet",
+      "rows": 221
+    },
+    "stats/rosters/2013": {
+      "status": "verified",
+      "sha256": "05f99a785b15b43247b4a6737a26b10a66cb2b8bd00c175141cdc93daaa32fba",
+      "path": "raw/stats/rosters/rosters_2013.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_rosters/rosters_2013.parquet",
+      "rows": 139
+    },
+    "stats/player_game_logs/2013": {
+      "status": "verified",
+      "sha256": "7b75a9c7aad93c0810a96596ab7f9c8d4e8e18a28737e5018827d1a5d20f2723",
+      "path": "raw/stats/player_game_logs/player_game_logs_2013.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_player_game_logs/player_game_logs_2013.parquet",
+      "rows": 4634
+    },
+    "stats/team_box/2013": {
+      "status": "unavailable_in_catalog"
+    },
+    "stats/player_box/2013": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/team_crosswalk/2013": {
+      "status": "verified",
+      "sha256": "3c7ea5c7919194403065c5af99b3118ee8a6e729e2fd5e7785d1c4644ccdf0f0",
+      "path": "raw/espn/team_crosswalk/wnba_team_crosswalk_2013.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_team_crosswalk_2013.parquet",
+      "rows": 12
+    },
+    "espn/player_crosswalk/2013": {
+      "status": "verified",
+      "sha256": "9cf91c4f73bd0b85cca7c063a4a4a0ee006d7d4a3aaf017910cfc3126114bbb4",
+      "path": "raw/espn/player_crosswalk/wnba_player_crosswalk_2013.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_player_crosswalk_2013.parquet",
+      "rows": 156
+    },
+    "espn/schedule_crosswalk/2013": {
+      "status": "verified",
+      "sha256": "a267618ab3d62aeb730f2056fe3487ecc68427c8e37e618cbfa32a5a1b81c25e",
+      "path": "raw/espn/schedule_crosswalk/wnba_schedule_crosswalk_2013.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_schedule_crosswalk_2013.parquet",
+      "rows": 222
+    },
+    "espn/schedule/2013": {
+      "status": "verified",
+      "sha256": "c6570290159b9f8a9127985e38ba83d9a9f669fb1373cf15ff24057133296ed7",
+      "path": "raw/espn/schedule/wnba_schedule_2013.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_schedules/wnba_schedule_2013.parquet",
+      "rows": 222
+    },
+    "espn/team_box/2013": {
+      "status": "verified",
+      "sha256": "d4c391acc0cff1ee3a571a66ef0713394c675655497a034a00b4f8b023170be8",
+      "path": "raw/espn/team_box/team_box_2013.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_team_boxscores/team_box_2013.parquet",
+      "rows": 444
+    },
+    "espn/player_box/2013": {
+      "status": "verified",
+      "sha256": "fab613af6d25f5aa884384335bedcc5f8e40dc83810d2f60a20e3b9f115da340",
+      "path": "raw/espn/player_box/player_box_2013.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_player_boxscores/player_box_2013.parquet",
+      "rows": 4961
+    }
+  },
+  "issueCounts": {
+    "espn_schedule_not_merged": 1,
+    "espn_record_without_verified_mapping": 187,
+    "supplement_conflicts_with_preferred_stats": 336,
+    "record_without_points": 12
+  },
+  "status": "prepared_with_review_items",
+  "note": "Coverage is relative to the verified Stats schedule snapshot, not an independent league audit. Roster snapshots do not define all historical participants."
+}

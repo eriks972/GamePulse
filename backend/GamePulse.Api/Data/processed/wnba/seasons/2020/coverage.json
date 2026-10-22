@@ -1,0 +1,128 @@
+{
+  "season": 2020,
+  "league": "wnba",
+  "generatedAt": "2026-10-21T22:27:29.627286+00:00",
+  "scheduleGames": 147,
+  "completedGames": 147,
+  "teamStatRows": 294,
+  "playerStatRows": 2796,
+  "completedTeamSides": 294,
+  "completedTeamSidesWithTeamStats": 294,
+  "completedTeamSidesWithReconciledPlayerPoints": 294,
+  "logClassification": {
+    "players": 2796,
+    "teamTotals": 294,
+    "unclassified": 0
+  },
+  "crosswalks": {
+    "team_crosswalk": {
+      "accepted": 12,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "checked"
+    },
+    "player_crosswalk": {
+      "accepted": 150,
+      "rejected": 3,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {
+        "missing_id": 1,
+        "unsupported_match_method": 2
+      },
+      "status": "checked"
+    },
+    "schedule_crosswalk": {
+      "accepted": 147,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "checked"
+    },
+    "gameContextVerified": 147
+  },
+  "skippedRows": {
+    "espn/player_box:did_not_play": 744
+  },
+  "inputs": {
+    "stats/schedule/2020": {
+      "status": "verified",
+      "sha256": "d8dbcd275b48bba61e71a1210169d156c0f20274527fbd826900909851826a2a",
+      "path": "raw/stats/schedule/wnba_schedule_2020.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_schedules/wnba_schedule_2020.parquet",
+      "rows": 147
+    },
+    "stats/rosters/2020": {
+      "status": "verified",
+      "sha256": "023c6dd037be857f1cb70e2a0503a12b0e7a30b26ffa0438e8450a820e242bfa",
+      "path": "raw/stats/rosters/rosters_2020.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_rosters/rosters_2020.parquet",
+      "rows": 149
+    },
+    "stats/player_game_logs/2020": {
+      "status": "verified",
+      "sha256": "913f3ba631d8c2064d5586a8f975762422ff0c70d0befb9b85b8943bcc454ec6",
+      "path": "raw/stats/player_game_logs/player_game_logs_2020.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_player_game_logs/player_game_logs_2020.parquet",
+      "rows": 3090
+    },
+    "stats/team_box/2020": {
+      "status": "unavailable_in_catalog"
+    },
+    "stats/player_box/2020": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/team_crosswalk/2020": {
+      "status": "verified",
+      "sha256": "be259281c2b389e9344db9a5ec2dec3d232336cbcbf687976a05a03fd1a4e7f4",
+      "path": "raw/espn/team_crosswalk/wnba_team_crosswalk_2020.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_team_crosswalk_2020.parquet",
+      "rows": 12
+    },
+    "espn/player_crosswalk/2020": {
+      "status": "verified",
+      "sha256": "ca543db5cca8652c46400792d802fc774da2da146b4c5c5b4f70adee3eb14ed4",
+      "path": "raw/espn/player_crosswalk/wnba_player_crosswalk_2020.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_player_crosswalk_2020.parquet",
+      "rows": 163
+    },
+    "espn/schedule_crosswalk/2020": {
+      "status": "verified",
+      "sha256": "bdf61d21d4c70fec33c425505949573f51eafc3c6be93d1f5cc4fb13c5478c51",
+      "path": "raw/espn/schedule_crosswalk/wnba_schedule_crosswalk_2020.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_schedule_crosswalk_2020.parquet",
+      "rows": 147
+    },
+    "espn/schedule/2020": {
+      "status": "verified",
+      "sha256": "5ffc732ba9b3f482fb8372f490d0aee99d2a5cd24240649378b842d0d5560076",
+      "path": "raw/espn/schedule/wnba_schedule_2020.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_schedules/wnba_schedule_2020.parquet",
+      "rows": 147
+    },
+    "espn/team_box/2020": {
+      "status": "verified",
+      "sha256": "e636f54194d2aa51533316bfe58a2b0393e80a486718bc3acc9ee27282dc4b53",
+      "path": "raw/espn/team_box/team_box_2020.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_team_boxscores/team_box_2020.parquet",
+      "rows": 294
+    },
+    "espn/player_box/2020": {
+      "status": "verified",
+      "sha256": "419823f7f596d4657e3e51a3989289cc0b1ed52609ddef7a3b25eb94591ce5f6",
+      "path": "raw/espn/player_box/player_box_2020.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_player_boxscores/player_box_2020.parquet",
+      "rows": 3544
+    }
+  },
+  "issueCounts": {
+    "supplement_conflicts_with_preferred_stats": 200,
+    "espn_record_without_verified_mapping": 43,
+    "record_without_points": 4
+  },
+  "status": "prepared_with_review_items",
+  "note": "Coverage is relative to the verified Stats schedule snapshot, not an independent league audit. Roster snapshots do not define all historical participants."
+}

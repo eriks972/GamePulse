@@ -1,0 +1,1778 @@
+[
+  {
+    "id": "wnba:stats:player:100002",
+    "externalPlayerId": "100002",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Rebecca Lobo",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100003",
+    "externalPlayerId": "100003",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Lisa Leslie",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100004",
+    "externalPlayerId": "100004",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Penny Toler",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100005",
+    "externalPlayerId": "100005",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Daedra Charles",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100006",
+    "externalPlayerId": "100006",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Haixia Zheng",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100007",
+    "externalPlayerId": "100007",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Jamila Wideman",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100008",
+    "externalPlayerId": "100008",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Tamecka Dixon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100009",
+    "externalPlayerId": "100009",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Katrina Colleton",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100010",
+    "externalPlayerId": "100010",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Travesa Gant",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100011",
+    "externalPlayerId": "100011",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Linda Burgess",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100012",
+    "externalPlayerId": "100012",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Mwadi Mabika",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100014",
+    "externalPlayerId": "100014",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Kim Gessig",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100016",
+    "externalPlayerId": "100016",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Ruthie Bolton",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100017",
+    "externalPlayerId": "100017",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Bridgette Gordon",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100018",
+    "externalPlayerId": "100018",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Judy Mosley-McAfee",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100019",
+    "externalPlayerId": "100019",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Mikiko Hagiwara",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317",
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100020",
+    "externalPlayerId": "100020",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Pam McGee",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100021",
+    "externalPlayerId": "100021",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Denique Graves",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100022",
+    "externalPlayerId": "100022",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Chantel Tremitiere",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661314",
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100023",
+    "externalPlayerId": "100023",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Tajama Abraham",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100024",
+    "externalPlayerId": "100024",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Corissa Yasen",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100026",
+    "externalPlayerId": "100026",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Yvette Angel",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100027",
+    "externalPlayerId": "100027",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Latasha Byears",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100028",
+    "externalPlayerId": "100028",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Danielle Viglione",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100029",
+    "externalPlayerId": "100029",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Michele Timms",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317",
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100030",
+    "externalPlayerId": "100030",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Jennifer Gillom",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100031",
+    "externalPlayerId": "100031",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Bridget Pettis",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100032",
+    "externalPlayerId": "100032",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Nancy Lieberman",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100033",
+    "externalPlayerId": "100033",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Toni Foster",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100034",
+    "externalPlayerId": "100034",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Tia Jackson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100035",
+    "externalPlayerId": "100035",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Umeki Webb",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100036",
+    "externalPlayerId": "100036",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Monique Ambers",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100037",
+    "externalPlayerId": "100037",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Marlies Askamp",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100038",
+    "externalPlayerId": "100038",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Tara Williams",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100041",
+    "externalPlayerId": "100041",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Ryneldi Becenti",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100043",
+    "externalPlayerId": "100043",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Elena Baranova",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100044",
+    "externalPlayerId": "100044",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Lady Grooms",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100045",
+    "externalPlayerId": "100045",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Dena Head",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100046",
+    "externalPlayerId": "100046",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Wendy Palmer",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100047",
+    "externalPlayerId": "100047",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Tammi Reiss",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100048",
+    "externalPlayerId": "100048",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Jessie Hicks",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100049",
+    "externalPlayerId": "100049",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Raegan Scott",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100050",
+    "externalPlayerId": "100050",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Kim Williams",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100051",
+    "externalPlayerId": "100051",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Megan Compain",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100052",
+    "externalPlayerId": "100052",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Deborah Carter",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100053",
+    "externalPlayerId": "100053",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Karen Booker",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100055",
+    "externalPlayerId": "100055",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Greta Koss",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100057",
+    "externalPlayerId": "100057",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Molly Tuter",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100058",
+    "externalPlayerId": "100058",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Vicky Bullett",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100059",
+    "externalPlayerId": "100059",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Andrea Stinson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100060",
+    "externalPlayerId": "100060",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Rhonda Mapp",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100062",
+    "externalPlayerId": "100062",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Tora Suber",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100063",
+    "externalPlayerId": "100063",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Sharon Manning",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100064",
+    "externalPlayerId": "100064",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Debra Williams",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100065",
+    "externalPlayerId": "100065",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Andrea Congreaves",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100066",
+    "externalPlayerId": "100066",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Milica Vukadinovic",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100067",
+    "externalPlayerId": "100067",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Katasha Artis",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100070",
+    "externalPlayerId": "100070",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Tia Paschal",
+    "position": "F",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100071",
+    "externalPlayerId": "100071",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Susie Hopson-Shelton",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100072",
+    "externalPlayerId": "100072",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Sheryl Swoopes",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100073",
+    "externalPlayerId": "100073",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Cynthia Cooper",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100074",
+    "externalPlayerId": "100074",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Wanda Guyton",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100075",
+    "externalPlayerId": "100075",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Janeth Arcain",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100076",
+    "externalPlayerId": "100076",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Tina Thompson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100077",
+    "externalPlayerId": "100077",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Tammy Jackson",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100079",
+    "externalPlayerId": "100079",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Catarina Pollini",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100081",
+    "externalPlayerId": "100081",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Pietra Gay",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100082",
+    "externalPlayerId": "100082",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Nekeshia Henderson",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100083",
+    "externalPlayerId": "100083",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Kim Perrot",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100084",
+    "externalPlayerId": "100084",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Fran Harris",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100085",
+    "externalPlayerId": "100085",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Yolanda Moore",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100086",
+    "externalPlayerId": "100086",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Tiffany Woosley",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661316"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100087",
+    "externalPlayerId": "100087",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Janice Braxton",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100088",
+    "externalPlayerId": "100088",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Michelle Edwards",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100089",
+    "externalPlayerId": "100089",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Isabelle Fijalkowski",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100090",
+    "externalPlayerId": "100090",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Lynette Woodard",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100091",
+    "externalPlayerId": "100091",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Eva Nemcova",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100092",
+    "externalPlayerId": "100092",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Merlakia Jones",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100093",
+    "externalPlayerId": "100093",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Tina Nicholson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100094",
+    "externalPlayerId": "100094",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Anita Maxwell",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100095",
+    "externalPlayerId": "100095",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Jenny Boucek",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100096",
+    "externalPlayerId": "100096",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Donna Harrington",
+    "position": "F-C",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100097",
+    "externalPlayerId": "100097",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Rushia Brown",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100100",
+    "externalPlayerId": "100100",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Adrienne Johnson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100101",
+    "externalPlayerId": "100101",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Teresa Weatherspoon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100102",
+    "externalPlayerId": "100102",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Kym Hampton",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100103",
+    "externalPlayerId": "100103",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Vickie Johnson",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100104",
+    "externalPlayerId": "100104",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Sue Wicks",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100105",
+    "externalPlayerId": "100105",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Sophia Witherspoon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100106",
+    "externalPlayerId": "100106",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Trena Trice-Hill",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100107",
+    "externalPlayerId": "100107",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Kisha Ford",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100108",
+    "externalPlayerId": "100108",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Rhonda Blades",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100109",
+    "externalPlayerId": "100109",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Jasmina Perazic-Gipe",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100110",
+    "externalPlayerId": "100110",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Cassandra Crumpton-Moorer",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100111",
+    "externalPlayerId": "100111",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Simone Edwards",
+    "position": "C",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100155",
+    "externalPlayerId": "100155",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Nicole Levesque",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100156",
+    "externalPlayerId": "100156",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Heidi Burge",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100158",
+    "externalPlayerId": "100158",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Marcie Alberts",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100161",
+    "externalPlayerId": "100161",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Laure Savasta",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100162",
+    "externalPlayerId": "100162",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Margo Clark",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661318"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100374",
+    "externalPlayerId": "100374",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Penny Moore",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661314"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:100616",
+    "externalPlayerId": "100616",
+    "league": "wnba",
+    "season": 1997,
+    "fullName": "Jenny Boucek",
+    "position": "G",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661315"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  }
+]

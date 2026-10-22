@@ -1,0 +1,101 @@
+{
+  "season": 2001,
+  "league": "wnba",
+  "generatedAt": "2026-10-21T22:25:00.906359+00:00",
+  "scheduleGames": 274,
+  "completedGames": 274,
+  "teamStatRows": 548,
+  "playerStatRows": 5328,
+  "completedTeamSides": 548,
+  "completedTeamSidesWithTeamStats": 548,
+  "completedTeamSidesWithReconciledPlayerPoints": 548,
+  "logClassification": {
+    "players": 5328,
+    "teamTotals": 548,
+    "unclassified": 0
+  },
+  "crosswalks": {
+    "team_crosswalk": {
+      "accepted": 0,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "unavailable"
+    },
+    "player_crosswalk": {
+      "accepted": 0,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "unavailable"
+    },
+    "schedule_crosswalk": {
+      "accepted": 0,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "unavailable"
+    },
+    "gameContextVerified": 0
+  },
+  "skippedRows": {},
+  "inputs": {
+    "stats/schedule/2001": {
+      "status": "verified",
+      "sha256": "8bb29bdf42f3fda178a4247326fa02efc3f4861f1b04d8f6e383f71dd71bc2fb",
+      "path": "raw/stats/schedule/wnba_schedule_2001.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_schedules/wnba_schedule_2001.parquet",
+      "rows": 274
+    },
+    "stats/rosters/2001": {
+      "status": "verified",
+      "sha256": "aeeeaa120f192ce2e4d4e58b682e294df9342b6e588218dec2962b0abc30e882",
+      "path": "raw/stats/rosters/rosters_2001.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_rosters/rosters_2001.parquet",
+      "rows": 183
+    },
+    "stats/player_game_logs/2001": {
+      "status": "verified",
+      "sha256": "b7c8f5c42d1868cf6a319ccd158e5531e1ae0f203f9e036856497e019528ab05",
+      "path": "raw/stats/player_game_logs/player_game_logs_2001.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_player_game_logs/player_game_logs_2001.parquet",
+      "rows": 5876
+    },
+    "stats/team_box/2001": {
+      "status": "unavailable_in_catalog"
+    },
+    "stats/player_box/2001": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/team_crosswalk/2001": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/player_crosswalk/2001": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/schedule_crosswalk/2001": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/schedule/2001": {
+      "status": "verified",
+      "sha256": "18b7f59f7b0c01c6f2dfed9279ad19b5f852bb8bffa16f601734bfb7082515eb",
+      "path": "raw/espn/schedule/wnba_schedule_2001.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_schedules/wnba_schedule_2001.parquet",
+      "rows": 280
+    },
+    "espn/team_box/2001": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/player_box/2001": {
+      "status": "unavailable_in_catalog"
+    }
+  },
+  "issueCounts": {
+    "espn_schedule_not_merged": 280
+  },
+  "status": "prepared_with_review_items",
+  "note": "Coverage is relative to the verified Stats schedule snapshot, not an independent league audit. Roster snapshots do not define all historical participants."
+}

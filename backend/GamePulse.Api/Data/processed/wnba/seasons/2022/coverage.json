@@ -1,0 +1,131 @@
+{
+  "season": 2022,
+  "league": "wnba",
+  "generatedAt": "2026-10-21T22:27:45.010185+00:00",
+  "scheduleGames": 239,
+  "completedGames": 239,
+  "teamStatRows": 478,
+  "playerStatRows": 4519,
+  "completedTeamSides": 478,
+  "completedTeamSidesWithTeamStats": 478,
+  "completedTeamSidesWithReconciledPlayerPoints": 478,
+  "logClassification": {
+    "players": 4519,
+    "teamTotals": 478,
+    "unclassified": 0
+  },
+  "crosswalks": {
+    "team_crosswalk": {
+      "accepted": 12,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "checked"
+    },
+    "player_crosswalk": {
+      "accepted": 164,
+      "rejected": 5,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {
+        "missing_id": 3,
+        "unsupported_match_method": 2
+      },
+      "status": "checked"
+    },
+    "schedule_crosswalk": {
+      "accepted": 239,
+      "rejected": 2,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {
+        "missing_id": 2
+      },
+      "status": "checked"
+    },
+    "gameContextVerified": 239
+  },
+  "skippedRows": {
+    "espn/player_box:did_not_play": 748
+  },
+  "inputs": {
+    "stats/schedule/2022": {
+      "status": "verified",
+      "sha256": "5b51320c2f54bfea2e19d549189a33923a69296fcdc798f6f9b55149f59c7a09",
+      "path": "raw/stats/schedule/wnba_schedule_2022.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_schedules/wnba_schedule_2022.parquet",
+      "rows": 239
+    },
+    "stats/rosters/2022": {
+      "status": "verified",
+      "sha256": "4684da12eb86e80c8542ce50a0f91851aa69a2574a40ad189aa681eaec88b3b9",
+      "path": "raw/stats/rosters/rosters_2022.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_rosters/rosters_2022.parquet",
+      "rows": 142
+    },
+    "stats/player_game_logs/2022": {
+      "status": "verified",
+      "sha256": "bcf9bcfe5c30e7d7ff4380c6ae743eb43fbf6e00f5a76087b266a0a9b5d961aa",
+      "path": "raw/stats/player_game_logs/player_game_logs_2022.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_player_game_logs/player_game_logs_2022.parquet",
+      "rows": 4997
+    },
+    "stats/team_box/2022": {
+      "status": "unavailable_in_catalog"
+    },
+    "stats/player_box/2022": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/team_crosswalk/2022": {
+      "status": "verified",
+      "sha256": "f073c146b0086f818723af4351d24bff66e30dc5c155b310fec87b34c48bf1bb",
+      "path": "raw/espn/team_crosswalk/wnba_team_crosswalk_2022.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_team_crosswalk_2022.parquet",
+      "rows": 12
+    },
+    "espn/player_crosswalk/2022": {
+      "status": "verified",
+      "sha256": "961c945bcd6113bcff07fe09f344f548abbdbb752388ef98b2ac60e893b7d615",
+      "path": "raw/espn/player_crosswalk/wnba_player_crosswalk_2022.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_player_crosswalk_2022.parquet",
+      "rows": 186
+    },
+    "espn/schedule_crosswalk/2022": {
+      "status": "verified",
+      "sha256": "b09da02ec057629a5223ca50faa85d7190bad64092f721be50c312f9a5782db6",
+      "path": "raw/espn/schedule_crosswalk/wnba_schedule_crosswalk_2022.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_schedule_crosswalk_2022.parquet",
+      "rows": 241
+    },
+    "espn/schedule/2022": {
+      "status": "verified",
+      "sha256": "dd9784fa1eff3278a1fa5814369d79799c413c4d2a14a0e6a8625166ce075fb1",
+      "path": "raw/espn/schedule/wnba_schedule_2022.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_schedules/wnba_schedule_2022.parquet",
+      "rows": 241
+    },
+    "espn/team_box/2022": {
+      "status": "verified",
+      "sha256": "7919b2f7de526350476c868d1048162cc9b3bf6f9f059f41298e1d40450f871c",
+      "path": "raw/espn/team_box/team_box_2022.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_team_boxscores/team_box_2022.parquet",
+      "rows": 482
+    },
+    "espn/player_box/2022": {
+      "status": "verified",
+      "sha256": "957e7a504f06cd0007b744d0369a25f2f1afd8dedf57783c9d3f240bed76d9dd",
+      "path": "raw/espn/player_box/player_box_2022.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_player_boxscores/player_box_2022.parquet",
+      "rows": 5307
+    }
+  },
+  "issueCounts": {
+    "espn_schedule_not_merged": 2,
+    "espn_record_without_verified_mapping": 151,
+    "supplement_conflicts_with_preferred_stats": 379,
+    "record_without_points": 1
+  },
+  "status": "prepared_with_review_items",
+  "note": "Coverage is relative to the verified Stats schedule snapshot, not an independent league audit. Roster snapshots do not define all historical participants."
+}

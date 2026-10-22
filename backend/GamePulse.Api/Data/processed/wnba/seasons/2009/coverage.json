@@ -1,0 +1,134 @@
+{
+  "season": 2009,
+  "league": "wnba",
+  "generatedAt": "2026-10-21T22:26:04.436705+00:00",
+  "scheduleGames": 241,
+  "completedGames": 241,
+  "teamStatRows": 482,
+  "playerStatRows": 4701,
+  "completedTeamSides": 482,
+  "completedTeamSidesWithTeamStats": 482,
+  "completedTeamSidesWithReconciledPlayerPoints": 482,
+  "logClassification": {
+    "players": 4719,
+    "teamTotals": 482,
+    "unclassified": 0
+  },
+  "crosswalks": {
+    "team_crosswalk": {
+      "accepted": 11,
+      "rejected": 2,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {
+        "confidence_not_one": 2
+      },
+      "status": "checked"
+    },
+    "player_crosswalk": {
+      "accepted": 153,
+      "rejected": 10,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {
+        "missing_id": 5,
+        "unsupported_match_method": 4,
+        "target_not_in_verified_stats_data": 1
+      },
+      "status": "checked"
+    },
+    "schedule_crosswalk": {
+      "accepted": 241,
+      "rejected": 2,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {
+        "missing_id": 2
+      },
+      "status": "checked"
+    },
+    "gameContextVerified": 170
+  },
+  "skippedRows": {},
+  "inputs": {
+    "stats/schedule/2009": {
+      "status": "verified",
+      "sha256": "71765ad1ca026aa12bd3eb60ba24dc19c47d9087ac4ea3b44bdbd1280305bcce",
+      "path": "raw/stats/schedule/wnba_schedule_2009.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_schedules/wnba_schedule_2009.parquet",
+      "rows": 241
+    },
+    "stats/rosters/2009": {
+      "status": "verified",
+      "sha256": "f2b5e4a96bebd0cfcb9f5c6add1bd630f9e982a88c9ec7e8ebff437de1287215",
+      "path": "raw/stats/rosters/rosters_2009.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_rosters/rosters_2009.parquet",
+      "rows": 155
+    },
+    "stats/player_game_logs/2009": {
+      "status": "verified",
+      "sha256": "c4b1aa07fff49a3d1c5c427df85452864e0700eb6bc886e60aa9f9e9a58c38ed",
+      "path": "raw/stats/player_game_logs/player_game_logs_2009.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_player_game_logs/player_game_logs_2009.parquet",
+      "rows": 5201
+    },
+    "stats/team_box/2009": {
+      "status": "unavailable_in_catalog"
+    },
+    "stats/player_box/2009": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/team_crosswalk/2009": {
+      "status": "verified",
+      "sha256": "3a49f3c3ae87551e8afe492efa75e46b123e1212afd81a771a3796144890bd5f",
+      "path": "raw/espn/team_crosswalk/wnba_team_crosswalk_2009.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_team_crosswalk_2009.parquet",
+      "rows": 13
+    },
+    "espn/player_crosswalk/2009": {
+      "status": "verified",
+      "sha256": "05afa4ecc78873b2f7346b3345afe7a84088646111991d04d71ba88a6631c4d8",
+      "path": "raw/espn/player_crosswalk/wnba_player_crosswalk_2009.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_player_crosswalk_2009.parquet",
+      "rows": 170
+    },
+    "espn/schedule_crosswalk/2009": {
+      "status": "verified",
+      "sha256": "a2e0c422a1f527b3cd1aececfd7d4b5c40ef5a80da5d3cfb694ea364c9d1bf7b",
+      "path": "raw/espn/schedule_crosswalk/wnba_schedule_crosswalk_2009.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_schedule_crosswalk_2009.parquet",
+      "rows": 243
+    },
+    "espn/schedule/2009": {
+      "status": "verified",
+      "sha256": "535b63b1c74332f628520201b9ba1f8e093193a6f073c815feccd5b73faddd47",
+      "path": "raw/espn/schedule/wnba_schedule_2009.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_schedules/wnba_schedule_2009.parquet",
+      "rows": 243
+    },
+    "espn/team_box/2009": {
+      "status": "verified",
+      "sha256": "6b70981a9cad8fc01a56c6a5da478137692c5133cede49ff5e719a1d2518bf4b",
+      "path": "raw/espn/team_box/team_box_2009.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_team_boxscores/team_box_2009.parquet",
+      "rows": 486
+    },
+    "espn/player_box/2009": {
+      "status": "verified",
+      "sha256": "6eea02701cbe6c89305f628d3684606c8b38b1ed325f83dc9c0ce842eec77ce0",
+      "path": "raw/espn/player_box/player_box_2009.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_player_boxscores/player_box_2009.parquet",
+      "rows": 5348
+    }
+  },
+  "issueCounts": {
+    "record_absent_from_authoritative_schedule": 19,
+    "crosswalk_game_context_mismatch": 71,
+    "espn_schedule_not_merged": 73,
+    "espn_record_without_verified_mapping": 1906,
+    "supplement_conflicts_with_preferred_stats": 295,
+    "record_without_points": 407
+  },
+  "status": "prepared_with_review_items",
+  "note": "Coverage is relative to the verified Stats schedule snapshot, not an independent league audit. Roster snapshots do not define all historical participants."
+}

@@ -1,0 +1,99 @@
+{
+  "season": 1998,
+  "league": "wnba",
+  "generatedAt": "2026-10-21T22:24:51.142764+00:00",
+  "scheduleGames": 158,
+  "completedGames": 158,
+  "teamStatRows": 314,
+  "playerStatRows": 3093,
+  "completedTeamSides": 316,
+  "completedTeamSidesWithTeamStats": 314,
+  "completedTeamSidesWithReconciledPlayerPoints": 314,
+  "logClassification": {
+    "players": 3093,
+    "teamTotals": 314,
+    "unclassified": 2
+  },
+  "crosswalks": {
+    "team_crosswalk": {
+      "accepted": 0,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "unavailable"
+    },
+    "player_crosswalk": {
+      "accepted": 0,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "unavailable"
+    },
+    "schedule_crosswalk": {
+      "accepted": 0,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "unavailable"
+    },
+    "gameContextVerified": 0
+  },
+  "skippedRows": {},
+  "inputs": {
+    "stats/schedule/1998": {
+      "status": "verified",
+      "sha256": "ec02de00198d1b5d0ad8d4d1b7221d30bb8f5cd71ae72674a6954d1f8fe9857c",
+      "path": "raw/stats/schedule/wnba_schedule_1998.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_schedules/wnba_schedule_1998.parquet",
+      "rows": 158
+    },
+    "stats/rosters/1998": {
+      "status": "verified",
+      "sha256": "d3e6a3bcd709d6e5d559781abebfb203e5a9cd4e7eb1614d9919734b4267866a",
+      "path": "raw/stats/rosters/rosters_1998.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_rosters/rosters_1998.parquet",
+      "rows": 110
+    },
+    "stats/player_game_logs/1998": {
+      "status": "verified",
+      "sha256": "3f77a035e8473ef926d2f8e0dfe0f1030f4713e06cc273088d785656cc0d8f74",
+      "path": "raw/stats/player_game_logs/player_game_logs_1998.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_player_game_logs/player_game_logs_1998.parquet",
+      "rows": 3409
+    },
+    "stats/team_box/1998": {
+      "status": "unavailable_in_catalog"
+    },
+    "stats/player_box/1998": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/team_crosswalk/1998": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/player_crosswalk/1998": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/schedule_crosswalk/1998": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/schedule/1998": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/team_box/1998": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/player_box/1998": {
+      "status": "unavailable_in_catalog"
+    }
+  },
+  "issueCounts": {
+    "unclassified_game_log_row": 2,
+    "completed_team_without_team_stats": 2,
+    "completed_team_player_points_not_reconciled": 2
+  },
+  "status": "prepared_with_review_items",
+  "note": "Coverage is relative to the verified Stats schedule snapshot, not an independent league audit. Roster snapshots do not define all historical participants."
+}

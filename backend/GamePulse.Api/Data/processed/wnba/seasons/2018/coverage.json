@@ -1,0 +1,133 @@
+{
+  "season": 2018,
+  "league": "wnba",
+  "generatedAt": "2026-10-21T22:27:16.554693+00:00",
+  "scheduleGames": 221,
+  "completedGames": 220,
+  "teamStatRows": 440,
+  "playerStatRows": 4419,
+  "completedTeamSides": 440,
+  "completedTeamSidesWithTeamStats": 440,
+  "completedTeamSidesWithReconciledPlayerPoints": 440,
+  "logClassification": {
+    "players": 4419,
+    "teamTotals": 440,
+    "unclassified": 2
+  },
+  "crosswalks": {
+    "team_crosswalk": {
+      "accepted": 12,
+      "rejected": 0,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {},
+      "status": "checked"
+    },
+    "player_crosswalk": {
+      "accepted": 154,
+      "rejected": 7,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {
+        "missing_id": 3,
+        "unsupported_match_method": 3,
+        "target_not_in_verified_stats_data": 1
+      },
+      "status": "checked"
+    },
+    "schedule_crosswalk": {
+      "accepted": 221,
+      "rejected": 1,
+      "conflictingSourceIds": 0,
+      "conflictingTargetIds": 0,
+      "reasons": {
+        "missing_id": 1
+      },
+      "status": "checked"
+    },
+    "gameContextVerified": 221
+  },
+  "skippedRows": {
+    "espn/player_box:did_not_play": 742
+  },
+  "inputs": {
+    "stats/schedule/2018": {
+      "status": "verified",
+      "sha256": "e2ebc025b1dc67bb54188585349479bd6339436538c746abe6a5d0c188539ee8",
+      "path": "raw/stats/schedule/wnba_schedule_2018.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_schedules/wnba_schedule_2018.parquet",
+      "rows": 221
+    },
+    "stats/rosters/2018": {
+      "status": "verified",
+      "sha256": "f49d8631e49a6a18d393289087debfa4c159d5cbaf9991c30f4b97e3de170d49",
+      "path": "raw/stats/rosters/rosters_2018.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_rosters/rosters_2018.parquet",
+      "rows": 147
+    },
+    "stats/player_game_logs/2018": {
+      "status": "verified",
+      "sha256": "44b0e612513163b5a84d3c88cbf574f9ff9637f4a494d47d33d7bf5a1feab920",
+      "path": "raw/stats/player_game_logs/player_game_logs_2018.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_stats_player_game_logs/player_game_logs_2018.parquet",
+      "rows": 4861
+    },
+    "stats/team_box/2018": {
+      "status": "unavailable_in_catalog"
+    },
+    "stats/player_box/2018": {
+      "status": "unavailable_in_catalog"
+    },
+    "espn/team_crosswalk/2018": {
+      "status": "verified",
+      "sha256": "6878912bf3dbb827de5001200c1a5d1e90561dedbba72ac7433b3f23b0eee8c1",
+      "path": "raw/espn/team_crosswalk/wnba_team_crosswalk_2018.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_team_crosswalk_2018.parquet",
+      "rows": 12
+    },
+    "espn/player_crosswalk/2018": {
+      "status": "verified",
+      "sha256": "97fe07a92323fbd38771da36b56958abaeaf50af4c424059db627ada921b2806",
+      "path": "raw/espn/player_crosswalk/wnba_player_crosswalk_2018.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_player_crosswalk_2018.parquet",
+      "rows": 169
+    },
+    "espn/schedule_crosswalk/2018": {
+      "status": "verified",
+      "sha256": "00b1fa62b89eb36c83ed9dd3c2a1544f79505132ef273201dbf4db75a5d1c134",
+      "path": "raw/espn/schedule_crosswalk/wnba_schedule_crosswalk_2018.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/wnba_crosswalk/wnba_schedule_crosswalk_2018.parquet",
+      "rows": 222
+    },
+    "espn/schedule/2018": {
+      "status": "verified",
+      "sha256": "4be425301613ed86691552d5868fbdc099c77379d266507c9afbcdc2a235379d",
+      "path": "raw/espn/schedule/wnba_schedule_2018.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_schedules/wnba_schedule_2018.parquet",
+      "rows": 222
+    },
+    "espn/team_box/2018": {
+      "status": "verified",
+      "sha256": "677f5e14dddcaa8e289d03e2b2ee1fbbccee9105777a9d01319087a3d74bf65b",
+      "path": "raw/espn/team_box/team_box_2018.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_team_boxscores/team_box_2018.parquet",
+      "rows": 442
+    },
+    "espn/player_box/2018": {
+      "status": "verified",
+      "sha256": "5a5d4777d030b10721f559932c73bf21702945cd75b7ec0ce46cd84c6b936e88",
+      "path": "raw/espn/player_box/player_box_2018.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_wnba_player_boxscores/player_box_2018.parquet",
+      "rows": 5187
+    }
+  },
+  "issueCounts": {
+    "unclassified_game_log_row": 2,
+    "espn_schedule_not_merged": 1,
+    "espn_record_without_verified_mapping": 184,
+    "supplement_conflicts_with_preferred_stats": 350,
+    "record_without_points": 3
+  },
+  "status": "prepared_with_review_items",
+  "note": "Coverage is relative to the verified Stats schedule snapshot, not an independent league audit. Roster snapshots do not define all historical participants."
+}
