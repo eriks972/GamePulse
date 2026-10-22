@@ -14,7 +14,7 @@ export default function LeagueNavigation() {
   const suffix = season ? `?season=${encodeURIComponent(season)}` : "";
   const links = [
     { label: "Home", href: "/" }, { label: "Leagues", href: "/leagues" },
-    { label: league.toUpperCase(), href: `/leagues/${league}${suffix}` },
+    ...(league === "wnba" ? [] : [{ label: league.toUpperCase(), href: `/leagues/${league}${suffix}` }]),
     ...sections.map(label => ({ label, href: `/leagues/${league}/${label === "Team Stats" ? "team-stats" : label === "Player Stats" ? "player-stats" : label.toLowerCase()}${suffix}` })),
   ];
   return <div className="flex flex-wrap gap-2">{links.map(link => <Link
