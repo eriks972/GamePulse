@@ -23,4 +23,11 @@
   </Content>
 </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Data/processed/wnba/**/*.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

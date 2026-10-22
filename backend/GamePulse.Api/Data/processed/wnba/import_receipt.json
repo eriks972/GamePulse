@@ -1,0 +1,29 @@
+{
+  "importedAt": "20261022T004522263888",
+  "generation": "runs/20261021T222447-ed0f91fa",
+  "seasons": [
+    2024,
+    2025,
+    2026
+  ],
+  "fileSha256": {
+    "2024/games.json": "6b1662182f3ceae76c96b3a533995a419ee56eae31266178d1ef072345dfd5e7",
+    "2024/teams.json": "ee71702ffbe971936025c0b6dd50887c32de55eff02f22f969cea54571dd4d29",
+    "2024/players.json": "15fdedcfb381fe0ab5901f0aba7eaf9840a856c1345de076c787c86c22e85194",
+    "2024/team_game_stats.json": "1e39449eb59679725c5bb7b1611c53b07a1e5c5ab809c952c18021a7bf538d5d",
+    "2024/player_game_stats.json": "fd01edae296ab34e915a526aa4ca48330a95b96f98ba12d34fdd4d943613a8d3",
+    "2024/coverage.json": "c244b005f00ecf631f6b696fed50ecc7cb1bd93b23d59b2e1d0767bd33738077",
+    "2025/games.json": "02a00e0e9b55eb174c8ae079fe41069a3d52a7194884910e8d41ab29fd4ec48c",
+    "2025/teams.json": "a59d4e45d76f6dcd4caf91ff08f8b69f40a7f8f9d40a8965d02c83ec6f84a248",
+    "2025/players.json": "3a6c4435b3a7e8b2923f9d1756515ac21c57c89ac96d45ed39fcfe7e02e5b75b",
+    "2025/team_game_stats.json": "0e23c818f684c61bf849225657c3a0466609835bee61f2529a94b456a4146e91",
+    "2025/player_game_stats.json": "e6a7cdffa5f262e907a5591b08888501514b0cf62795e1b6345954ae0d6768bf",
+    "2025/coverage.json": "d83319b0e09055ded19e99629aeca9dd7e39cc8ab49e103d37660f97baf1eaf8",
+    "2026/games.json": "d0bbfb7547fd9a9688bcfc718b1e33d002ad824463e9a12ea4131b9aef7fd142",
+    "2026/teams.json": "5088465aeaed76c372e79ccd098967a1af92d97bc8749d601969b3a1c67b20b5",
+    "2026/players.json": "ffc5465be5c6dfbf21d748a9e8daaaea366b1b4ba72522d351a86af3fc85d508",
+    "2026/team_game_stats.json": "8344dd4f56c7e6fb1eed88c0b72f1027dd09d4cc6c69ca1917983e2970952ace",
+    "2026/player_game_stats.json": "6b0dc57c7ab595db9e46ba41691808601a074c342772b396afc7f73ec583ed76",
+    "2026/coverage.json": "8094af5bf40d8769a582052ac926e55d318ebdd9489c07010e25dd9e978dd610"
+  }
+}

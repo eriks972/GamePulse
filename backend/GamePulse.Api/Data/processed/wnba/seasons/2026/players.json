@@ -1,0 +1,4555 @@
+[
+  {
+    "id": "wnba:stats:player:1627668",
+    "externalPlayerId": "1627668",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Breanna Stewart",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1627671",
+    "externalPlayerId": "1627671",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Rachel Banham",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1627673",
+    "externalPlayerId": "1627673",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Jonquel Jones",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1627674",
+    "externalPlayerId": "1627674",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kahleah Copper",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1627675",
+    "externalPlayerId": "1627675",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Courtney Williams",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1627700",
+    "externalPlayerId": "1627700",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Julie Allemand",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1627701",
+    "externalPlayerId": "1627701",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Temi Fagbenle",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628242",
+    "externalPlayerId": "1628242",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Emma Cannon",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628244",
+    "externalPlayerId": "1628244",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Sami Whitcomb",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628269",
+    "externalPlayerId": "1628269",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Nia Brodie",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628276",
+    "externalPlayerId": "1628276",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kelsey Plum",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320",
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628277",
+    "externalPlayerId": "1628277",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Allisha Gray",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628278",
+    "externalPlayerId": "1628278",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Shatori Walker-Kimbrough",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325",
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628279",
+    "externalPlayerId": "1628279",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Brittney Sykes",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628280",
+    "externalPlayerId": "1628280",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Brionna Jones",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628317",
+    "externalPlayerId": "1628317",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Karlie Samuelson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628508",
+    "externalPlayerId": "1628508",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Cecilia Zandalasini",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628878",
+    "externalPlayerId": "1628878",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Ariel Atkins",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628881",
+    "externalPlayerId": "1628881",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Monique Billings",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628882",
+    "externalPlayerId": "1628882",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Lexie Brown",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628886",
+    "externalPlayerId": "1628886",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Jordin Canada",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628899",
+    "externalPlayerId": "1628899",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Myisha Hines-Allen",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628909",
+    "externalPlayerId": "1628909",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kelsey Mitchell",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628915",
+    "externalPlayerId": "1628915",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kia Nurse",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628920",
+    "externalPlayerId": "1628920",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Mercedes Russell",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628922",
+    "externalPlayerId": "1628922",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Azura Stevens",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628931",
+    "externalPlayerId": "1628931",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Gabby Williams",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1628932",
+    "externalPlayerId": "1628932",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "A'ja Wilson",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629477",
+    "externalPlayerId": "1629477",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Sabrina Ionescu",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629478",
+    "externalPlayerId": "1629478",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Katie Lou Samuelson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629479",
+    "externalPlayerId": "1629479",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Teaira McCowan",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629480",
+    "externalPlayerId": "1629480",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kalani Brown",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629481",
+    "externalPlayerId": "1629481",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Arike Ogunbowale",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629482",
+    "externalPlayerId": "1629482",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Sophie Cunningham",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629483",
+    "externalPlayerId": "1629483",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Napheesa Collier",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629484",
+    "externalPlayerId": "1629484",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Megan DiLeo",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629488",
+    "externalPlayerId": "1629488",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Brianna Turner",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629490",
+    "externalPlayerId": "1629490",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kitija Laksa",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629491",
+    "externalPlayerId": "1629491",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Jessica Shepard",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629496",
+    "externalPlayerId": "1629496",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Ezi Magbegor",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629497",
+    "externalPlayerId": "1629497",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Marina Mabrey",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629498",
+    "externalPlayerId": "1629498",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Jackie Young",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629501",
+    "externalPlayerId": "1629501",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Alanna Smith",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629524",
+    "externalPlayerId": "1629524",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Bridget Carleton",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629539",
+    "externalPlayerId": "1629539",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Amy Okonkwo",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661330",
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629546",
+    "externalPlayerId": "1629546",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Marine Johannes",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629566",
+    "externalPlayerId": "1629566",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Han Xu",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629567",
+    "externalPlayerId": "1629567",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Natisha Hiedeman",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629568",
+    "externalPlayerId": "1629568",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kennedy Burke",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629574",
+    "externalPlayerId": "1629574",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Li Yueru",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629576",
+    "externalPlayerId": "1629576",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Maria Conde",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1629581",
+    "externalPlayerId": "1629581",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Emese Hof",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630096",
+    "externalPlayerId": "1630096",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "DiJonai Carrington",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630097",
+    "externalPlayerId": "1630097",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kaila Charles",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630108",
+    "externalPlayerId": "1630108",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Mariella Fasoula",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630112",
+    "externalPlayerId": "1630112",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Tyasha Harris",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630115",
+    "externalPlayerId": "1630115",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Joyner Holmes",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630134",
+    "externalPlayerId": "1630134",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Sug Sutton",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661327",
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630138",
+    "externalPlayerId": "1630138",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Peyton Williams",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630142",
+    "externalPlayerId": "1630142",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Leonie Fiebich",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630143",
+    "externalPlayerId": "1630143",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Luisa Geiselsoder",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630148",
+    "externalPlayerId": "1630148",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Jihyun Park",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630149",
+    "externalPlayerId": "1630149",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Satou Sabally",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630150",
+    "externalPlayerId": "1630150",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Chennedy Carter",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630154",
+    "externalPlayerId": "1630154",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kamiah Smalls",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630384",
+    "externalPlayerId": "1630384",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Raquel Carrera",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630386",
+    "externalPlayerId": "1630386",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Awak Kuier",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630387",
+    "externalPlayerId": "1630387",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Iliana Rupert",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630389",
+    "externalPlayerId": "1630389",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Dana Evans",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630442",
+    "externalPlayerId": "1630442",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Natasha Mack",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630446",
+    "externalPlayerId": "1630446",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Michaela Onyenwere",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630461",
+    "externalPlayerId": "1630461",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kiana Williams",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661317",
+      "wnba:stats:team:1611661320",
+      "wnba:stats:team:1611661332"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630462",
+    "externalPlayerId": "1630462",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Aari McDonald",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630469",
+    "externalPlayerId": "1630469",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Marine Fauthoux",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630471",
+    "externalPlayerId": "1630471",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Maya Caldwell",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630993",
+    "externalPlayerId": "1630993",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Anneli Maley",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317",
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1630996",
+    "externalPlayerId": "1630996",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Rae Burrell",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631006",
+    "externalPlayerId": "1631006",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kierstan Bell",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631007",
+    "externalPlayerId": "1631007",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Veronica Burton",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631009",
+    "externalPlayerId": "1631009",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Rhyne Howard",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631019",
+    "externalPlayerId": "1631019",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "NaLyssa Smith",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631021",
+    "externalPlayerId": "1631021",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Sika Kone",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631022",
+    "externalPlayerId": "1631022",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Shakira Austin",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631039",
+    "externalPlayerId": "1631039",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Miela Sowah",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631044",
+    "externalPlayerId": "1631044",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Naz Hillmon",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631055",
+    "externalPlayerId": "1631055",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Nyara Sabally",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631064",
+    "externalPlayerId": "1631064",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Chloe Bibby",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329",
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631083",
+    "externalPlayerId": "1631083",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Emily Engstler",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631086",
+    "externalPlayerId": "1631086",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Lexie Hull",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631090",
+    "externalPlayerId": "1631090",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Christyn Williams",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631118",
+    "externalPlayerId": "1631118",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Lexi Held",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661332",
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631135",
+    "externalPlayerId": "1631135",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Olivia Nelson-Ododa",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631136",
+    "externalPlayerId": "1631136",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Pauline Astier",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631137",
+    "externalPlayerId": "1631137",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kamila Borkowska",
+    "position": "C",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631141",
+    "externalPlayerId": "1631141",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Jade Melbourne",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1631263",
+    "externalPlayerId": "1631263",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Nikolina Milic",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641648",
+    "externalPlayerId": "1641648",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Aliyah Boston",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641649",
+    "externalPlayerId": "1641649",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Diamond Miller",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641650",
+    "externalPlayerId": "1641650",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Haley Jones",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661327",
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641651",
+    "externalPlayerId": "1641651",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Jordan Horston",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641652",
+    "externalPlayerId": "1641652",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Maddy Siegrist",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641656",
+    "externalPlayerId": "1641656",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Laeticia Amihere",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641657",
+    "externalPlayerId": "1641657",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Dorka Juhasz",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641660",
+    "externalPlayerId": "1641660",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Zia Cooke",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641663",
+    "externalPlayerId": "1641663",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Elizabeth Balogun",
+    "position": "F",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641675",
+    "externalPlayerId": "1641675",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Dulcy Fankam Mendjiadeu",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641683",
+    "externalPlayerId": "1641683",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Holly Winterburn",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661330",
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1641695",
+    "externalPlayerId": "1641695",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Ashten Prechtel",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642210",
+    "externalPlayerId": "1642210",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Julie Vanloo",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642286",
+    "externalPlayerId": "1642286",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Caitlin Clark",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642287",
+    "externalPlayerId": "1642287",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Cameron Brink",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642288",
+    "externalPlayerId": "1642288",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Rickea Jackson",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642289",
+    "externalPlayerId": "1642289",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kamilla Cardoso",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642290",
+    "externalPlayerId": "1642290",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Aaliyah Edwards",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642291",
+    "externalPlayerId": "1642291",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Angel Reese",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642292",
+    "externalPlayerId": "1642292",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Jacy Sheldon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642293",
+    "externalPlayerId": "1642293",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Alissa Pili",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642294",
+    "externalPlayerId": "1642294",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Charisma Osborne",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642296",
+    "externalPlayerId": "1642296",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Nyadiew Puoch",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642302",
+    "externalPlayerId": "1642302",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Isobel Borlase",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642303",
+    "externalPlayerId": "1642303",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Leila Lacan",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642304",
+    "externalPlayerId": "1642304",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Carla Leite",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642307",
+    "externalPlayerId": "1642307",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Mackenzie Holmes",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642320",
+    "externalPlayerId": "1642320",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Jaylyn Sherrod",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661330",
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642321",
+    "externalPlayerId": "1642321",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Sydney Taylor",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642324",
+    "externalPlayerId": "1642324",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kate Martin",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320",
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642327",
+    "externalPlayerId": "1642327",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Matilde Villa",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642767",
+    "externalPlayerId": "1642767",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Janelle Salaun",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642768",
+    "externalPlayerId": "1642768",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kyara Linskens",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642769",
+    "externalPlayerId": "1642769",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Mai Yamamoto",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642775",
+    "externalPlayerId": "1642775",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Alex Wilson",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642777",
+    "externalPlayerId": "1642777",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Monique Akoa Makani",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317",
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642781",
+    "externalPlayerId": "1642781",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Georgia Amoore",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642782",
+    "externalPlayerId": "1642782",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Sarah Ashlee Barker",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642784",
+    "externalPlayerId": "1642784",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Paige Bueckers",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642785",
+    "externalPlayerId": "1642785",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Sonia Citron",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642786",
+    "externalPlayerId": "1642786",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Aicha Coulibaly",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642788",
+    "externalPlayerId": "1642788",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Bree Hall",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642790",
+    "externalPlayerId": "1642790",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Sania Feagin",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320",
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642791",
+    "externalPlayerId": "1642791",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Zaay Green",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642792",
+    "externalPlayerId": "1642792",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kiki Iriafen",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642793",
+    "externalPlayerId": "1642793",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Aziaha James",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642794",
+    "externalPlayerId": "1642794",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Juste Jocyte",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642795",
+    "externalPlayerId": "1642795",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Deja Kelly",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642796",
+    "externalPlayerId": "1642796",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Rayah Marshall",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642797",
+    "externalPlayerId": "1642797",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Anastasiia Olairi Kosu",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642798",
+    "externalPlayerId": "1642798",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Dominique Malonga",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642800",
+    "externalPlayerId": "1642800",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Aneesah Morrow",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323",
+      "wnba:stats:team:1611661332"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642801",
+    "externalPlayerId": "1642801",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Aaliyah Nye",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661330",
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642802",
+    "externalPlayerId": "1642802",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Lucy Olsen",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642803",
+    "externalPlayerId": "1642803",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Michelle Onyiah",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642804",
+    "externalPlayerId": "1642804",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Te-Hina Paopao",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642808",
+    "externalPlayerId": "1642808",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "JJ Quinerly",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642809",
+    "externalPlayerId": "1642809",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Saniya Rivers",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642810",
+    "externalPlayerId": "1642810",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Madison Scott",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642811",
+    "externalPlayerId": "1642811",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Shyanne Sellers",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642814",
+    "externalPlayerId": "1642814",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Taylor Thierry",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642815",
+    "externalPlayerId": "1642815",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Makayla Timpson",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642817",
+    "externalPlayerId": "1642817",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Hailey Van Lith",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642818",
+    "externalPlayerId": "1642818",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Maddy Westbeld",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329",
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642820",
+    "externalPlayerId": "1642820",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Liatu King",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642822",
+    "externalPlayerId": "1642822",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kaitlyn Chen",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642826",
+    "externalPlayerId": "1642826",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Aubrey Griffin",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642832",
+    "externalPlayerId": "1642832",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Maria Gakdeng",
+    "position": "F-C",
+    "teamIds": [],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "sources": [
+      "stats/rosters"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1642835",
+    "externalPlayerId": "1642835",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Morgan Maly",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643420",
+    "externalPlayerId": "1643420",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Laura Juskaite",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643424",
+    "externalPlayerId": "1643424",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Costanza Verona",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643425",
+    "externalPlayerId": "1643425",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Azzi Fudd",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643426",
+    "externalPlayerId": "1643426",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Olivia Miles",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643427",
+    "externalPlayerId": "1643427",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Lauren Betts",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643428",
+    "externalPlayerId": "1643428",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Flau'jae Johnson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643429",
+    "externalPlayerId": "1643429",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Gianna Kneepkens",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643430",
+    "externalPlayerId": "1643430",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Cotie McMahon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643431",
+    "externalPlayerId": "1643431",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Madina Okot",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643433",
+    "externalPlayerId": "1643433",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Raven Johnson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643434",
+    "externalPlayerId": "1643434",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Janiah Barker",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643436",
+    "externalPlayerId": "1643436",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Serah Williams",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643437",
+    "externalPlayerId": "1643437",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Ashlon Jackson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643438",
+    "externalPlayerId": "1643438",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Marta Suarez",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643439",
+    "externalPlayerId": "1643439",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Tonie Morgan",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643440",
+    "externalPlayerId": "1643440",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Darianna Littlepage-Buggs",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643441",
+    "externalPlayerId": "1643441",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Raegan Beers",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643443",
+    "externalPlayerId": "1643443",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Awa Fam",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643444",
+    "externalPlayerId": "1643444",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Ta'Niya Latson",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320",
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643445",
+    "externalPlayerId": "1643445",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kiki Rice",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643447",
+    "externalPlayerId": "1643447",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Gabriela Jaquez",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643448",
+    "externalPlayerId": "1643448",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Nell Angloma",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643449",
+    "externalPlayerId": "1643449",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Charlisse Leger-Walker",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643450",
+    "externalPlayerId": "1643450",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Rori Harmon",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643453",
+    "externalPlayerId": "1643453",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Grace VanSlooten",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661328",
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643454",
+    "externalPlayerId": "1643454",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kara Dunn",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643455",
+    "externalPlayerId": "1643455",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Angela Dugalic",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643457",
+    "externalPlayerId": "1643457",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Teonni Key",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643458",
+    "externalPlayerId": "1643458",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Saylor Poffenbarger",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661329",
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643461",
+    "externalPlayerId": "1643461",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Laura Ziegler",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643462",
+    "externalPlayerId": "1643462",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Chance Gray",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643467",
+    "externalPlayerId": "1643467",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Cassandre Prosper",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643469",
+    "externalPlayerId": "1643469",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Indya Nivar",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643470",
+    "externalPlayerId": "1643470",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Shay Ciezki",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643473",
+    "externalPlayerId": "1643473",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Taina Mair",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643479",
+    "externalPlayerId": "1643479",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Ndjakalenga Mwenentanda",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661331",
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643487",
+    "externalPlayerId": "1643487",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Quionche Carter",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643488",
+    "externalPlayerId": "1643488",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Emma Cechova",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643489",
+    "externalPlayerId": "1643489",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Antonia Delaere",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643490",
+    "externalPlayerId": "1643490",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Eliska Hamzova",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643493",
+    "externalPlayerId": "1643493",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Noemie Brochant",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643494",
+    "externalPlayerId": "1643494",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Frieda Buhner",
+    "position": "F-C",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643495",
+    "externalPlayerId": "1643495",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Justine Pissott",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661325",
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643505",
+    "externalPlayerId": "1643505",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Jovana Nogic",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643506",
+    "externalPlayerId": "1643506",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Teja Oblak",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643525",
+    "externalPlayerId": "1643525",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Alex Fowler",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643527",
+    "externalPlayerId": "1643527",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Jordan Harrison",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661327"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643644",
+    "externalPlayerId": "1643644",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Alicia Florez",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643647",
+    "externalPlayerId": "1643647",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Tima Pouye",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643686",
+    "externalPlayerId": "1643686",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Nadia Fingall",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643706",
+    "externalPlayerId": "1643706",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Ornella Bankole",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643825",
+    "externalPlayerId": "1643825",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Elena Buenavida",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:1643832",
+    "externalPlayerId": "1643832",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Aminata Gueye",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:201886",
+    "externalPlayerId": "201886",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "DeWanna Bonner",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661317",
+      "wnba:stats:team:1611661330"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661330"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202252",
+    "externalPlayerId": "202252",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Alysha Clark",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:202664",
+    "externalPlayerId": "202664",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Courtney Vandersloot",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203014",
+    "externalPlayerId": "203014",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Nneka Ogwumike",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203024",
+    "externalPlayerId": "203024",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Damiris Dantas",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661325"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203026",
+    "externalPlayerId": "203026",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Tiffany Hayes",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203035",
+    "externalPlayerId": "203035",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Shey Peddy",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203398",
+    "externalPlayerId": "203398",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Brittney Griner",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661323"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203400",
+    "externalPlayerId": "203400",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Skylar Diggins",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203405",
+    "externalPlayerId": "203405",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kayla Alexander",
+    "position": null,
+    "teamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "rosterSnapshotTeamIds": [],
+    "sources": [
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203822",
+    "externalPlayerId": "203822",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Rebekah Gardner",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203824",
+    "externalPlayerId": "203824",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Odyssey Sims",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661321"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203825",
+    "externalPlayerId": "203825",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kayla McBride",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203826",
+    "externalPlayerId": "203826",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Alyssa Thomas",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203827",
+    "externalPlayerId": "203827",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Natasha Howard",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661324"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203828",
+    "externalPlayerId": "203828",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Stefanie Dolson",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661328"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203833",
+    "externalPlayerId": "203833",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Chelsea Gray",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203855",
+    "externalPlayerId": "203855",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Stephanie Talbot",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:203866",
+    "externalPlayerId": "203866",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kayla Thornton",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204296",
+    "externalPlayerId": "204296",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Rebecca Allen",
+    "position": "F-G",
+    "teamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661313"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204319",
+    "externalPlayerId": "204319",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Jewell Loyd",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204322",
+    "externalPlayerId": "204322",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Elizabeth Williams",
+    "position": "C-F",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204323",
+    "externalPlayerId": "204323",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Cheyenne Parker-Tyus",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661319"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204324",
+    "externalPlayerId": "204324",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Dearica Hamby",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204329",
+    "externalPlayerId": "204329",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Kiah Stokes",
+    "position": "C",
+    "teamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661331"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204330",
+    "externalPlayerId": "204330",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Isabelle Harrison",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661332"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204333",
+    "externalPlayerId": "204333",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Natasha Cloud",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661329"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204335",
+    "externalPlayerId": "204335",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Betnijah Laney-Hamilton",
+    "position": "G-F",
+    "teamIds": [
+      "wnba:stats:team:1611661313",
+      "wnba:stats:team:1611661322"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661322"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204365",
+    "externalPlayerId": "204365",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Erica Wheeler",
+    "position": "G",
+    "teamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661320"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box",
+      "stats/player_game_logs:players",
+      "espn/player_box"
+    ]
+  },
+  {
+    "id": "wnba:stats:player:204468",
+    "externalPlayerId": "204468",
+    "league": "wnba",
+    "season": 2026,
+    "fullName": "Valeriane Ayayi",
+    "position": "F",
+    "teamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "rosterSnapshotTeamIds": [
+      "wnba:stats:team:1611661317"
+    ],
+    "sources": [
+      "stats/rosters",
+      "stats/player_box"
+    ]
+  }
+]

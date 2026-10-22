@@ -1,0 +1,122 @@
+[
+  {
+    "id": "wnba:stats:team:1611661313",
+    "externalTeamId": "1611661313",
+    "league": "wnba",
+    "season": 2026,
+    "name": "New York Liberty",
+    "abbreviation": "NYL"
+  },
+  {
+    "id": "wnba:stats:team:1611661317",
+    "externalTeamId": "1611661317",
+    "league": "wnba",
+    "season": 2026,
+    "name": "Phoenix Mercury",
+    "abbreviation": "PHX"
+  },
+  {
+    "id": "wnba:stats:team:1611661319",
+    "externalTeamId": "1611661319",
+    "league": "wnba",
+    "season": 2026,
+    "name": "Las Vegas Aces",
+    "abbreviation": "LVA"
+  },
+  {
+    "id": "wnba:stats:team:1611661320",
+    "externalTeamId": "1611661320",
+    "league": "wnba",
+    "season": 2026,
+    "name": "Los Angeles Sparks",
+    "abbreviation": "LAS"
+  },
+  {
+    "id": "wnba:stats:team:1611661321",
+    "externalTeamId": "1611661321",
+    "league": "wnba",
+    "season": 2026,
+    "name": "Dallas Wings",
+    "abbreviation": "DAL"
+  },
+  {
+    "id": "wnba:stats:team:1611661322",
+    "externalTeamId": "1611661322",
+    "league": "wnba",
+    "season": 2026,
+    "name": "Washington Mystics",
+    "abbreviation": "WAS"
+  },
+  {
+    "id": "wnba:stats:team:1611661323",
+    "externalTeamId": "1611661323",
+    "league": "wnba",
+    "season": 2026,
+    "name": "Connecticut Sun",
+    "abbreviation": "CON"
+  },
+  {
+    "id": "wnba:stats:team:1611661324",
+    "externalTeamId": "1611661324",
+    "league": "wnba",
+    "season": 2026,
+    "name": "Minnesota Lynx",
+    "abbreviation": "MIN"
+  },
+  {
+    "id": "wnba:stats:team:1611661325",
+    "externalTeamId": "1611661325",
+    "league": "wnba",
+    "season": 2026,
+    "name": "Indiana Fever",
+    "abbreviation": "IND"
+  },
+  {
+    "id": "wnba:stats:team:1611661327",
+    "externalTeamId": "1611661327",
+    "league": "wnba",
+    "season": 2026,
+    "name": "Portland Fire",
+    "abbreviation": "PDX"
+  },
+  {
+    "id": "wnba:stats:team:1611661328",
+    "externalTeamId": "1611661328",
+    "league": "wnba",
+    "season": 2026,
+    "name": "Seattle Storm",
+    "abbreviation": "SEA"
+  },
+  {
+    "id": "wnba:stats:team:1611661329",
+    "externalTeamId": "1611661329",
+    "league": "wnba",
+    "season": 2026,
+    "name": "Chicago Sky",
+    "abbreviation": "CHI"
+  },
+  {
+    "id": "wnba:stats:team:1611661330",
+    "externalTeamId": "1611661330",
+    "league": "wnba",
+    "season": 2026,
+    "name": "Atlanta Dream",
+    "abbreviation": "ATL"
+  },
+  {
+    "id": "wnba:stats:team:1611661331",
+    "externalTeamId": "1611661331",
+    "league": "wnba",
+    "season": 2026,
+    "name": "Golden State Valkyries",
+    "abbreviation": "GSV"
+  },
+  {
+    "id": "wnba:stats:team:1611661332",
+    "externalTeamId": "1611661332",
+    "league": "wnba",
+    "season": 2026,
+    "name": "Toronto Tempo",
+    "abbreviation": "TOR"
+  }
+]
