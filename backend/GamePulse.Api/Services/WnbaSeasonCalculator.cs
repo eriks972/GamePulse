@@ -79,13 +79,13 @@ public static class WnbaSeasonCalculator
         return new(data.Season, type, schedule.Length, completed.Length, teams);
     }
 
-    private static Dictionary<string, WnbaSeasonMetric> Metrics(WnbaGameStat[] rows) => StatisticKeys.ToDictionary(key => key, key =>
+    internal static Dictionary<string, WnbaSeasonMetric> Metrics(WnbaGameStat[] rows) => StatisticKeys.ToDictionary(key => key, key =>
     {
         var observed = rows.Select(row => row.Statistics.GetValueOrDefault(key)).OfType<double>().Where(double.IsFinite).ToArray();
         return observed.Length == 0 ? new WnbaSeasonMetric(null, null, 0) : new(observed.Sum(), observed.Average(), observed.Length);
     });
 
-    private static Dictionary<string, WnbaShootingMetric> Shooting(WnbaGameStat[] rows)
+    internal static Dictionary<string, WnbaShootingMetric> Shooting(WnbaGameStat[] rows)
     {
         var result = new Dictionary<string, WnbaShootingMetric>();
         foreach (var (name, madeKey, attemptedKey) in new[] {

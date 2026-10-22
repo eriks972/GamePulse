@@ -50,6 +50,26 @@ public sealed class WnbaController(WnbaJsonDataService service) : ControllerBase
     public async Task<IActionResult> Teams([FromQuery] int? season, CancellationToken ct)
         => Ok((await service.GetSeasonAsync(season, ct)).Teams.OrderBy(t => t.Name));
 
+    [HttpGet("player-stats")]
+    public async Task<IActionResult> PlayerStatistics([FromQuery] int? season, [FromQuery] string? seasonType,
+        [FromQuery] string? teamId, [FromQuery] string metric = "points", [FromQuery] string basis = "perGame",
+        [FromQuery] int minGames = 1, [FromQuery] int minAttempts = 0, [FromQuery] string? search = null, CancellationToken ct = default)
+    {
+        var data = await service.GetSeasonAsync(season, ct);
+        var team = string.IsNullOrWhiteSpace(teamId) ? null : FindTeam(data, teamId);
+        return Ok(WnbaPlayerSeasonCalculator.Leaders(data, seasonType, team?.Id, metric, basis, minGames, minAttempts, search));
+    }
+
+    [HttpGet("player-stats/{id}")]
+    public async Task<IActionResult> PlayerStatisticsById(string id, [FromQuery] int? season,
+        [FromQuery] string? seasonType, [FromQuery] string? teamId, CancellationToken ct)
+    {
+        var data = await service.GetSeasonAsync(season, ct);
+        var player = FindPlayer(data, id);
+        var team = string.IsNullOrWhiteSpace(teamId) ? null : FindTeam(data, teamId);
+        return Ok(WnbaPlayerSeasonCalculator.Statistics(data, seasonType, team?.Id).Single(p => p.PlayerId == player.Id));
+    }
+
     [HttpGet("teams/{id}")]
     public async Task<IActionResult> Team(string id, [FromQuery] int? season, CancellationToken ct)
     {

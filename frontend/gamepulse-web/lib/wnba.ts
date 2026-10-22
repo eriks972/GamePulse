@@ -50,6 +50,17 @@ export type WnbaTeamSeasonStatistics = {
 export type WnbaSeasonStatistics = {
   season: number; seasonType: string; scheduledGames: number; completedGames: number; teams: WnbaTeamSeasonStatistics[];
 };
+export type WnbaPlayerSeasonStatistics = {
+  season: number; seasonType: string; playerId: string; name: string | null; position: string | null;
+  teamIds: string[]; teamScopeId: string | null; games: number; excludedAmbiguousGames: number; rank: number | null;
+  statistics: Record<string, SeasonMetric>; shooting: Record<string, ShootingMetric>;
+};
+export type WnbaPlayerLeaderboard = {
+  season: number; seasonType: string; teamScopeId: string | null; metric: string; basis: string;
+  isShootingPercentage: boolean; minGames: number; minAttempts: number;
+  completedScheduleGames: number; playersWithStatistics: number; qualifyingPlayers: number;
+  rankingMethod: string; players: WnbaPlayerSeasonStatistics[];
+};
 export class WnbaApiError extends Error {
   constructor(public status: number) { super(`WNBA request failed (${status})`); }
 }

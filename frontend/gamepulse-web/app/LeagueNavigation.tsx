@@ -9,13 +9,13 @@ export default function LeagueNavigation() {
   const league = pathname.startsWith("/leagues/wnba") ? "wnba" : "nba";
   const season = params.get("season");
   const sections = league === "wnba"
-    ? ["Teams", "Players", "Schedule", "Standings", "Team Stats"]
+    ? ["Teams", "Players", "Schedule", "Standings", "Team Stats", "Player Stats"]
     : ["Teams", "Players", "Schedule", "Standings", "Compare", "Analytics"];
   const suffix = season ? `?season=${encodeURIComponent(season)}` : "";
   const links = [
     { label: "Home", href: "/" }, { label: "Leagues", href: "/leagues" },
     { label: league.toUpperCase(), href: `/leagues/${league}${suffix}` },
-    ...sections.map(label => ({ label, href: `/leagues/${league}/${label === "Team Stats" ? "team-stats" : label.toLowerCase()}${suffix}` })),
+    ...sections.map(label => ({ label, href: `/leagues/${league}/${label === "Team Stats" ? "team-stats" : label === "Player Stats" ? "player-stats" : label.toLowerCase()}${suffix}` })),
   ];
   return <div className="flex flex-wrap gap-2">{links.map(link => <Link
     key={link.label} href={link.href}
