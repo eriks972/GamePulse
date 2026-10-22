@@ -1,0 +1,74 @@
+using System.Globalization;
+using GamePulse.Api.Models.Mlb;
+using GamePulse.Api.Services;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
+namespace GamePulse.Api.Controllers;
+public sealed class MlbExceptionFilter : IExceptionFilter
+{
+    public void OnException(ExceptionContext context)
+    {
+        if (context.Exception is not MlbDataException error) return;
+        context.Result=new ObjectResult(new { message=error.Message }) { StatusCode=error.StatusCode };context.ExceptionHandled=true;
+    }
+}
+[ApiController, Route("api/leagues/mlb"), TypeFilter(typeof(MlbExceptionFilter))]
+public sealed class MlbController(MlbJsonDataService service) : ControllerBase
+{
+    private static bool Match(string canonical,string source,string requested)=>canonical==requested || source==requested;
+    private static MlbTeam Team(MlbSeasonData d,string id)=>d.Teams.SingleOrDefault(t=>Match(t.Id,t.SourceId,id))??throw new MlbDataException(404,"MLB team not found in this season.");
+    private static MlbPlayer Player(MlbSeasonData d,string id)=>d.Players.SingleOrDefault(t=>Match(t.Id,t.SourceId,id))??throw new MlbDataException(404,"MLB player not found in this season.");
+    private static MlbGame Game(MlbSeasonData d,string id)=>d.Games.SingleOrDefault(t=>Match(t.Id,t.SourceId,id))??throw new MlbDataException(404,"MLB game not found in this season.");
+    private static MlbPage<T> PageOf<T>(IEnumerable<T> rows,int page,int pageSize)
+    {
+        if(page<1 || pageSize<1 || pageSize>100 || page>1000000)throw new MlbDataException(400,"Use page >= 1 and pageSize between 1 and 100.");
+        var all=rows.ToArray();return new(all.Skip((page-1)*pageSize).Take(pageSize).ToArray(),all.Length,page,pageSize);
+    }
+    private static IEnumerable<MlbGame> FilterGames(MlbSeasonData d,string? teamId,string? seasonType,string? date,string? status)
+    {
+        IEnumerable<MlbGame> rows=d.Games;
+        if(!string.IsNullOrEmpty(teamId)) { var t=Team(d,teamId);rows=rows.Where(g=>g.HomeTeamId==t.Id || g.AwayTeamId==t.Id); }
+        if(!string.IsNullOrEmpty(seasonType))
+        {
+            var phase=new[]{"Regular Season","Playoffs","Preseason","Exhibition","All-Star"}.SingleOrDefault(p=>p.Equals(seasonType,StringComparison.OrdinalIgnoreCase))??throw new MlbDataException(400,"Unknown MLB season type.");rows=rows.Where(g=>g.SeasonType==phase);
+        }
+        if(!string.IsNullOrEmpty(date))
+        {
+            if(!DateOnly.TryParseExact(date,"yyyy-MM-dd",CultureInfo.InvariantCulture,DateTimeStyles.None,out _))throw new MlbDataException(400,"Use date YYYY-MM-DD.");rows=rows.Where(g=>g.OfficialDate==date);
+        }
+        if(!string.IsNullOrEmpty(status))rows=status switch { "completed"=>rows.Where(g=>g.Completed),"not-final"=>rows.Where(g=>!g.Completed),_=>throw new MlbDataException(400,"status must be completed or not-final.") };
+        return rows.OrderByDescending(g=>g.OfficialDate).ThenByDescending(g=>g.GameNumber).ThenBy(g=>g.Id,StringComparer.Ordinal);
+    }
+    [HttpGet("seasons")]public async Task<IActionResult> Seasons(CancellationToken ct)=>Ok((await service.GetSeasonsAsync(ct)).Select(y=>y.ToString(CultureInfo.InvariantCulture)));
+    [HttpGet("coverage")]public async Task<IActionResult> Coverage(int? season,CancellationToken ct)=>Ok((await service.GetSeasonAsync(season,ct)).Coverage);
+    [HttpGet("teams")]public async Task<IActionResult> Teams(int? season,CancellationToken ct)=>Ok((await service.GetSeasonAsync(season,ct)).Teams.OrderBy(t=>t.Name));
+    [HttpGet("teams/{id}")]public async Task<IActionResult> TeamById(string id,int? season,CancellationToken ct)=>Ok(Team(await service.GetSeasonAsync(season,ct),id));
+    [HttpGet("players")]
+    public async Task<IActionResult> Players(int? season,string? search,string? teamId,int page=1,int pageSize=40,CancellationToken ct=default)
+    {
+        var d=await service.GetSeasonAsync(season,ct);IEnumerable<MlbPlayer> rows=d.Players;
+        if(!string.IsNullOrWhiteSpace(search))rows=rows.Where(p=>p.FullName?.Contains(search.Trim(),StringComparison.OrdinalIgnoreCase)==true);
+        if(!string.IsNullOrEmpty(teamId)){var t=Team(d,teamId);rows=rows.Where(p=>p.TeamIds.Contains(t.Id) || p.RosterSnapshotTeamIds.Contains(t.Id));}
+        return Ok(PageOf(rows.OrderBy(p=>p.FullName).ThenBy(p=>p.Id),page,pageSize));
+    }
+    [HttpGet("players/{id}")]public async Task<IActionResult> PlayerById(string id,int? season,CancellationToken ct)=>Ok(Player(await service.GetSeasonAsync(season,ct),id));
+    [HttpGet("players/{id}/games")]
+    public async Task<IActionResult> PlayerGames(string id,int? season,int page=1,int pageSize=40,CancellationToken ct=default)
+    { var d=await service.GetSeasonAsync(season,ct);var ids=Player(d,id).GameIds.ToHashSet();return Ok(PageOf(FilterGames(d,null,null,null,null).Where(g=>ids.Contains(g.Id)),page,pageSize)); }
+    [HttpGet("games")]
+    public async Task<IActionResult> Games(int? season,string? teamId,string? seasonType,string? date,string? status,int page=1,int pageSize=40,CancellationToken ct=default)
+    { var d=await service.GetSeasonAsync(season,ct);return Ok(PageOf(FilterGames(d,teamId,seasonType,date,status),page,pageSize)); }
+    [HttpGet("games/{id}")]public async Task<IActionResult> GameById(string id,int? season,CancellationToken ct)=>Ok(Game(await service.GetSeasonAsync(season,ct),id));
+    [HttpGet("games/{id}/statistics")]
+    public async Task<IActionResult> Statistics(string id,int? season,CancellationToken ct)
+    {
+        var d=await service.GetSeasonAsync(season,ct);var game=Game(d,id);var f=await service.GetGameFileAsync(d,game,ct);var names=d.Players.ToDictionary(p=>p.Id,p=>p.FullName);
+        return Ok(new {game,teamStatistics=f.TeamStatistics,playerStatistics=f.PlayerStatistics.Select(s=>new {s.GameId,s.TeamId,s.PlayerId,playerName=names.GetValueOrDefault(s.PlayerId!),s.Group,s.Statistics,s.Source}),lineScores=f.LineScores});
+    }
+    [HttpGet("standings")]
+    public async Task<IActionResult> Standings(int? season,CancellationToken ct)
+    {
+        var d=await service.GetSeasonAsync(season,ct);
+        return Ok(new {season=d.Season,seasonType="Regular Season",method="Calculated from imported completed regular-season final scores. Ties are retained; win percentage excludes ties. Division grouping uses season team metadata. Official seeding and tiebreakers are not applied.",teams=MlbStandingsCalculator.Calculate(d),providerSnapshot=d.ProviderStandings});
+    }
+}

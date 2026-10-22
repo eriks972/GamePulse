@@ -90,7 +90,7 @@ const leagues: League[] = [
     name: "MLB",
     sport: "Baseball",
     fullName: "Major League Baseball",
-    status: "coming-soon",
+    status: "live",
   },
   {
     slug: "milb",
@@ -457,7 +457,7 @@ export default async function LeaguesPage({ searchParams }: {
           </h1>
 
           <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-300">
-            Explore NBA analytics and WNBA teams, players, and results, with plans to expand
+            Explore NBA analytics, WNBA coverage, and MLB teams, players, and results, with plans to expand
             across major sports, leagues, tournaments, and competitions.
           </p>
         </div>

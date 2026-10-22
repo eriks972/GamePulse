@@ -56,7 +56,6 @@ const features = [
 
 const roadmapSports = [
   "NFL",
-  "MLB",
   "NHL",
   "College Basketball",
   "College Football",
@@ -85,7 +84,7 @@ export default function HomePage() {
               </h1>
 
               <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-                GamePulse is a sports analytics platform with NBA and WNBA
+                GamePulse is a sports analytics platform with NBA, WNBA, and MLB
                 coverage. The live MVP includes teams, players, schedules,
                 standings, comparisons, game breakdowns, and interactive
                 analytics dashboards.
@@ -243,7 +242,7 @@ export default function HomePage() {
           <div className="rounded-3xl border border-slate-800 bg-slate-900 p-6">
             <h2 className="text-2xl font-bold">What is GamePulse?</h2>
             <p className="mt-3 leading-7 text-slate-400">
-              GamePulse brings NBA analytics and WNBA historical coverage together.
+              GamePulse brings NBA analytics, WNBA history, and MLB coverage together.
               It combines historical schedules, team records, player profiles,
               game breakdowns, comparisons, and interactive analytics
               dashboards.

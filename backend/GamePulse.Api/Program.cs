@@ -7,6 +7,7 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddSingleton<NbaJsonDataService>();
 builder.Services.AddSingleton<WnbaJsonDataService>();
+builder.Services.AddSingleton<MlbJsonDataService>();
 
 builder.Services.AddCors(options =>
 {
