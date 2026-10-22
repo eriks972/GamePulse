@@ -50,6 +50,16 @@ public sealed class WnbaController(WnbaJsonDataService service) : ControllerBase
     public async Task<IActionResult> Teams([FromQuery] int? season, CancellationToken ct)
         => Ok((await service.GetSeasonAsync(season, ct)).Teams.OrderBy(t => t.Name));
 
+    [HttpGet("compare")]
+    public async Task<IActionResult> Compare([FromQuery] string teamA, [FromQuery] string teamB,
+        [FromQuery] int? season, [FromQuery] string? seasonType, CancellationToken ct)
+    {
+        var data = await service.GetSeasonAsync(season, ct);
+        var a = FindTeam(data, teamA);
+        var b = FindTeam(data, teamB);
+        return Ok(WnbaComparisonCalculator.Compare(data, a.Id, b.Id, seasonType));
+    }
+
     [HttpGet("player-stats")]
     public async Task<IActionResult> PlayerStatistics([FromQuery] int? season, [FromQuery] string? seasonType,
         [FromQuery] string? teamId, [FromQuery] string metric = "points", [FromQuery] string basis = "perGame",

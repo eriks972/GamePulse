@@ -19,14 +19,17 @@ public static class WnbaSeasonCalculator
         _ => throw new WnbaDataException(400, "seasonType must be Regular Season, Playoffs, Preseason, or Offseason.")
     };
 
-    private static bool HasFinalScore(WnbaGame game) => game.Completed == true &&
+    internal static bool HasFinalScore(WnbaGame game) => game.Completed == true &&
         game.HomeScore is double home && game.AwayScore is double away &&
         double.IsFinite(home) && double.IsFinite(away) && home >= 0 && away >= 0 &&
         home == Math.Truncate(home) && away == Math.Truncate(away) && home != away;
 
     public static WnbaStandings Standings(WnbaSeasonData data)
+        => Records(data, "Regular Season");
+
+    internal static WnbaStandings Records(WnbaSeasonData data, string type)
     {
-        var scheduled = data.Games.Where(g => g.SeasonType.Equals("Regular Season", StringComparison.OrdinalIgnoreCase)).ToArray();
+        var scheduled = data.Games.Where(g => g.SeasonType.Equals(type, StringComparison.OrdinalIgnoreCase)).ToArray();
         var completed = scheduled.Where(g => g.Completed == true).ToArray();
         var counted = completed.Where(HasFinalScore).ToArray();
         var rows = data.Teams.Select(team =>
@@ -51,8 +54,9 @@ public static class WnbaSeasonCalculator
           .ThenBy(t => t.Name, StringComparer.OrdinalIgnoreCase).ThenBy(t => t.TeamId, StringComparer.Ordinal).ToArray();
         foreach (var row in rows.Where(t => t.Games > 0))
             row.Rank = 1 + rows.Count(other => other.Games > 0 && (long)other.Wins * row.Games > (long)row.Wins * other.Games);
-        return new(data.Season, "Regular Season", scheduled.Length, completed.Length, counted.Length,
-            completed.Length - counted.Length, RankingMethod, rows);
+        return new(data.Season, type, scheduled.Length, completed.Length, counted.Length,
+            completed.Length - counted.Length, type == "Regular Season" ? RankingMethod :
+                $"Calculated {type} records from valid completed schedule scores; no official seeding or tiebreakers.", rows);
     }
 
     public static WnbaSeasonStatistics TeamStatistics(WnbaSeasonData data, string? requestedType = null)

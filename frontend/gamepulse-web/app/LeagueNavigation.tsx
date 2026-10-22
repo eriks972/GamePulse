@@ -9,7 +9,7 @@ export default function LeagueNavigation() {
   const league = pathname.startsWith("/leagues/wnba") ? "wnba" : "nba";
   const season = params.get("season");
   const sections = league === "wnba"
-    ? ["Teams", "Players", "Schedule", "Standings", "Team Stats", "Player Stats"]
+    ? ["Teams", "Players", "Schedule", "Standings", "Team Stats", "Player Stats", "Compare"]
     : ["Teams", "Players", "Schedule", "Standings", "Compare", "Analytics"];
   const suffix = season ? `?season=${encodeURIComponent(season)}` : "";
   const links = [

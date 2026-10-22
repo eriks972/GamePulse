@@ -61,6 +61,12 @@ export type WnbaPlayerLeaderboard = {
   completedScheduleGames: number; playersWithStatistics: number; qualifyingPlayers: number;
   rankingMethod: string; players: WnbaPlayerSeasonStatistics[];
 };
+export type WnbaComparisonTeam = { team: WnbaTeam; record: WnbaStanding; seasonStatistics: WnbaTeamSeasonStatistics };
+export type WnbaComparison = {
+  season: number; seasonType: string; teamA: WnbaComparisonTeam; teamB: WnbaComparisonTeam;
+  headToHead: { scheduledGames: number; completedGames: number; countedGames: number; excludedCompletedGames: number;
+    teamAWins: number; teamBWins: number; games: WnbaGame[] };
+};
 export class WnbaApiError extends Error {
   constructor(public status: number) { super(`WNBA request failed (${status})`); }
 }

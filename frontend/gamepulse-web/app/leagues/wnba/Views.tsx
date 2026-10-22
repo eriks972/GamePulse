@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { ComparisonView } from "./ComparisonView";
 import { PlayerSeasonTable, PlayerSeasonSummary } from "./PlayerSeasonTable";
 import { StandingsTable, TeamStatisticsTable, TeamSeasonSummary } from "./SeasonTables";
 import {
@@ -9,7 +10,7 @@ import {
 } from "@/lib/wnba";
 
 export type Query = Record<string, string | string[] | undefined>;
-export type View = "dashboard" | "teams" | "players" | "schedule" | "team" | "player" | "game" | "standings" | "team-stats" | "player-stats";
+export type View = "dashboard" | "teams" | "players" | "schedule" | "team" | "player" | "game" | "standings" | "team-stats" | "player-stats" | "compare";
 const panel = "rounded-3xl border border-slate-800 bg-slate-900 p-6 shadow-xl";
 const input = "rounded-xl border border-slate-700 bg-slate-950 px-3 py-2 text-white";
 const link = "font-semibold text-blue-300 hover:text-blue-200 hover:underline";
@@ -28,7 +29,7 @@ function Header({ title, seasons, season, route = "" }: { title: string; seasons
     <h1 className="mt-3 text-4xl font-black tracking-tight md:text-5xl">{title}</h1>
     <div className="mt-6 flex flex-wrap items-center justify-between gap-5">
       <nav aria-label="WNBA sections" className="flex flex-wrap gap-4">
-        {[["", "Overview"], ["teams", "Teams"], ["players", "Players"], ["schedule", "Schedule & Results"], ["standings", "Standings"], ["team-stats", "Team Stats"], ["player-stats", "Player Stats"]].map(([path, label]) =>
+        {[["", "Overview"], ["teams", "Teams"], ["players", "Players"], ["schedule", "Schedule & Results"], ["standings", "Standings"], ["team-stats", "Team Stats"], ["player-stats", "Player Stats"], ["compare", "Compare"]].map(([path, label]) =>
           <Link className={link} key={path} href={wnbaHref(path, season)}>{label}</Link>)}
       </nav>
       <form action={wnbaHref(route)} className="flex flex-wrap items-center gap-3">
@@ -150,6 +151,7 @@ function BoxScore({ rows, season, player = false, title }: { rows: WnbaStat[]; s
 
 async function Content({ view, id, season, query }: { view: View; id?: string; season: string; query: Query }) {
   const q = { season };
+  if (view === "compare") return await ComparisonView({ season, query });
   if (view === "player-stats") return await PlayerSeasonTable({ season, query });
   if (view === "standings") return await StandingsTable({ season });
   if (view === "team-stats") return await TeamStatisticsTable({ season, query });
@@ -172,7 +174,7 @@ async function Content({ view, id, season, query }: { view: View; id?: string; s
         {coverage.status === "prepared_with_review_items" && <p className="mt-2 text-sm text-amber-300">This season includes source discrepancies flagged for review.</p>}
       </section>
       <section><h2 className="mb-5 text-2xl font-bold">Recent completed games</h2><Games games={games.filter(g => g.completed === true).slice(0, 6)} season={season} /></section>
-      <section className="grid gap-5 md:grid-cols-2">{[["standings", "Calculated Standings", "Regular-season records, home/away results, and point differential."], ["team-stats", "Team Season Statistics", "Explore scoring, rebounding, passing, and shooting with game coverage."], ["player-stats", "Player Season Leaders", "Rank players by scoring, rebounding, assists, and shooting with adjustable sample cutoffs."]].map(([path, title, description]) =>
+      <section className="grid gap-5 md:grid-cols-2">{[["standings", "Calculated Standings", "Regular-season records, home/away results, and point differential."], ["team-stats", "Team Season Statistics", "Explore scoring, rebounding, passing, and shooting with game coverage."], ["player-stats", "Player Season Leaders", "Rank players by scoring, rebounding, assists, and shooting with adjustable sample cutoffs."], ["compare", "Compare Teams", "Compare season performance, coverage, and head-to-head results."]].map(([path, title, description]) =>
         <Link className={`${panel} hover:border-blue-400`} href={wnbaHref(path, season)} key={path}><h2 className="text-xl font-bold">{title}</h2><p className="mt-3 text-slate-400">{description}</p><p className="mt-5 text-blue-300">Explore →</p></Link>)}</section>
     </>;
   }
@@ -208,6 +210,7 @@ async function Content({ view, id, season, query }: { view: View; id?: string; s
     ]);
     return <><section className={panel}><h2 className="text-3xl font-black">{name(team)}</h2><p className="mt-2 text-slate-400">{team.abbreviation} · {season} · {games.length} schedule games</p></section>
       {await TeamSeasonSummary({ teamId: team.id, season })}
+      <Link className={link} href={`${wnbaHref("compare", season)}&teamA=${encodeURIComponent(team.id)}`}>Compare this team →</Link>
       <section><h2 className="mb-5 text-2xl font-bold">Players</h2><Players players={players} teams={teams} season={season} /></section>
       <section><h2 className="mb-5 text-2xl font-bold">Latest games</h2><Games games={games.slice(0, 12)} season={season} />
         <Link className={`${link} mt-5 inline-block`} href={`${wnbaHref("schedule", season)}&teamId=${encodeURIComponent(team.id)}`}>View all team games →</Link></section>
@@ -276,7 +279,7 @@ export async function WnbaView({ view, id, query }: { view: View; id?: string; q
     <Header title="Season unavailable" seasons={seasons} season={seasons[0]} />
     <Empty>The requested season has not been imported. Select an available season above.</Empty>
   </main>;
-  const titles: Record<View, string> = { dashboard: "WNBA Dashboard", teams: "WNBA Teams", players: "WNBA Players", schedule: "Schedule & Results", team: "Team Profile", player: "Player Profile", game: "Game Details", standings: "WNBA Standings", "team-stats": "Team Season Statistics", "player-stats": "Player Season Leaders" };
+  const titles: Record<View, string> = { dashboard: "WNBA Dashboard", teams: "WNBA Teams", players: "WNBA Players", schedule: "Schedule & Results", team: "Team Profile", player: "Player Profile", game: "Game Details", standings: "WNBA Standings", "team-stats": "Team Season Statistics", "player-stats": "Player Season Leaders", compare: "Compare WNBA Teams" };
   const route = view === "team" ? "teams" : view === "player" ? "players" : view === "game" ? "schedule" : view === "dashboard" ? "" : view;
   return <main className="mx-auto min-h-screen max-w-6xl space-y-8 px-6 py-10">
     <Header title={titles[view]} seasons={seasons} season={season} route={route} />{content}
