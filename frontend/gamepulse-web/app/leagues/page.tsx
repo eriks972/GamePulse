@@ -22,7 +22,7 @@ const leagues: League[] = [
     name: "WNBA",
     sport: "Basketball",
     fullName: "Women’s National Basketball Association",
-    status: "coming-soon",
+    status: "live",
   },
   {
     slug: "ncaamb",
@@ -451,7 +451,7 @@ export default function LeaguesPage() {
           </h1>
 
           <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-300">
-            GamePulse is starting with NBA analytics and is built to expand
+            Explore NBA analytics and WNBA teams, players, and results, with plans to expand
             across major sports, leagues, tournaments, and competitions.
           </p>
         </div>
@@ -461,7 +461,7 @@ export default function LeaguesPage() {
             <div>
               <h2 className="text-2xl font-bold">Available Now</h2>
               <p className="mt-2 text-sm text-slate-400">
-                Fully built league experiences currently live in GamePulse.
+                Explore the available coverage for each league.
               </p>
             </div>
           </div>

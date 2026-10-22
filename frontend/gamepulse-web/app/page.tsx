@@ -18,8 +18,8 @@ const platformStats = [
   },
   {
     label: "Live Backend",
-    value: "Azure",
-    description: "ASP.NET Core API deployed with Docker and Container Apps",
+    value: "Render",
+    description: "ASP.NET Core API deployed with Docker on Render",
   },
 ];
 
@@ -58,7 +58,6 @@ const roadmapSports = [
   "NFL",
   "MLB",
   "NHL",
-  "WNBA",
   "College Basketball",
   "College Football",
   "MLS",
@@ -86,7 +85,7 @@ export default function HomePage() {
               </h1>
 
               <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-                GamePulse is a multi-sport analytics platform starting with NBA
+                GamePulse is a sports analytics platform with NBA and WNBA
                 coverage. The live MVP includes teams, players, schedules,
                 standings, comparisons, game breakdowns, and interactive
                 analytics dashboards.
@@ -244,7 +243,7 @@ export default function HomePage() {
           <div className="rounded-3xl border border-slate-800 bg-slate-900 p-6">
             <h2 className="text-2xl font-bold">What is GamePulse?</h2>
             <p className="mt-3 leading-7 text-slate-400">
-              GamePulse is a sports analytics platform starting with NBA data.
+              GamePulse brings NBA analytics and WNBA historical coverage together.
               It combines historical schedules, team records, player profiles,
               game breakdowns, comparisons, and interactive analytics
               dashboards.
@@ -264,7 +263,7 @@ export default function HomePage() {
             <h2 className="text-2xl font-bold">Production Deployed</h2>
             <p className="mt-3 leading-7 text-slate-400">
               The frontend is deployed on Vercel, while the ASP.NET Core API is
-              containerized with Docker and hosted on Azure Container Apps.
+              containerized with Docker and hosted on Render.
             </p>
           </div>
         </section>
