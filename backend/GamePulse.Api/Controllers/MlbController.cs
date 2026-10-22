@@ -71,4 +71,20 @@ public sealed class MlbController(MlbJsonDataService service) : ControllerBase
         var d=await service.GetSeasonAsync(season,ct);
         return Ok(new {season=d.Season,seasonType="Regular Season",method="Calculated from imported completed regular-season final scores. Ties are retained; win percentage excludes ties. Division grouping uses season team metadata. Official seeding and tiebreakers are not applied.",teams=MlbStandingsCalculator.Calculate(d),providerSnapshot=d.ProviderStandings});
     }
+    [HttpGet("batting")]
+    public async Task<IActionResult> Batting(int? season,string kind="player",string seasonType="Regular Season",string metric="homeRuns",string? teamId=null,string? search=null,int minPa=0,int minAb=0,int page=1,int pageSize=40,CancellationToken ct=default)
+    {
+        if(kind is not ("player" or "team"))throw new MlbDataException(400,"kind must be player or team.");
+        var d=await service.GetSeasonAsync(season,ct);
+        var team=string.IsNullOrEmpty(teamId)?null:Team(d,teamId).Id;
+        var f=await service.GetBattingAsync(d,ct);
+        var ranked=MlbBattingLeaderboard.Calculate(d,f,kind,seasonType,team,metric,minPa,minAb);
+        var matches=string.IsNullOrWhiteSpace(search)?ranked:ranked.Where(r=>r.Name.Contains(search.Trim(),StringComparison.OrdinalIgnoreCase)).ToArray();
+        var completed=d.Games.Where(g=>g.Completed && g.SeasonType==seasonType && (team==null || g.HomeTeamId==team || g.AwayTeamId==team)).ToArray();
+        return Ok(new {season=d.Season,kind,seasonType,metric,minPa,minAb,rankedTotal=ranked.Length,
+            coverage=new {completedGames=completed.Length,expectedTeamGames=completed.Length*(team==null?2:1),observedTeamGames=f.Rows.Where(r=>r.Kind=="team" && r.SeasonType==seasonType && (team==null || r.Id==team)).Sum(r=>r.Games)},
+            method="Totals use imported batting observations only. A statistic stays null if any contributing observation is missing it. Rates use complete component totals. Minimum PA/AB are custom filters, not official title qualification. Search preserves ranks within the selected team, phase, and minimums.",
+            results=PageOf(matches,page,pageSize)});
+    }
+
 }

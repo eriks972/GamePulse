@@ -87,6 +87,44 @@ public sealed class MlbJsonDataService : IDisposable
             throw new JsonException("Invalid MLB game file coverage or duplicate records");
         return file;
     });
+    public Task<MlbBattingFile> GetBattingAsync(MlbSeasonData data, CancellationToken ct = default) => Guard(async () =>
+    {
+        var path=Path.Combine(data.Directory,"batting.json");
+        if(!File.Exists(path))throw new MlbDataException(503,"Batting summaries are not imported. Rerun the updated MLB importer and deploy its active snapshot.");
+        var file=await Read<MlbBattingFile>(path,ct);
+        var teams=data.Teams.Select(t=>t.Id).ToHashSet();var players=data.Players.Select(p=>p.Id).ToHashSet();var phases=data.Games.Select(g=>g.SeasonType).ToHashSet();
+        if(file.Version!=1 || file.Season!=data.Season || file.Rows.Select(r=>(r.Kind,r.Id,r.SeasonType,r.TeamId)).Distinct().Count()!=file.Rows.Length)
+            throw new JsonException("Invalid batting summary version, season, or duplicates");
+        foreach(var r in file.Rows)
+        {
+            if(r.Kind is not ("team" or "player") || !(r.Kind=="team"?teams:players).Contains(r.Id) ||
+                r.TeamId!=null && !teams.Contains(r.TeamId) || r.Kind=="team" && r.TeamId!=r.Id ||
+                r.TeamIds.Length==0 || r.TeamIds.Distinct().Count()!=r.TeamIds.Length || r.TeamIds.Any(t=>!teams.Contains(t)) ||
+                r.TeamId!=null && (r.TeamIds.Length!=1 || r.TeamIds[0]!=r.TeamId) ||
+                !phases.Contains(r.SeasonType) || r.Games<1 || r.ObservationRows<r.Games)
+                throw new JsonException("Invalid batting summary relationships");
+            foreach(var key in MlbBattingLeaderboard.Counts)
+                if(!r.Totals.ContainsKey(key) || !r.ObservedRows.TryGetValue(key,out var count) || count<0 || count>r.ObservationRows ||
+                    r.Totals[key]<0 || (count==r.ObservationRows)!=(r.Totals[key]!=null))throw new JsonException("Invalid batting count coverage");
+            double? Rate(string key)
+            {
+                string[] required=key switch {"avg"=>["hits","atBats"],"slg"=>["totalBases","atBats"],"obp"=>["hits","atBats","baseOnBalls","hitByPitch","sacFlies"],_=>["hits","atBats","baseOnBalls","hitByPitch","sacFlies","totalBases"]};
+                if(required.Any(k=>r.Totals[k]==null))return null;
+                double N(string k)=>r.Totals[k]??0;
+                var ab=N("atBats");var denominator=ab+N("baseOnBalls")+N("hitByPitch")+N("sacFlies");
+                double? avg=ab>0?N("hits")/ab:null, slg=ab>0?N("totalBases")/ab:null;
+                double? obp=denominator>0?(N("hits")+N("baseOnBalls")+N("hitByPitch"))/denominator:null;
+                return key switch {"avg"=>avg,"obp"=>obp,"slg"=>slg,_=>obp+slg};
+            }
+            foreach(var key in MlbBattingLeaderboard.Rates)
+            {
+                var expected=Rate(key);
+                if(!r.Rates.TryGetValue(key,out var value) || value.HasValue!=expected.HasValue || value.HasValue &&
+                    (!double.IsFinite(value.Value) || Math.Abs(value.Value-expected!.Value)>1e-12 || value<0 || value>(key=="ops"?5:key=="slg"?4:1)))throw new JsonException("Invalid batting rate or components");
+            }
+        }
+        return file;
+    });
     private static async Task<T> Read<T>(string path, CancellationToken ct)
     { await using var s = File.OpenRead(path); return await JsonSerializer.DeserializeAsync<T>(s, Options, ct) ?? throw new JsonException("Unexpected null JSON"); }
     private static bool Id(string id, string kind) => Regex.IsMatch(id, "^mlb:stats:"+kind+@":[1-9]\d*$");

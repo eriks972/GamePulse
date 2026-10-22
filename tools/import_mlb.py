@@ -4,6 +4,7 @@ import argparse, contextlib, fcntl, hashlib, json, math, re, sys, uuid
 from collections import defaultdict
 from datetime import datetime, timezone, date
 from pathlib import Path
+from mlb_batting import build_batting
 
 FILES=['teams','players','games','rosters','team_game_stats','player_game_stats','line_scores','standings','coverage']
 def read(path):return json.loads(path.read_text(encoding='utf-8'))
@@ -94,6 +95,7 @@ def import_run(ready,destination,requested=None):
    for gid,g in games.items():
     part=parts[gid];g['coverage']=dict(teamGroupRows=len(part['teamStatistics']),playerGroupRows=len(part['playerStatistics']),inningRows=len(part['lineScores']))
     write(dest/'game_stats'/(g['sourceId']+'.json'),part)
+   write(dest/'batting.json',build_batting(parts,year))
    for name,value in [('teams',list(teams.values())),('players',list(players.values())),('games',list(games.values())),('standings',provider),('coverage',{k:v for k,v in coverage.items() if k!='inputs'})]:write(dest/(name+'.json'),value)
    counts.append(dict(season=year,teams=len(teams),players=len(players),games=len(games),statisticGroupRows=total_stats));print(f'{year}: imported {len(games)} games, {len(players)} player identities; game statistics partitioned',flush=True)
   write(stage/'seasons.json',selected)
