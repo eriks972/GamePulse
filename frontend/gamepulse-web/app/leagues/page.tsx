@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { leagueSections } from "@/lib/league-navigation";
 
 type League = {
   slug: string;
@@ -376,8 +377,9 @@ const comingSoonLeagues = leagues.filter(
   (league) => league.status === "coming-soon",
 );
 
-function LeagueCard({ league }: { league: League }) {
+function LeagueCard({ league, section }: { league: League; section?: (typeof leagueSections)[number] }) {
   const isLive = league.status === "live";
+  const available = isLive && (!section || section.leagues.includes(league.slug));
 
   const cardContent = (
     <>
@@ -413,16 +415,16 @@ function LeagueCard({ league }: { league: League }) {
             isLive ? "text-blue-300" : "text-slate-500"
           }`}
         >
-          {isLive ? "View League →" : "Preview"}
+          {!isLive ? "Preview" : !available ? `${section?.label} unavailable` : section ? `View ${section.label} →` : "View League →"}
         </p>
       </div>
     </>
   );
 
-  if (isLive) {
+  if (available) {
     return (
       <Link
-        href={`/leagues/${league.slug}`}
+        href={`/leagues/${league.slug}${section ? `/${section.path}` : ""}`}
         className="rounded-2xl border border-blue-500/40 bg-slate-900 p-5 shadow-lg transition hover:-translate-y-1 hover:border-blue-400"
       >
         {cardContent}
@@ -437,7 +439,11 @@ function LeagueCard({ league }: { league: League }) {
   );
 }
 
-export default function LeaguesPage() {
+export default async function LeaguesPage({ searchParams }: {
+  searchParams: Promise<{ section?: string | string[] }>;
+}) {
+  const query = await searchParams;
+  const section = leagueSections.find(section => section.path === query.section);
   return (
     <main className="min-h-screen bg-slate-950 px-6 py-16 text-white">
       <section className="mx-auto max-w-6xl">
@@ -447,7 +453,7 @@ export default function LeaguesPage() {
           </p>
 
           <h1 className="mt-4 text-4xl font-black tracking-tight md:text-6xl">
-            Leagues & Sports
+            {section ? `Choose a league for ${section.label}` : "Leagues & Sports"}
           </h1>
 
           <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-300">
@@ -461,14 +467,14 @@ export default function LeaguesPage() {
             <div>
               <h2 className="text-2xl font-bold">Available Now</h2>
               <p className="mt-2 text-sm text-slate-400">
-                Explore the available coverage for each league.
+                {section ? `Select a league to view ${section.label.toLowerCase()}.` : "Explore the available coverage for each league."}
               </p>
             </div>
           </div>
 
           <div className="mt-6 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {liveLeagues.map((league) => (
-              <LeagueCard key={league.slug} league={league} />
+              <LeagueCard key={league.slug} league={league} section={section} />
             ))}
           </div>
         </section>
@@ -485,7 +491,7 @@ export default function LeaguesPage() {
 
           <div className="mt-6 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {comingSoonLeagues.map((league) => (
-              <LeagueCard key={league.slug} league={league} />
+              <LeagueCard key={league.slug} league={league} section={section} />
             ))}
           </div>
         </section>
