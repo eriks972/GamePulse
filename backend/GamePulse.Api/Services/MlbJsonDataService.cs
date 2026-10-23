@@ -125,6 +125,35 @@ public sealed class MlbJsonDataService : IDisposable
         }
         return file;
     });
+    public Task<MlbPitchingFile> GetPitchingAsync(MlbSeasonData data, CancellationToken ct = default) => Guard(async () =>
+    {
+        var path=Path.Combine(data.Directory,"pitching.json");
+        if(!File.Exists(path))throw new MlbDataException(503,"Pitching summaries are not imported. Rerun the updated MLB importer and deploy its active snapshot.");
+        var file=await Read<MlbPitchingFile>(path,ct);
+        var teams=data.Teams.Select(t=>t.Id).ToHashSet();var players=data.Players.Select(p=>p.Id).ToHashSet();var phases=data.Games.Select(g=>g.SeasonType).ToHashSet();
+        if(file.Version!=1 || file.Season!=data.Season || file.Rows.Select(r=>(r.Kind,r.Id,r.SeasonType,r.TeamId)).Distinct().Count()!=file.Rows.Length)
+            throw new JsonException("Invalid pitching summary version, season, or duplicates");
+        foreach(var r in file.Rows)
+        {
+            if(r.Kind is not ("team" or "player") || !(r.Kind=="team"?teams:players).Contains(r.Id) ||
+                r.TeamId!=null && !teams.Contains(r.TeamId) || r.Kind=="team" && r.TeamId!=r.Id ||
+                r.TeamIds.Length==0 || r.TeamIds.Distinct().Count()!=r.TeamIds.Length || r.TeamIds.Any(t=>!teams.Contains(t)) ||
+                r.TeamId!=null && (r.TeamIds.Length!=1 || r.TeamIds[0]!=r.TeamId) ||
+                !phases.Contains(r.SeasonType) || r.Games<1 || r.ObservationRows<r.Games)
+                throw new JsonException("Invalid pitching summary relationships");
+            foreach(var key in MlbPitchingLeaderboard.Counts)
+                if(!r.Totals.ContainsKey(key) || !r.ObservedRows.TryGetValue(key,out var count) || count<0 || count>r.ObservationRows ||
+                    r.Totals[key]<0 || (count==r.ObservationRows)!=(r.Totals[key]!=null))throw new JsonException("Invalid pitching count coverage");
+            if(r.InningsPitched!=MlbPitchingLeaderboard.Innings(r.Totals["outsRecorded"]))throw new JsonException("Invalid pitching innings notation");
+            foreach(var key in MlbPitchingLeaderboard.Rates)
+            {
+                var expected=MlbPitchingLeaderboard.Rate(r.Totals,key);
+                if(!r.Rates.TryGetValue(key,out var value) || value.HasValue!=expected.HasValue || value.HasValue &&
+                    (!double.IsFinite(value.Value) || Math.Abs(value.Value-expected!.Value)>1e-12 || value<0))throw new JsonException("Invalid pitching rate or components");
+            }
+        }
+        return file;
+    });
     private static async Task<T> Read<T>(string path, CancellationToken ct)
     { await using var s = File.OpenRead(path); return await JsonSerializer.DeserializeAsync<T>(s, Options, ct) ?? throw new JsonException("Unexpected null JSON"); }
     private static bool Id(string id, string kind) => Regex.IsMatch(id, "^mlb:stats:"+kind+@":[1-9]\d*$");
