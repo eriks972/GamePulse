@@ -52,3 +52,8 @@ next-env.d.ts
 # Frontend dependencies and build output
 **/node_modules/
 **/.next/
+# GamePulse generated Python files and incomplete MLB imports
+__pycache__/
+*.py[cod]
+backend/GamePulse.Api/Data/processed/mlb/building-*/
+backend/GamePulse.Api/Data/processed/mlb/.import.lock

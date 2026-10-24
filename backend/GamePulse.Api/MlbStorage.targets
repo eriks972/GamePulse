@@ -1,0 +1,20 @@
+<Project>
+  <!-- Select at build time: excludes retired runs and failed imports from output. -->
+  <Target Name="SelectActiveMlbSnapshot" BeforeTargets="AssignTargetPaths">
+    <PropertyGroup>
+      <_MlbRoot>$(MSBuildProjectDirectory)/Data/processed/mlb</_MlbRoot>
+      <_MlbPointerText Condition="Exists('$(_MlbRoot)/current.json')">$([System.IO.File]::ReadAllText('$(_MlbRoot)/current.json'))</_MlbPointerText>
+      <_MlbActiveRun Condition="'$(_MlbPointerText)' != ''">$([System.Text.RegularExpressions.Regex]::Replace('$(_MlbPointerText)', '(?s)^.*?&quot;run&quot;\s*:\s*&quot;(runs/[A-Za-z0-9-]+)&quot;.*$', '$1'))</_MlbActiveRun>
+      <_MlbRunValid>$([System.Text.RegularExpressions.Regex]::IsMatch('$(_MlbActiveRun)', '^runs/[A-Za-z0-9-]+$'))</_MlbRunValid>
+    </PropertyGroup>
+    <Error Condition="Exists('$(_MlbRoot)/current.json') and '$(_MlbRunValid)' != 'True'" Text="Invalid MLB current.json run. Keep a valid imported snapshot before building." />
+    <Error Condition="'$(_MlbRunValid)' == 'True' and !Exists('$(_MlbRoot)/$(_MlbActiveRun)/seasons.json')" Text="Active MLB snapshot is missing seasons.json: $(_MlbActiveRun)" />
+    <ItemGroup>
+      <Content Remove="Data/processed/mlb/**/*" />
+      <Content Include="Data/processed/mlb/current.json;Data/processed/mlb/$(_MlbActiveRun)/**/*.json" Condition="'$(_MlbRunValid)' == 'True'">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+    </ItemGroup>
+  </Target>
+</Project>
