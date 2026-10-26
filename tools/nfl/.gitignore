@@ -1,0 +1,5 @@
+.venv-nfl/
+__pycache__/
+data/nfl/raw/
+data/nfl/reports/
+data/nfl/.collector.lock
