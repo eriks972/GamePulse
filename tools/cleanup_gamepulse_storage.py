@@ -2,9 +2,15 @@
 """Validate the active MLB import, then report/remove obsolete copies. Python 3.10+."""
 import argparse,contextlib,fcntl,hashlib,json,os,re,shutil,subprocess,sys
 from pathlib import Path
+from mlb_archive import snapshot
+import zipfile
 
 RUN=re.compile(r'^runs/[A-Za-z0-9-]+$')
-def read(p):return json.loads(p.read_text(encoding='utf-8'))
+def read(p):
+ if p.exists():return json.loads(p.read_text(encoding='utf-8'))
+ folder=p.parent;entry=p.name
+ if folder.name=='game_stats':entry='game_stats/'+entry;folder=folder.parent
+ with zipfile.ZipFile(folder.with_suffix('.zip')) as z:return json.loads(z.read(entry))
 def sha(p):
  h=hashlib.sha256()
  with p.open('rb') as f:
@@ -17,27 +23,9 @@ def plain_tree(p):
 def git(repo,*args):
  return subprocess.check_output(['git','-C',str(repo),*args])
 def active(root):
- raw=(root/'current.json').read_bytes();pointer=json.loads(raw)
- if pointer.get('version')!=1 or pointer.get('league')!='mlb' or not RUN.fullmatch(pointer.get('run','')):raise ValueError('Invalid active pointer')
- run=root/pointer['run'];plain_tree(run)
- years=read(run/'seasons.json')
- if not isinstance(years,list) or not years or any(type(y)!=int or not 1876<=y<=9999 for y in years):raise ValueError('Invalid active season index')
- if sorted(pointer.get('seasons',[]))!=sorted(years):raise ValueError('Pointer seasons and active season index disagree')
- checks=read(run/'checksums.json')
- if not isinstance(checks,dict) or not checks:raise ValueError('Missing active checksum index')
- required={'seasons.json','import_report.json'}
- for y in years:
-  required.update(f'seasons/{y}/{name}.json' for name in ['teams','players','games','standings','coverage'])
- if not required.issubset(checks):raise ValueError('Active checksum index omits required core files')
- for i,(relative,expected) in enumerate(checks.items(),1):
-  p=run/relative
-  if Path(relative).is_absolute() or not p.resolve().is_relative_to(run.resolve()) or not re.fullmatch('[0-9a-f]{64}',expected) or sha(p)!=expected:raise ValueError(f'Invalid active checksum/file: {relative}')
-  if i%1000==0:print(f'Validated {i:,}/{len(checks):,} active files...',flush=True)
- for y in years:
-  for game in read(run/f'seasons/{y}/games.json'):
-   rel=f"seasons/{y}/game_stats/{game['sourceId']}.json"
-   if rel not in checks:raise ValueError('Active checksum index omits a game partition: '+rel)
- print(f'Active snapshot VERIFIED: {pointer["run"]}; seasons {", ".join(map(str,years))}; {len(checks):,} files',flush=True)
+ raw=(root/'current.json').read_bytes();run,years,_=snapshot(root)
+ if run is None:raise ValueError('No active API snapshot')
+ print('Active snapshot VERIFIED:',run.name,'; seasons',','.join(map(str,years)),flush=True)
  return raw,run,set(years)
 def prepared(root):
  raw=(root/'current.json').read_bytes();pointer=json.loads(raw)

@@ -7,7 +7,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "GamePulse",
-  description: "A multi-sport analytics platform with NBA and WNBA coverage.",
+  description: "A multi-sport analytics platform with NBA, WNBA, MLB, and NFL coverage.",
 };
 
 export default function RootLayout({

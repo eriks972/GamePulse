@@ -11,10 +11,20 @@
     <Error Condition="'$(_MlbRunValid)' == 'True' and !Exists('$(_MlbRoot)/$(_MlbActiveRun)/seasons.json')" Text="Active MLB snapshot is missing seasons.json: $(_MlbActiveRun)" />
     <ItemGroup>
       <Content Remove="Data/processed/mlb/**/*" />
-      <Content Include="Data/processed/mlb/current.json;Data/processed/mlb/$(_MlbActiveRun)/**/*.json" Condition="'$(_MlbRunValid)' == 'True'">
+      <Content Include="Data/processed/mlb/current.json;Data/processed/mlb/$(_MlbActiveRun)/**/*.json;Data/processed/mlb/$(_MlbActiveRun)/seasons/*.zip" Condition="'$(_MlbRunValid)' == 'True'">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       </Content>
     </ItemGroup>
+  </Target>
+  <!-- Clear only generated MLB data in the standard bin layout before copying
+       the active snapshot. Otherwise run-name changes leave stale copies. -->
+  <Target Name="RemoveGeneratedMlbBuildCopies" BeforeTargets="PrepareForBuild" Condition="'$(Configuration)' != '' and '$(TargetFramework)' != ''">
+    <!-- Delete generated files, leaving directories in place. This avoids
+         recursive RemoveDir failures when directory contents change on macOS. -->
+    <ItemGroup>
+      <_GeneratedMlbBuildFiles Include="$(MSBuildProjectDirectory)/bin/$(Configuration)/$(TargetFramework)/Data/processed/mlb/**/*" />
+    </ItemGroup>
+    <Delete Files="@(_GeneratedMlbBuildFiles)" />
   </Target>
 </Project>

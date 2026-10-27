@@ -60,7 +60,7 @@ const leagues: League[] = [
     name: "NFL",
     sport: "Football",
     fullName: "National Football League",
-    status: "coming-soon",
+    status: "live",
   },
   {
     slug: "ncaaf",
@@ -407,7 +407,7 @@ function LeagueCard({ league, section }: { league: League; section?: (typeof lea
               : "bg-yellow-500/10 text-yellow-300"
           }`}
         >
-          {isLive ? "Live Now" : "Coming Soon"}
+          {isLive ? (league.slug === "nfl" ? "Available" : "Live Now") : "Coming Soon"}
         </span>
 
         <p
@@ -457,7 +457,7 @@ export default async function LeaguesPage({ searchParams }: {
           </h1>
 
           <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-300">
-            Explore NBA analytics, WNBA coverage, and MLB teams, players, and results, with plans to expand
+            Explore NBA analytics, WNBA coverage, MLB teams, players, and results, and NFL season coverage, with plans to expand
             across major sports, leagues, tournaments, and competitions.
           </p>
         </div>

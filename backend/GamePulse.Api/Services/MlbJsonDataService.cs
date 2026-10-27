@@ -1,4 +1,5 @@
 using System.Globalization;
+using System.IO.Compression;
 using System.Text.Json;
 using System.Text.RegularExpressions;
 using GamePulse.Api.Models.Mlb;
@@ -29,7 +30,7 @@ public sealed class MlbJsonDataService : IDisposable
     private async Task<T> Guard<T>(Func<Task<T>> operation)
     {
         try { return await operation(); }
-        catch (Exception ex) when (ex is IOException or JsonException or UnauthorizedAccessException or ArgumentException or InvalidOperationException or NullReferenceException)
+        catch (Exception ex) when (ex is IOException or InvalidDataException or JsonException or UnauthorizedAccessException or ArgumentException or InvalidOperationException or NullReferenceException)
         {
             _logger.LogError(ex, "Unable to read imported MLB data");
             throw new MlbDataException(503, "MLB data is unavailable or invalid. Check the import and backend logs.");
@@ -90,7 +91,7 @@ public sealed class MlbJsonDataService : IDisposable
     public Task<MlbBattingFile> GetBattingAsync(MlbSeasonData data, CancellationToken ct = default) => Guard(async () =>
     {
         var path=Path.Combine(data.Directory,"batting.json");
-        if(!File.Exists(path))throw new MlbDataException(503,"Batting summaries are not imported. Rerun the updated MLB importer and deploy its active snapshot.");
+        if(!DataExists(path))throw new MlbDataException(503,"Batting summaries are not imported. Rerun the updated MLB importer and deploy its active snapshot.");
         var file=await Read<MlbBattingFile>(path,ct);
         var teams=data.Teams.Select(t=>t.Id).ToHashSet();var players=data.Players.Select(p=>p.Id).ToHashSet();var phases=data.Games.Select(g=>g.SeasonType).ToHashSet();
         if(file.Version!=1 || file.Season!=data.Season || file.Rows.Select(r=>(r.Kind,r.Id,r.SeasonType,r.TeamId)).Distinct().Count()!=file.Rows.Length)
@@ -128,7 +129,7 @@ public sealed class MlbJsonDataService : IDisposable
     public Task<MlbPitchingFile> GetPitchingAsync(MlbSeasonData data, CancellationToken ct = default) => Guard(async () =>
     {
         var path=Path.Combine(data.Directory,"pitching.json");
-        if(!File.Exists(path))throw new MlbDataException(503,"Pitching summaries are not imported. Rerun the updated MLB importer and deploy its active snapshot.");
+        if(!DataExists(path))throw new MlbDataException(503,"Pitching summaries are not imported. Rerun the updated MLB importer and deploy its active snapshot.");
         var file=await Read<MlbPitchingFile>(path,ct);
         var teams=data.Teams.Select(t=>t.Id).ToHashSet();var players=data.Players.Select(p=>p.Id).ToHashSet();var phases=data.Games.Select(g=>g.SeasonType).ToHashSet();
         if(file.Version!=1 || file.Season!=data.Season || file.Rows.Select(r=>(r.Kind,r.Id,r.SeasonType,r.TeamId)).Distinct().Count()!=file.Rows.Length)
@@ -154,8 +155,32 @@ public sealed class MlbJsonDataService : IDisposable
         }
         return file;
     });
+    private static (string Archive,string Entry) ArchiveLocation(string path)
+    {
+        var dir=Path.GetDirectoryName(path)!;var entry=Path.GetFileName(path);
+        if(Path.GetFileName(dir)=="game_stats") { entry="game_stats/"+entry;dir=Path.GetDirectoryName(dir)!; }
+        return (dir+".zip",entry);
+    }
+    private static bool DataExists(string path)
+    {
+        if(File.Exists(path))return true;
+        var location=ArchiveLocation(path);
+        if(!File.Exists(location.Archive))return false;
+        using var zip=ZipFile.OpenRead(location.Archive);return zip.GetEntry(location.Entry)!=null;
+    }
     private static async Task<T> Read<T>(string path, CancellationToken ct)
-    { await using var s = File.OpenRead(path); return await JsonSerializer.DeserializeAsync<T>(s, Options, ct) ?? throw new JsonException("Unexpected null JSON"); }
+    {
+        if(File.Exists(path))
+        {
+            await using var s=File.OpenRead(path);
+            return await JsonSerializer.DeserializeAsync<T>(s,Options,ct)??throw new JsonException("Unexpected null JSON");
+        }
+        var location=ArchiveLocation(path);
+        using var zip=ZipFile.OpenRead(location.Archive);
+        var entry=zip.GetEntry(location.Entry)??throw new JsonException("Required MLB archive entry is missing");
+        await using var stream=entry.Open();
+        return await JsonSerializer.DeserializeAsync<T>(stream,Options,ct)??throw new JsonException("Unexpected null JSON");
+    }
     private static bool Id(string id, string kind) => Regex.IsMatch(id, "^mlb:stats:"+kind+@":[1-9]\d*$");
     private static void Validate(int year, MlbTeam[] teams, MlbPlayer[] players, MlbGame[] games, MlbProviderStanding[] standings, JsonElement coverage)
     {

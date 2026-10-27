@@ -1,0 +1,39 @@
+<Project>
+  <!-- Publish compressed data only from the authoritative current run for each season. -->
+  <Target Name="SelectActiveNflSnapshots" BeforeTargets="AssignTargetPaths">
+    <ItemGroup>
+      <_NflCurrent Include="Data/processed/nfl/seasons/*/current.json" />
+      <_NflCurrent Update="@(_NflCurrent)" Condition="'@(_NflCurrent)' != ''">
+        <RunId>$([System.Text.RegularExpressions.Regex]::Replace($([System.IO.File]::ReadAllText('%(FullPath)')), '(?s)^.*?&quot;runId&quot;\s*:\s*&quot;([0-9]{8}T[0-9]{6}-[a-f0-9]{8})&quot;.*$', '$1'))</RunId>
+      </_NflCurrent>
+      <_NflCurrent Update="@(_NflCurrent)" Condition="'@(_NflCurrent)' != ''">
+        <RunDirectory>%(RelativeDir)runs/%(RunId)</RunDirectory>
+      </_NflCurrent>
+    </ItemGroup>
+    <Error Condition="'@(_NflCurrent)' != '' And !$([System.Text.RegularExpressions.Regex]::IsMatch('%(_NflCurrent.RunId)', '^[0-9]{8}T[0-9]{6}-[a-f0-9]{8}$'))" Text="Invalid NFL current manifest: %(_NflCurrent.Identity)" />
+    <Error Condition="'@(_NflCurrent)' != '' And !Exists('%(_NflCurrent.RunDirectory)/games.json.gz')" Text="NFL current run is missing games.json.gz: %(_NflCurrent.Identity)" />
+    <Error Condition="'@(_NflCurrent)' != '' And (!Exists('%(_NflCurrent.RunDirectory)/teams.json.gz') Or !Exists('%(_NflCurrent.RunDirectory)/players.json.gz') Or !Exists('%(_NflCurrent.RunDirectory)/rosters.json.gz') Or !Exists('%(_NflCurrent.RunDirectory)/records.json.gz') Or !Exists('%(_NflCurrent.RunDirectory)/team_stats.json.gz') Or !Exists('%(_NflCurrent.RunDirectory)/player_stats.json.gz') Or !Exists('%(_NflCurrent.RunDirectory)/unassigned_stats.json.gz'))" Text="NFL current run is incomplete: %(_NflCurrent.Identity)" />
+    <ItemGroup>
+      <Content Remove="Data/processed/nfl/**/*" />
+      <None Remove="Data/processed/nfl/**/*" />
+      <Content Include="Data/processed/nfl/seasons.json" Condition="Exists('Data/processed/nfl/seasons.json')">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+      <Content Include="@(_NflCurrent)">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+      <Content Include="%(_NflCurrent.RunDirectory)/*.json.gz;%(_NflCurrent.RunDirectory)/manifest.json" Condition="'@(_NflCurrent)' != ''">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+    </ItemGroup>
+  </Target>
+  <Target Name="ClearGeneratedNflCopies" BeforeTargets="PrepareForBuild" Condition="'$(Configuration)' != '' and '$(TargetFramework)' != ''">
+    <ItemGroup>
+      <_NflGenerated Include="$(MSBuildProjectDirectory)/bin/$(Configuration)/$(TargetFramework)/Data/processed/nfl/**/*" />
+    </ItemGroup>
+    <Delete Files="@(_NflGenerated)" />
+  </Target>
+</Project>

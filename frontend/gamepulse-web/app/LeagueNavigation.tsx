@@ -7,7 +7,7 @@ import { usePathname, useSearchParams } from "next/navigation";
 export default function LeagueNavigation() {
   const pathname = usePathname();
   const params = useSearchParams();
-  const league = pathname.match(/^\/leagues\/(nba|wnba|mlb)(?:\/|$)/)?.[1];
+  const league = pathname.match(/^\/leagues\/(nba|wnba|mlb|nfl)(?:\/|$)/)?.[1];
   const season = params.get("season");
   const selectedSection = params.get("section");
   const suffix = season ? `?season=${encodeURIComponent(season)}` : "";
