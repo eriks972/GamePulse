@@ -18,6 +18,26 @@ public sealed class NflExceptionFilter : IExceptionFilter
 [ApiController, Route("api/leagues/nfl"), TypeFilter(typeof(NflExceptionFilter))]
 public sealed class NflController(NflDataService service) : ControllerBase
 {
+    [HttpGet("leaderboards")]
+    public async Task<IActionResult> Leaders(int? season, string group = "passing", string seasonType = "REG", string? metric = null,
+        string? teamId = null, string? position = null, string? search = null, int minOpportunities = 0,
+        int page = 1, int pageSize = 40, CancellationToken ct = default)
+    {
+        var s = await service.Season(season, ct);
+        var team = string.IsNullOrEmpty(teamId) ? null : (await Team(s, teamId, ct)).TeamId;
+        metric ??= group switch { "passing" => "passing_yards", "rushing" => "rushing_yards", "receiving" => "receiving_yards", _ => "" };
+        var phase = seasonType.ToUpperInvariant();
+        var rows = await service.Read<NflStat>(s, "player_stats", ct);
+        var games = await service.Read<NflGame>(s, "games", ct);
+        var players = await service.Read<NflPlayer>(s, "players", ct);
+        var ranked = NflLeaderboards.Calculate(rows, games, players, group, phase, metric, team, position, minOpportunities);
+        var selected = string.IsNullOrWhiteSpace(search) ? ranked : ranked.Where(r => r.Name.Contains(search.Trim(), StringComparison.OrdinalIgnoreCase)).ToArray();
+        return Ok(new { season = s.Manifest.Season, group, seasonType = phase, metric, minOpportunities,
+            opportunity = NflLeaderboards.Definitions[group].Opportunity, sortDirection = "descending", rankedTotal = ranked.Count(r => r.Rank.HasValue),
+            generatedAtUtc = s.Manifest.GeneratedAtUtc, coverage = s.Manifest.Coverage,
+            method = "Observed player weekly statistics from scored final games only. Regular season and postseason are separate. Any missing contributing field makes its total and dependent rates unavailable. Rates use component totals. Team filters select only that team's contributions; traded players retain separate team splits. Minimum opportunities are custom filters, not official NFL qualification. Search preserves ranks. Counts and rates sort descending; equal values share competition rank. Roster listings and absent rows do not establish complete player coverage.",
+            results = Page(selected, page, pageSize) });
+    }
     private static string? Phase(string? phase)
     {
         if (string.IsNullOrEmpty(phase)) return null;
@@ -94,7 +114,7 @@ public sealed class NflController(NflDataService service) : ControllerBase
     {
         var s = await service.Season(season, ct); IEnumerable<NflPlayer> rows = await service.Read<NflPlayer>(s, "players", ct);
         if (!string.IsNullOrEmpty(teamId)) { var t = await Team(s, teamId, ct); rows = rows.Where(p => p.TeamIds.Contains(t.TeamId)); }
-        if (!string.IsNullOrWhiteSpace(search)) rows = rows.Where(p => p.Name.Contains(search.Trim(), StringComparison.OrdinalIgnoreCase));
+        if (!string.IsNullOrWhiteSpace(search)) rows = rows.Where(p => p.Name?.Contains(search.Trim(), StringComparison.OrdinalIgnoreCase) == true);
         if (!string.IsNullOrWhiteSpace(position)) rows = rows.Where(p => string.Equals(p.Position, position, StringComparison.OrdinalIgnoreCase));
         return Ok(Page(rows.OrderBy(p => p.Name).ThenBy(p => p.PlayerId), page, pageSize));
     }

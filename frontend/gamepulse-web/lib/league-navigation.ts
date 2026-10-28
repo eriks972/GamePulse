@@ -1,4 +1,5 @@
 export const leagueSections = [
+  { label: "Leaders", path: "leaderboards", leagues: ["nfl"] },
   { label: "Teams", path: "teams", leagues: ["nba", "wnba", "mlb", "nfl"] },
   { label: "Players", path: "players", leagues: ["nba", "wnba", "mlb", "nfl"] },
   { label: "Schedule", path: "schedule", leagues: ["nba", "wnba", "mlb", "nfl"] },

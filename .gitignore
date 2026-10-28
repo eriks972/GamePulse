@@ -42,6 +42,8 @@ next-env.d.ts
 
 # Raw datasets
 /backend/GamePulse.Api/Data/raw/
+/backend/GamePulse.Api/Data/processed/nfl/.snapshot-import.lock
+/backend/GamePulse.Api/Data/processed/nfl/seasons/*/runs/.importing-*/
 /data/raw/
 
 # .NET build output

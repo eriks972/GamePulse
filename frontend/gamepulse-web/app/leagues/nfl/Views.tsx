@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Filters } from "./Filters";
+import { Leaderboards } from "./Leaderboards";
 import { SourceStats } from "./SourceStats";
 import {
   nfl, nflHref, nflEntity, NflApiError, display, dateLabel, phaseName, statGroups,
@@ -9,21 +10,22 @@ import {
 } from "@/lib/nfl";
 
 export type Query = Record<string, string | string[] | undefined>;
-export type View = "dashboard" | "teams" | "players" | "schedule" | "standings" | "team" | "player" | "game" | "player-stats" | "team-stats";
+export type View = "leaderboards" | "dashboard" | "teams" | "players" | "schedule" | "standings" | "team" | "player" | "game" | "player-stats" | "team-stats";
 const panel = "rounded-3xl border border-slate-800 bg-slate-900 p-5 md:p-6";
 const link = "font-semibold text-blue-300 hover:text-blue-200 hover:underline";
 const input = "max-w-full rounded-xl border border-slate-700 bg-slate-950 px-3 py-2 text-white";
 const values = (q: Query) => Object.fromEntries(Object.entries(q).filter(([, v]) => typeof v === "string")) as Record<string, string>;
-const titles: Record<View, string> = { dashboard: "NFL Dashboard", teams: "NFL Teams", players: "NFL Players", schedule: "NFL Schedule & Results", standings: "NFL Team Records", team: "NFL Team Profile", player: "NFL Player Profile", game: "NFL Game Details", "player-stats": "NFL Weekly Player Stats", "team-stats": "NFL Weekly Team Stats" };
+const titles: Record<View, string> = { leaderboards: "NFL Season Leaderboards", dashboard: "NFL Dashboard", teams: "NFL Teams", players: "NFL Players", schedule: "NFL Schedule & Results", standings: "NFL Team Records", team: "NFL Team Profile", player: "NFL Player Profile", game: "NFL Game Details", "player-stats": "NFL Weekly Player Stats", "team-stats": "NFL Weekly Team Stats" };
 function Empty({ children }: { children: React.ReactNode }) { return <p className="rounded-2xl bg-slate-950 p-5 text-slate-400">{children}</p>; }
-function Header({ view, seasons, season, route }: { view: View; seasons: NflSeason[]; season: string; route: string }) {
+function Header({ view, seasons, season, route, group }: { view: View; seasons: NflSeason[]; season: string; route: string; group?: string }) {
   return <section className={`${panel} bg-linear-to-br from-slate-900 to-blue-950/40`}>
     <Link className={link} href="/leagues">← All leagues</Link>
     <p className="mt-6 text-sm font-semibold uppercase tracking-[0.3em] text-blue-400">GamePulse NFL · {season}</p>
     <h1 className="mt-3 text-4xl font-black md:text-5xl">{titles[view]}</h1>
     <div className="mt-6 flex flex-wrap items-center justify-between gap-5">
-      <nav aria-label="NFL sections" className="flex flex-wrap gap-4">{[["", "Overview"], ["teams", "Teams"], ["players", "Players"], ["schedule", "Schedule & Results"], ["standings", "Team Records"], ["team-stats", "Team Stats"], ["player-stats", "Player Stats"]].map(([p, label]) => <Link key={p} className={link} aria-current={route === p ? "page" : undefined} href={nflHref(p, { season })}>{label}</Link>)}</nav>
+      <nav aria-label="NFL sections" className="flex flex-wrap gap-4">{[["", "Overview"], ["leaderboards", "Leaders"], ["teams", "Teams"], ["players", "Players"], ["schedule", "Schedule & Results"], ["standings", "Team Records"], ["team-stats", "Team Stats"], ["player-stats", "Player Stats"]].map(([p, label]) => <Link key={p} className={link} aria-current={route === p ? "page" : undefined} href={nflHref(p, { season })}>{label}</Link>)}</nav>
       <form key={season} action={nflHref(route)} className="flex flex-wrap items-center gap-3">
+        {view === "leaderboards" && <input type="hidden" name="group" value={group || "passing"} />}
         <label htmlFor="nfl-season" className="text-sm text-slate-300">Season</label>
         <select id="nfl-season" name="season" className={input} defaultValue={season}>{seasons.map(s => <option key={s.season} value={s.season}>{s.season}</option>)}</select>
         <button className="rounded-xl bg-blue-500 px-4 py-2 font-bold hover:bg-blue-400">Load season</button>
@@ -73,10 +75,11 @@ function StatsTable({ rows, group, season, teams, label, activityOnly = false }:
 async function Content({ view, season, query, id, report, teams }: { view: View; season: string; query: Record<string, string>; id?: string; report: NflReport; teams: NflTeam[] }) {
   const q: Record<string, string> = { ...query, season };
   const group = Object.hasOwn(statGroups, query.statGroup || "") ? query.statGroup : "passing";
+  if (view === "leaderboards") return await Leaderboards({ season, query: q, teams });
   if (view === "dashboard") {
     const finals = await nfl<NflPage<NflGame>>("games", { season, status: "final", pageSize: "6", order: "desc" });
     return <><section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">{[["Scheduled games", report.coverage.games], ["Scored games", report.coverage.completedGames], ["Teams", report.coverage.teams], ["Player identities", report.coverage.players]].map(([label, value]) => <div className={panel} key={String(label)}><p className="text-sm text-slate-400">{label}</p><p className="mt-3 text-3xl font-black">{display(value)}</p></div>)}</section>
-      <section className={panel}><h2 className="text-2xl font-bold">Explore the season</h2><p className="mt-3 leading-7 text-slate-400">Browse the schedule, follow teams and players, and inspect weekly passing, rushing, receiving, defense, and kicking statistics.</p><div className="mt-5 flex flex-wrap gap-4">{[["schedule", "Schedule & Results"], ["standings", "Team Records"], ["player-stats", "Weekly Player Stats"]].map(([path, label]) => <Link key={path} className={link} href={nflHref(path, { season })}>{label} →</Link>)}</div></section>
+      <section className={panel}><h2 className="text-2xl font-bold">Explore the season</h2><p className="mt-3 leading-7 text-slate-400">Browse the schedule, follow teams and players, and inspect weekly passing, rushing, receiving, defense, and kicking statistics.</p><div className="mt-5 flex flex-wrap gap-4">{[["leaderboards", "Season Leaderboards"], ["schedule", "Schedule & Results"], ["standings", "Team Records"], ["player-stats", "Weekly Player Stats"]].map(([path, label]) => <Link key={path} className={link} href={nflHref(path, { season })}>{label} →</Link>)}</div></section>
       <section className={panel}><div className="mb-5 flex flex-wrap items-center justify-between gap-4"><h2 className="text-2xl font-bold">Latest scored games</h2><Link className={link} href={nflHref("schedule", { season })}>Full schedule →</Link></div><GameCards games={finals.items} season={season} teams={teams} /></section></>;
   }
   if (view === "teams") {
@@ -141,7 +144,7 @@ export async function NflView({ view, query, id }: { view: View; query: Query; i
     }
   } catch (e) { failure = e; }
   if (failure instanceof NflApiError && failure.status === 404 && id) notFound();
-  const header = seasons.length > 0 ? <Header view={view} seasons={seasons} season={seasons.some(s => String(s.season) === season) ? season : String(seasons[0].season)} route={route} /> : null;
+  const header = seasons.length > 0 ? <Header view={view} seasons={seasons} season={seasons.some(s => String(s.season) === season) ? season : String(seasons[0].season)} route={route} group={q.group} /> : null;
   if (failure) return <main className="mx-auto min-h-screen max-w-6xl space-y-6 px-4 py-10 md:px-6">{header}<section className={panel}><h1 className="text-2xl font-bold">{failure instanceof NflApiError && failure.status === 400 ? "Check the selected filters" : "NFL data is unavailable right now"}</h1><p className="mt-3 leading-6 text-slate-400">{failure instanceof NflApiError && failure.status === 400 ? "Choose a valid season type, source week, and page, or reset this view." : "The NFL service could not load this view. Try again shortly."}</p><div className="mt-5 flex flex-wrap gap-5"><a className={link} href={nflHref(route, { season })}>Reset this view</a><a className={link} href={nflHref(id ? nflEntity(view === "team" ? "teams" : view === "player" ? "players" : "game", id) : route, { ...q, season })}>Try again</a><Link className={link} href="/leagues">All leagues</Link></div></section></main>;
-  return <main className="mx-auto min-h-screen max-w-6xl space-y-7 px-4 py-10 md:px-6">{header}{!seasons.length ? <section className={panel}><h1 className="text-3xl font-black">NFL data has not been published yet</h1><p className="mt-4 text-slate-400">Import a validated NFL snapshot into the backend to make it available here.</p><Link className={`${link} mt-5 inline-block`} href="/leagues">← All leagues</Link></section> : !report ? <Empty>This season is unavailable. Select one of the imported seasons above.</Empty> : <><aside className="rounded-2xl border border-blue-500/20 bg-blue-950/20 p-5 text-sm leading-6 text-slate-300"><p className="font-semibold text-blue-300">Historical / batch data · Updated {dateLabel(report.generatedAtUtc, true)}</p><p className="mt-2">{report.method}</p><details className="mt-2"><summary className="cursor-pointer text-blue-300">Coverage details</summary><p className="mt-2">{report.coverage.completedGames} scored games · {report.coverage.teamStats} team rows · {report.coverage.playerStats} player rows · {report.coverage.missingCompletedTeamGames} missing completed team-games · {report.coverage.unassignedPlayerStatRows} player rows without IDs excluded from player views.</p><p className="mt-2">Playoffs retain their NFL season even when played in January or February. Weeks follow source numbering; POST is distinct from REG. Missing player values remain unavailable.</p></details></aside>{content}</>}</main>;
+  return <main className="mx-auto min-h-screen max-w-6xl space-y-7 px-4 py-10 md:px-6">{header}{!seasons.length ? <section className={panel}><h1 className="text-3xl font-black">NFL data has not been published yet</h1><p className="mt-4 text-slate-400">Import a validated NFL snapshot into the backend to make it available here.</p><Link className={`${link} mt-5 inline-block`} href="/leagues">← All leagues</Link></section> : !report ? <Empty>This season is unavailable. Select one of the imported seasons above.</Empty> : <><aside className="rounded-2xl border border-blue-500/20 bg-blue-950/20 p-5 text-sm leading-6 text-slate-300"><p className="font-semibold text-blue-300">Historical / batch data · Updated {dateLabel(report.generatedAtUtc, true)}</p><p className="mt-2">{report.method}</p><details className="mt-2"><summary className="cursor-pointer text-blue-300">Coverage details</summary><p className="mt-2">{report.coverage.completedGames} scored games · {report.coverage.teamStats} team rows · {report.coverage.playerStats} player rows · {report.coverage.missingCompletedTeamGames} missing completed team-games · {report.coverage.unassignedPlayerStatRows} player rows without IDs excluded from player views · {report.coverage.unassignedTeamStatRows || 0} unassigned team fragments excluded · {report.coverage.resolvedPlayerTeamRows || 0} player team identities resolved from source evidence.</p><p className="mt-2">Playoffs retain their NFL season even when played in January or February. Weeks follow source numbering; POST is distinct from REG. Missing player values remain unavailable.</p></details></aside>{content}</>}</main>;
 }

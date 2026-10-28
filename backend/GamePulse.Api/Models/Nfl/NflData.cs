@@ -1,4 +1,5 @@
 using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace GamePulse.Api.Models.Nfl;
 
@@ -14,7 +15,7 @@ public sealed record NflTeam(string TeamId, string? SourceTeamId, string Name, s
 public sealed record NflPlayer(string PlayerId, string Name, string? Position, string[] TeamIds,
     string? EspnId, string? HeadshotUrl);
 public sealed record NflRoster(int Season, string TeamId, string? PlayerId, string? Name,
-    string? Position, int? JerseyNumber, string? Status);
+    string? Position, [property: JsonNumberHandling(JsonNumberHandling.AllowReadingFromString)] int? JerseyNumber, string? Status);
 public sealed record NflStat(int Season, string SeasonType, int Week, string GameId, string TeamId,
     string OpponentTeamId, JsonElement Stats, string? PlayerId, string? Name, string? Position);
 public sealed record NflRecord(string TeamId, string SeasonType, int Wins, int Losses, int Ties,

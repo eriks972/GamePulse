@@ -29,7 +29,8 @@ from zoneinfo import ZoneInfo
 RELEASE = "https://github.com/nflverse/nflverse-data/releases/download"
 TEAM_URL = "https://raw.githubusercontent.com/nflverse/nflverse-pbp/master/teams_colors_logos.csv"
 DATASETS = ("schedule", "teams", "rosters", "player_stats", "team_stats")
-ALIASES = {"JAC": "JAX", "LA": "LAR", "STL": "LAR", "SD": "LAC", "OAK": "LV"}
+ALIASES = {"JAC": "JAX", "LA": "LAR", "STL": "LAR", "SD": "LAC", "OAK": "LV",
+           "ARZ": "ARI", "CLV": "CLE", "BLT": "BAL", "HST": "HOU", "SL": "LAR"}
 POST = {"POST", "WC", "DIV", "CON", "SB"}
 
 
@@ -228,11 +229,38 @@ def build(season, raw):
     if active - teams.keys():
         raise ValueError(f"Missing team metadata: {sorted(active - teams.keys())}")
     player_stats, team_stats, unassigned_stats = [], [], []
+    roster_teams = {}
+    for r in rosters:
+        if r.get("gsis_id") and r.get("team"):
+            roster_teams.setdefault(r["gsis_id"], set()).add(team(r["team"]))
+    games_by_id = {g["gameId"]: g for g in games}
+    resolved_player_teams = []
     identities = {"season", "week", "season_type", "team", "opponent_team", "player_id", "player_name",
                   "player_display_name", "position", "position_group", "headshot_url", "game_id"}
     for label, source_rows, dest in (("player_stats", player_rows, player_stats), ("team_stats", team_rows, team_stats)):
         for r in source_rows:
             typ, code = phase(r["season_type"]), team(r["team"])
+            if label == "team_stats" and not code and r.get("game_id"):
+                explicit_game = games_by_id.get(str(r["game_id"]))
+                if explicit_game and explicit_game["seasonType"] == typ and explicit_game["week"] == int(r["week"]):
+                    # Preserve unidentified team fragments, without inventing a
+                    # team or merging unknown totals/rates into an existing row.
+                    unassigned_stats.append({"season": season, "seasonType": typ, "week": int(r["week"]),
+                        "gameId": explicit_game["gameId"], "teamId": None, "opponentTeamId": None,
+                        "playerId": None, "name": None, "position": None,
+                        "sourceKind": "team_stats", "unassignedReason": "missing_team_identity",
+                        "stats": {k: v for k, v in r.items() if k not in identities}})
+                    continue
+            if label == "player_stats" and not code and r.get("player_id") and r.get("game_id"):
+                # A source row identifies a game and GSIS player but omits team.
+                # Require exactly one roster-associated team among that game's opponents.
+                explicit_game = games_by_id.get(str(r["game_id"]))
+                if explicit_game and explicit_game["seasonType"] == typ and explicit_game["week"] == int(r["week"]):
+                    candidates = roster_teams.get(r["player_id"], set()) & {explicit_game["homeTeamId"], explicit_game["awayTeamId"]}
+                    if len(candidates) == 1:
+                        code = next(iter(candidates))
+                        resolved_player_teams.append({"playerId": r["player_id"], "gameId": explicit_game["gameId"], "teamId": code,
+                            "method": "Explicit source game ID plus unique roster GSIS/team association among game opponents"})
             key = (season, typ, int(r["week"]), code)
             game = index.get(key)
             if not game:
@@ -247,9 +275,11 @@ def build(season, raw):
                       "stats": {k: v for k, v in r.items() if k not in identities}}
             if label == "player_stats":
                 record.update(playerId=r["player_id"], name=first(r, "player_display_name", "player_name"), position=r.get("position"))
-                if not r["player_id"]:
+                if not r["player_id"] or str(r["player_id"]) in {"0", "00-0000000"}:
                     # Upstream includes unassigned penalties/team events. Preserve
                     # these separately instead of inventing a player or dropping them.
+                    record["sourcePlayerId"] = r["player_id"]
+                    record["playerId"] = None
                     unassigned_stats.append(record)
                     continue
             dest.append(record)
@@ -304,10 +334,13 @@ def build(season, raw):
     coverage = {"games": len(games), "completedGames": sum(g["status"] == "final" for g in games),
                 "teams": len(teams), "players": len(players), "rosters": len(roster_out),
                 "playerStats": len(player_stats), "teamStats": len(team_stats),
-                "unassignedPlayerStatRows": len(unassigned_stats),
+                "unassignedPlayerStatRows": sum(r.get("sourceKind") != "team_stats" for r in unassigned_stats),
+                "unassignedTeamStatRows": sum(r.get("sourceKind") == "team_stats" for r in unassigned_stats),
                 "rosterRowsWithoutPlayerId": missing_roster_ids,
                 "missingCompletedTeamGames": len(missing_team_games),
                 "missingTeamGameKeys": missing_team_games,
+                "resolvedPlayerTeamRows": len(resolved_player_teams),
+                "playerTeamResolutions": resolved_player_teams,
                 "playerStatColumns": sorted(set().union(*(r["stats"].keys() for r in player_stats)))}
     return {"games": games, "teams": list(teams.values()), "players": list(players.values()),
             "rosters": roster_out, "player_stats": player_stats, "team_stats": team_stats,

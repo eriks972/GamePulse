@@ -1,5 +1,5 @@
 const base = (process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:5241").replace(/\/$/, "");
-export type NflCoverage = { games: number; completedGames: number; teams: number; players: number; rosters: number; playerStats: number; teamStats: number; unassignedPlayerStatRows: number; rosterRowsWithoutPlayerId: number; missingCompletedTeamGames: number };
+export type NflCoverage = { unassignedTeamStatRows?: number; resolvedPlayerTeamRows?: number; games: number; completedGames: number; teams: number; players: number; rosters: number; playerStats: number; teamStats: number; unassignedPlayerStatRows: number; rosterRowsWithoutPlayerId: number; missingCompletedTeamGames: number };
 export type NflSeason = { season: number; generatedAtUtc: string; coverage: NflCoverage };
 export type NflReport = NflSeason & { runId: string; method: string; phases: { seasonType: string; weeks: number[] }[] };
 export type NflTeam = { teamId: string; name: string; conference: string | null; division: string | null; color: string | null; logoUrl: string | null };
