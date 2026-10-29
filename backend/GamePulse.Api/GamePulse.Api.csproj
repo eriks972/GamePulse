@@ -32,4 +32,5 @@
 
   <Import Project="MlbStorage.targets" />
   <Import Project="NflStorage.targets" />
+  <Import Project="NhlStorage.targets" />
 </Project>

@@ -59,3 +59,7 @@ __pycache__/
 *.py[cod]
 backend/GamePulse.Api/Data/processed/mlb/building-*/
 backend/GamePulse.Api/Data/processed/mlb/.import.lock
+
+# NHL collector locks and incomplete snapshots
+/backend/GamePulse.Api/Data/processed/nhl/.collector.lock
+/backend/GamePulse.Api/Data/processed/nhl/seasons/*/building-*/

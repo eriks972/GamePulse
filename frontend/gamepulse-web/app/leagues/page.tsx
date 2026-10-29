@@ -127,7 +127,7 @@ const leagues: League[] = [
     name: "NHL",
     sport: "Hockey",
     fullName: "National Hockey League",
-    status: "coming-soon",
+    status: "live",
   },
   {
     slug: "ahl",
