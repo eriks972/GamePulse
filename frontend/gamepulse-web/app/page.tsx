@@ -1,55 +1,47 @@
 import Link from "next/link";
 
+const availableLeagues = [
+  { slug: "nba", name: "NBA", sport: "Basketball" },
+  { slug: "wnba", name: "WNBA", sport: "Basketball" },
+  { slug: "mlb", name: "MLB", sport: "Baseball" },
+  { slug: "nfl", name: "NFL", sport: "Football" },
+  { slug: "nhl", name: "NHL", sport: "Hockey" },
+];
+
 const platformStats = [
-  {
-    label: "NBA Teams",
-    value: "30",
-    description: "Team profiles, standings, comparisons, and analytics",
-  },
-  {
-    label: "NBA Players",
-    value: "4,171",
-    description: "Searchable player index with detailed player profiles",
-  },
-  {
-    label: "Historical Games",
-    value: "1,200+",
-    description: "Season-based schedules, results, and game breakdowns",
-  },
-  {
-    label: "Live Backend",
-    value: "Render",
-    description: "ASP.NET Core API deployed with Docker on Render",
-  },
+  { label: "Leagues", value: String(availableLeagues.length), description: "NBA, WNBA, MLB, NFL, and NHL in one place" },
+  { label: "Sports", value: String(new Set(availableLeagues.map(league => league.sport)).size), description: "Basketball, baseball, football, and hockey" },
+  { label: "Season Coverage", value: "Explore", description: "Browse available seasons, schedules, results, and standings" },
+  { label: "Player Profiles", value: "Discover", description: "Find players and explore the statistics available for each league" },
 ];
 
 const features = [
   {
     title: "Team Analytics",
     description:
-      "Explore NBA team records, season performance, scoring trends, defensive rankings, and shooting efficiency.",
-    href: "/leagues/nba/analytics",
+      "Explore team records, season performance, and sport-specific metrics in the leagues with analytics coverage.",
+    href: "/leagues?section=analytics",
     cta: "View Analytics",
   },
   {
-    title: "Team Comparisons",
+    title: "Comparisons",
     description:
-      "Compare two NBA teams side by side using records, rankings, scoring, defense, rebounding, assists, and shooting metrics.",
-    href: "/leagues/nba/compare",
-    cta: "Compare Teams",
+      "Explore side-by-side comparisons using the teams, players, seasons, and metrics available in your chosen league.",
+    href: "/leagues?section=compare",
+    cta: "Explore Comparisons",
   },
   {
     title: "Player Profiles",
     description:
-      "Search NBA players by name, team, country, school, position, roster status, and career era.",
-    href: "/leagues/nba/players",
+      "Find players across basketball, baseball, football, and hockey, then explore their profiles and available season statistics.",
+    href: "/leagues?section=players",
     cta: "Browse Players",
   },
   {
     title: "Game Breakdowns",
     description:
-      "Review historical NBA game results with final scores, matchup context, and quarter-by-quarter line score data.",
-    href: "/leagues/nba/schedule",
+      "Browse league schedules, review results, and open game breakdowns with the scoring and statistics available for each sport.",
+    href: "/leagues?section=schedule",
     cta: "View Schedule",
   },
 ];
@@ -76,80 +68,40 @@ export default function HomePage() {
                 GamePulse
               </p>
 
-              <h1 className="mt-5 max-w-4xl text-5xl font-black tracking-tight md:text-7xl">
-                Sports analytics built for fans, comparisons, and data-driven
-                insights.
+              <h1 className="mt-5 max-w-4xl text-4xl font-black leading-tight tracking-tight sm:text-5xl xl:text-6xl">
+                Your leagues. Your teams.
+                A deeper view of the game.
               </h1>
 
               <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
                 GamePulse is a sports analytics platform with NBA, WNBA, MLB, NFL, and NHL
-                coverage. The live MVP includes teams, players, schedules,
-                standings, comparisons, game breakdowns, and interactive
-                analytics dashboards.
+                coverage. Discover teams, follow players, explore seasons, and
+                compare performances with statistics tailored to each sport.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-3">
-                <Link
-                  href="/leagues/nba"
-                  className="rounded-full bg-blue-500 px-6 py-3 font-bold text-white transition hover:bg-blue-400"
-                >
-                  Open NBA Dashboard
+                <Link href="/leagues" className="rounded-full bg-blue-500 px-6 py-3 font-bold text-white transition hover:bg-blue-400">
+                  Explore All Leagues
                 </Link>
-
-                <Link
-                  href="/leagues/nfl"
-                  className="rounded-full border border-blue-500/40 px-6 py-3 font-bold text-blue-300 transition hover:bg-blue-500/10"
-                >
-                  Explore NFL Seasons
-                </Link>
-
-                <Link href="/leagues/nhl" className="rounded-full border border-cyan-500/40 px-6 py-3 font-bold text-cyan-300 transition hover:bg-cyan-500/10">Explore NHL Seasons</Link>
-
-                <Link
-                  href="/leagues"
-                  className="rounded-full border border-blue-500/40 px-6 py-3 font-bold text-blue-300 transition hover:bg-blue-500/10"
-                >
-                  View All Leagues
+                <Link href="/leagues?section=players" className="rounded-full border border-blue-500/40 px-6 py-3 font-bold text-blue-300 transition hover:bg-blue-500/10">
+                  Find Players
                 </Link>
               </div>
             </div>
 
-            <div className="rounded-3xl border border-blue-500/30 bg-blue-950/30 p-6">
-              <p className="text-sm font-semibold uppercase tracking-[0.3em] text-blue-300">
-                Live Now
-              </p>
-
-              <h2 className="mt-4 text-3xl font-black">NBA Analytics</h2>
-
-              <p className="mt-3 leading-7 text-slate-300">
-                The first complete GamePulse league experience is live with
-                historical NBA data, team stats, player profiles, and charts.
-              </p>
-
-              <div className="mt-6 grid grid-cols-2 gap-3">
-                <div className="rounded-2xl bg-slate-950/70 p-4">
-                  <p className="text-sm text-slate-400">Teams</p>
-                  <p className="mt-1 text-2xl font-black">30</p>
-                </div>
-
-                <div className="rounded-2xl bg-slate-950/70 p-4">
-                  <p className="text-sm text-slate-400">Players</p>
-                  <p className="mt-1 text-2xl font-black">4,171</p>
-                </div>
-
-                <div className="rounded-2xl bg-slate-950/70 p-4">
-                  <p className="text-sm text-slate-400">Charts</p>
-                  <p className="mt-1 text-2xl font-black">5+</p>
-                </div>
-
-                <div className="rounded-2xl bg-slate-950/70 p-4">
-                  <p className="text-sm text-slate-400">Status</p>
-                  <p className="mt-1 text-2xl font-black text-emerald-300">
-                    Live
-                  </p>
-                </div>
+            <aside aria-labelledby="available-leagues" className="min-w-0 rounded-3xl border border-blue-500/30 bg-blue-950/30 p-6">
+              <p className="text-sm font-semibold uppercase tracking-[0.3em] text-blue-300">Explore Now</p>
+              <h2 id="available-leagues" className="mt-4 text-2xl font-black">Pick your league</h2>
+              <p className="mt-3 leading-7 text-slate-300">Five leagues. Four sports. Find your next deep dive.</p>
+              <div className="mt-6 grid gap-3">
+                {availableLeagues.map(league => (
+                  <Link key={league.slug} href={`/leagues/${league.slug}`} className="group flex items-center justify-between gap-4 rounded-2xl border border-slate-800 bg-slate-950/70 px-4 py-3 transition hover:border-blue-400">
+                    <span className="font-bold">{league.name}<span className="ml-3 text-sm font-normal text-slate-400">{league.sport}</span></span>
+                    <span aria-hidden="true" className="text-blue-300">→</span>
+                  </Link>
+                ))}
               </div>
-            </div>
+            </aside>
           </div>
         </div>
 
@@ -181,8 +133,8 @@ export default function HomePage() {
             </h2>
 
             <p className="mt-3 max-w-3xl leading-7 text-slate-400">
-              The first release focuses on building a strong NBA analytics
-              foundation before expanding into more sports and live data.
+              Choose a feature, then select your league. Available statistics,
+              comparisons, and analytics vary by league and season.
             </p>
           </div>
 
@@ -215,13 +167,13 @@ export default function HomePage() {
               </p>
 
               <h2 className="mt-3 text-3xl font-black md:text-4xl">
-                NBA first. More sports next.
+                Four sports today. More to explore tomorrow.
               </h2>
 
               <p className="mt-4 leading-7 text-slate-400">
-                GamePulse is structured as a league-based platform. NBA is live
-                now, and the roadmap includes major professional, college, and
-                international sports.
+                Explore NBA, WNBA, MLB, NFL, and NHL coverage today. The roadmap
+                looks ahead to more professional, college, and international
+                competitions.
               </p>
 
               <Link
@@ -266,10 +218,11 @@ export default function HomePage() {
           </div>
 
           <div className="rounded-3xl border border-slate-800 bg-slate-900 p-6">
-            <h2 className="text-2xl font-bold">Production Deployed</h2>
+            <h2 className="text-2xl font-bold">Explore by Season</h2>
             <p className="mt-3 leading-7 text-slate-400">
-              The frontend is deployed on Vercel, while the ASP.NET Core API is
-              containerized with Docker and hosted on Render.
+              Choose an available season to explore team records, player
+              performances, and game results. Coverage and detail vary by
+              league and season.
             </p>
           </div>
         </section>

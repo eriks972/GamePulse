@@ -1,6 +1,6 @@
 const base=(process.env.NEXT_PUBLIC_API_BASE_URL||"http://localhost:5241").replace(/\/$/,"");
 export class NhlApiError extends Error{constructor(public status:number){super(`NHL request failed (${status})`);}}
-export async function nhl<T>(path:string,q:Record<string,string|undefined>={}):Promise<T>{const p=new URLSearchParams();for(const[k,v]of Object.entries(q))if(v)p.set(k,v);const r=await fetch(`${base}/api/leagues/nhl/${path}?${p}`,{cache:"no-store",signal:AbortSignal.timeout(60000)});if(!r.ok)throw new NhlApiError(r.status);return r.json();}
+export async function nhl<T>(path:string,q:Record<string,string|undefined>={}):Promise<T>{const p=new URLSearchParams();for(const[k,v]of Object.entries(q))if(v)p.set(k,v);const r=await fetch(`${base}/api/leagues/nhl/${path}?${p}`,{cache:"no-store",signal:AbortSignal.timeout(60000)});if(!r.ok)throw new NhlApiError(r.status);return normalizeTeamNames(await r.json()) as T;}
 export const href=(path="",q:Record<string,string|undefined>={})=>{const p=new URLSearchParams();for(const[k,v]of Object.entries(q))if(v)p.set(k,v);return `/leagues/nhl${path?`/${path}`:""}${p.size?`?${p}`:""}`;};
 export type Entity={id:string;name:string|null;abbreviation?:string|null;position?:string|null;teamIds:string[];gameIds:string[]};
 export type Game={id:string;season:number;seasonType:string;date:string;homeTeamId:string;awayTeamId:string;homeScore:number|null;awayScore:number|null;status:string;completed:boolean;finish:string;venue:string|null;scoringComplete:boolean};
@@ -15,3 +15,17 @@ export type Query=Record<string,string|string[]|undefined>;
 export const value=(q:Query,k:string)=>typeof q[k]==="string"?q[k] as string:"";
 export const label=(season:string|number)=>`${Number(season)-1}–${String(season).slice(-2)}`;
 export const entity=(type:"teams"|"players"|"game",id:string)=>`${type}/${encodeURIComponent(id)}`;
+
+// Hosted APIs may still serve snapshots created before the importer fix.
+// Normalize team entities and team summaries at the API boundary.
+function normalizeTeamNames(value: unknown): unknown {
+  if (Array.isArray(value)) return value.map(normalizeTeamNames);
+  if (value === null || typeof value !== "object") return value;
+  const row = Object.fromEntries(
+    Object.entries(value).map(([key, child]) => [key, normalizeTeamNames(child)]),
+  );
+  if (typeof row.id === "string" && row.id.startsWith("nhl:team:") && typeof row.name === "string") {
+    row.name = row.name.trim().replace(/^(.+?)(?: \1)+(?= |$)/, "$1");
+  }
+  return row;
+}

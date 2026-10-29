@@ -42,3 +42,10 @@ export const statGroups: Record<string, { label: string; columns: [string, strin
   defense: { label: "Defense", columns: [["def_tackles_solo", "Solo"], ["def_tackle_assists", "Assists"], ["def_tackles_for_loss", "TFL"], ["def_sacks", "Sacks"], ["def_interceptions", "INT"], ["def_fumbles_forced", "FF"]] },
   kicking: { label: "Kicking", columns: [["fg_made", "FGM"], ["fg_att", "FGA"], ["fg_long", "Long"], ["pat_made", "XPM"], ["pat_att", "XPA"], ["pt_yards", "Punt YDS"]] },
 };
+
+export type NflCategorySummary={playerId:string;name:string;position:string|null;teamIds:string[];games:number;observations:number;totals:Record<string,number|null>;rates:Record<string,number|null>;fieldObservations:Record<string,number>;teamContributions:{teamId:string;games:number;observations:number;totals:Record<string,number|null>;rates:Record<string,number|null>;fieldObservations:Record<string,number>}[];rank:number|null;value:number|null};
+export type NflSeasonProfile={season:number;seasonType:string;player:NflPlayer;teamId:string|null;groups:Record<string,NflCategorySummary|null>;allTeamGroups:Record<string,NflCategorySummary|null>;teams:NflTeam[];coverage:NflCoverage;method:string};
+export type NflScoreSplit={label:string;scheduledGames:number;completedGames:number;scoredGames:number;wins:number;losses:number;ties:number;winPercentage:number|null;pointsFor:number|null;pointsAgainst:number|null;differential:number|null;pointsPerGame:number|null;missingScoreGames:number};
+export type NflTeamInsights={season:number;seasonType:string;team:NflTeam;record:NflScoreSplit;offense:Record<string,NflCategorySummary|null>;opponents:Record<string,NflCategorySummary|null>;observedTeamGames:number;observedOpponentGames:number;missingTeamGames:number;missingOpponentGames:number;homeAway:NflScoreSplit[];weeks:{week:number;round:string;record:NflScoreSplit}[]};
+export type NflAnalytics={season:number;seasonType:string;teams:NflTeamInsights[];coverage:NflCoverage;method:string};
+export type NflComparison={group:string;seasonType:string;left:NflSeasonProfile;right:NflSeasonProfile;differences:Record<string,number|null>;method:string};
