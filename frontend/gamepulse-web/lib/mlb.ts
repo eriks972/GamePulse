@@ -20,3 +20,11 @@ export const mlbHref=(path="",query:Record<string,string|undefined>={})=>{const 
 export const entity=(kind:"teams"|"players"|"game",id:string)=>`${kind}/${encodeURIComponent(id)}`;
 export const display=(value:number|string|null|undefined)=>value==null?"—":typeof value==="number"?new Intl.NumberFormat("en-US",{maximumFractionDigits:3}).format(value):value;
 export function gameDate(date:string){const value=new Date(`${date}T12:00:00Z`);return Number.isNaN(value.getTime())?"Date unavailable":new Intl.DateTimeFormat("en-US",{month:"short",day:"numeric",year:"numeric",timeZone:"UTC"}).format(value);}
+
+export type MlbSeasonSummary={kind:string;id:string;seasonType:string;teamId:string|null;teamIds:string[];games:number;observationRows:number;totals:Record<string,number|null>;rates:Record<string,number|null>;observedRows:Record<string,number>;inningsPitched?:string|null};
+export type MlbPlayerProfile={season:number;seasonType:string;player:MlbPlayer;selectedTeam:MlbTeam|null;batting:MlbSeasonSummary|null;pitching:MlbSeasonSummary|null;battingTeams:MlbSeasonSummary[];pitchingTeams:MlbSeasonSummary[];teams:MlbTeam[];coverage:MlbCoverage;method:string};
+export type MlbScoreSplit={label:string;scheduledGames:number;completedGames:number;scoredGames:number;wins:number;losses:number;ties:number;winPercentage:number|null;runsFor:number|null;runsAgainst:number|null;runDifferential:number|null;runsPerGame:number|null;missingScoreGames:number};
+export type MlbTeamAnalytics={season:number;seasonType:string;team:MlbTeam;record:MlbScoreSplit;homeAway:MlbScoreSplit[];months:MlbScoreSplit[];batting:MlbSeasonSummary|null;pitching:MlbSeasonSummary|null;missingBattingGames:number;missingPitchingGames:number;method:string};
+export type MlbAnalytics={season:number;seasonType:string;method:string;coverage:MlbCoverage;teams:MlbTeamAnalytics[]};
+export type MlbComparison={group:string;seasonType:string;left:MlbPlayerProfile;right:MlbPlayerProfile;differences:Record<string,number|null>;method:string};
+export type MlbPlayerLog={season:number;seasonType:string;player:MlbPlayer;results:MlbPage<{game:MlbGame;statistics:MlbStat[]}>};

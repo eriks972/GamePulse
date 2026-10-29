@@ -102,4 +102,71 @@ public sealed class MlbController(MlbJsonDataService service) : ControllerBase
             results=PageOf(matches,page,pageSize)});
     }
 
+    private async Task<MlbSeasonInsights.PlayerProfile> Profile(string id, int? season, string phase, string? teamId, CancellationToken ct)
+    {
+        MlbSeasonInsights.Phase(phase);
+        var d = await service.GetSeasonAsync(season, ct);
+        var player = Player(d, id);
+        var team = string.IsNullOrEmpty(teamId) ? null : Team(d, teamId);
+        return MlbSeasonInsights.Player(d, player, await service.GetBattingAsync(d, ct), await service.GetPitchingAsync(d, ct), phase, team);
+    }
+    [HttpGet("players/{id}/season-profile")]
+    public async Task<IActionResult> SeasonProfile(string id, int? season, string seasonType="Regular Season", string? teamId=null, CancellationToken ct=default)
+        => Ok(await Profile(id, season, seasonType, teamId, ct));
+
+    [HttpGet("players/{id}/game-log")]
+    public async Task<IActionResult> PlayerGameLog(string id, int? season, string seasonType="Regular Season", string? teamId=null,
+        int page=1, int pageSize=20, CancellationToken ct=default)
+    {
+        MlbSeasonInsights.Phase(seasonType);
+        // Validate paging before opening game files.
+        PageOf(Array.Empty<int>(), page, pageSize);
+        var d=await service.GetSeasonAsync(season,ct);var p=Player(d,id);
+        var team=string.IsNullOrEmpty(teamId)?null:Team(d,teamId);
+        var ids=p.GameIds.ToHashSet();
+        var games=FilterGames(d,team?.Id,seasonType,null,"completed").Where(g=>ids.Contains(g.Id)).ToArray();
+        var rows=new List<object>();
+        if(team is null)
+        {
+            foreach(var game in PageOf(games,page,pageSize).Items)
+            {
+                var file=await service.GetGameFileAsync(d,game,ct);
+                rows.Add(new {game,statistics=file.PlayerStatistics.Where(r=>r.PlayerId==p.Id).ToArray()});
+            }
+            return Ok(new {season=d.Season,seasonType,player=p,results=new MlbPage<object>(rows.ToArray(),games.Length,page,pageSize)});
+        }
+        // Match actual contributions, not just a game involving the selected team.
+        foreach(var game in games)
+        {
+            var file=await service.GetGameFileAsync(d,game,ct);
+            var stats=file.PlayerStatistics.Where(r=>r.PlayerId==p.Id && r.TeamId==team.Id).ToArray();
+            if(stats.Length>0)rows.Add(new {game,statistics=stats});
+        }
+        return Ok(new {season=d.Season,seasonType,player=p,results=PageOf(rows,page,pageSize)});
+    }
+    [HttpGet("teams/{id}/analytics")]
+    public async Task<IActionResult> TeamAnalytics(string id,int? season,string seasonType="Regular Season",CancellationToken ct=default)
+    {
+        MlbSeasonInsights.Phase(seasonType);
+        var d=await service.GetSeasonAsync(season,ct);
+        return Ok(MlbSeasonInsights.Team(d,Team(d,id),await service.GetBattingAsync(d,ct),await service.GetPitchingAsync(d,ct),seasonType));
+    }
+    [HttpGet("analytics")]
+    public async Task<IActionResult> Analytics(int? season,string seasonType="Regular Season",CancellationToken ct=default)
+    {
+        MlbSeasonInsights.Phase(seasonType);
+        var d=await service.GetSeasonAsync(season,ct);var batting=await service.GetBattingAsync(d,ct);var pitching=await service.GetPitchingAsync(d,ct);
+        return Ok(new {season=d.Season,seasonType,method=MlbSeasonInsights.Method,coverage=d.Coverage,
+            teams=d.Teams.OrderBy(t=>t.Name).Select(t=>MlbSeasonInsights.Team(d,t,batting,pitching,seasonType)).ToArray()});
+    }
+    [HttpGet("compare")]
+    public async Task<IActionResult> Compare(string leftId,string rightId,int leftSeason,int rightSeason,
+        string group="batting",string seasonType="Regular Season",string? leftTeamId=null,string? rightTeamId=null,CancellationToken ct=default)
+    {
+        if(group is not ("batting" or "pitching"))throw new MlbDataException(400,"group must be batting or pitching.");
+        var left=await Profile(leftId,leftSeason,seasonType,leftTeamId,ct);
+        var right=await Profile(rightId,rightSeason,seasonType,rightTeamId,ct);
+        return Ok(new {group,seasonType,left,right,differences=MlbSeasonInsights.Differences(left,right,group),method=MlbSeasonInsights.Method});
+    }
+
 }

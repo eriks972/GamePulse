@@ -1,0 +1,48 @@
+using GamePulse.Api.Models.Mlb;
+using GamePulse.Api.Services;
+using System.Text.Json;
+var checks=0;
+void Check(bool condition,string label){checks++;if(!condition)throw new Exception(label);}
+MlbGame Game(string id,string date,int? own,int? opp,bool home=true,bool final=true,string phase="Regular Season")=>new(){Id=id,OfficialDate=date,HomeTeamId=home?"a":"b",AwayTeamId=home?"b":"a",HomeScore=home?own:opp,AwayScore=home?opp:own,Completed=final,SeasonType=phase};
+var games=new[]{Game("1","2025-04-01",5,2),Game("2","2025-04-02",1,3,false),Game("3","2025-05-01",2,2),Game("4","2025-05-02",null,2),Game("5","2025-06-01",0,0,final:false),Game("6","2025-10-01",3,1,phase:"Playoffs")};
+var scores=MlbSeasonInsights.Scores("all",games.Take(5),"a");
+Check(scores.ScheduledGames==5&&scores.CompletedGames==4&&scores.ScoredGames==3,"Game statuses");
+Check(scores.Wins==1&&scores.Losses==1&&scores.Ties==1&&scores.WinPercentage==0.5,"Ties excluded from percentage");
+Check(scores.RunsFor==null&&scores.RunsAgainst==null&&scores.RunDifferential==null&&scores.RunsPerGame==null,"Missing score propagates");
+Check(scores.MissingScoreGames==1,"Score coverage");
+scores=MlbSeasonInsights.Scores("valid",games.Take(3),"a");
+Check(scores.RunsFor==8&&scores.RunsAgainst==7&&scores.RunDifferential==1,"Home-away score orientation");
+Check(Math.Abs(scores.RunsPerGame!.Value-8.0/3)<1e-12,"Run rate denominator");
+var empty=MlbSeasonInsights.Scores("none",Array.Empty<MlbGame>(),"a");
+Check(empty.RunsFor==null&&empty.WinPercentage==null,"Empty unknown rates");
+var tie=MlbSeasonInsights.Scores("ties",new[]{games[2]},"a");
+Check(tie.WinPercentage==null&&tie.Ties==1,"Tie-only unknown percentage");
+var team=new MlbTeam{Id="a",Name="A"};var player=new MlbPlayer{Id="p",FullName="Player"};
+var data=new MlbSeasonData(2025,"",new[]{team,new MlbTeam{Id="b"}},new[]{player},games,[],JsonSerializer.SerializeToElement(new{season=2025}));
+MlbBattingRow Bat(string? teamId,long? hits,int g=1,string phase="Regular Season")=>new(){Kind="player",Id="p",TeamId=teamId,SeasonType=phase,Games=g,Totals=new(){["hits"]=hits,["atBats"]=4},Rates=new(){["avg"]=hits/4.0}};
+var all=Bat(null,null);var a=Bat("a",1);var b=Bat("b",2);var post=Bat(null,3,phase:"Playoffs");
+var bat=new MlbBattingFile{Rows=[all,a,b,post]};var pit=new MlbPitchingFile();
+var profile=MlbSeasonInsights.Player(data,player,bat,pit,"Regular Season");
+Check(profile.Batting==all&&profile.Pitching==null,"All team aggregate selected once");
+Check(profile.BattingTeams.Length==2,"Traded team contributions retained");
+Check(MlbSeasonInsights.Player(data,player,bat,pit,"Regular Season",team).Batting==a,"Contribution filter");
+Check(MlbSeasonInsights.Player(data,player,bat,pit,"Playoffs").Batting==post,"Phase separation");
+var missing=MlbSeasonInsights.Player(data,player,bat,pit,"Exhibition");
+Check(missing.Batting==null&&missing.BattingTeams.Length==0,"No invented phase observations");
+var teamBat=new MlbBattingRow{Kind="team",Id="a",SeasonType="Regular Season",Games=3};
+var teamPit=new MlbPitchingRow{Kind="team",Id="a",SeasonType="Regular Season",Games=2};
+var analytics=MlbSeasonInsights.Team(data,team,new(){Rows=[teamBat]},new(){Rows=[teamPit]},"Regular Season");
+Check(analytics.Record.CompletedGames==4,"Team phase boundaries");
+Check(analytics.MissingBattingGames==1&&analytics.MissingPitchingGames==2,"Boxscore coverage gaps");
+Check(analytics.HomeAway[0].CompletedGames==3&&analytics.HomeAway[1].CompletedGames==1,"Home-away grouping");
+Check(analytics.Months.Length==3&&analytics.Months[0].Label=="2025-04","Monthly official-date order");
+Check(analytics.Months[2].CompletedGames==0&&analytics.Months[2].RunsFor==null,"Unplayed month unknown totals");
+var left=MlbSeasonInsights.Player(data,player,new(){Rows=[a]},pit,"Regular Season",team);
+var right=MlbSeasonInsights.Player(data,player,new(){Rows=[b]},pit,"Regular Season",new(){Id="b"});
+var diff=MlbSeasonInsights.Differences(left,right,"batting");
+Check(diff["hits"]==-1&&diff["avg"]==-0.25,"Unrounded A minus B");
+Check(MlbSeasonInsights.Differences(profile,right,"batting")["hits"]==null,"Unknown comparison stays unknown");
+var throws=0;try{MlbSeasonInsights.Phase("regular");}catch(MlbDataException ex){if(ex.StatusCode==400)throws++;}
+try{MlbSeasonInsights.Differences(left,right,"fielding");}catch(MlbDataException ex){if(ex.StatusCode==400)throws++;}
+Check(throws==2,"Invalid phase/group rejected");
+Console.WriteLine($"{checks} MLB insight checks passed");
