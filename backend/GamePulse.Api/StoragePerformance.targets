@@ -1,0 +1,22 @@
+<Project>
+  <PropertyGroup>
+    <!-- dotnet run uses the project content root. Deployment still gets data. -->
+    <GamePulseCopyDataToOutput Condition="'$(GamePulseCopyDataToOutput)' == ''">false</GamePulseCopyDataToOutput>
+  </PropertyGroup>
+  <Target Name="ConfigureGamePulseDataCopies" BeforeTargets="AssignTargetPaths"
+          DependsOnTargets="SelectActiveMlbSnapshot;SelectActiveNflSnapshots;SelectActiveNhlSnapshots">
+    <ItemGroup>
+      <Content Condition="$([System.Text.RegularExpressions.Regex]::IsMatch('%(Content.Identity)', '^Data[/\\]processed[/\\]'))">
+        <CopyToOutputDirectory Condition="'$(GamePulseCopyDataToOutput)' != 'true'">Never</CopyToOutputDirectory>
+        <CopyToOutputDirectory Condition="'$(GamePulseCopyDataToOutput)' == 'true'">PreserveNewest</CopyToOutputDirectory>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+      <Content Condition="$([System.Text.RegularExpressions.Regex]::IsMatch('%(Content.Identity)', '^Data[/\\](raw|scripts)[/\\]'))">
+        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+        <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+      </Content>
+      <!-- League selectors explicitly include deployment archives as Content. -->
+      <None Remove="Data/**/*" />
+    </ItemGroup>
+  </Target>
+</Project>
