@@ -1,8 +1,12 @@
 import Link from "next/link";
 import { getNbaPlayerById } from "@/lib/api";
 import NbaCatalogNotice from "../NbaCatalogNotice";
+import { Suspense } from "react";
+import NbaPlayerStatistics from "../NbaPlayerStatistics";
+import type { NbaStatsQuery } from "@/lib/nba-player-statistics";
 
 type PlayerDetailPageProps = {
+  searchParams: Promise<NbaStatsQuery>;
   params: Promise<{
     id: string;
   }>;
@@ -32,9 +36,11 @@ function formatDraft(draftYear: string, draftRound: string, draftNumber: string)
 
 export default async function PlayerDetailPage({
   params,
+  searchParams,
 }: PlayerDetailPageProps) {
   const { id } = await params;
   const player = await getNbaPlayerById(id);
+  const query = await searchParams;
 
   if (!player) {
     return (
@@ -101,6 +107,10 @@ export default async function PlayerDetailPage({
             </Link>
           </div>
         </div>
+
+        <Suspense fallback={<p className="mt-8 text-slate-400">Loading season statistics…</p>}>
+          <NbaPlayerStatistics id={player.id} query={query} />
+        </Suspense>
 
         <div className="mt-8 rounded-3xl border border-slate-800 bg-slate-900 p-8 shadow-xl">
           <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
