@@ -13,6 +13,7 @@ export default function LeagueNavigation() {
   const suffix = season ? `?season=${encodeURIComponent(season)}` : "";
   const links = [
     { label: "Home", href: "/", active: pathname === "/" },
+    { label: "Search", href: league ? `/search?league=${league}${season ? `&season=${encodeURIComponent(season)}` : ""}` : "/search", active: pathname === "/search" },
     { label: "Leagues", href: "/leagues", active: pathname === "/leagues" && !leagueSections.some(section => section.path === selectedSection) },
     ...leagueSections.filter(section => !league || section.leagues.includes(league)).map(section => {
       const href = league

@@ -96,6 +96,9 @@ export type Player = {
   draftRound: string;
   draftNumber: string;
   greatest75: boolean;
+  catalogUpdatedAt?: string | null;
+  catalogRequestedSeason?: string | null;
+  catalogSource?: string | null;
 };
 
 export type Game = {

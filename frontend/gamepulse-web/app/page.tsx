@@ -34,7 +34,7 @@ const features = [
     title: "Player Profiles",
     description:
       "Find players across basketball, baseball, football, and hockey, then explore their profiles and available season statistics.",
-    href: "/leagues?section=players",
+    href: "/search",
     cta: "Browse Players",
   },
   {
@@ -83,7 +83,7 @@ export default function HomePage() {
                 <Link href="/leagues" className="rounded-full bg-blue-500 px-6 py-3 font-bold text-white transition hover:bg-blue-400">
                   Explore All Leagues
                 </Link>
-                <Link href="/leagues?section=players" className="rounded-full border border-blue-500/40 px-6 py-3 font-bold text-blue-300 transition hover:bg-blue-500/10">
+                <Link href="/search" className="rounded-full border border-blue-500/40 px-6 py-3 font-bold text-blue-300 transition hover:bg-blue-500/10">
                   Find Players
                 </Link>
               </div>

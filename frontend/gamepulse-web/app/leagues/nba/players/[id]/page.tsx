@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getNbaPlayerById } from "@/lib/api";
+import NbaCatalogNotice from "../NbaCatalogNotice";
 
 type PlayerDetailPageProps = {
   params: Promise<{
@@ -57,11 +58,12 @@ export default async function PlayerDetailPage({
 
   const teamLabel = player.teamName
     ? `${player.teamCity} ${player.teamName}`.trim()
-    : "No current team listed";
+    : "No team listed";
 
   return (
     <main className="min-h-screen bg-slate-950 px-6 py-10 text-white">
       <section className="mx-auto max-w-6xl">
+        <NbaCatalogNotice players={[player]} />
         <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
             <Link
@@ -133,7 +135,7 @@ export default async function PlayerDetailPage({
             <div className="rounded-2xl bg-slate-800 p-5">
               <p className="text-sm text-slate-400">Experience</p>
               <p className="mt-2 text-2xl font-bold">
-                {player.seasonExperience} seasons
+                {player.catalogUpdatedAt || !player.seasonExperience ? "Unavailable" : `${player.seasonExperience} seasons`}
               </p>
             </div>
 

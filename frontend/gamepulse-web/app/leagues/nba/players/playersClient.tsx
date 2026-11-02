@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { Player } from "@/lib/api";
+import NbaCatalogNotice from "./NbaCatalogNotice";
 
 type PlayersClientProps = {
   players: Player[];
@@ -120,6 +121,8 @@ export default function PlayersClient({ players }: PlayersClientProps) {
             </Link>
           </div>
         </div>
+
+        <NbaCatalogNotice players={players} />
 
         <div className="mt-8 grid gap-4 md:grid-cols-3">
           <div className="rounded-2xl border border-slate-800 bg-slate-900 p-5">
