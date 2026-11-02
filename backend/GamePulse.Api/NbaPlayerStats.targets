@@ -1,0 +1,10 @@
+<Project>
+  <!-- Serve compressed archives directly. Never expand or duplicate them in bin. -->
+  <ItemGroup>
+    <Content Remove="Data/processed/nba_player_stats/**/*" />
+    <Content Include="Data/processed/nba_player_stats/*.zip">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+</Project>

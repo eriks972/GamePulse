@@ -33,4 +33,6 @@
   <Import Project="MlbStorage.targets" />
   <Import Project="NflStorage.targets" />
   <Import Project="NhlStorage.targets" />
+  <Import Project="StoragePerformance.targets" />
+  <Import Project="NbaPlayerStats.targets" />
 </Project>
