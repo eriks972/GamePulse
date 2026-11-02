@@ -42,4 +42,7 @@ public class Player
     public string DraftRound { get; set; } = string.Empty;
     public string DraftNumber { get; set; } = string.Empty;
     public bool Greatest75 { get; set; }
+    public string? CatalogUpdatedAt { get; set; }
+    public string? CatalogRequestedSeason { get; set; }
+    public string? CatalogSource { get; set; }
 }
