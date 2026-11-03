@@ -1,3 +1,4 @@
+import { ProfileAccordion, ProfileMetrics } from "../PlayerProfileUI";
 import Link from "next/link";
 import {
   wnba, wnbaHref, entityPath, WnbaApiError, statValue,
@@ -92,17 +93,23 @@ export async function PlayerSeasonTable({ season, query }: { season: string; que
   </>;
 }
 
-export async function PlayerSeasonSummary({ playerId, name, season }: { playerId: string; name: string | null; season: string }) {
+export async function PlayerSeasonSummary({ playerId, name, season, query = {} }: { playerId: string; name: string | null; season: string; query?: Query }) {
+  const seasonType = value(query, "seasonType") === "Playoffs" ? "Playoffs" : "Regular Season";
   let report: WnbaPlayerSeasonStatistics;
-  try { report = await request<WnbaPlayerSeasonStatistics>(`player-stats/${encodeURIComponent(playerId)}`, { season }); }
-  catch { return <section className={panel}><h2 className="text-2xl font-bold">Player season statistics unavailable</h2><p className="mt-3 text-slate-400">Try again after the data service update is available.</p></section>; }
-  return <section className={panel}><div className="flex flex-wrap justify-between gap-4"><h2 className="text-2xl font-bold">Regular-season player statistics</h2>
-    <Link className={link} href={`${wnbaHref("player-stats", season)}&search=${encodeURIComponent(name || "")}&minGames=0`}>View player leaders →</Link>
-  </div><p className="mt-3 text-sm text-slate-400">{report.games} games with statistics · Values show each field’s coverage.</p>
-    {report.excludedAmbiguousGames > 0 && <p className="mt-2 text-sm text-amber-300">{report.excludedAmbiguousGames} ambiguous player/game observations excluded.</p>}
-    <div className="mt-5 grid grid-cols-2 gap-4 md:grid-cols-4">{[["points", "Points / game"], ["rebounds", "Rebounds / game"], ["assists", "Assists / game"]].map(([key, label]) => <div key={key} className="rounded-2xl bg-slate-950 p-4">
-      <p className="text-sm text-slate-400">{label}</p><p className="mt-2 text-xl font-bold"><Observed metric={report.statistics[key]} games={report.games} basis="perGame" /></p></div>)}
-      <div className="rounded-2xl bg-slate-950 p-4"><p className="text-sm text-slate-400">Field goals</p><p className="mt-2 text-xl font-bold">{percent(report.shooting.fieldGoals.percentage)}</p><p className="mt-1 text-xs text-slate-500">{report.shooting.fieldGoals.games}/{report.games} games</p></div>
-    </div>
-  </section>;
+  try { report = await request<WnbaPlayerSeasonStatistics>(`player-stats/${encodeURIComponent(playerId)}`, { season, seasonType }); }
+  catch { return <section className={panel}><h2 className="text-xl font-bold">Player season statistics unavailable</h2><p className="mt-3 text-slate-400">Try again after the data service update is available.</p></section>; }
+  return <>
+    <section className="min-w-0 rounded-2xl border border-slate-800 bg-slate-900/60 p-5 sm:p-6">
+      <div className="flex flex-wrap items-start justify-between gap-3"><div><h2 className="text-xl font-bold">Season statistics</h2><p className="mt-1 text-sm text-slate-400">{seasonType} · {season}</p></div><a className="text-sm text-blue-300 hover:underline" href={`${wnbaHref("player-stats", season)}&seasonType=${encodeURIComponent(seasonType)}&search=${encodeURIComponent(name || "")}&minGames=0`}>View player leaders →</a></div>
+      <form action={wnbaHref(entityPath("players", playerId))} className="my-5 flex flex-wrap items-end gap-3"><input type="hidden" name="season" value={season}/><label className="grid gap-2 text-xs text-slate-400">Competition<select className={input} name="seasonType" defaultValue={seasonType}><option>Regular Season</option><option>Playoffs</option></select></label><button className="rounded-xl bg-blue-500 px-4 py-2 text-sm font-bold">Load statistics</button></form>
+      <ProfileMetrics items={[{label:"Games with statistics",value:report.games},...[["points","Points per game"],["rebounds","Rebounds per game"],["assists","Assists per game"]].map(([key,label])=>({label,value:<Observed metric={report.statistics[key]} games={report.games} basis="perGame"/>})),{label:"Field goal percentage",value:percent(report.shooting.fieldGoals.percentage)},{label:"Minutes per game",value:<Observed metric={report.statistics.minutes} games={report.games} basis="perGame"/>}]}/>
+      <p className="mt-4 text-xs leading-relaxed text-slate-400">Counts describe unambiguous stat games, not verified appearances. Each average uses that field’s observed games; small counts show field coverage.</p>
+      {report.excludedAmbiguousGames > 0 && <p className="mt-3 text-sm text-amber-300">{report.excludedAmbiguousGames} ambiguous player/game observations excluded.</p>}
+    </section>
+    <ProfileAccordion title="Season breakdown" description="Totals, per-game averages, and shooting splits">
+      <div className="overflow-x-auto" role="region" tabIndex={0} aria-label="Season statistics, scroll horizontally"><table className="w-full text-sm"><caption className="sr-only">WNBA player season statistics</caption><thead><tr>{["Measure",...columns.map(c=>c[1])].map(l=><th className="p-3 text-right first:text-left" scope="col" key={l}>{l}</th>)}</tr></thead><tbody>{(["total","perGame"] as const).map(basis=><tr key={basis} className="border-t border-slate-800"><th className="whitespace-nowrap p-3 text-left" scope="row">{basis==="total"?"Total":"Per game"}</th>{columns.map(([key])=><td className="p-3 text-right tabular-nums" key={key}><Observed metric={report.statistics[key]} games={report.games} basis={basis}/></td>)}</tr>)}</tbody></table></div>
+      <dl className="grid gap-3 sm:grid-cols-3">{shooting.map(([key,label])=><div key={key} className="rounded-xl border border-slate-800 p-4"><dt className="text-sm text-slate-400">{label}</dt><dd className="mt-2 text-xl font-bold">{percent(report.shooting[key].percentage)}</dd><dd className="mt-2 text-xs text-slate-400">{statValue(report.shooting[key].made)} / {statValue(report.shooting[key].attempted)} · {report.shooting[key].games}/{report.games} stat games</dd></div>)}</dl>
+    </ProfileAccordion>
+    <ProfileAccordion title="Sources and coverage" description="Observed games, missing fields, and shooting calculations"><p className="text-sm leading-6 text-slate-400">GP counts unambiguous player game-stat rows in completed games, not a verified appearance total. Missing rows are not assumed to be DNPs. Each average uses that field’s observed games; partial totals cover observed games only. Shooting percentages use paired makes and attempts. A dash means unavailable. The game log includes all imported competition types, independently of the summary competition filter.</p></ProfileAccordion>
+  </>;
 }

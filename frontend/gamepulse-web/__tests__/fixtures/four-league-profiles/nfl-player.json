@@ -1,0 +1,26 @@
+{
+  "season": 2026,
+  "player": {
+    "playerId": "00-0037845",
+    "name": "A.J. Arcuri",
+    "position": "OL",
+    "teamIds": [
+      "BAL"
+    ],
+    "espnId": null,
+    "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gziofcy3o1epv9spjapl"
+  },
+  "statistics": [],
+  "games": [],
+  "rosters": [
+    {
+      "season": 2026,
+      "teamId": "BAL",
+      "playerId": "00-0037845",
+      "name": "A.J. Arcuri",
+      "position": "OL",
+      "jerseyNumber": 68,
+      "status": "DEV"
+    }
+  ]
+}

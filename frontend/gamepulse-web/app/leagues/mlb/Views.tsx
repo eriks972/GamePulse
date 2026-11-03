@@ -1,3 +1,4 @@
+import { ProfileSeasonSwitch } from "../PlayerProfileUI";
 import Link from "next/link";
 import { Batting } from "./Batting";
 import { Pitching } from "./Pitching";
@@ -91,5 +92,5 @@ export async function MlbView({view,query,id}:{view:View;query:Query;id?:string}
  }
  if(!seasons.includes(season))return <main className="mx-auto min-h-screen max-w-6xl space-y-6 px-6 py-10"><Header title="MLB season unavailable" seasons={seasons} season={seasons[0]} route={route} group={val(query,"group")} seasonType={val(query,"seasonType")}/><Empty>Select an imported season above.</Empty></main>;
  const titles:Record<View,string>={compare:"MLB Player Comparison",analytics:"MLB Team Analytics","player-stats":"MLB Player Batting", "team-stats":"MLB Team Batting",dashboard:"MLB Dashboard",teams:"MLB Teams",players:"MLB Players",schedule:"MLB Schedule & Results",team:"MLB Team Profile",player:"MLB Player Profile",game:"MLB Game Details",standings:"MLB Standings"};
- return <main className="mx-auto min-h-screen max-w-6xl space-y-8 px-6 py-10"><Header title={val(query,"group")==="pitching"&&(view==="player-stats"||view==="team-stats")?`MLB ${view==="player-stats"?"Player":"Team"} Pitching`:titles[view]} seasons={seasons} season={season} route={route} group={val(query,"group")} seasonType={val(query,"seasonType")}/>{content}</main>;
+ return <main className="mx-auto min-h-screen max-w-6xl space-y-8 px-6 py-10">{view==="player"?<ProfileSeasonSwitch league="MLB" seasons={seasons} season={season} action={mlbHref(route)} query={query}/>:<><Header title={val(query,"group")==="pitching"&&(view==="player-stats"||view==="team-stats")?`MLB ${view==="player-stats"?"Player":"Team"} Pitching`:titles[view]} seasons={seasons} season={season} route={route} group={val(query,"group")} seasonType={val(query,"seasonType")}/></>}{content}</main>;
 }

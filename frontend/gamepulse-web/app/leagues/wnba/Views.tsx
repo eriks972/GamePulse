@@ -1,3 +1,4 @@
+import { ProfileSeasonSwitch, ProfileAccordion } from "../PlayerProfileUI";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ComparisonView } from "./ComparisonView";
@@ -83,12 +84,12 @@ function Pagination({ page, pages, query, path, season }: { page: number; pages:
     const params = new URLSearchParams();
     for (const [key, val] of Object.entries(query)) if (typeof val === "string") params.set(key, val);
     params.set("season", season); params.set("page", String(target));
-    return `/leagues/wnba/${path}?${params}`;
+    return `/leagues/wnba/${path}?${params}${path.startsWith("players/") ? "#game-log" : ""}`;
   };
   return <nav aria-label="Pagination" className="mt-6 flex justify-center gap-6">
-    {page > 1 && <Link href={href(page - 1)} className={link}>← Previous</Link>}
+    {page > 1 && <a href={href(page - 1)} className={link}>← Previous</a>}
     <span className="text-slate-400">Page {page} of {pages}</span>
-    {page < pages && <Link href={href(page + 1)} className={link}>Next →</Link>}
+    {page < pages && <a href={href(page + 1)} className={link}>Next →</a>}
   </nav>;
 }
 
@@ -220,12 +221,12 @@ async function Content({ view, id, season, query }: { view: View; id?: string; s
     const path = entityPath("players", id!);
     const [player, teams, logs] = await Promise.all([wnba<WnbaPlayer>(path, q), wnba<WnbaTeam[]>("teams", q), wnba<PlayerGame[]>(`${path}/games`, q)]);
     const page = pageItems(logs, query);
-    return <><section className={panel}><h2 className="text-3xl font-black">{playerName(player)}</h2><p className="mt-2 text-slate-400">{player.position || "Position unavailable"} · {season}</p>
+    return <><section className={panel}><p className="mb-3 text-xs uppercase tracking-widest text-blue-300">WNBA · Player profile</p><h1 className="text-3xl font-black sm:text-4xl">{playerName(player)}</h1><p className="mt-2 text-slate-400">{player.position || "Position unavailable"} · {season}</p>
       <div className="mt-5"><p className="mb-2 text-sm text-slate-400">Recorded participation</p><TeamLinks ids={player.teamIds} teams={teams} season={season} /></div>
-      <div className="mt-4"><p className="mb-2 text-sm text-slate-400">Roster snapshot</p><TeamLinks ids={player.rosterSnapshotTeamIds} teams={teams} season={season} /></div>
+      
     </section>
-      {await PlayerSeasonSummary({ playerId: player.id, name: player.fullName, season })}
-      <section className={panel}><h2 className="text-2xl font-bold">Game log · {logs.length} games with player statistics</h2>
+      {await PlayerSeasonSummary({ playerId: player.id, name: player.fullName, season, query })}
+      <ProfileAccordion id="game-log" title="Game log" description="All imported competition types · games with recorded statistics" defaultOpen={value(query,"panel")==="games"||page.page>1}><section className="min-w-0"><h2 className="text-xl font-bold">Game log · {logs.length} games with player statistics</h2>
         <p className="mt-2 text-sm text-slate-400">Missing statistics appear as a dash. Games without a player statistics row are not included.</p>
         {!logs.length ? <div className="mt-5"><Empty>No game statistics available for this player in {season}.</Empty></div> : <div className="mt-5 overflow-x-auto">
           <table className="w-full whitespace-nowrap text-left text-sm"><caption className="sr-only">Player game log</caption><thead className="text-slate-400"><tr>
@@ -234,8 +235,8 @@ async function Content({ view, id, season, query }: { view: View; id?: string; s
             <th scope="row" className="p-3"><Link className={link} href={wnbaHref(`game/${encodeURIComponent(game.id)}`, season)}>{gameDate(game.gameDate)} · {game.awayTeamName} @ {game.homeTeamName}</Link></th>
             <td className="p-3">{teams.find(t => t.id === row.teamId)?.abbreviation || "—"}</td>{columns.map(([key]) => <td className="p-3 text-right" key={key}>{statValue(row.statistics[key])}</td>)}
           </tr>))}</tbody></table></div>}
-        <Pagination {...page} query={query} path={path} season={season} />
-      </section></>;
+        <Pagination {...page} query={{...query,panel:"games"}} path={path} season={season} />
+      </section></ProfileAccordion><ProfileAccordion title="Roster details" description="Season roster snapshot, separate from recorded participation"><div className="mt-4"><p className="mb-2 text-sm text-slate-400">Roster snapshot</p><TeamLinks ids={player.rosterSnapshotTeamIds} teams={teams} season={season} /></div></ProfileAccordion></>;
   }
   const detail = await wnba<WnbaStatistics>(`${entityPath("games", id!)}/statistics`, q);
   const game = detail.game;
@@ -282,6 +283,6 @@ export async function WnbaView({ view, id, query }: { view: View; id?: string; q
   const titles: Record<View, string> = { dashboard: "WNBA Dashboard", teams: "WNBA Teams", players: "WNBA Players", schedule: "Schedule & Results", team: "Team Profile", player: "Player Profile", game: "Game Details", standings: "WNBA Standings", "team-stats": "Team Season Statistics", "player-stats": "Player Season Leaders", compare: "Compare WNBA Teams" };
   const route = view === "team" ? "teams" : view === "player" ? "players" : view === "game" ? "schedule" : view === "dashboard" ? "" : view;
   return <main className="mx-auto min-h-screen max-w-6xl space-y-8 px-6 py-10">
-    <Header title={titles[view]} seasons={seasons} season={season} route={route} />{content}
+    {view === "player" && id ? <ProfileSeasonSwitch league="WNBA" seasons={seasons} season={season} action={wnbaHref(entityPath("players", id))} query={query} /> : <Header title={titles[view]} seasons={seasons} season={season} route={route} />}{content}
   </main>;
 }

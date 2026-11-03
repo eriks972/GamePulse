@@ -1,0 +1,121 @@
+{
+  "season": 2024,
+  "seasonType": "Regular Season",
+  "playerId": "wnba:stats:player:1628932",
+  "name": "A'ja Wilson",
+  "position": "C",
+  "teamIds": [
+    "wnba:stats:team:1611661319"
+  ],
+  "teamScopeId": null,
+  "games": 38,
+  "excludedAmbiguousGames": 0,
+  "statistics": {
+    "points": {
+      "total": 1021,
+      "perGame": 26.86842105263158,
+      "games": 38
+    },
+    "rebounds": {
+      "total": 451,
+      "perGame": 11.868421052631579,
+      "games": 38
+    },
+    "offensiveRebounds": {
+      "total": 79,
+      "perGame": 2.0789473684210527,
+      "games": 38
+    },
+    "defensiveRebounds": {
+      "total": 372,
+      "perGame": 9.789473684210526,
+      "games": 38
+    },
+    "assists": {
+      "total": 88,
+      "perGame": 2.3157894736842106,
+      "games": 38
+    },
+    "steals": {
+      "total": 68,
+      "perGame": 1.7894736842105263,
+      "games": 38
+    },
+    "blocks": {
+      "total": 98,
+      "perGame": 2.5789473684210527,
+      "games": 38
+    },
+    "turnovers": {
+      "total": 48,
+      "perGame": 1.263157894736842,
+      "games": 38
+    },
+    "fouls": {
+      "total": 67,
+      "perGame": 1.763157894736842,
+      "games": 38
+    },
+    "fieldGoalsMade": {
+      "total": 385,
+      "perGame": 10.131578947368421,
+      "games": 38
+    },
+    "fieldGoalsAttempted": {
+      "total": 743,
+      "perGame": 19.55263157894737,
+      "games": 38
+    },
+    "threePointersMade": {
+      "total": 19,
+      "perGame": 0.5,
+      "games": 38
+    },
+    "threePointersAttempted": {
+      "total": 60,
+      "perGame": 1.5789473684210527,
+      "games": 38
+    },
+    "freeThrowsMade": {
+      "total": 232,
+      "perGame": 6.105263157894737,
+      "games": 38
+    },
+    "freeThrowsAttempted": {
+      "total": 275,
+      "perGame": 7.2368421052631575,
+      "games": 38
+    },
+    "plusMinus": {
+      "total": 175,
+      "perGame": 4.605263157894737,
+      "games": 38
+    },
+    "minutes": {
+      "total": 1307,
+      "perGame": 34.39473684210526,
+      "games": 38
+    }
+  },
+  "shooting": {
+    "fieldGoals": {
+      "made": 385,
+      "attempted": 743,
+      "percentage": 0.5181695827725438,
+      "games": 38
+    },
+    "threePointers": {
+      "made": 19,
+      "attempted": 60,
+      "percentage": 0.31666666666666665,
+      "games": 38
+    },
+    "freeThrows": {
+      "made": 232,
+      "attempted": 275,
+      "percentage": 0.8436363636363636,
+      "games": 38
+    }
+  },
+  "rank": null
+}
