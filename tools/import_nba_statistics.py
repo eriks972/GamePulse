@@ -111,6 +111,7 @@ def prepare(year, sources, imported_at):
     logs = defaultdict(list)
     seen = set()
     skipped = 0
+    placeholders = []
     for r in boxes:
         game_id = r["game_id"].zfill(10)
         if not re.fullmatch(r"00[124569]\d{7}", game_id):
@@ -123,6 +124,12 @@ def prepare(year, sources, imported_at):
         if not phase:
             skipped += 1
             continue  # Play-in/Cup final/preseason are not regular season/playoffs.
+        if not r["minutes"].strip() and number(r["person_id"], "source player ID", True) == 0:
+            if r.get("first_name", "").strip() or r.get("family_name", "").strip() or any(number(r[k] or "0", k) != 0 for k in BOX.values()):
+                raise ValueError("Unidentified source row contains a name or statistics")
+            placeholders.append({"gameId": game_id, "teamId": r["team_id"], "sourcePlayerId": 0,
+                "reason": "Nameless zero-ID placeholder: no minutes or counting statistics"})
+            continue
         player = pid(r["person_id"])
         key = (player, game_id)
         if key in seen:
@@ -167,13 +174,22 @@ def prepare(year, sources, imported_at):
         logs[key] = games
     if len(summaries) < 30:
         raise ValueError("Unexpectedly small NBA season totals source")
-    if set(logs) - summary_keys:
-        raise ValueError("Game-log players have no matching season summary")
+    quarantined = []
+    for key in set(logs) - summary_keys:
+        player, phase = key
+        source_rows = [r for r in boxes if r["person_id"] == str(player) and PHASES.get(r["season_type_id"]) == phase and r["minutes"].strip()]
+        # Three 1996-97 rows have player ID 2179, empty names, 24:00,
+        # zero counting statistics, and no published season-total identity.
+        # Keep evidence in the manifest; never assign these rows to a player.
+        if any(r.get("first_name", "").strip() or r.get("family_name", "").strip() for r in source_rows) or any(g[k] != 0 for g in logs[key] for k in FIELDS):
+            raise ValueError("Named/stat-bearing game-log player has no matching season summary")
+        quarantined.extend({"sourcePlayerId": player, "seasonType": phase, "reason": "Unnamed row without a published season summary", **g} for g in logs.pop(key))
     manifest = {"schemaVersion": 1, "season": year, "importedAt": imported_at,
         "source": "SportsDataverse / NBA Stats", "sourceSeason": year + 1,
         "sources": [{"url": source_url(k, year), "sha256": sha(v)} for k, v in sources.items()],
         "summaryCount": len(summaries), "gameLogCount": sum(len(v) for v in logs.values()),
         "excludedNonRegularOrPlayoffRows": skipped, "coverageIssues": mismatches,
+        "excludedPlaceholderRows": placeholders, "quarantinedRows": quarantined,
         "note": "Regular season and playoffs are separate. Coverage reflects source availability, not a claim of a complete season."}
     return summaries, logs, manifest
 
@@ -249,6 +265,7 @@ def main():
     p.add_argument("--end", type=int, required=True)
     p.add_argument("--input-dir", type=Path, help="Read original source CSVs from disk for offline preparation")
     p.add_argument("--bundle-dir", type=Path, help="Install already prepared YYYY.zip files, offline")
+    p.add_argument("--skip-existing", action="store_true", help="Verify and keep completed season archives without downloading them again")
     a = p.parse_args()
     if not 1946 <= a.start <= a.end <= datetime.now().year:
         p.error("Invalid season range")
@@ -262,6 +279,12 @@ def main():
     os.close(fd)
     try:
         for year in range(a.start, a.end + 1):
+            path = root / f"{year}.zip"
+            if a.skip_existing and path.exists():
+                verify_archive(path.read_bytes(), year)
+                print(f"{year}: existing season verified; no download needed", flush=True)
+                continue
+            print(f"Preparing {year}-{str(year+1)[-2:]}...", flush=True)
             if a.bundle_dir:
                 raw = (a.bundle_dir / f"{year}.zip").read_bytes()
             else:
@@ -273,7 +296,6 @@ def main():
                 prepared = prepare(year, sources, datetime.now(timezone.utc).isoformat(timespec="seconds"))
                 raw = archive_bytes(*prepared)
             manifest = verify_archive(raw, year)
-            path = root / f"{year}.zip"
             if path.exists():
                 old = verify_archive(path.read_bytes(), year)
                 if {s["url"]: s["sha256"] for s in old["sources"]} == {s["url"]: s["sha256"] for s in manifest["sources"]}:

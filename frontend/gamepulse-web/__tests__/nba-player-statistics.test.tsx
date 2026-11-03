@@ -1,13 +1,39 @@
-import { render, screen, within } from "@testing-library/react";
+import { fireEvent, render, screen, within } from "@testing-library/react";
 import { NbaPlayerStatisticsView } from "@/app/leagues/nba/players/NbaPlayerStatistics";
 import { fetchNbaPlayerStatistics, nbaSeasonLabel, type NbaPlayerStatistics } from "@/lib/nba-player-statistics";
 import fixture from "./fixtures/nba-player-statistics.json";
 
 function data(): NbaPlayerStatistics { return JSON.parse(JSON.stringify(fixture)); }
 
+test("keeps headline stats visible and folds detailed panels by default", () => {
+  render(<NbaPlayerStatisticsView data={data()} />);
+  expect(screen.getByText("Points per game")).toBeVisible();
+  for (const title of ["Season breakdown", "Game log", "Season history", "Statistics sources"]) {
+    expect(screen.getByText(title).closest("details")).not.toHaveAttribute("open");
+  }
+  fireEvent.click(screen.getByText("Season breakdown"));
+  expect(screen.getByText("Season breakdown").closest("details")).toHaveAttribute("open");
+  expect(screen.getByRole("table", { name: "Season totals and per-game averages" })).toBeVisible();
+});
+
+test("keeps game logs expanded when following a pagination link", () => {
+  render(<NbaPlayerStatisticsView data={data()} expandGameLog />);
+  expect(screen.getByText("Game log").closest("details")).toHaveAttribute("open");
+  expect(screen.getByRole("link", { name: "Next games" })).toBeVisible();
+});
+
+test("season history compares the selected competition without duplicate phases", () => {
+  render(<NbaPlayerStatisticsView data={data()} />);
+  fireEvent.click(screen.getByText("Season history"));
+  const table = screen.getByRole("table", { name: "Imported player season history" });
+  expect(within(table).getAllByRole("row")).toHaveLength(2);
+  expect(within(table).getByRole("link", { name: "2025–26" })).toHaveAttribute("aria-current", "page");
+});
+
 test("renders actual Wembanyama totals, per-game averages and percentages", () => {
   const d = data();
   render(<NbaPlayerStatisticsView data={d} />);
+  fireEvent.click(screen.getByText("Season breakdown"));
   const table = screen.getByRole("table", { name: "Season totals and per-game averages" });
   expect(within(table).getByText("1600")).toBeInTheDocument();
   expect(within(table).getByText("25.0")).toBeInTheDocument();
@@ -18,7 +44,8 @@ test("renders actual Wembanyama totals, per-game averages and percentages", () =
 
 test("game pagination keeps player, season and competition", () => {
   render(<NbaPlayerStatisticsView data={data()} />);
-  expect(screen.getByRole("link", { name: "Next games" })).toHaveAttribute("href", "/leagues/nba/players/1641705?season=2025&type=regular-season&page=2#season-statistics");
+  fireEvent.click(screen.getByText("Game log"));
+  expect(screen.getByRole("link", { name: "Next games" })).toHaveAttribute("href", "/leagues/nba/players/1641705?season=2025&type=regular-season&page=2&panel=games#game-log");
 });
 
 test("an empty selected season is not displayed as zero production", () => {
@@ -33,6 +60,7 @@ test("partial logs are disclosed without changing the published averages", () =>
   const d = data();d.summary!.logsReconcile = false;d.coverage.availableGames = 20;
   render(<NbaPlayerStatisticsView data={d} />);
   expect(screen.getByText(/Game-log coverage differs from the season totals/)).toBeInTheDocument();
+  fireEvent.click(screen.getByText("Season breakdown"));
   expect(screen.getByRole("table", { name: "Season totals and per-game averages" })).toHaveTextContent("1600");
 });
 
