@@ -7,13 +7,13 @@ import { usePathname, useSearchParams } from "next/navigation";
 export default function LeagueNavigation() {
   const pathname = usePathname();
   const params = useSearchParams();
-  const league = pathname.match(/^\/leagues\/(nba|wnba|mlb|nfl|nhl)(?:\/|$)/)?.[1];
+  const league = pathname.match(/^\/leagues\/(nba|wnba|mlb|nfl|nhl|mls)(?:\/|$)/)?.[1];
   const season = params.get("season");
   const selectedSection = params.get("section");
   const suffix = season ? `?season=${encodeURIComponent(season)}` : "";
   const links = [
     { label: "Home", href: "/", active: pathname === "/" },
-    { label: "Search", href: league ? `/search?league=${league}${season ? `&season=${encodeURIComponent(season)}` : ""}` : "/search", active: pathname === "/search" },
+    { label: "Search", href: league && league !== "mls" ? `/search?league=${league}${season ? `&season=${encodeURIComponent(season)}` : ""}` : "/search", active: pathname === "/search" },
     { label: "Leagues", href: "/leagues", active: pathname === "/leagues" && !leagueSections.some(section => section.path === selectedSection) },
     ...leagueSections.filter(section => !league || section.leagues.includes(league)).map(section => {
       const href = league
