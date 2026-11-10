@@ -28,4 +28,9 @@ Check(noScore.GoalsFor==null&&noScore.GoalDifferential==null&&noScore.Points==nu
 Check(NhlInsights.Scores("post",games,"a","Playoffs").Points==null,"No playoff standings points");
 Check(NhlInsights.Scores("empty",[],"a","Regular Season").GoalsFor==null,"No games not zero scoring");
 var invalid=0;try{NhlInsights.Phase("Regular");}catch(NhlDataException e){if(e.Status==400)invalid++;}try{NhlInsights.Group("pitcher");}catch(NhlDataException e){if(e.Status==400)invalid++;}Check(invalid==2,"Invalid filters rejected");
-Console.WriteLine($"{n} NHL calculation checks passed");
+
+
+foreach(var (input,expected) in new[]{("Buffalo Buffalo Buffalo Sabres","Buffalo Sabres"),("San Jose San Jose San Jose Sharks","San Jose Sharks"),("New York New York Rangers","New York Rangers"),("Toronto Maple Leafs","Toronto Maple Leafs"),("Utah Hockey Club","Utah Hockey Club")})
+ Check(NhlDataService.NormalizeTeamName(input)==expected,"Team name: "+expected);
+Check(NhlDataService.NormalizeTeamName(null)==null,"Missing name remains null");
+Console.WriteLine($"{n} NHL checks passed");

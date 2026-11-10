@@ -46,7 +46,12 @@ public sealed class MlbProviderStanding
     public int Season { get; set; } public string TeamId { get; set; } = ""; public int? Wins { get; set; } public int? Losses { get; set; }
     public string? WinningPercentage { get; set; } public string? GamesBack { get; set; } public string? DivisionRank { get; set; }
 }
-public sealed record MlbSeasonData(int Season, string Directory, MlbTeam[] Teams, MlbPlayer[] Players, MlbGame[] Games, MlbProviderStanding[] ProviderStandings, JsonElement Coverage);
+public sealed record MlbSeasonData(int Season, string Directory, MlbTeam[] Teams, MlbPlayer[] Players, MlbGame[] Games, MlbProviderStanding[] ProviderStandings, JsonElement Coverage)
+{
+    internal SemaphoreSlim SummaryGate { get; } = new(1, 1);
+    internal MlbBattingFile? BattingSummary { get; set; }
+    internal MlbPitchingFile? PitchingSummary { get; set; }
+}
 public sealed record MlbPage<T>(T[] Items, int Total, int Page, int PageSize);
 public sealed record MlbStanding(MlbTeam Team, int ScheduledGames, int CompletedGames, int Games, int ExcludedCompletedGames,
     int Wins, int Losses, int Ties, double? WinPercentage, int RunsFor, int RunsAgainst);

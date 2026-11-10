@@ -28,10 +28,13 @@ public sealed class NhlDataService:IAsyncDisposable
     var path=Path.Combine(folder,"runs",run,"season.json.gz");await using var raw=File.OpenRead(path);
     var actual=Convert.ToHexString(await SHA256.HashDataAsync(raw,ct)).ToLowerInvariant();if(actual!=hash)throw new JsonException("NHL checksum mismatch");raw.Position=0;
     await using var gz=new GZipStream(raw,CompressionMode.Decompress);var data=await JsonSerializer.DeserializeAsync<NhlSeason>(gz,options,ct)??throw new JsonException("Null NHL data");Validate(data,year);
+    foreach(var team in data.Teams)team.Name=NormalizeTeamName(team.Name);
     cache.Set(key,data,new MemoryCacheEntryOptions{Size=1,SlidingExpiration=TimeSpan.FromMinutes(15)});return data;
    }finally{gate.Release();}
   }catch(NhlDataException){throw;}catch(Exception ex)when(ex is IOException or JsonException or InvalidDataException or InvalidOperationException or FormatException or UnauthorizedAccessException or NullReferenceException or ArgumentException or KeyNotFoundException){logger.LogError(ex,"Unable to read NHL snapshot");throw new NhlDataException(503,"NHL data is unavailable or invalid. Check the import and backend logs.");}
  }
+ // Older imports prefixed the same city once per schedule game.
+ public static string? NormalizeTeamName(string? name)=>name is null?null:Regex.Replace(name.Trim(),@"^(.+?)(?: \1)+(?= |$)","$1");
  private static void Validate(NhlSeason d,int year){
   if(d.Version!=1||d.League!="nhl"||d.Season!=year||d.Teams.Length==0||d.Games.Length==0||d.Coverage.GetProperty("season").GetInt32()!=year)throw new JsonException("Invalid NHL envelope");
   var teams=d.Teams.Select(t=>t.Id).ToHashSet();var players=d.Players.Select(p=>p.Id).ToHashSet();var games=d.Games.ToDictionary(g=>g.Id);

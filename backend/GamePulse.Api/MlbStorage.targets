@@ -17,14 +17,4 @@
       </Content>
     </ItemGroup>
   </Target>
-  <!-- Clear only generated MLB data in the standard bin layout before copying
-       the active snapshot. Otherwise run-name changes leave stale copies. -->
-  <Target Name="RemoveGeneratedMlbBuildCopies" BeforeTargets="PrepareForBuild" Condition="'$(Configuration)' != '' and '$(TargetFramework)' != ''">
-    <!-- Delete generated files, leaving directories in place. This avoids
-         recursive RemoveDir failures when directory contents change on macOS. -->
-    <ItemGroup>
-      <_GeneratedMlbBuildFiles Include="$(MSBuildProjectDirectory)/bin/$(Configuration)/$(TargetFramework)/Data/processed/mlb/**/*" />
-    </ItemGroup>
-    <Delete Files="@(_GeneratedMlbBuildFiles)" />
-  </Target>
 </Project>

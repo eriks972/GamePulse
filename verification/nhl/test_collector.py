@@ -16,6 +16,17 @@ def source():
  return dict(schedule=schedule,teams=teams,players=players,scoring=scoring,lines=lines,rosters=[])
 
 class CollectorChecks(unittest.TestCase):
+ def test_team_city_is_not_repeated_per_game(self):
+  s=source()
+  for row in s['teams']:row['team_name']='Maple Leafs' if row['team_id']==1 else 'Sabres'
+  for row in s['schedule']:row['home_team_name']='Toronto';row['away_team_name']='Buffalo'
+  d=m.prepare(2026,s)
+  self.assertEqual({t['name'] for t in d['teams']},{'Toronto Maple Leafs','Buffalo Sabres'})
+ def test_full_team_names_are_not_prefixed_again(self):
+  s=source()
+  for row in s['teams']:row['team_name']='Alpha A' if row['team_id']==1 else 'Beta B'
+  for row in s['schedule']:row['home_team_name']='Alpha A';row['away_team_name']='Beta B'
+  self.assertEqual({t['name'] for t in m.prepare(2026,s)['teams']},{'Alpha A','Beta B'})
  def test_outcomes(self):
   d=m.prepare(2026,source());self.assertEqual([g['finish'] for g in d['games']],['REG','OT','SO']);self.assertTrue(all(g['scoringComplete'] for g in d['games']))
  def test_shootout_goal_overrides_false_line_flag(self):

@@ -30,10 +30,4 @@
       </Content>
     </ItemGroup>
   </Target>
-  <Target Name="ClearGeneratedNflCopies" BeforeTargets="PrepareForBuild" Condition="'$(Configuration)' != '' and '$(TargetFramework)' != ''">
-    <ItemGroup>
-      <_NflGenerated Include="$(MSBuildProjectDirectory)/bin/$(Configuration)/$(TargetFramework)/Data/processed/nfl/**/*" />
-    </ItemGroup>
-    <Delete Files="@(_NflGenerated)" />
-  </Target>
 </Project>

@@ -29,10 +29,4 @@
       </Content>
     </ItemGroup>
   </Target>
-  <Target Name="ClearGeneratedNhlCopies" BeforeTargets="PrepareForBuild" Condition="'$(Configuration)' != '' and '$(TargetFramework)' != ''">
-    <ItemGroup>
-      <_NhlGenerated Include="$(MSBuildProjectDirectory)/bin/$(Configuration)/$(TargetFramework)/Data/processed/nhl/**/*" />
-    </ItemGroup>
-    <Delete Files="@(_NhlGenerated)" />
-  </Target>
 </Project>

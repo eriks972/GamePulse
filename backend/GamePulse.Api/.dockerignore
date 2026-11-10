@@ -1,0 +1,15 @@
+**/bin
+**/obj
+**/publish
+.git
+.vs
+.vscode
+**/__pycache__
+**/*.pyc
+**/.venv
+Data/raw
+Data/scripts
+Data/processed/mlb/building-*
+Data/processed/nfl/seasons/*/runs/.importing-*
+Data/processed/nhl/seasons/*/building-*
+**/*.log

@@ -30,6 +30,13 @@
     </Content>
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Data/processed/mls/**/*.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
   <Import Project="MlbStorage.targets" />
   <Import Project="NflStorage.targets" />
   <Import Project="NhlStorage.targets" />

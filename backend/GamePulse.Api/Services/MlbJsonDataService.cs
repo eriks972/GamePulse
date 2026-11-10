@@ -90,6 +90,10 @@ public sealed class MlbJsonDataService : IDisposable
     });
     public Task<MlbBattingFile> GetBattingAsync(MlbSeasonData data, CancellationToken ct = default) => Guard(async () =>
     {
+        await data.SummaryGate.WaitAsync(ct);
+        try
+        {
+        if (data.BattingSummary is not null) return data.BattingSummary;
         var path=Path.Combine(data.Directory,"batting.json");
         if(!DataExists(path))throw new MlbDataException(503,"Batting summaries are not imported. Rerun the updated MLB importer and deploy its active snapshot.");
         var file=await Read<MlbBattingFile>(path,ct);
@@ -124,10 +128,17 @@ public sealed class MlbJsonDataService : IDisposable
                     (!double.IsFinite(value.Value) || Math.Abs(value.Value-expected!.Value)>1e-12 || value<0 || value>(key=="ops"?5:key=="slg"?4:1)))throw new JsonException("Invalid batting rate or components");
             }
         }
+        data.BattingSummary = file;
         return file;
+        }
+        finally { data.SummaryGate.Release(); }
     });
     public Task<MlbPitchingFile> GetPitchingAsync(MlbSeasonData data, CancellationToken ct = default) => Guard(async () =>
     {
+        await data.SummaryGate.WaitAsync(ct);
+        try
+        {
+        if (data.PitchingSummary is not null) return data.PitchingSummary;
         var path=Path.Combine(data.Directory,"pitching.json");
         if(!DataExists(path))throw new MlbDataException(503,"Pitching summaries are not imported. Rerun the updated MLB importer and deploy its active snapshot.");
         var file=await Read<MlbPitchingFile>(path,ct);
@@ -153,7 +164,10 @@ public sealed class MlbJsonDataService : IDisposable
                     (!double.IsFinite(value.Value) || Math.Abs(value.Value-expected!.Value)>1e-12 || value<0))throw new JsonException("Invalid pitching rate or components");
             }
         }
+        data.PitchingSummary = file;
         return file;
+        }
+        finally { data.SummaryGate.Release(); }
     });
     private static (string Archive,string Entry) ArchiveLocation(string path)
     {

@@ -183,4 +183,49 @@ public sealed class NflController(NflDataService service) : ControllerBase
         if (!string.IsNullOrWhiteSpace(search)) rows = rows.Where(r => r.Name?.Contains(search.Trim(), StringComparison.OrdinalIgnoreCase) == true || r.TeamId.Contains(search.Trim(), StringComparison.OrdinalIgnoreCase));
         return Ok(Page(rows, page, pageSize));
     }
+    private async Task<NflSeasonInsights.PlayerProfile> SeasonProfile(string id,int? season,string phase,string? teamId,CancellationToken ct)
+    {
+        NflSeasonInsights.Phase(phase); var snapshot=await service.Season(season,ct);
+        var players=await service.Read<NflPlayer>(snapshot,"players",ct);
+        var player=players.SingleOrDefault(p=>p.PlayerId==id)??throw new NflDataException(404,"NFL player not found in this season.");
+        var team=string.IsNullOrEmpty(teamId)?null:(await Team(snapshot,teamId,ct)).TeamId;
+        return NflSeasonInsights.Profile(snapshot.Manifest.Season,player,await service.Read<NflTeam>(snapshot,"teams",ct),
+            await service.Read<NflGame>(snapshot,"games",ct),await service.Read<NflStat>(snapshot,"player_stats",ct),snapshot.Manifest.Coverage,phase,team);
+    }
+    [HttpGet("players/{id}/season-profile")]
+    public async Task<IActionResult> PlayerSeason(string id,int? season,string seasonType="REG",string? teamId=null,CancellationToken ct=default)
+        =>Ok(await SeasonProfile(id,season,seasonType,teamId,ct));
+    [HttpGet("players/{id}/season-log")]
+    public async Task<IActionResult> SeasonLog(string id,int? season,string seasonType="REG",string? teamId=null,int page=1,int pageSize=20,CancellationToken ct=default)
+    {
+        NflSeasonInsights.Phase(seasonType);Page(Array.Empty<int>(),page,pageSize);
+        var s=await service.Season(season,ct);var player=(await service.Read<NflPlayer>(s,"players",ct)).SingleOrDefault(p=>p.PlayerId==id)??throw new NflDataException(404,"NFL player not found.");
+        var team=string.IsNullOrEmpty(teamId)?null:(await Team(s,teamId,ct)).TeamId;
+        var games=await service.Read<NflGame>(s,"games",ct);var source=(await service.Read<NflStat>(s,"player_stats",ct)).Where(r=>r.PlayerId==id).ToArray();
+        _=NflLeaderboards.Calculate(source,games,[player],"passing",seasonType,"attempts",null,null,0);
+        var rows=source.Where(r=>r.SeasonType==seasonType&&(team==null||r.TeamId==team)).ToArray();var ids=rows.Select(r=>r.GameId).ToHashSet();
+        return Ok(Page(games.Where(g=>ids.Contains(g.GameId)&&g.Status=="final").OrderByDescending(g=>g.Week).ThenByDescending(g=>g.Date).ThenBy(g=>g.GameId)
+            .Select(g=>new{game=g,statistics=rows.Where(r=>r.GameId==g.GameId).ToArray()}),page,pageSize));
+    }
+    [HttpGet("teams/{id}/analytics")]
+    public async Task<IActionResult> TeamAnalytics(string id,int? season,string seasonType="REG",CancellationToken ct=default)
+    {
+        NflSeasonInsights.Phase(seasonType);var s=await service.Season(season,ct);var team=await Team(s,id,ct);
+        var rows=NflSeasonInsights.Teams(s.Manifest.Season,await service.Read<NflTeam>(s,"teams",ct),await service.Read<NflGame>(s,"games",ct),await service.Read<NflStat>(s,"team_stats",ct),seasonType);
+        return Ok(new{analytics=rows.Single(r=>r.Team.TeamId==team.TeamId),coverage=s.Manifest.Coverage,method=NflSeasonInsights.Method});
+    }
+    [HttpGet("analytics")]
+    public async Task<IActionResult> Analytics(int? season,string seasonType="REG",CancellationToken ct=default)
+    {
+        NflSeasonInsights.Phase(seasonType);var s=await service.Season(season,ct);
+        return Ok(new{season=s.Manifest.Season,seasonType,teams=NflSeasonInsights.Teams(s.Manifest.Season,await service.Read<NflTeam>(s,"teams",ct),
+            await service.Read<NflGame>(s,"games",ct),await service.Read<NflStat>(s,"team_stats",ct),seasonType),coverage=s.Manifest.Coverage,method=NflSeasonInsights.Method});
+    }
+    [HttpGet("compare")]
+    public async Task<IActionResult> Compare(string leftId,string rightId,int leftSeason,int rightSeason,string group="passing",string seasonType="REG",string? leftTeamId=null,string? rightTeamId=null,CancellationToken ct=default)
+    {
+        NflSeasonInsights.Group(group);var left=await SeasonProfile(leftId,leftSeason,seasonType,leftTeamId,ct);var right=await SeasonProfile(rightId,rightSeason,seasonType,rightTeamId,ct);
+        return Ok(new{group,seasonType,left,right,differences=NflSeasonInsights.Differences(left,right,group),method=NflSeasonInsights.Method});
+    }
+
 }

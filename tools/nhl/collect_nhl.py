@@ -42,6 +42,7 @@ def prepare(year,source):
    if r.get(side+'_team_id'):
     identity=tid(r[side+'_team_id']);abbr=r.get(side+'_team_abbr');abbr_ids.setdefault(abbr,set()).add(identity)
     teams.setdefault(identity,dict(id=identity,name=abbr,abbreviation=abbr))
+ team_names={identity:team['name'] for identity,team in teams.items()}
  for r in source['schedule']:
   gid=str(number(r.get('game_id')) or '');phase={'R':'Regular Season','P':'Playoffs','PR':'Preseason','A':'All-Star'}.get(str(r.get('game_type')))
   if not phase:issue('unsupported_game_type',gameId=gid,value=r.get('game_type'));continue
@@ -55,7 +56,7 @@ def prepare(year,source):
   if home==away:raise ValueError('Identical opponents')
   date=str(r.get('game_date'))[:10];datetime.strptime(date,'%Y-%m-%d')
   for side,t in [('home',home),('away',away)]:
-   name=r.get(side+'_team_name');suffix=teams[t]['name']
+   name=r.get(side+'_team_name');suffix=team_names[t]
    if name and suffix and not name.lower().endswith(suffix.lower()):teams[t]['name']=name+' '+suffix
   game=dict(id=gid,season=year,seasonType=phase,date=date,startTime=str(r.get('game_time') or ''),homeTeamId=home,awayTeamId=away,homeScore=number(r.get('home_score')),awayScore=number(r.get('away_score')),status=r.get('game_state'),completed=r.get('game_state') in ('OFF','FINAL'),venue=r.get('venue'),finish='Unknown')
   if gid in games and games[gid]!=game:raise ValueError('Conflicting schedule identities')

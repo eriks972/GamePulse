@@ -31,9 +31,9 @@ public class NbaJsonDataService
             throw new FileNotFoundException($"Could not find teams.json at {path}");
         }
 
-        var json = await File.ReadAllTextAsync(path);
+        await using var stream = File.OpenRead(path);
 
-        return JsonSerializer.Deserialize<List<Team>>(json, _jsonOptions) ?? [];
+        return await JsonSerializer.DeserializeAsync<List<Team>>(stream, _jsonOptions) ?? [];
     }
 
     public async Task<List<Player>> GetPlayersAsync(int? teamId = null)
@@ -45,9 +45,9 @@ public class NbaJsonDataService
             throw new FileNotFoundException($"Could not find players.json at {path}");
         }
 
-        var json = await File.ReadAllTextAsync(path);
+        await using var stream = File.OpenRead(path);
 
-        var players = JsonSerializer.Deserialize<List<Player>>(json, _jsonOptions) ?? [];
+        var players = await JsonSerializer.DeserializeAsync<List<Player>>(stream, _jsonOptions) ?? [];
 
         if (teamId.HasValue)
         {
@@ -87,9 +87,6 @@ public class NbaJsonDataService
         $"{selectedSeason}.json"
     );
 
-    Console.WriteLine($"GetGamesAsync using season file for season: {selectedSeason}");
-    Console.WriteLine($"Games file path: {path}");
-
     if (!File.Exists(path))
     {
         throw new FileNotFoundException($"Could not find games file at {path}");
@@ -118,10 +115,6 @@ public async Task<Game?> GetGameByIdAsync(string gameId)
 {
     var gamesBySeasonPath = Path.Combine(_processedDataPath, "games_by_season");
 
-    Console.WriteLine("========== GetGameByIdAsync ==========");
-    Console.WriteLine($"Searching for game ID: {gameId}");
-    Console.WriteLine($"Games by season path: {gamesBySeasonPath}");
-
     if (!Directory.Exists(gamesBySeasonPath))
     {
         throw new DirectoryNotFoundException(
@@ -134,11 +127,8 @@ public async Task<Game?> GetGameByIdAsync(string gameId)
         .OrderByDescending(file => Path.GetFileNameWithoutExtension(file))
         .ToList();
 
-    Console.WriteLine($"Season files found: {seasonFiles.Count}");
-
     foreach (var seasonFile in seasonFiles)
     {
-        Console.WriteLine($"Checking file: {seasonFile}");
 
         await using var stream = File.OpenRead(seasonFile);
 
@@ -164,14 +154,11 @@ public async Task<Game?> GetGameByIdAsync(string gameId)
                 || string.Equals(externalGameId, gameId, StringComparison.OrdinalIgnoreCase)
             )
             {
-                Console.WriteLine($"Found game {gameId} in {seasonFile}");
 
                 return element.Deserialize<Game>(_jsonOptions);
             }
         }
     }
-
-    Console.WriteLine($"Game not found: {gameId}");
 
     return null;
 }
@@ -184,9 +171,9 @@ public async Task<Game?> GetGameByIdAsync(string gameId)
             throw new FileNotFoundException($"Could not find seasons.json at {path}");
         }
 
-        var json = await File.ReadAllTextAsync(path);
+        await using var stream = File.OpenRead(path);
 
-        return JsonSerializer.Deserialize<List<string>>(json, _jsonOptions) ?? [];
+        return await JsonSerializer.DeserializeAsync<List<string>>(stream, _jsonOptions) ?? [];
     }
 
     public async Task<Dictionary<string, List<Team>>> GetStandingsBySeasonAsync()
@@ -198,9 +185,9 @@ public async Task<Game?> GetGameByIdAsync(string gameId)
             throw new FileNotFoundException($"Could not find standings_by_season.json at {path}");
         }
 
-        var json = await File.ReadAllTextAsync(path);
+        await using var stream = File.OpenRead(path);
 
-        return JsonSerializer.Deserialize<Dictionary<string, List<Team>>>(json, _jsonOptions)
+        return await JsonSerializer.DeserializeAsync<Dictionary<string, List<Team>>>(stream, _jsonOptions)
             ?? new Dictionary<string, List<Team>>();
     }
 
@@ -213,9 +200,9 @@ public async Task<Game?> GetGameByIdAsync(string gameId)
             throw new FileNotFoundException($"Could not find team_stats_by_season.json at {path}");
         }
 
-        var json = await File.ReadAllTextAsync(path);
+        await using var stream = File.OpenRead(path);
 
-        return JsonSerializer.Deserialize<Dictionary<string, List<TeamStats>>>(json, _jsonOptions)
+        return await JsonSerializer.DeserializeAsync<Dictionary<string, List<TeamStats>>>(stream, _jsonOptions)
             ?? new Dictionary<string, List<TeamStats>>();
     }
 
@@ -317,7 +304,6 @@ public async Task<List<LineScore>> GetLineScoresByGameIdAsync(string gameId)
 
     if (!Directory.Exists(lineScoresBySeasonPath))
     {
-        Console.WriteLine($"Line score folder not found: {lineScoresBySeasonPath}");
         return new List<LineScore>();
     }
 
@@ -345,12 +331,9 @@ public async Task<List<LineScore>> GetLineScoresByGameIdAsync(string gameId)
 
         if (gameLineScores.Any())
         {
-            Console.WriteLine($"Found line scores for game {gameId} in {seasonFile}");
             return gameLineScores;
         }
     }
-
-    Console.WriteLine($"No line scores found for game {gameId}");
 
     return new List<LineScore>();
 }
