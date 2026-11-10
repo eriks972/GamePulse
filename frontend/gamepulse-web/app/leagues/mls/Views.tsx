@@ -45,10 +45,51 @@ export async function MlsView({ view, query, id }: { view: string; query: Query;
       </section>
       <section className={`${panel} space-y-5`}><h2 className="text-2xl font-bold">Season schedule</h2><Games games={data.games.slice(0, 10)} data={data} href={href} /><Link href={href("schedule")} className={`${link} inline-block`}>Full season schedule →</Link></section>
     </>;
-    if (view === "teams") content = data.teams.length ? <Table headers={["Team", "Conference", "Venue"]} rows={data.teams.map(t => [teamLinks.get(t.id), t.conference, t.venue])} /> : <Empty subject="Teams" />;
-    if (view === "players") content = data.players.length ? <Table headers={["Player", "Team", "Position"]} rows={data.players.map(p => [playerLinks.get(p.id), teamLinks.get(p.teamId ?? ""), p.position])} /> : <Empty subject="Players" />;
+    if (view === "teams") content = data.teams.length ? <section aria-label="MLS teams" className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+      {data.teams.map(team => <Link key={team.id} href={href(`teams/${encodeURIComponent(team.id)}`)} aria-label={team.name} className={`${panel} transition hover:border-cyan-400 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-cyan-400`}>
+        <p className="text-sm text-cyan-400">{team.abbreviation || "MLS"}</p>
+        <h2 className="mt-3 break-words text-2xl font-black">{team.name}</h2>
+        <p className="mt-3 text-sm text-slate-400">{team.conference ? `${team.conference} Conference` : "Conference unavailable"}</p>
+        <p className="mt-4 font-semibold">{team.venue || "Stadium unavailable"}</p>
+      </Link>)}
+    </section> : <Empty subject="Teams" />;
+    if (view === "players") {
+      const search = value(query, "search") || "";
+      const teamId = value(query, "teamId") || "";
+      const players = data.players.filter(player => player.name.toLocaleLowerCase("en-US").includes(search.trim().toLocaleLowerCase("en-US")) && (!teamId || player.teamId === teamId)).sort((a, b) => a.name.localeCompare(b.name, "en-US"));
+      content = <>
+        <form key={`${selected}-${search}-${teamId}`} action="/leagues/mls/players" className={`${panel} flex flex-wrap items-end gap-4`}>
+          {selected && <input type="hidden" name="season" value={selected} />}
+          <label className="grid gap-2 text-sm text-slate-300">Player name<input className={input} name="search" type="search" placeholder="Search players" defaultValue={search} /></label>
+          <label className="grid gap-2 text-sm text-slate-300">Team<select className={input} name="teamId" defaultValue={teamId}><option value="">All teams</option>{[...data.teams].sort((a, b) => a.name.localeCompare(b.name, "en-US")).map(team => <option key={team.id} value={team.id}>{team.name}</option>)}</select></label>
+          <button className={button}>Apply filters</button>
+          <Link className={link} href={href("players")}>Reset</Link>
+        </form>
+        <section className={panel} aria-label="MLS players">
+          <p className="mb-5 text-sm text-slate-400">Browse imported season players. A roster entry alone does not prove a game appearance.</p>
+          {players.length ? <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">{players.map(player => <Link key={player.id} href={href(`players/${encodeURIComponent(player.id)}`)} aria-label={player.name} className="min-w-0 rounded-2xl border border-slate-800 bg-slate-950 p-5 transition hover:border-cyan-400 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-cyan-400">
+            <h2 className="break-words text-lg font-bold">{player.name}</h2>
+            <p className="mt-3 text-sm text-slate-400">{player.position || "Position unavailable"}</p>
+            <p className="mt-2 text-sm text-slate-400">{data.teams.find(team => team.id === player.teamId)?.name || "Team unavailable"}</p>
+          </Link>)}</div> : <p className="text-slate-400">{data.players.length ? "No players match these filters." : "Player data is unavailable for this season."}</p>}
+        </section>
+      </>;
+    }
     if (view === "schedule") content = <Games games={data.games} data={data} href={href} />;
-    if (view === "standings" || view === "analytics") content = !standings.some(s => s.played) ? <Empty subject={title} /> : <><p className="text-sm text-slate-400">Calculated from completed regular-season matches with available scores. Shootout matches are excluded because regulation scores are unavailable. Wins earn 3 points; draws earn 1. Sorted by points, goal difference, then goals scored. Official MLS tiebreakers and playoff seeding are not applied.</p><Table headers={["Team", "Conference", "Played", "W", "D", "L", "GF", "GA", "GD", "Points", ...(view === "analytics" ? ["Goals / match", "Points / match"] : [])]} rows={standings.map(s => [teamLinks.get(s.team.id), s.team.conference, s.played, s.wins, s.draws, s.losses, s.goalsFor, s.goalsAgainst, s.goalDifference, s.points, ...(view === "analytics" ? [s.played ? (s.goalsFor / s.played).toFixed(2) : "—", s.played ? (s.points / s.played).toFixed(2) : "—"] : [])])} /></>;
+    if (view === "standings") {
+      const conferences = ["Eastern", "Western", ...new Set(standings.map(row => row.team.conference || "Unassigned").filter(conference => !["Eastern", "Western"].includes(conference)))];
+      content = !standings.some(row => row.played) ? <Empty subject={title} /> : <>
+        <p className="text-sm text-slate-400">Calculated from completed regular-season matches with available scores. Shootout matches are excluded because regulation scores are unavailable. Wins earn 3 points; draws earn 1. Each conference is sorted by points, goal difference, then goals scored. Official MLS tiebreakers and playoff seeding are not applied.</p>
+        {conferences.map(conference => {
+          const rows = standings.filter(row => (row.team.conference || "Unassigned") === conference);
+          return rows.length > 0 && <section key={conference} aria-label={`${conference} Conference standings`} className={`${panel} space-y-5`}>
+            <h2 className="text-2xl font-bold">{conference === "Unassigned" ? "Conference unavailable" : `${conference} Conference`}</h2>
+            <Table headers={["Rank", "Team", "Played", "W", "D", "L", "GF", "GA", "GD", "Points"]} rows={rows.map((row, index) => [index + 1, teamLinks.get(row.team.id), row.played, row.wins, row.draws, row.losses, row.goalsFor, row.goalsAgainst, row.goalDifference, row.points])} />
+          </section>;
+        })}
+      </>;
+    }
+    if (view === "analytics") content = !standings.some(s => s.played) ? <Empty subject={title} /> : <><p className="text-sm text-slate-400">Calculated from completed regular-season matches with available scores. Shootout matches are excluded because regulation scores are unavailable. Wins earn 3 points; draws earn 1. Sorted by points, goal difference, then goals scored. Official MLS tiebreakers and playoff seeding are not applied.</p><Table headers={["Team", "Conference", "Played", "W", "D", "L", "GF", "GA", "GD", "Points", ...(view === "analytics" ? ["Goals / match", "Points / match"] : [])]} rows={standings.map(s => [teamLinks.get(s.team.id), s.team.conference, s.played, s.wins, s.draws, s.losses, s.goalsFor, s.goalsAgainst, s.goalDifference, s.points, ...(view === "analytics" ? [s.played ? (s.goalsFor / s.played).toFixed(2) : "—", s.played ? (s.points / s.played).toFixed(2) : "—"] : [])])} /></>;
     if (view === "team-stats") content = <Stats rows={teamStats} names={teamLinks} />;
     if (view === "player-stats") content = <Stats rows={playerStats} names={playerLinks} />;
     if (view === "team") {
@@ -77,6 +118,7 @@ export async function MlsView({ view, query, id }: { view: string; query: Query;
         {sections.map(([path, label]) => <Link key={path} href={href(path)} aria-current={path === view ? "page" : undefined} className={link}>{label}</Link>)}
       </nav>
       {seasons.length > 0 && <form key={selected} className="mt-6 flex flex-wrap items-end gap-3">
+        {view === "players" && ["search", "teamId"].map(key => value(query, key) && <input key={key} type="hidden" name={key} value={value(query, key)} />)}
         {view === "compare" && ["kind", "left", "right"].map(key => value(query, key) && <input key={key} type="hidden" name={key} value={value(query, key)} />)}
         <label className="grid gap-2 text-sm">Season<select name="season" defaultValue={selected} className={input}>{season && !seasons.includes(Number(season)) && <option value={season}>{season} (unavailable)</option>}{seasons.map(s => <option key={s} value={s}>{s}</option>)}</select></label>
         <button className={button}>Load season</button>

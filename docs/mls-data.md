@@ -93,3 +93,15 @@ For read-only HTTP checks against a running backend with at least one imported s
 ```sh
 GAMEPULSE_API_BASE_URL=http://localhost:5241 python3 verification/mls/check_api.py
 ```
+
+## Conference assignments
+
+The 2024–2026 imports store `Eastern` or `Western` on every club. Assignments follow the [official MLS conference list](https://www.mlssoccer.com/news/2026-mls-competition-guidelines); San Diego appears in the Western Conference starting in 2025. Standings display separate conference tables with ranks restarting at 1; calculated records retain the score exclusions and ordering described above.
+
+## Stadium assignments
+
+Club `venue` fields use the primary stadiums in [Wikipedia’s MLS stadium list](https://en.wikipedia.org/wiki/List_of_Major_League_Soccer_stadiums), with season-specific names for 2024–2026. These are club home venues, not the actual venue of every match (including alternate grounds).
+
+Historical exceptions: Miami uses Chase Stadium in 2024–2025 and Nu Stadium in 2026; Columbus uses Lower.com Field through 2025 and ScottsMiracle-Gro Field in 2026; Sporting Kansas City uses Children’s Mercy Park through 2025 and Sporting Park in 2026. St. Louis uses CITYPARK in 2024 and Energizer Park from 2025; New York uses Red Bull Arena in 2024 and Sports Illustrated Stadium from 2025.
+
+Naming changes were cross-checked against announcements for [Columbus](https://www.mlssoccer.com/news/columbus-crew-stadium-renamed-scottsmiracle-gro-field), [Miami](https://www.intermiamicf.com/news/the-heartbeat-of-miami-comes-alive-introducing-nu-stadium-inter-miami-cf-s-new-world-class-home), [St. Louis](https://www.mlssoccer.com/news/st-louis-city-sc-stadium-renamed-energizer-park), [New York](https://www.newyorkredbulls.com/news/new-york-red-bulls-first-match-at-sports-illustrated-stadium-features-new-fan-experiences-for-2025-season), and [Orlando](https://www.orlandocitysc.com/news/inter-co-bring-more-than-just-name-to-soccer-side-of-orlando).
