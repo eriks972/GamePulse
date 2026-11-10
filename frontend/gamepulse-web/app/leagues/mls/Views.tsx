@@ -3,12 +3,14 @@ import { getMlsSeason, mlsStandings, type MlsGame, type MlsSeason, type MlsStat 
 
 export type Query = Record<string, string | string[] | undefined>;
 const value = (query: Query, key: string) => typeof query[key] === "string" ? query[key] as string : undefined;
-const sections = [ ["", "Overview"], ["teams", "Teams"], ["players", "Players"], ["schedule", "Schedule"], ["standings", "Standings"], ["team-stats", "Team Stats"], ["player-stats", "Player Stats"], ["compare", "Compare"], ["analytics", "Analytics"] ];
-const panel = "rounded-2xl border border-slate-800 bg-slate-900/60 p-6";
-const input = "rounded-lg border border-slate-700 bg-slate-950 px-3 py-2 text-white";
+const sections = [ ["", "Overview"], ["teams", "Teams"], ["players", "Players"], ["schedule", "Schedule"], ["standings", "Standings"], ["team-stats", "Team Stats"], ["player-stats", "Player Stats"], ["analytics", "Analytics"], ["compare", "Compare"] ];
+const panel = "min-w-0 rounded-3xl border border-slate-800 bg-slate-900 p-5 sm:p-6";
+const input = "min-w-0 max-w-full rounded-xl border border-slate-700 bg-slate-950 px-3 py-2 text-white";
+const link = "font-semibold text-cyan-300 hover:underline";
+const button = "rounded-xl bg-cyan-400 px-5 py-2 font-bold text-slate-950 hover:bg-cyan-300";
 function Empty({ subject = "MLS" }: { subject?: string }) { return <div className={panel} role="status"><h2 className="text-xl font-bold">Data unavailable</h2><p className="mt-2 text-slate-400">{subject} data is unavailable for this season. Check back when coverage is available.</p></div>; }
 function Table({ headers, rows }: { headers: string[]; rows: React.ReactNode[][] }) {
-  return <div className="overflow-x-auto rounded-2xl border border-slate-800"><table className="w-full whitespace-nowrap text-left text-sm"><thead className="bg-slate-900 text-slate-400"><tr>{headers.map(h => <th key={h} scope="col" className="px-5 py-4">{h}</th>)}</tr></thead><tbody>{rows.map((row, i) => <tr key={i} className="border-t border-slate-800">{row.map((cell, j) => <td key={j} className="px-5 py-4">{cell ?? "—"}</td>)}</tr>)}</tbody></table></div>;
+  return <div className="max-w-full overflow-x-auto rounded-3xl border border-slate-800 bg-slate-900"><table className="w-full whitespace-nowrap text-left text-sm"><thead className="bg-slate-900 text-slate-400"><tr>{headers.map(h => <th key={h} scope="col" className="px-5 py-4">{h}</th>)}</tr></thead><tbody>{rows.map((row, i) => <tr key={i} className="border-t border-slate-800 hover:bg-slate-800/40">{row.map((cell, j) => <td key={j} className="px-5 py-4">{cell ?? "—"}</td>)}</tr>)}</tbody></table></div>;
 }
 function Stats({ rows, names }: { rows: MlsStat[]; names: Map<string, React.ReactNode> }) {
   if (!rows.length) return <Empty subject="Statistics" />;
@@ -19,22 +21,30 @@ function Stats({ rows, names }: { rows: MlsStat[]; names: Map<string, React.Reac
 function Games({ games, data, href }: { games: MlsGame[]; data: MlsSeason; href: (path: string) => string }) {
   const name = (id: string) => data.teams.find(t => t.id === id)?.name ?? id;
   if (!games.length) return <Empty subject="Schedule" />;
-  return <Table headers={["Date", "Match", "Score", "Status"]} rows={[...games].sort((a,b) => a.date.localeCompare(b.date)).map(g => [g.date, <Link key={g.id} className="text-blue-300" href={href(`game/${encodeURIComponent(g.id)}`)}>{name(g.awayTeamId)} at {name(g.homeTeamId)}</Link>, g.homeScore == null || g.awayScore == null ? "—" : `${g.awayScore} – ${g.homeScore}`, g.status || (g.completed ? "Final" : "Scheduled")])} />;
+  return <Table headers={["Date", "Match", "Score", "Status"]} rows={[...games].sort((a,b) => a.date.localeCompare(b.date)).map(g => [g.date, <Link key={g.id} className={link} href={href(`game/${encodeURIComponent(g.id)}`)}>{name(g.awayTeamId)} at {name(g.homeTeamId)}</Link>, g.homeScore == null || g.awayScore == null ? "—" : `${g.awayScore} – ${g.homeScore}`, g.status || (g.completed ? "Final" : "Scheduled")])} />;
 }
 export async function MlsView({ view, query, id }: { view: string; query: Query; id?: string }) {
   const season = value(query, "season");
   const { seasons, data } = await getMlsSeason(season);
   const selected = season ?? data?.season.toString();
   const href = (path: string) => `/leagues/mls${path ? `/${path}` : ""}${selected ? `?season=${encodeURIComponent(selected)}` : ""}`;
-  const teamLinks = new Map(data?.teams.map(t => [t.id, <Link key={t.id} className="text-blue-300" href={href(`teams/${encodeURIComponent(t.id)}`)}>{t.name}</Link>]));
-  const playerLinks = new Map(data?.players.map(p => [p.id, <Link key={p.id} className="text-blue-300" href={href(`players/${encodeURIComponent(p.id)}`)}>{p.name}</Link>]));
+  const teamLinks = new Map(data?.teams.map(t => [t.id, <Link key={t.id} className={link} href={href(`teams/${encodeURIComponent(t.id)}`)}>{t.name}</Link>]));
+  const playerLinks = new Map(data?.players.map(p => [p.id, <Link key={p.id} className={link} href={href(`players/${encodeURIComponent(p.id)}`)}>{p.name}</Link>]));
   const title = sections.find(s => s[0] === view)?.[1] ?? (view === "team" ? "Team Profile" : view === "player" ? "Player Profile" : "Match Details");
   let content: React.ReactNode = <Empty />;
   if (data) {
     const standings = mlsStandings(data);
     const teamStats = data.teamStats.filter(s => !s.seasonType || s.seasonType === "Regular Season");
     const playerStats = data.playerStats.filter(s => !s.seasonType || s.seasonType === "Regular Season");
-    if (view === "") content = <><div className="grid gap-4 sm:grid-cols-3">{[["Teams", data.teams.length], ["Players", data.players.length], ["Matches", data.games.length]].map(([label, count]) => <div key={label} className={panel}><p className="text-slate-400">{label}</p><p className="mt-2 text-3xl font-black">{count}</p></div>)}</div><h2 className="text-xl font-bold">Season schedule</h2><Games games={data.games.slice(0, 10)} data={data} href={href} /></>;
+    if (view === "") content = <>
+      <section className="grid gap-4 sm:grid-cols-3">
+        {[["Teams", data.teams.length], ["Players", data.players.length], ["Matches", data.games.length]].map(([label, count]) => <div key={label} className={panel}><p className="text-sm text-slate-400">{label}</p><p className="mt-3 text-3xl font-black">{Number(count).toLocaleString("en-US")}</p></div>)}
+      </section>
+      <section className="grid gap-4 sm:grid-cols-2">
+        {[["players", "Player season profiles"], ["player-stats", "Player season statistics"], ["analytics", "Team season analytics"], ["compare", "Compare teams & players"]].map(([path, label]) => <Link key={path} href={href(path)} className={`${panel} transition hover:border-cyan-400`}><h2 className="text-xl font-bold">{label} →</h2></Link>)}
+      </section>
+      <section className={`${panel} space-y-5`}><h2 className="text-2xl font-bold">Season schedule</h2><Games games={data.games.slice(0, 10)} data={data} href={href} /><Link href={href("schedule")} className={`${link} inline-block`}>Full season schedule →</Link></section>
+    </>;
     if (view === "teams") content = data.teams.length ? <Table headers={["Team", "Conference", "Venue"]} rows={data.teams.map(t => [teamLinks.get(t.id), t.conference, t.venue])} /> : <Empty subject="Teams" />;
     if (view === "players") content = data.players.length ? <Table headers={["Player", "Team", "Position"]} rows={data.players.map(p => [playerLinks.get(p.id), teamLinks.get(p.teamId ?? ""), p.position])} /> : <Empty subject="Players" />;
     if (view === "schedule") content = <Games games={data.games} data={data} href={href} />;
@@ -55,8 +65,23 @@ export async function MlsView({ view, query, id }: { view: string; query: Query;
       const entities = kind === "teams" ? data.teams : data.players;
       const left = value(query, "left"), right = value(query, "right");
       const rows = (kind === "teams" ? teamStats : playerStats).filter(s => s.id === left || s.id === right);
-      content = <><form className={`${panel} flex flex-wrap items-end gap-4`}><input type="hidden" name="season" value={selected ?? ""} /><label className="grid gap-2">Compare<select name="kind" defaultValue={kind} className={input}><option value="teams">Teams</option><option value="players">Players</option></select></label>{["left", "right"].map(key => <label key={key} className="grid gap-2">{key === "left" ? "First" : "Second"}<select name={key} defaultValue={value(query, key) ?? ""} className={input}><option value="">Select an entry</option>{entities.map(e => <option key={e.id} value={e.id}>{e.name}</option>)}</select></label>)}<button className="rounded-lg bg-blue-600 px-4 py-2 font-semibold">Compare</button></form><p className="text-sm text-slate-400">Choose Teams or Players and submit to load that list, then select two entries.</p>{left && right && left !== right ? <Stats rows={rows} names={kind === "teams" ? teamLinks : playerLinks} /> : <p className="text-slate-400">Select two different entries to compare their season statistics.</p>}</>;
+      content = <><form className={`${panel} flex flex-wrap items-end gap-4`}><input type="hidden" name="season" value={selected ?? ""} /><label className="grid gap-2">Compare<select name="kind" defaultValue={kind} className={input}><option value="teams">Teams</option><option value="players">Players</option></select></label>{["left", "right"].map(key => <label key={key} className="grid gap-2">{key === "left" ? "First" : "Second"}<select name={key} defaultValue={value(query, key) ?? ""} className={input}><option value="">Select an entry</option>{entities.map(e => <option key={e.id} value={e.id}>{e.name}</option>)}</select></label>)}<button className={button}>Compare</button></form><p className="text-sm text-slate-400">Choose Teams or Players and submit to load that list, then select two entries.</p>{left && right && left !== right ? <Stats rows={rows} names={kind === "teams" ? teamLinks : playerLinks} /> : <p className="text-slate-400">Select two different entries to compare their season statistics.</p>}</>;
     }
   }
-  return <main className="mx-auto max-w-6xl space-y-6 px-6 py-10"><div><Link href="/leagues" className="text-sm text-blue-300">← All leagues</Link><p className="mt-6 text-sm font-semibold uppercase tracking-widest text-blue-400">Major League Soccer</p><h1 className="mt-2 text-4xl font-black">MLS {title}</h1><p className="mt-3 text-slate-400">Explore teams, players, match results, and season performance.</p></div><nav aria-label="MLS sections" className="flex flex-wrap gap-2">{sections.map(([path, label]) => <Link key={path} href={href(path)} aria-current={path === view ? "page" : undefined} className="rounded-full border border-slate-700 px-4 py-2 text-sm text-slate-300 hover:border-blue-400 aria-[current=page]:border-blue-400 aria-[current=page]:text-blue-300">{label}</Link>)}</nav>{seasons.length > 0 && <form className="flex items-end gap-3"><label className="grid gap-2 text-sm">Season<select name="season" defaultValue={selected} className={input}>{season && !seasons.includes(Number(season)) && <option value={season}>{season} (unavailable)</option>}{seasons.map(s => <option key={s} value={s}>{s}</option>)}</select></label><button className="rounded-lg bg-blue-600 px-4 py-2">Apply</button></form>}{content}</main>;
+  return <main className="mx-auto min-h-screen max-w-6xl space-y-7 px-5 py-10">
+    <section className={`${panel} bg-linear-to-br from-slate-900 to-cyan-950/40`}>
+      <Link href="/leagues" className={link}>← All leagues</Link>
+      <p className="mt-5 text-xs font-bold uppercase tracking-[0.2em] text-cyan-400 sm:text-sm">GamePulse MLS{selected ? ` · ${selected}` : ""}</p>
+      <h1 className="mt-3 text-4xl font-black">MLS {view === "" ? "Dashboard" : title}</h1>
+      <nav aria-label="MLS sections" className="mt-6 flex flex-wrap gap-4">
+        {sections.map(([path, label]) => <Link key={path} href={href(path)} aria-current={path === view ? "page" : undefined} className={link}>{label}</Link>)}
+      </nav>
+      {seasons.length > 0 && <form key={selected} className="mt-6 flex flex-wrap items-end gap-3">
+        {view === "compare" && ["kind", "left", "right"].map(key => value(query, key) && <input key={key} type="hidden" name={key} value={value(query, key)} />)}
+        <label className="grid gap-2 text-sm">Season<select name="season" defaultValue={selected} className={input}>{season && !seasons.includes(Number(season)) && <option value={season}>{season} (unavailable)</option>}{seasons.map(s => <option key={s} value={s}>{s}</option>)}</select></label>
+        <button className={button}>Load season</button>
+      </form>}
+    </section>
+    {content}
+  </main>;
 }

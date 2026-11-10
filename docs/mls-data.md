@@ -30,6 +30,8 @@ The following is a **schema example**, not real MLS data. Use real imported iden
 }
 ```
 
+Exclude `TBD Home`, `TBD Away`, `Liga MX All-Stars`, and `MLS All-Stars` from MLS season imports, together with their matches, statistics, and players listed only for those teams. Preserve players with MLS club affiliations and remove excluded team references from their history.
+
 IDs must be unique within each collection and stable for links. Game team IDs, player team IDs, and stat IDs must reference their corresponding entities. Statistics contain one season aggregate per team/player and phase; use consistent metric names and units across records. Season types default to `Regular Season`; use a different value for playoffs or other competitions. Only completed regular-season games with both scores and without a shootout contribute to calculated standings. Analytics use the requested phase and the same score exclusions. Those tables use 3 points for a win and 1 for a draw; their display order is not official MLS playoff seeding.
 
 Available pages: overview, teams and team profiles, players and player profiles, schedule and match details, standings, team stats, player stats, compare, and analytics. Partial imports work: teams can be visible while statistics remain unavailable. Comparisons display imported season aggregates side by side.
