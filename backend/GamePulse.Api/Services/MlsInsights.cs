@@ -4,7 +4,7 @@ namespace GamePulse.Api.Services;
 
 public static class MlsInsights
 {
-    public const string Method = "Calculated from imported completed matches with both scores. Shootout matches are excluded because regulation scores are not identified. Regular-season wins earn 3 points and draws 1; sorted by points, goal difference, then goals scored. Not official MLS tiebreakers or playoff seeding. Imported statistics are season aggregates, not inferred match or player appearances. Missing observations remain unknown.";
+    public const string Method = "Calculated from imported completed matches with known scores. Verified 1996–1999 shootouts retain tied field scores, award the winner one point and the loser zero. Other unresolved shootouts remain excluded. Other regular-season wins earn 3 points and draws 1; sorted by points, goal difference, then goals scored. Not official MLS tiebreakers or playoff seeding. Imported statistics are season aggregates, not inferred match or player appearances. Missing observations remain unknown.";
     public sealed record Record(int ScheduledGames, int CompletedGames, int Games, int MissingScoreGames, int ExcludedShootoutGames,
         int Wins, int Draws, int Losses, int? Points, int? GoalsFor, int? GoalsAgainst, int? GoalDifference, double? GoalsPerGame, double? PointsPerGame);
     public sealed record Standing(MlsTeam Team, Record Record);
@@ -15,21 +15,29 @@ public static class MlsInsights
             throw new MlsDataException(400, "Unknown MLS season type.");
         return phase;
     }
+    private static bool ResolvedHistoricalShootout(MlsGame g) => g.Shootout && g.ShootoutWinPoints == 1 &&
+        g.HomeScore.HasValue && g.HomeScore == g.AwayScore &&
+        (g.ShootoutWinnerTeamId == g.HomeTeamId || g.ShootoutWinnerTeamId == g.AwayTeamId);
     public static Record Scores(IEnumerable<MlsGame> source, string teamId, string phase)
     {
         var all = source.Where(g => g.SeasonType == phase && (g.HomeTeamId == teamId || g.AwayTeamId == teamId)).ToArray();
         var finals = all.Where(g => g.Completed).ToArray();
-        var scored = finals.Where(g => !g.Shootout && g.HomeScore.HasValue && g.AwayScore.HasValue).ToArray();
-        int wins = 0, draws = 0, losses = 0, goalsFor = 0, goalsAgainst = 0;
+        var scored = finals.Where(g => (!g.Shootout || ResolvedHistoricalShootout(g)) && g.HomeScore.HasValue && g.AwayScore.HasValue).ToArray();
+        int wins = 0, draws = 0, losses = 0, goalsFor = 0, goalsAgainst = 0, earnedPoints = 0;
         foreach (var g in scored)
         {
             var own = (g.HomeTeamId == teamId ? g.HomeScore : g.AwayScore)!.Value;
             var other = (g.HomeTeamId == teamId ? g.AwayScore : g.HomeScore)!.Value;
             goalsFor += own; goalsAgainst += other;
-            if (own > other) wins++; else if (own == other) draws++; else losses++;
+            if (g.Shootout)
+            {
+                if (g.ShootoutWinnerTeamId == teamId) { wins++; earnedPoints++; } else losses++;
+            }
+            else if (own > other) { wins++; earnedPoints += 3; }
+            else if (own == other) { draws++; earnedPoints++; } else losses++;
         }
-        int? points = phase == "Regular Season" && scored.Length > 0 ? wins * 3 + draws : null;
-        return new(all.Length, finals.Length, scored.Length, finals.Count(g => !g.HomeScore.HasValue || !g.AwayScore.HasValue), finals.Count(g => g.Shootout),
+        int? points = phase == "Regular Season" && scored.Length > 0 ? earnedPoints : null;
+        return new(all.Length, finals.Length, scored.Length, finals.Count(g => !g.HomeScore.HasValue || !g.AwayScore.HasValue), finals.Count(g => g.Shootout && !ResolvedHistoricalShootout(g)),
             wins, draws, losses, points, scored.Length > 0 ? goalsFor : null, scored.Length > 0 ? goalsAgainst : null,
             scored.Length > 0 ? goalsFor - goalsAgainst : null, scored.Length > 0 ? (double)goalsFor / scored.Length : null,
             points.HasValue ? (double)points / scored.Length : null);
@@ -57,3 +65,4 @@ public static class MlsInsights
         statistics = data.TeamStats.SingleOrDefault(s => s.Id == team.Id && s.SeasonType == phase),
     };
 }
+

@@ -12,6 +12,7 @@ type ScheduleClientProps = {
 
 function formatGameDate(date: string) {
   return new Intl.DateTimeFormat("en-US", {
+    timeZone: "UTC",
     weekday: "short",
     month: "short",
     day: "numeric",
@@ -25,11 +26,16 @@ export default function ScheduleClient({
   selectedSeason,
 }: ScheduleClientProps) {
   const [searchTerm, setSearchTerm] = useState("");
+  const [gameDate, setGameDate] = useState("");
+  const [team, setTeam] = useState("");
+  const teams = useMemo(() => [...new Set(games.flatMap(game => [game.homeTeamName, game.awayTeamName]))].sort(), [games]);
 
   const filteredGames = useMemo(() => {
     const normalizedSearch = searchTerm.toLowerCase().trim();
 
     return games.filter((game) => {
+      if (gameDate && game.gameDate.slice(0, 10) !== gameDate) return false;
+      if (team && game.homeTeamName !== team && game.awayTeamName !== team) return false;
       if (!normalizedSearch) return true;
 
       return (
@@ -39,7 +45,7 @@ export default function ScheduleClient({
         game.awayTeamAbbreviation.toLowerCase().includes(normalizedSearch)
       );
     });
-  }, [games, searchTerm]);
+  }, [games, searchTerm, gameDate, team]);
 
   const visibleGames = filteredGames.slice(0, 50);
 
@@ -102,7 +108,7 @@ export default function ScheduleClient({
         </div>
 
         <div className="mt-8 rounded-3xl border border-slate-800 bg-slate-900 p-5 shadow-xl">
-          <div className="grid gap-4 lg:grid-cols-[1fr_auto] lg:items-center">
+          <div className="grid gap-4 lg:grid-cols-4 lg:items-center">
             <div>
               <label htmlFor="gameSearch" className="sr-only">
                 Search games
@@ -118,13 +124,15 @@ export default function ScheduleClient({
               />
             </div>
 
-            {(searchTerm || filteredGames.length !== games.length) && (
+            <label className="grid gap-2 text-sm text-slate-300">Team<select className="min-w-0 rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3" value={team} onChange={event => setTeam(event.target.value)}><option value="">All teams</option>{teams.map(name => <option key={name} value={name}>{name}</option>)}</select></label>
+            <label className="grid gap-2 text-sm text-slate-300">Game date<input type="date" className="min-w-0 rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3" value={gameDate} onChange={event => setGameDate(event.target.value)} /></label>
+            {(searchTerm || team || gameDate) && (
               <button
                 type="button"
-                onClick={() => setSearchTerm("")}
+                onClick={() => { setSearchTerm(""); setTeam(""); setGameDate(""); }}
                 className="rounded-full border border-blue-500/40 px-5 py-2 text-sm font-semibold text-blue-300 transition hover:bg-blue-500/10"
               >
-                Clear Search
+                Reset filters
               </button>
             )}
           </div>
@@ -240,7 +248,7 @@ export default function ScheduleClient({
             <div className="mt-6 rounded-3xl border border-slate-800 bg-slate-950 p-10 text-center">
               <h3 className="text-2xl font-bold">No games found</h3>
               <p className="mt-3 text-slate-400">
-                Try a different season or search term.
+                Try a different season, team, date, or search term.
               </p>
             </div>
           )}

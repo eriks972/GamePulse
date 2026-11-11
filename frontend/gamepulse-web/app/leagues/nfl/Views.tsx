@@ -99,7 +99,7 @@ async function Content({ view, season, query, id, report, teams }: { view: View;
       const d = await nfl<NflPage<NflPlayer>>("players", { season, search: q.search, teamId: q.teamId, position: q.position, page: q.page });
       return <>{filter}<section className={panel}><p className="mb-5 text-sm leading-6 text-slate-400">Season identities include roster associations. A roster listing alone does not prove a game appearance or current team membership.</p><PlayerCards players={d.items} season={season} /><Pager data={d} path={view} query={q} /></section></>;
     }
-    const d = await nfl<NflPage<NflGame>>("games", { season, seasonType: q.seasonType, week: q.week, teamId: q.teamId, status: q.status, page: q.page });
+    const d = await nfl<NflPage<NflGame>>("games", { season, seasonType: q.seasonType, week: q.week, teamId: q.teamId, date: q.date, status: q.status, page: q.page });
     return <>{filter}<section className={panel}><GameCards games={d.items} teams={teams} season={season} /><Pager data={d} path={view} query={q} /></section></>;
   }
   if (view === "standings") {

@@ -73,6 +73,13 @@ public sealed class MlsDataService(IHostEnvironment environment, IConfiguration 
             if (!teams.Contains(game.HomeTeamId) || !teams.Contains(game.AwayTeamId) || game.HomeTeamId == game.AwayTeamId ||
                 game.HomeScore < 0 || game.AwayScore < 0 || string.IsNullOrWhiteSpace(game.SeasonType))
                 throw new JsonException("Invalid MLS match");
+            if (game.ShootoutWinnerTeamId is not null &&
+                (!game.Shootout || !game.HomeScore.HasValue || game.HomeScore != game.AwayScore ||
+                 game.ShootoutWinnerTeamId != game.HomeTeamId && game.ShootoutWinnerTeamId != game.AwayTeamId))
+                throw new JsonException("Invalid MLS shootout winner");
+            if (game.ShootoutWinPoints is not null &&
+                (year is < 1996 or > 1999 || game.ShootoutWinPoints != 1 || !game.Shootout || game.ShootoutWinnerTeamId is null))
+                throw new JsonException("Invalid historical MLS shootout points");
             // Existing imports use both YYYY-MM-DD and ISO timestamps.
             if (DateOnly.TryParseExact(game.Date, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out _)) continue;
             if (game.Date is null || !game.Date.Contains('T') || !DateTimeOffset.TryParse(game.Date, CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal, out var date))
@@ -103,3 +110,4 @@ public sealed class MlsDataService(IHostEnvironment environment, IConfiguration 
         GameStats(data.GamePlayerStats, true);
     }
 }
+

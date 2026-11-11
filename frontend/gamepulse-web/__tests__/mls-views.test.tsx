@@ -47,3 +47,31 @@ test("player cards combine name and team filters and preserve season links", asy
   expect(screen.getByRole("link", { name: "Reset" })).toHaveAttribute("href", "/leagues/mls/players?season=2026");
   expect(screen.getByText("Forward")).toBeInTheDocument();
 });
+
+test.each([['a', '2026-03-01', 1], ['b', '', 2], ['', '2026-03-02', 1], ['a', '2026-03-02', 0]])("schedule filters team %s and date %s", async (teamId, date, count) => {
+  (getMlsSeason as jest.Mock).mockResolvedValue({ seasons: [2026], data: {
+    season: 2026, teams: [{ id: "a", name: "Club A" }, { id: "b", name: "Club B" }, { id: "c", name: "Club C" }], players: [], teamStats: [], playerStats: [],
+    games: [{ id: "one", date: "2026-03-01", homeTeamId: "a", awayTeamId: "b" }, { id: "two", date: "2026-03-02", homeTeamId: "b", awayTeamId: "c" }],
+  } });
+  render(await MlsView({ view: "schedule", query: { season: "2026", teamId, date } }));
+  const results = within(screen.getByRole("region", { name: "MLS schedule results" }));
+  expect(results.queryAllByRole("link")).toHaveLength(count);
+  expect(screen.getByRole("link", { name: "Reset" })).toHaveAttribute("href", "/leagues/mls/schedule?season=2026");
+  if (!count) expect(results.getByText("No matches found for this selection.")).toBeInTheDocument();
+});
+
+test.each([[undefined, 25, 'Player 0', 'Player 25'], ['2', 1, 'Player 25', 'Player 0'], ['999', 1, 'Player 25', 'Player 0'], ['bad', 25, 'Player 0', 'Player 25']])('player stats paginate page %s', async (page, count, visible, hidden) => {
+  const players = Array.from({ length: 26 }, (_, i) => ({ id: `p${i}`, name: `Player ${i}` }));
+  (getMlsSeason as jest.Mock).mockResolvedValue({ seasons: [2026], data: {
+    season: 2026, teams: [], players, games: [], teamStats: [],
+    playerStats: players.map((player, i) => ({ id: player.id, statistics: i === 25 ? { saves: 3 } : { goals: i } })),
+  } });
+  render(await MlsView({ view: 'player-stats', query: { season: '2026', page } }));
+  expect(screen.getAllByRole('row')).toHaveLength(count + 1);
+  expect(screen.getByRole('link', { name: visible })).toBeInTheDocument();
+  expect(screen.queryByRole('link', { name: hidden })).not.toBeInTheDocument();
+  expect(screen.getByRole('columnheader', { name: 'Saves' })).toBeInTheDocument();
+  expect(screen.getByRole('columnheader', { name: 'Goals' })).toBeInTheDocument();
+  const target = visible === 'Player 0' ? '2' : '1';
+  expect(screen.getAllByRole('link', { name: visible === 'Player 0' ? 'Next →' : '← Previous' })[0]).toHaveAttribute('href', `/leagues/mls/player-stats?season=2026&page=${target}`);
+});

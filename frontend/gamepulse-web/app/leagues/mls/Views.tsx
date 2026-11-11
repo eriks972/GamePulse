@@ -12,9 +12,9 @@ function Empty({ subject = "MLS" }: { subject?: string }) { return <div classNam
 function Table({ headers, rows }: { headers: string[]; rows: React.ReactNode[][] }) {
   return <div className="max-w-full overflow-x-auto rounded-3xl border border-slate-800 bg-slate-900"><table className="w-full whitespace-nowrap text-left text-sm"><thead className="bg-slate-900 text-slate-400"><tr>{headers.map(h => <th key={h} scope="col" className="px-5 py-4">{h}</th>)}</tr></thead><tbody>{rows.map((row, i) => <tr key={i} className="border-t border-slate-800 hover:bg-slate-800/40">{row.map((cell, j) => <td key={j} className="px-5 py-4">{cell ?? "—"}</td>)}</tr>)}</tbody></table></div>;
 }
-function Stats({ rows, names }: { rows: MlsStat[]; names: Map<string, React.ReactNode> }) {
+function Stats({ rows, names, statisticKeys }: { rows: MlsStat[]; names: Map<string, React.ReactNode>; statisticKeys?: string[] }) {
   if (!rows.length) return <Empty subject="Statistics" />;
-  const keys = [...new Set(rows.flatMap(row => Object.keys(row.statistics)))];
+  const keys = statisticKeys ?? [...new Set(rows.flatMap(row => Object.keys(row.statistics)))];
   if (!keys.length) return <Empty subject="Statistics" />;
   return <Table headers={["Name", ...keys.map(key => key.replace(/([A-Z])/g, " $1").replace(/^./, c => c.toUpperCase()))]} rows={rows.map(row => [names.get(row.id) ?? row.id, ...keys.map(key => row.statistics[key] == null ? "—" : new Intl.NumberFormat("en-US", { maximumFractionDigits: 2 }).format(row.statistics[key]!))])} />;
 }
@@ -75,7 +75,20 @@ export async function MlsView({ view, query, id }: { view: string; query: Query;
         </section>
       </>;
     }
-    if (view === "schedule") content = <Games games={data.games} data={data} href={href} />;
+    if (view === "schedule") {
+      const teamId = value(query, "teamId") || "";
+      const date = value(query, "date") || "";
+      const games = data.games.filter(game => (!teamId || game.homeTeamId === teamId || game.awayTeamId === teamId) && (!date || game.date.slice(0, 10) === date));
+      content = <>
+        <form key={`${selected}-${teamId}-${date}`} action="/leagues/mls/schedule" className={`${panel} flex flex-wrap items-end gap-4`}>
+          {selected && <input type="hidden" name="season" value={selected} />}
+          <label className="grid min-w-0 gap-2 text-sm text-slate-300">Team<select name="teamId" className={input} defaultValue={teamId}><option value="">All teams</option>{[...data.teams].sort((a, b) => a.name.localeCompare(b.name, "en-US")).map(team => <option key={team.id} value={team.id}>{team.name}</option>)}</select></label>
+          <label className="grid gap-2 text-sm text-slate-300">Game date<input name="date" type="date" className={input} defaultValue={date} /></label>
+          <button className={button}>Apply filters</button><Link href={href("schedule")} className={link}>Reset</Link>
+        </form>
+        <section className={`${panel} space-y-5`} aria-label="MLS schedule results"><p className="text-sm text-slate-400">{games.length} matches</p>{games.length ? <Games games={games} data={data} href={href} /> : <p className="text-slate-400">No matches found for this selection.</p>}</section>
+      </>;
+    }
     if (view === "standings") {
       const conferences = ["Eastern", "Western", ...new Set(standings.map(row => row.team.conference || "Unassigned").filter(conference => !["Eastern", "Western"].includes(conference)))];
       content = !standings.some(row => row.played) ? <Empty subject={title} /> : <>
@@ -91,7 +104,28 @@ export async function MlsView({ view, query, id }: { view: string; query: Query;
     }
     if (view === "analytics") content = !standings.some(s => s.played) ? <Empty subject={title} /> : <><p className="text-sm text-slate-400">Calculated from completed regular-season matches with available scores. Shootout matches are excluded because regulation scores are unavailable. Wins earn 3 points; draws earn 1. Sorted by points, goal difference, then goals scored. Official MLS tiebreakers and playoff seeding are not applied.</p><Table headers={["Team", "Conference", "Played", "W", "D", "L", "GF", "GA", "GD", "Points", ...(view === "analytics" ? ["Goals / match", "Points / match"] : [])]} rows={standings.map(s => [teamLinks.get(s.team.id), s.team.conference, s.played, s.wins, s.draws, s.losses, s.goalsFor, s.goalsAgainst, s.goalDifference, s.points, ...(view === "analytics" ? [s.played ? (s.goalsFor / s.played).toFixed(2) : "—", s.played ? (s.points / s.played).toFixed(2) : "—"] : [])])} /></>;
     if (view === "team-stats") content = <Stats rows={teamStats} names={teamLinks} />;
-    if (view === "player-stats") content = <Stats rows={playerStats} names={playerLinks} />;
+    if (view === "player-stats") {
+      const pageSize = 25;
+      const totalPages = Math.max(1, Math.ceil(playerStats.length / pageSize));
+      const requestedPage = Number(value(query, "page") || "1");
+      const page = Number.isSafeInteger(requestedPage) && requestedPage > 0 ? Math.min(requestedPage, totalPages) : 1;
+      const start = (page - 1) * pageSize;
+      const pageHref = (target: number) => {
+        const params = new URLSearchParams();
+        if (selected) params.set("season", selected);
+        params.set("page", String(target));
+        return `/leagues/mls/player-stats?${params}`;
+      };
+      const pagination = <nav aria-label="Player statistics pagination" className="flex flex-wrap items-center justify-between gap-4 text-sm">
+        <p className="text-slate-400">Showing {start + 1}–{Math.min(start + pageSize, playerStats.length)} of {playerStats.length} players · Page {page} of {totalPages}</p>
+        <div className="flex gap-5">{page > 1 && <Link className={link} href={pageHref(page - 1)}>← Previous</Link>}{page < totalPages && <Link className={link} href={pageHref(page + 1)}>Next →</Link>}</div>
+      </nav>;
+      content = playerStats.length ? <section className={`${panel} space-y-5`}>
+        {pagination}
+        <Stats rows={playerStats.slice(start, start + pageSize)} names={playerLinks} statisticKeys={[...new Set(playerStats.flatMap(row => Object.keys(row.statistics)))]} />
+        {totalPages > 1 && pagination}
+      </section> : <Empty subject="Statistics" />;
+    }
     if (view === "team") {
       const team = data.teams.find(t => t.id === id);
       content = team ? <><div className={panel}><h2 className="text-2xl font-bold">{team.name}</h2><p className="mt-2 text-slate-400">{[team.conference, team.venue].filter(Boolean).join(" · ")}</p></div><Stats rows={teamStats.filter(s => s.id === id)} names={teamLinks} /><h2 className="text-xl font-bold">Roster</h2>{data.players.some(p => p.teamId === id) ? <Table headers={["Player", "Position"]} rows={data.players.filter(p => p.teamId === id).map(p => [playerLinks.get(p.id), p.position])} /> : <Empty subject="Roster" />}<h2 className="text-xl font-bold">Matches</h2><Games games={data.games.filter(g => g.homeTeamId === id || g.awayTeamId === id)} data={data} href={href} /></> : <Empty subject="Team" />;
@@ -118,6 +152,7 @@ export async function MlsView({ view, query, id }: { view: string; query: Query;
         {sections.map(([path, label]) => <Link key={path} href={href(path)} aria-current={path === view ? "page" : undefined} className={link}>{label}</Link>)}
       </nav>
       {seasons.length > 0 && <form key={selected} className="mt-6 flex flex-wrap items-end gap-3">
+        {view === "schedule" && ["teamId", "date"].map(key => value(query, key) && <input key={key} type="hidden" name={key} value={value(query, key)} />)}
         {view === "players" && ["search", "teamId"].map(key => value(query, key) && <input key={key} type="hidden" name={key} value={value(query, key)} />)}
         {view === "compare" && ["kind", "left", "right"].map(key => value(query, key) && <input key={key} type="hidden" name={key} value={value(query, key)} />)}
         <label className="grid gap-2 text-sm">Season<select name="season" defaultValue={selected} className={input}>{season && !seasons.includes(Number(season)) && <option value={season}>{season} (unavailable)</option>}{seasons.map(s => <option key={s} value={s}>{s}</option>)}</select></label>

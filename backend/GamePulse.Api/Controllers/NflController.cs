@@ -131,12 +131,18 @@ public sealed class NflController(NflDataService service) : ControllerBase
             rosters = (await service.Read<NflRoster>(s, "rosters", ct)).Where(r => r.PlayerId == id) });
     }
     [HttpGet("games")]
-    public async Task<IActionResult> GameList(int? season, string? teamId, string? seasonType, int? week, string? status, string order = "asc", int page = 1, int pageSize = 40, CancellationToken ct = default)
+    public async Task<IActionResult> GameList(int? season, string? teamId, string? seasonType, int? week, string? status, string order = "asc", int page = 1, int pageSize = 40, CancellationToken ct = default, string? date = null)
     {
         var s = await service.Season(season, ct);
         var team = string.IsNullOrEmpty(teamId) ? null : (await Team(s, teamId, ct)).TeamId;
         if (order is not ("asc" or "desc")) throw new NflDataException(400, "order must be asc or desc.");
         var games = Games(await service.Read<NflGame>(s, "games", ct), team, seasonType, week, status);
+        if (!string.IsNullOrEmpty(date))
+        {
+            if (!DateOnly.TryParseExact(date, "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture, System.Globalization.DateTimeStyles.None, out _))
+                throw new NflDataException(400, "date must be YYYY-MM-DD.");
+            games = games.Where(game => game.Date.Length >= 10 && game.Date[..10] == date);
+        }
         return Ok(Page(order == "desc" ? games.Reverse() : games, page, pageSize));
     }
     [HttpGet("games/{id}")]

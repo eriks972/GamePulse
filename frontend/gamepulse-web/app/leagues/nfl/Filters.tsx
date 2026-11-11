@@ -19,6 +19,7 @@ export function Filters({ season, path, teams, report, query, players = false, s
       {!standings && <label className="grid gap-2 text-sm text-slate-300">Source week<select name="week" className={input} value={week} onChange={e => setWeek(e.target.value)}><option value="">All weeks</option>{weeks.map(w => <option key={w} value={w}>Week {w}</option>)}</select></label>}
       {!statistics && !standings && <label className="grid gap-2 text-sm text-slate-300">Result<select name="status" className={input} defaultValue={query.status || ""}><option value="">All games</option><option value="final">Final</option><option value="scheduled">No final score</option></select></label>}
     </>}
+    {path === "schedule" && <label className="grid gap-2 text-sm text-slate-300">Game date<input className={input} type="date" name="date" defaultValue={query.date || ""} /></label>}
     <button className="rounded-xl bg-blue-500 px-5 py-2 font-bold text-white hover:bg-blue-400">Apply filters</button>
     <a className="py-2 text-sm font-semibold text-blue-300 hover:underline" href={nflHref(path, { season })}>Reset</a>
   </form>;

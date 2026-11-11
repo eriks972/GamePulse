@@ -1,6 +1,6 @@
 export type MlsTeam = { id: string; name: string; abbreviation?: string | null; conference?: string | null; venue?: string | null };
 export type MlsPlayer = { id: string; name: string; teamId?: string | null; position?: string | null };
-export type MlsGame = { id: string; date: string; homeTeamId: string; awayTeamId: string; seasonType: string; status?: string | null; completed: boolean; shootout?: boolean; startTime?: string | null; homeScore: number | null; awayScore: number | null };
+export type MlsGame = { id: string; date: string; homeTeamId: string; awayTeamId: string; seasonType: string; status?: string | null; completed: boolean; shootout?: boolean; shootoutWinnerTeamId?: string | null; shootoutWinPoints?: number | null; startTime?: string | null; homeScore: number | null; awayScore: number | null };
 export type MlsStat = { id: string; seasonType?: string; statistics: Record<string, number | null> };
 export type MlsSeason = { season: number; teams: MlsTeam[]; players: MlsPlayer[]; games: MlsGame[]; teamStats: MlsStat[]; playerStats: MlsStat[] };
 export type MlsResponse = { seasons: number[]; data: MlsSeason | null; message?: string };
@@ -19,16 +19,23 @@ export async function getMlsSeason(season?: string): Promise<MlsResponse> {
 }
 export function mlsStandings(data: MlsSeason) {
   return data.teams.map(team => {
-    let played = 0, wins = 0, draws = 0, losses = 0, goalsFor = 0, goalsAgainst = 0;
+    let played = 0, wins = 0, draws = 0, losses = 0, goalsFor = 0, goalsAgainst = 0, points = 0;
     for (const game of data.games) {
-      if (!game.completed || game.shootout || game.seasonType !== "Regular Season" || game.homeScore == null || game.awayScore == null) continue;
+      const resolvedShootout = data.season >= 1996 && data.season <= 1999 && game.shootout && game.shootoutWinPoints === 1 &&
+        game.homeScore != null && game.homeScore === game.awayScore &&
+        (game.shootoutWinnerTeamId === game.homeTeamId || game.shootoutWinnerTeamId === game.awayTeamId);
+      if (!game.completed || (game.shootout && !resolvedShootout) || game.seasonType !== "Regular Season" || game.homeScore == null || game.awayScore == null) continue;
       const home = game.homeTeamId === team.id;
       if (!home && game.awayTeamId !== team.id) continue;
       const scored = home ? game.homeScore : game.awayScore;
       const conceded = home ? game.awayScore : game.homeScore;
       played++; goalsFor += scored; goalsAgainst += conceded;
-      if (scored > conceded) wins++; else if (scored === conceded) draws++; else losses++;
+      if (resolvedShootout) {
+        if (game.shootoutWinnerTeamId === team.id) { wins++; points++; } else losses++;
+      } else if (scored > conceded) { wins++; points += 3; }
+      else if (scored === conceded) { draws++; points++; } else losses++;
     }
-    return { team, played, wins, draws, losses, goalsFor, goalsAgainst, goalDifference: goalsFor - goalsAgainst, points: wins * 3 + draws };
+    return { team, played, wins, draws, losses, goalsFor, goalsAgainst, goalDifference: goalsFor - goalsAgainst, points };
   }).sort((a, b) => b.points - a.points || b.goalDifference - a.goalDifference || b.goalsFor - a.goalsFor || a.team.name.localeCompare(b.team.name));
 }
+

@@ -33,6 +33,8 @@ public sealed class MlsGame
     public string Date { get; set; } = "";
     public string? StartTime { get; set; }
     public bool Shootout { get; set; }
+    public string? ShootoutWinnerTeamId { get; set; }
+    public int? ShootoutWinPoints { get; set; }
     public string HomeTeamId { get; set; } = "";
     public string AwayTeamId { get; set; } = "";
     public string SeasonType { get; set; } = "Regular Season";
@@ -55,3 +57,4 @@ public sealed class MlsGameStat
     public string? PlayerId { get; set; }
     public Dictionary<string, double?> Statistics { get; set; } = [];
 }
+
